@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="hl-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A83828"/>
+      <stop offset="1" stop-color="#7A2218"/>
+    </linearGradient>
+    <linearGradient id="hl-h" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2D479"/>
+      <stop offset="1" stop-color="#D97A2B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#hl-bg)"/>
+
+  <!-- Subtle arch motif (historical) -->
+  <path d="M 16 32 Q 32 16 48 32" stroke="#D97A2B" stroke-width="1.5" fill="none" opacity="0.25" stroke-linecap="round"/>
+
+  <!-- Serif H -->
+  <g fill="url(#hl-h)">
+    <!-- Left column with serifs -->
+    <path d="M 16 16 L 26 16 L 26 19 L 23.5 19 L 23.5 45 L 26 45 L 26 48 L 16 48 L 16 45 L 18.5 45 L 18.5 19 L 16 19 Z"/>
+    <!-- Right column with serifs -->
+    <path d="M 38 16 L 48 16 L 48 19 L 45.5 19 L 45.5 45 L 48 45 L 48 48 L 38 48 L 38 45 L 40.5 45 L 40.5 19 L 38 19 Z"/>
+    <!-- Crossbar -->
+    <rect x="23.5" y="30" width="17" height="4"/>
+  </g>
+
+  <!-- Three era dots beneath (timeline motif) -->
+  <circle cx="26" cy="55" r="1.6" fill="#D97A2B"/>
+  <circle cx="32" cy="55" r="1.6" fill="#F2D479"/>
+  <circle cx="38" cy="55" r="1.6" fill="#6FAF4F"/>
+</svg>
