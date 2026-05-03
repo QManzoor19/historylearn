@@ -137,7 +137,7 @@ function openLesson(unitNum, name, sub, moduleId) {
   if (backBtn) backBtn.textContent = backLabel;
 
   const content = L[key] || simpleContent(displayTitle, displaySub);
-  document.getElementById('lesson-content').innerHTML = content;
+  document.getElementById('lesson-content').innerHTML = content + renderTopicVideo(key, name, displayTitle);
   buildTopicDetails(key);
 
   // Completion button state
@@ -240,6 +240,206 @@ function buildModuleOutline(unitNum, name, sub) {
   h += '</div>';
 
   document.getElementById('module-outline').innerHTML = h;
+}
+
+// Render the "Watch on this topic" block appended to every lesson — a
+// curated default video plus the user's own saved videos and resources.
+// `key` is the lookup key (e.g. "Ancient Egypt::1"), `parentName` the topic
+// name (e.g. "Ancient Egypt"), `displayTitle` what's shown to the user.
+function renderTopicVideo(key, parentName, displayTitle) {
+  return renderCuratedVideo(key, parentName, displayTitle) +
+         renderUserResources(key, parentName);
+}
+
+function renderCuratedVideo(key, parentName, displayTitle) {
+  const map = (typeof lessonVideos !== 'undefined') ? lessonVideos : {};
+  const v = map[key] || map[parentName];
+
+  if (v && v.videoId) {
+    return `<div class="lesson-video">
+      <div class="lesson-video-label">📺 Watch on this topic</div>
+      <div class="lesson-video-embed">
+        <iframe src="https://www.youtube.com/embed/${v.videoId}"
+                title="${escapeHTML(v.title || displayTitle)}"
+                loading="lazy"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+      </div>
+      <div class="lesson-video-meta">
+        <div class="lesson-video-title">${escapeHTML(v.title || displayTitle)}</div>
+        ${v.channel ? `<div class="lesson-video-channel">${escapeHTML(v.channel)}</div>` : ''}
+        ${v.blurb ? `<div class="lesson-video-blurb">${escapeHTML(v.blurb)}</div>` : ''}
+      </div>
+    </div>`;
+  }
+
+  // Fallback: YouTube search link card
+  const query = `${displayTitle} history documentary`;
+  const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
+  return `<div class="lesson-video lesson-video-fallback">
+    <div class="lesson-video-label">📺 Want to see it?</div>
+    <a class="lesson-video-search" href="${url}" target="_blank" rel="noopener">
+      <span class="lvs-icon">▶</span>
+      <span class="lvs-body">
+        <span class="lvs-title">Watch documentaries on "${escapeHTML(displayTitle)}"</span>
+        <span class="lvs-sub">Open YouTube search →</span>
+      </span>
+    </a>
+  </div>`;
+}
+
+// ═══════════════════════════════════════════
+// USER-ADDED RESOURCES (videos & links per topic)
+// ═══════════════════════════════════════════
+function loadUserResources() {
+  try {
+    return JSON.parse(localStorage.getItem(`${STORAGE}-userResources`) || '{}') || {};
+  } catch { return {}; }
+}
+function saveUserResources(all) {
+  localStorage.setItem(`${STORAGE}-userResources`, JSON.stringify(all));
+}
+function getUserResourcesFor(key) {
+  const all = loadUserResources();
+  return Array.isArray(all[key]) ? all[key] : [];
+}
+
+// Detects YouTube URL and pulls out the 11-char video ID; returns null otherwise
+function extractYouTubeId(url) {
+  if (!url) return null;
+  const patterns = [
+    /(?:youtube\.com\/watch\?v=|youtube\.com\/embed\/|youtu\.be\/|youtube\.com\/shorts\/)([A-Za-z0-9_-]{11})/,
+    /youtube\.com\/.*[?&]v=([A-Za-z0-9_-]{11})/,
+  ];
+  for (const re of patterns) {
+    const m = url.match(re);
+    if (m) return m[1];
+  }
+  return null;
+}
+
+function renderUserResources(key, parentName) {
+  const items = getUserResourcesFor(key);
+  let h = `<div class="user-resources" data-key="${escapeAttr(key)}">
+    <div class="user-resources-head">
+      <div class="user-resources-label">📌 Your additions</div>
+      <button class="user-resources-add-btn" onclick="toggleAddResourceForm('${escapeAttr(key)}')">+ Add video or link</button>
+    </div>
+    <div class="user-resources-form" id="ur-form-${cssId(key)}" style="display:none">
+      <input class="user-resources-input ur-url" type="url" placeholder="Paste a YouTube link or any URL" />
+      <input class="user-resources-input ur-title" type="text" placeholder="Title (optional)" />
+      <div class="user-resources-form-actions">
+        <button class="btn-secondary-thin" onclick="cancelAddResource('${escapeAttr(key)}')">Cancel</button>
+        <button class="btn-primary-thin" onclick="saveUserResource('${escapeAttr(key)}')">Save</button>
+      </div>
+      <div class="user-resources-hint">YouTube URLs auto-embed. Anything else becomes a clickable link card.</div>
+    </div>
+    <div class="user-resources-list" id="ur-list-${cssId(key)}">${renderUserResourcesList(items, key)}</div>
+  </div>`;
+  return h;
+}
+
+function renderUserResourcesList(items, key) {
+  if (!items.length) {
+    return `<div class="user-resources-empty">No additions yet — save your own videos and links for this lesson here.</div>`;
+  }
+  return items.map((item, i) => {
+    const safeTitle = escapeHTML(item.title || item.url);
+    if (item.videoId) {
+      return `<div class="user-resource-card user-resource-video">
+        <div class="lesson-video-embed">
+          <iframe src="https://www.youtube.com/embed/${item.videoId}"
+                  title="${safeTitle}"
+                  loading="lazy"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen></iframe>
+        </div>
+        <div class="user-resource-meta">
+          <div class="user-resource-title">${safeTitle}</div>
+          <button class="user-resource-delete" title="Remove" onclick="deleteUserResource('${escapeAttr(key)}',${i})">✕</button>
+        </div>
+      </div>`;
+    }
+    return `<div class="user-resource-card user-resource-link">
+      <a class="user-resource-link-anchor" href="${escapeAttr(item.url)}" target="_blank" rel="noopener">
+        <span class="ur-link-icon">🔗</span>
+        <span class="ur-link-body">
+          <span class="ur-link-title">${safeTitle}</span>
+          <span class="ur-link-host">${escapeHTML(safeHost(item.url))}</span>
+        </span>
+      </a>
+      <button class="user-resource-delete" title="Remove" onclick="deleteUserResource('${escapeAttr(key)}',${i})">✕</button>
+    </div>`;
+  }).join('');
+}
+
+function safeHost(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ''); }
+  catch { return url; }
+}
+// CSS id-safe identifier for a topic key
+function cssId(key) {
+  return String(key).replace(/[^a-zA-Z0-9_-]/g, '_');
+}
+
+function toggleAddResourceForm(key) {
+  const form = document.getElementById('ur-form-' + cssId(key));
+  if (!form) return;
+  const open = form.style.display === 'block';
+  form.style.display = open ? 'none' : 'block';
+  if (!open) form.querySelector('.ur-url')?.focus();
+}
+
+function cancelAddResource(key) {
+  const form = document.getElementById('ur-form-' + cssId(key));
+  if (!form) return;
+  form.style.display = 'none';
+  form.querySelector('.ur-url').value = '';
+  form.querySelector('.ur-title').value = '';
+}
+
+function saveUserResource(key) {
+  const form = document.getElementById('ur-form-' + cssId(key));
+  if (!form) return;
+  const url = form.querySelector('.ur-url').value.trim();
+  const title = form.querySelector('.ur-title').value.trim();
+  if (!url) {
+    form.querySelector('.ur-url').focus();
+    return;
+  }
+
+  const videoId = extractYouTubeId(url);
+  const item = videoId
+    ? { url, videoId, title: title || 'Saved video', addedAt: Date.now() }
+    : { url, title: title || url, addedAt: Date.now() };
+
+  const all = loadUserResources();
+  if (!Array.isArray(all[key])) all[key] = [];
+  all[key].push(item);
+  saveUserResources(all);
+
+  // Reset + re-render just this topic's list
+  form.querySelector('.ur-url').value = '';
+  form.querySelector('.ur-title').value = '';
+  form.style.display = 'none';
+  refreshUserResourcesList(key);
+}
+
+function deleteUserResource(key, index) {
+  const all = loadUserResources();
+  if (!Array.isArray(all[key])) return;
+  all[key].splice(index, 1);
+  if (all[key].length === 0) delete all[key];
+  saveUserResources(all);
+  refreshUserResourcesList(key);
+}
+
+function refreshUserResourcesList(key) {
+  const list = document.getElementById('ur-list-' + cssId(key));
+  if (!list) return;
+  list.innerHTML = renderUserResourcesList(getUserResourcesFor(key), key);
 }
 
 function getCurrentContext() {
@@ -1028,6 +1228,34 @@ function buildResources() {
 // AI CHAT
 // ═══════════════════════════════════════════
 
+// Prompt suggestion cards — shown on the empty state, mode-specific
+const CHAT_PROMPTS = {
+  tutor: [
+    { emoji: '🏛️', title: 'Compare two civilisations', text: 'Compare the Roman Empire and Han China at their peak — what did they share, and what made each unique?' },
+    { emoji: '🎯', title: "Pick a turning point", text: 'What was the single most important turning point of the medieval period, and why?' },
+    { emoji: '📜', title: 'Read a primary source', text: 'Walk me through the Code of Hammurabi — what does it tell us about Babylonian society?' },
+    { emoji: '🌍', title: 'Trace its legacy', text: 'How did the Mongol Empire shape the modern world we live in today?' },
+    { emoji: '🧩', title: 'Connect the dots', text: 'How did the printing press lead to the Protestant Reformation?' },
+    { emoji: '🎨', title: 'A hidden figure', text: "Tell me about a fascinating but underappreciated historical figure I probably haven't heard of." },
+  ],
+  whatif: [
+    { emoji: '📚', title: 'Library of Alexandria', text: 'What if the Library of Alexandria had never been destroyed?' },
+    { emoji: '⚔️', title: 'Napoleon at Waterloo', text: 'What if Napoleon had won the Battle of Waterloo?' },
+    { emoji: '🌊', title: 'Mongols in Europe', text: 'What if the Mongols had pushed all the way into Western Europe in 1241 instead of turning back?' },
+    { emoji: '🚂', title: 'Industrial China', text: 'What if the Industrial Revolution had happened in Song-dynasty China first?' },
+    { emoji: '🇺🇸', title: 'American Revolution fails', text: 'What if the American Revolution had failed in 1781?' },
+    { emoji: '🌑', title: 'Apollo 11 fails', text: 'What if Apollo 11 had failed and the astronauts were stranded on the Moon?' },
+  ],
+};
+
+const CHAT_FOLLOWUPS = [
+  { emoji: '➕', text: 'Tell me more' },
+  { emoji: '🔍', text: 'Give a specific example' },
+  { emoji: '🧠', text: 'Quiz me on this' },
+  { emoji: '🔗', text: 'How does this connect to other periods?' },
+  { emoji: '💡', text: 'Explain it more simply' },
+];
+
 function buildChat() {
   if (!apiKey) {
     document.getElementById('chat-area').innerHTML = `
@@ -1042,31 +1270,102 @@ function buildChat() {
     return;
   }
 
+  const isEmpty = chatHistory.length === 0;
+  const isWhatIf = chatMode === 'whatif';
+
   let h = `
-    <div class="chat-mode-bar">
-      <button class="chat-mode-btn ${chatMode === 'tutor' ? 'active' : ''}" onclick="setChatMode('tutor')">📚 Tutor</button>
-      <button class="chat-mode-btn ${chatMode === 'whatif' ? 'active' : ''}" onclick="setChatMode('whatif')">🔮 What If?</button>
+    <div class="chat-header-row">
+      <div class="chat-mode-bar">
+        <button class="chat-mode-btn ${chatMode === 'tutor' ? 'active' : ''}" onclick="setChatMode('tutor')"><span>📚</span> Tutor</button>
+        <button class="chat-mode-btn ${isWhatIf ? 'active' : ''}" onclick="setChatMode('whatif')"><span>🔮</span> What If?</button>
+      </div>
+      ${!isEmpty ? '<button class="chat-clear-btn" onclick="clearChat()" title="Start over">↻ New chat</button>' : ''}
     </div>
     <div class="chat-container">
       <div class="chat-messages" id="chat-messages">`;
 
-  if (chatHistory.length === 0) {
-    h += `<div class="chat-msg system">${chatMode === 'whatif' ? 'Ask a "What if?" question about history...' : 'Ask me anything about world history!'}</div>`;
+  if (isEmpty) {
+    const greeting = isWhatIf ? 'What if?' : 'Ready to explore history?';
+    const sub = isWhatIf
+      ? 'Pose a counterfactual scenario — I\'ll explore what might have changed and why.'
+      : 'I\'m your history tutor. Pick a starter below, or ask anything in your own words.';
+    const prompts = CHAT_PROMPTS[isWhatIf ? 'whatif' : 'tutor'];
+    h += `
+      <div class="chat-welcome">
+        <div class="chat-welcome-icon">${isWhatIf ? '🔮' : '✨'}</div>
+        <h2 class="chat-welcome-title">${greeting}</h2>
+        <p class="chat-welcome-sub">${sub}</p>
+        <div class="chat-prompts">
+          ${prompts.map(p => `
+            <button class="chat-prompt-card" onclick="sendPrompt(this.dataset.text)" data-text="${escapeAttr(p.text)}">
+              <span class="chat-prompt-emoji">${p.emoji}</span>
+              <span class="chat-prompt-body">
+                <span class="chat-prompt-title">${p.title}</span>
+                <span class="chat-prompt-text">${escapeHTML(p.text)}</span>
+              </span>
+            </button>`).join('')}
+        </div>
+      </div>`;
   } else {
-    chatHistory.forEach(m => {
-      h += `<div class="chat-msg ${m.role}">${escapeHTML(m.content)}</div>`;
-    });
+    chatHistory.forEach(m => { h += renderChatMessage(m.role, m.content); });
   }
 
-  h += `</div>
+  h += `</div>`;
+
+  if (!isEmpty) {
+    h += `
+      <div class="chat-followups">
+        ${CHAT_FOLLOWUPS.map(f => `
+          <button class="chat-followup-chip" onclick="sendPrompt(this.dataset.text)" data-text="${escapeAttr(f.text)}">
+            <span>${f.emoji}</span> ${escapeHTML(f.text)}
+          </button>`).join('')}
+      </div>`;
+  }
+
+  h += `
       <div class="chat-input-wrap">
-        <textarea class="chat-input" id="chat-input" placeholder="${chatMode === 'whatif' ? 'What if the Roman Empire never fell?' : 'Ask about any historical topic...'}" rows="1" onkeydown="chatKeydown(event)"></textarea>
-        <button class="chat-send-btn" id="chat-send" onclick="sendChat()">→</button>
+        <textarea class="chat-input" id="chat-input" placeholder="${isWhatIf ? 'What if the Roman Empire never fell?' : 'Ask about any historical topic...'}" rows="1" onkeydown="chatKeydown(event)"></textarea>
+        <button class="chat-send-btn" id="chat-send" onclick="sendChat()" aria-label="Send">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
       </div>
     </div>`;
 
   document.getElementById('chat-area').innerHTML = h;
   scrollChat();
+}
+
+function renderChatMessage(role, content) {
+  if (role === 'user') {
+    return `<div class="chat-row user">
+      <div class="chat-bubble user">${escapeHTML(content)}</div>
+      <div class="chat-avatar avatar-user">👤</div>
+    </div>`;
+  }
+  return `<div class="chat-row assistant">
+    <div class="chat-avatar avatar-ai">✨</div>
+    <div class="chat-bubble-wrap">
+      <div class="chat-role-label">AI Tutor</div>
+      <div class="chat-bubble assistant">${formatAI(content)}</div>
+    </div>
+  </div>`;
+}
+
+function escapeAttr(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function sendPrompt(text) {
+  const input = document.getElementById('chat-input');
+  if (!input) return;
+  input.value = text;
+  sendChat();
+}
+
+function clearChat() {
+  chatHistory = [];
+  localStorage.setItem(`${STORAGE}-chat`, '[]');
+  buildChat();
 }
 
 function saveApiKey() {
@@ -1108,19 +1407,32 @@ async function sendChat() {
   if (!msg) return;
 
   input.value = '';
+  const wasEmpty = chatHistory.length === 0;
   chatHistory.push({ role: 'user', content: msg });
 
-  const messagesEl = document.getElementById('chat-messages');
-  // Remove system placeholder
-  const sysMsg = messagesEl.querySelector('.chat-msg.system');
-  if (sysMsg) sysMsg.remove();
+  // First user message: rebuild to swap welcome state for transcript view + show followups
+  if (wasEmpty) {
+    buildChat();
+  }
 
-  messagesEl.innerHTML += `<div class="chat-msg user">${escapeHTML(msg)}</div>`;
-  messagesEl.innerHTML += `<div class="chat-msg assistant" id="chat-loading" style="opacity:0.6">Thinking...</div>`;
+  const messagesEl = document.getElementById('chat-messages');
+  if (!wasEmpty) {
+    messagesEl.insertAdjacentHTML('beforeend', renderChatMessage('user', msg));
+  }
+  messagesEl.insertAdjacentHTML('beforeend', `
+    <div class="chat-row assistant" id="chat-loading">
+      <div class="chat-avatar avatar-ai">✨</div>
+      <div class="chat-bubble-wrap">
+        <div class="chat-role-label">AI Tutor</div>
+        <div class="chat-bubble assistant chat-thinking">
+          <span class="chat-dot"></span><span class="chat-dot"></span><span class="chat-dot"></span>
+        </div>
+      </div>
+    </div>`);
   scrollChat();
 
   const sendBtn = document.getElementById('chat-send');
-  sendBtn.disabled = true;
+  if (sendBtn) sendBtn.disabled = true;
 
   const systemPrompt = chatMode === 'whatif'
     ? `You are a creative and knowledgeable world history expert who explores counterfactual "What if?" scenarios. When the user poses a hypothetical, explore it thoughtfully — consider what might have changed, use real historical context to ground your speculation, and explain the ripple effects. Be engaging, vivid, and educational. Keep responses concise (2-3 paragraphs) but insightful.`
@@ -1152,19 +1464,19 @@ async function sendChat() {
       const reply = data.content[0].text;
       chatHistory.push({ role: 'assistant', content: reply });
       localStorage.setItem(`${STORAGE}-chat`, JSON.stringify(chatHistory));
-      if (loadingEl) loadingEl.outerHTML = `<div class="chat-msg assistant">${escapeHTML(reply)}</div>`;
+      if (loadingEl) loadingEl.outerHTML = renderChatMessage('assistant', reply);
     } else {
       const errMsg = data.error?.message || 'Something went wrong. Check your API key.';
-      if (loadingEl) loadingEl.outerHTML = `<div class="chat-msg system">${escapeHTML(errMsg)}</div>`;
+      if (loadingEl) loadingEl.outerHTML = `<div class="chat-row assistant"><div class="chat-avatar avatar-ai">⚠️</div><div class="chat-bubble-wrap"><div class="chat-role-label">Error</div><div class="chat-bubble assistant" style="border-color:rgba(255,180,180,0.4)">${escapeHTML(errMsg)}</div></div></div>`;
       chatHistory.pop(); // remove the user message that failed
     }
   } catch (err) {
     const loadingEl = document.getElementById('chat-loading');
-    if (loadingEl) loadingEl.outerHTML = `<div class="chat-msg system">Network error — check your connection and API key.</div>`;
+    if (loadingEl) loadingEl.outerHTML = `<div class="chat-row assistant"><div class="chat-avatar avatar-ai">⚠️</div><div class="chat-bubble-wrap"><div class="chat-role-label">Error</div><div class="chat-bubble assistant">Network error — check your connection and API key.</div></div></div>`;
     chatHistory.pop();
   }
 
-  sendBtn.disabled = false;
+  if (sendBtn) sendBtn.disabled = false;
   scrollChat();
 }
 
