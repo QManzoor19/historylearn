@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Ancient Egypt — Syllabus & Timeline · HistoryLearn</title>
+<meta name="theme-color" content="#8C2A1E">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #8C2A1E;
+  --bg-subtle: #7A2218;
+  --card: rgba(255, 255, 255, 0.14);
+  --card-hover: rgba(255, 255, 255, 0.22);
+  --glass: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --text: #FFF8E8;
+  --text-secondary: rgba(255, 248, 232, 0.82);
+  --muted: rgba(255, 248, 232, 0.52);
+  --border: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.25);
+  --gold: #F2D479;
+  --gold-dim: rgba(242, 212, 121, 0.7);
+  --orange: #D97A2B;
+  --green: #6FAF4F;
+  --red: #C44A3A;
+  --shadow-md: 0 4px 16px rgba(60, 15, 10, 0.35);
+  --shadow-lg: 0 8px 32px rgba(60, 15, 10, 0.45);
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background:
+    radial-gradient(1200px 600px at 85% -10%, rgba(242, 212, 121, 0.15), transparent 60%),
+    radial-gradient(900px 500px at 10% 20%, rgba(217, 122, 43, 0.12), transparent 55%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-subtle) 100%);
+  background-attachment: fixed;
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 48px 24px 96px;
+}
+
+/* Top nav */
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+.topnav a.back {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+.topnav a.back:hover {
+  background: var(--card);
+  color: var(--text);
+}
+.topnav .brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: var(--gold);
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  margin-bottom: 72px;
+  padding: 24px 16px 40px;
+}
+.hero .eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 20px;
+  padding: 6px 14px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 100px;
+  background: rgba(242, 212, 121, 0.08);
+}
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: clamp(42px, 6vw, 72px);
+  line-height: 1.05;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #FFF8E8, #F2D479 70%, #D97A2B);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.02em;
+}
+.hero p.lede {
+  font-size: 19px;
+  color: var(--text-secondary);
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.55;
+}
+.hero .meta {
+  margin-top: 28px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.hero .meta span {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  font-weight: 500;
+}
+
+/* Section headers */
+.section {
+  margin-bottom: 80px;
+  scroll-margin-top: 24px;
+}
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+.section-head h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.section-head .count {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* TIMELINE — vertical stepper */
+.timeline {
+  position: relative;
+  padding-left: 8px;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 32px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--gold), var(--orange) 40%, var(--red) 80%, var(--border));
+  border-radius: 2px;
+}
+.tl-item {
+  position: relative;
+  padding: 12px 0 28px 68px;
+}
+.tl-item::before {
+  content: "";
+  position: absolute;
+  left: 24px;
+  top: 18px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--gold);
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--gold-dim);
+}
+.tl-item.era::before {
+  background: var(--orange);
+  box-shadow: 0 0 0 2px rgba(217, 122, 43, 0.5);
+}
+.tl-item.ptolemaic::before {
+  background: var(--red);
+  box-shadow: 0 0 0 2px rgba(196, 74, 58, 0.5);
+}
+.tl-date {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+.tl-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.tl-desc {
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+/* SYLLABUS — week cards */
+.weeks {
+  display: grid;
+  gap: 20px;
+}
+.week {
+  background: var(--card);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 28px 30px;
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(10px);
+  transition: all 0.25s ease;
+}
+.week:hover {
+  border-color: var(--border-strong);
+  background: var(--card-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+.week-head {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 18px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.week-num {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--gold), var(--orange));
+  color: #5E1A12;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 800;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(242, 212, 121, 0.3);
+}
+.week-title-wrap { flex: 1; min-width: 0; }
+.week-label {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.week-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+.week-span {
+  font-size: 13px;
+  color: var(--gold-dim);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.week-goal {
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin-bottom: 18px;
+  font-style: italic;
+}
+.week-goal strong {
+  color: var(--gold);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.week-topics {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.week-topics li {
+  padding: 8px 0 8px 26px;
+  position: relative;
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.5;
+  border-bottom: 1px dashed var(--border);
+}
+.week-topics li:last-child { border-bottom: none; }
+.week-topics li::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 17px;
+  width: 6px;
+  height: 6px;
+  background: var(--orange);
+  border-radius: 50%;
+}
+
+.week-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  font-size: 13px;
+  color: var(--muted);
+  align-items: center;
+}
+.week-foot strong {
+  color: var(--gold-dim);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  margin-right: 4px;
+}
+.week-foot a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 100px;
+  font-size: 12.5px;
+  transition: all 0.15s;
+}
+.week-foot a:hover {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+  background: rgba(242, 212, 121, 0.08);
+}
+
+.week-reflect {
+  margin-top: 16px;
+  padding: 14px 16px;
+  background: rgba(111, 175, 79, 0.08);
+  border-left: 3px solid var(--green);
+  border-radius: 8px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.week-reflect strong {
+  color: var(--green);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* Jump bar */
+.jumpbar {
+  position: sticky;
+  top: 12px;
+  z-index: 5;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 10px;
+  background: rgba(60, 15, 10, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  box-shadow: var(--shadow-md);
+}
+.jumpbar a {
+  padding: 6px 14px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 100px;
+  transition: all 0.15s;
+}
+.jumpbar a:hover {
+  background: var(--gold);
+  color: #5E1A12;
+}
+
+/* Footer */
+.foot {
+  margin-top: 80px;
+  padding-top: 30px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+.foot a { color: var(--gold-dim); text-decoration: none; }
+.foot a:hover { color: var(--gold); }
+
+@media (max-width: 640px) {
+  .wrap { padding: 24px 16px 64px; }
+  .hero { margin-bottom: 48px; }
+  .week { padding: 22px 20px; }
+  .week-head { flex-wrap: wrap; }
+  .week-span { width: 100%; }
+  .timeline::before { left: 18px; }
+  .tl-item { padding-left: 50px; }
+  .tl-item::before { left: 10px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="topnav">
+    <a href="index.html" class="back">← Back to HistoryLearn</a>
+    <span class="brand">ANCIENT EGYPT · STUDY PATH</span>
+  </nav>
+
+  <header class="hero">
+    <div class="eyebrow">Focused Curriculum</div>
+    <h1>Ancient Egypt</h1>
+    <p class="lede">A structured 8-week path through 3,000 years of the Nile's civilisation — from predynastic villages to Cleopatra's fall. Pair each week with the video, book, and site resources already in your library.</p>
+    <div class="meta">
+      <span>🗓️ 8 weeks · ~3 hrs / week</span>
+      <span>📚 1 book · 3 video series</span>
+      <span>🌐 2 reference sites</span>
+      <span>🎯 Beginner → intermediate</span>
+    </div>
+  </header>
+
+  <nav class="jumpbar">
+    <a href="#timeline">Timeline</a>
+    <a href="#syllabus">Syllabus</a>
+    <a href="#w1">W1</a>
+    <a href="#w2">W2</a>
+    <a href="#w3">W3</a>
+    <a href="#w4">W4</a>
+    <a href="#w5">W5</a>
+    <a href="#w6">W6</a>
+    <a href="#w7">W7</a>
+    <a href="#w8">W8</a>
+  </nav>
+
+  <!-- ==================== TIMELINE ==================== -->
+  <section class="section" id="timeline">
+    <div class="section-head">
+      <h2>The Long Timeline</h2>
+      <span class="count">c. 6000 BCE – 30 BCE</span>
+    </div>
+    <div class="timeline">
+
+      <div class="tl-item era">
+        <div class="tl-date">c. 6000 – 3100 BCE</div>
+        <div class="tl-title">Predynastic Egypt</div>
+        <div class="tl-desc">Farming villages form along the Nile. Naqada cultures develop pottery, copper tools, and the first hieroglyph-like symbols. Upper and Lower Egypt remain separate.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">c. 3100 BCE</div>
+        <div class="tl-title">Narmer Unifies Egypt</div>
+        <div class="tl-desc">King Narmer (Menes) joins Upper and Lower Egypt, founding the First Dynasty. The Narmer Palette commemorates the moment — our earliest "history book."</div>
+      </div>
+
+      <div class="tl-item era">
+        <div class="tl-date">c. 2686 – 2181 BCE</div>
+        <div class="tl-title">Old Kingdom — The Pyramid Age</div>
+        <div class="tl-desc">Djoser builds the first Step Pyramid. Khufu, Khafre, and Menkaure raise the Giza plateau. The pharaoh is a living god; the state runs on grain and labour.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">c. 2181 – 2055 BCE</div>
+        <div class="tl-title">First Intermediate Period</div>
+        <div class="tl-desc">Drought, weak central rule, and local warlords fracture the kingdom. "A man sees his son as his enemy," an Egyptian lament records.</div>
+      </div>
+
+      <div class="tl-item era">
+        <div class="tl-date">c. 2055 – 1650 BCE</div>
+        <div class="tl-title">Middle Kingdom — The Classical Age</div>
+        <div class="tl-desc">Mentuhotep II reunifies. A golden age of literature ("The Tale of Sinuhe"), portraiture, and Nubian expansion. Egypt becomes more introspective.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">c. 1650 – 1550 BCE</div>
+        <div class="tl-title">Hyksos & the Second Intermediate</div>
+        <div class="tl-desc">Asiatic rulers — the Hyksos — seize the Delta. They bring the horse and chariot; Egypt learns the tools it will soon use to strike back.</div>
+      </div>
+
+      <div class="tl-item era">
+        <div class="tl-date">c. 1550 – 1069 BCE</div>
+        <div class="tl-title">New Kingdom — Egypt as Empire</div>
+        <div class="tl-desc">Ahmose expels the Hyksos. Hatshepsut trades to Punt. Thutmose III conquers as far as the Euphrates. Amenhotep III presides over unmatched wealth.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">c. 1353 – 1336 BCE</div>
+        <div class="tl-title">Akhenaten's Heresy</div>
+        <div class="tl-desc">Amenhotep IV becomes Akhenaten, abolishes the old gods, and builds a new capital, Amarna, devoted to the sun-disc Aten. A brief, radical monotheism.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">c. 1332 BCE</div>
+        <div class="tl-title">Tutankhamun Restores the Gods</div>
+        <div class="tl-desc">A nine-year-old boy-king reverses Akhenaten's revolution. He dies at ~18 — and his small, intact tomb will stun the 20th century world.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">1274 BCE</div>
+        <div class="tl-title">Ramses II at Kadesh</div>
+        <div class="tl-desc">Ramses the Great battles the Hittites to a draw. The peace treaty that follows is the oldest surviving international treaty in history.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">c. 1069 – 664 BCE</div>
+        <div class="tl-title">Third Intermediate Period</div>
+        <div class="tl-desc">Egypt splinters. Libyan and then Nubian (Kushite) kings rule — the 25th "Black Pharaohs" dynasty revives old traditions and builds pyramids in Sudan.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">525 BCE</div>
+        <div class="tl-title">Persian Conquest</div>
+        <div class="tl-desc">Cambyses II adds Egypt to the Achaemenid Empire. Egyptians will spend the next two centuries under foreign rule, with brief independent interludes.</div>
+      </div>
+
+      <div class="tl-item ptolemaic">
+        <div class="tl-date">332 BCE</div>
+        <div class="tl-title">Alexander the Great Arrives</div>
+        <div class="tl-desc">Welcomed as a liberator, Alexander founds Alexandria — destined to become the ancient world's greatest library and intellectual capital.</div>
+      </div>
+
+      <div class="tl-item ptolemaic">
+        <div class="tl-date">305 – 30 BCE</div>
+        <div class="tl-title">The Ptolemaic Dynasty</div>
+        <div class="tl-desc">Alexander's general Ptolemy founds a Greek-speaking royal line. They rule as pharaohs, worship Egyptian gods, and never learn Egyptian — until Cleopatra.</div>
+      </div>
+
+      <div class="tl-item ptolemaic">
+        <div class="tl-date">30 BCE</div>
+        <div class="tl-title">Cleopatra's Fall</div>
+        <div class="tl-desc">Defeated with Mark Antony at Actium, Cleopatra VII dies. Egypt becomes a Roman province. The 3,000-year pharaonic tradition ends.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== SYLLABUS ==================== -->
+  <section class="section" id="syllabus">
+    <div class="section-head">
+      <h2>8-Week Syllabus</h2>
+      <span class="count">~24 hours total</span>
+    </div>
+    <div class="weeks">
+
+      <!-- WEEK 1 -->
+      <article class="week" id="w1">
+        <div class="week-head">
+          <div class="week-num">1</div>
+          <div class="week-title-wrap">
+            <div class="week-label">Foundations</div>
+            <div class="week-title">The Nile & the First Egyptians</div>
+          </div>
+          <div class="week-span">c. 6000 – 3100 BCE</div>
+        </div>
+        <div class="week-goal"><strong>Goal:</strong> Understand <em>why</em> Egypt happened — the geography, agriculture, and slow convergence that made a unified state possible.</div>
+        <ul class="week-topics">
+          <li>The Nile's annual flood and why it was "predictable bounty"</li>
+          <li>Naqada cultures, Badarian pottery, and Predynastic society</li>
+          <li>Upper vs. Lower Egypt — two crowns, two lands</li>
+          <li>Narmer, Menes, and the unification (c. 3100 BCE)</li>
+          <li>What makes a civilisation? Writing, cities, hierarchy, monumental scale</li>
+        </ul>
+        <div class="week-foot">
+          <strong>Read / Watch</strong>
+          <a href="file:///C:/Users/Mano/Downloads/_OceanofPDF.com_The_Rise_and_Fall_of_Ancient_Egypt_-_Toby_Wilkinson.pdf">Wilkinson Ch. 1–2</a>
+          <a href="https://www.worldhistory.org/egypt/">worldhistory.org/egypt</a>
+          <a href="https://www.youtube.com/watch?v=ZU2Roq-emxw&t=518s">Fletcher (first 30 min)</a>
+        </div>
+        <div class="week-reflect"><strong>Reflection</strong>If the Nile flooded unpredictably like the Tigris, would Egypt have become one of the most stable ancient states? Defend your answer.</div>
+      </article>
+
+      <!-- WEEK 2 -->
+      <article class="week" id="w2">
+        <div class="week-head">
+          <div class="week-num">2</div>
+          <div class="week-title-wrap">
+            <div class="week-label">Old Kingdom</div>
+            <div class="week-title">The Pyramid Age</div>
+          </div>
+          <div class="week-span">c. 2686 – 2181 BCE</div>
+        </div>
+        <div class="week-goal"><strong>Goal:</strong> See how a god-king theology, surplus grain, and organised labour produced the most iconic monuments in history.</div>
+        <ul class="week-topics">
+          <li>Djoser and Imhotep — the Step Pyramid at Saqqara</li>
+          <li>The Great Pyramid of Khufu — logistics, not magic</li>
+          <li>Khafre, Menkaure, and the Sphinx</li>
+          <li>The pharaoh as Horus on earth — ma'at as cosmic balance</li>
+          <li>How the Old Kingdom collapsed: climate, overreach, and decentralisation</li>
+        </ul>
+        <div class="week-foot">
+          <strong>Read / Watch</strong>
+          <a href="file:///C:/Users/Mano/Downloads/_OceanofPDF.com_The_Rise_and_Fall_of_Ancient_Egypt_-_Toby_Wilkinson.pdf">Wilkinson Ch. 3–5</a>
+          <a href="https://www.youtube.com/watch?v=X4cld7OUKcs">Brier Lectures 2–4</a>
+          <a href="https://ancientegyptonline.co.uk/library/">AEO: Pyramids section</a>
+        </div>
+        <div class="week-reflect"><strong>Reflection</strong>Modern estimates say the Great Pyramid needed ~20,000 workers for ~20 years. What does that tell you about Old Kingdom state capacity?</div>
+      </article>
+
+      <!-- WEEK 3 -->
+      <article class="week" id="w3">
+        <div class="week-head">
+          <div class="week-num">3</div>
+          <div class="week-title-wrap">
+            <div class="week-label">Middle Kingdom</div>
+            <div class="week-title">Collapse, Reunification & Classical Voice</div>
+          </div>
+          <div class="week-span">c. 2181 – 1650 BCE</div>
+        </div>
+        <div class="week-goal"><strong>Goal:</strong> Watch Egypt fracture, heal, and find a new cultural voice — and see how Egyptians themselves remembered these times.</div>
+        <ul class="week-topics">
+          <li>The First Intermediate Period — "nomarchs" (local lords) take over</li>
+          <li>Mentuhotep II's reunification and the Theban rise</li>
+          <li>Middle Kingdom literature: Sinuhe, Ipuwer, Instruction texts</li>
+          <li>Portraiture changes: worried, weathered pharaohs replace idealised faces</li>
+          <li>The Hyksos invasion — how foreign rule ended the Middle Kingdom</li>
+        </ul>
+        <div class="week-foot">
+          <strong>Read / Watch</strong>
+          <a href="file:///C:/Users/Mano/Downloads/_OceanofPDF.com_The_Rise_and_Fall_of_Ancient_Egypt_-_Toby_Wilkinson.pdf">Wilkinson Ch. 6–8</a>
+          <a href="https://www.youtube.com/watch?v=e0yFgmqC9xM">Docuseries Ep. 2</a>
+        </div>
+        <div class="week-reflect"><strong>Reflection</strong>Compare a Middle Kingdom royal statue with an Old Kingdom one. What do the faces tell you about how kingship changed?</div>
+      </article>
+
+      <!-- WEEK 4 -->
+      <article class="week" id="w4">
+        <div class="week-head">
+          <div class="week-num">4</div>
+          <div class="week-title-wrap">
+            <div class="week-label">New Kingdom I</div>
+            <div class="week-title">Empire — From Ahmose to Amenhotep III</div>
+          </div>
+          <div class="week-span">c. 1550 – 1353 BCE</div>
+        </div>
+        <div class="week-goal"><strong>Goal:</strong> Understand how Egypt transformed from a river valley into the ancient world's first superpower.</div>
+        <ul class="week-topics">
+          <li>Ahmose I drives out the Hyksos — the 18th Dynasty begins</li>
+          <li>Hatshepsut — female pharaoh, trader, temple-builder at Deir el-Bahri</li>
+          <li>Thutmose III's 17 campaigns — the "Napoleon of Egypt"</li>
+          <li>The Amarna Letters and Egypt's first diplomatic corps</li>
+          <li>Amenhotep III — luxury, Colossi of Memnon, the empire at its peak</li>
+        </ul>
+        <div class="week-foot">
+          <strong>Read / Watch</strong>
+          <a href="file:///C:/Users/Mano/Downloads/_OceanofPDF.com_The_Rise_and_Fall_of_Ancient_Egypt_-_Toby_Wilkinson.pdf">Wilkinson Ch. 9–10</a>
+          <a href="https://www.youtube.com/watch?v=X4cld7OUKcs">Brier Lectures 6–7</a>
+        </div>
+        <div class="week-reflect"><strong>Reflection</strong>Hatshepsut ruled for ~22 prosperous years, yet her successor tried to erase her from monuments. Why was a successful woman pharaoh so threatening in retrospect?</div>
+      </article>
+
+      <!-- WEEK 5 -->
+      <article class="week" id="w5">
+        <div class="week-head">
+          <div class="week-num">5</div>
+          <div class="week-title-wrap">
+            <div class="week-label">New Kingdom II</div>
+            <div class="week-title">Akhenaten, Tutankhamun & Ramesside Egypt</div>
+          </div>
+          <div class="week-span">c. 1353 – 1069 BCE</div>
+        </div>
+        <div class="week-goal"><strong>Goal:</strong> Study a religious revolution, a counter-revolution, and the slow decline of imperial Egypt.</div>
+        <ul class="week-topics">
+          <li>Akhenaten & Nefertiti — monotheism, Amarna art, the closed temples</li>
+          <li>Tutankhamun's restoration and Howard Carter's 1922 discovery</li>
+          <li>Ramses II — Kadesh, Abu Simbel, the Hittite peace treaty</li>
+          <li>Merneptah Stele — the earliest mention of "Israel"</li>
+          <li>Sea Peoples, internal strife, and why the New Kingdom ended</li>
+        </ul>
+        <div class="week-foot">
+          <strong>Read / Watch</strong>
+          <a href="file:///C:/Users/Mano/Downloads/_OceanofPDF.com_The_Rise_and_Fall_of_Ancient_Egypt_-_Toby_Wilkinson.pdf">Wilkinson Ch. 11–13</a>
+          <a href="https://www.youtube.com/watch?v=ZU2Roq-emxw&t=518s">Fletcher: Amarna segment</a>
+          <a href="https://ancientegyptonline.co.uk/library/">AEO: Akhenaten & Tut</a>
+        </div>
+        <div class="week-reflect"><strong>Reflection</strong>Was Akhenaten a genuine visionary or a destructive autocrat? Marshal evidence for both views.</div>
+      </article>
+
+      <!-- WEEK 6 -->
+      <article class="week" id="w6">
+        <div class="week-head">
+          <div class="week-num">6</div>
+          <div class="week-title-wrap">
+            <div class="week-label">Culture</div>
+            <div class="week-title">Gods, the Afterlife & Everyday Life</div>
+          </div>
+          <div class="week-span">Thematic</div>
+        </div>
+        <div class="week-goal"><strong>Goal:</strong> Step off the political timeline and live inside the Egyptian worldview for a week.</div>
+        <ul class="week-topics">
+          <li>The pantheon: Ra, Osiris, Isis, Horus, Anubis, Thoth, Ma'at</li>
+          <li>The weighing of the heart — the Book of the Dead</li>
+          <li>Mummification: 70 days, natron, and the canopic jars</li>
+          <li>Peasants, scribes, artisans — life at Deir el-Medina</li>
+          <li>Women in Egypt: rights, work, marriage, divorce</li>
+        </ul>
+        <div class="week-foot">
+          <strong>Read / Watch</strong>
+          <a href="https://ancientegyptonline.co.uk/library/">AEO: Gods & Religion, Daily Life</a>
+          <a href="https://www.worldhistory.org/egypt/">worldhistory.org: Religion</a>
+          <a href="https://www.youtube.com/watch?v=e0yFgmqC9xM">Docuseries: Religion ep.</a>
+        </div>
+        <div class="week-reflect"><strong>Reflection</strong>Egyptian women had property rights unusual for the ancient world. Why might riverine agriculture and temple economics have produced that outcome?</div>
+      </article>
+
+      <!-- WEEK 7 -->
+      <article class="week" id="w7">
+        <div class="week-head">
+          <div class="week-num">7</div>
+          <div class="week-title-wrap">
+            <div class="week-label">Expression</div>
+            <div class="week-title">Writing, Art & Monument</div>
+          </div>
+          <div class="week-span">Thematic</div>
+        </div>
+        <div class="week-goal"><strong>Goal:</strong> Learn to "read" Egyptian visual and written culture — the conventions that make it instantly recognisable.</div>
+        <ul class="week-topics">
+          <li>Hieroglyphs, hieratic, and demotic — three scripts, one language</li>
+          <li>The Rosetta Stone and Champollion's 1822 breakthrough</li>
+          <li>Canonical art: frontal eye, side head, composite view — why?</li>
+          <li>Temple architecture: pylons, hypostyle halls, sanctuaries (Karnak, Luxor)</li>
+          <li>The Valley of the Kings — hidden tombs, robbed tombs, one intact</li>
+        </ul>
+        <div class="week-foot">
+          <strong>Read / Watch</strong>
+          <a href="file:///C:/Users/Mano/Downloads/_OceanofPDF.com_The_Rise_and_Fall_of_Ancient_Egypt_-_Toby_Wilkinson.pdf">Wilkinson: Art & Writing chapters</a>
+          <a href="https://www.youtube.com/watch?v=X4cld7OUKcs">Brier: Hieroglyphs lecture</a>
+          <a href="https://www.worldhistory.org/egypt/">worldhistory.org: Architecture</a>
+        </div>
+        <div class="week-reflect"><strong>Reflection</strong>Egyptian art barely changed for 3,000 years. Is that cultural rigidity — or a conscious choice to express eternity? Support your view.</div>
+      </article>
+
+      <!-- WEEK 8 -->
+      <article class="week" id="w8">
+        <div class="week-head">
+          <div class="week-num">8</div>
+          <div class="week-title-wrap">
+            <div class="week-label">Late & Ptolemaic</div>
+            <div class="week-title">Decline, Foreign Rule & Legacy</div>
+          </div>
+          <div class="week-span">c. 1069 BCE – 30 BCE</div>
+        </div>
+        <div class="week-goal"><strong>Goal:</strong> Trace Egypt's long twilight — and see why its legacy outlasted every empire that ever ruled it.</div>
+        <ul class="week-topics">
+          <li>The Third Intermediate Period — Libyan, Nubian, and Assyrian overlords</li>
+          <li>The 25th Nubian ("Kushite") Dynasty — Black pharaohs revive tradition</li>
+          <li>Persian conquest (525 BCE), brief independence, reconquest</li>
+          <li>Alexander the Great and the founding of Alexandria (332 BCE)</li>
+          <li>The Ptolemies — Greek rulers, Egyptian gods, the Library & Lighthouse</li>
+          <li>Cleopatra VII, Caesar, Antony, Actium — and Roman Egypt</li>
+          <li>Coptic Egypt, Arab conquest, and how hieroglyphs fell silent</li>
+        </ul>
+        <div class="week-foot">
+          <strong>Read / Watch</strong>
+          <a href="file:///C:/Users/Mano/Downloads/_OceanofPDF.com_The_Rise_and_Fall_of_Ancient_Egypt_-_Toby_Wilkinson.pdf">Wilkinson: final chapters</a>
+          <a href="https://www.youtube.com/watch?v=ZU2Roq-emxw&t=518s">Fletcher: Late & Ptolemaic</a>
+          <a href="https://www.youtube.com/watch?v=e0yFgmqC9xM">Docuseries: Cleopatra ep.</a>
+        </div>
+        <div class="week-reflect"><strong>Capstone</strong>In one page, argue: when did "Ancient Egypt" really end? At 30 BCE? At the closure of the last Isis temple in 537 CE? Or only when Champollion read the Rosetta Stone?</div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>Part of <a href="index.html">HistoryLearn</a> · Pairs with the curated <a href="index.html#tab-resources">Ancient Egypt resources</a>.</p>
+  </footer>
+
+</div>
+</body>
+</html>

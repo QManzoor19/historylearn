@@ -447,4 +447,750 @@ const topicDetails = {
     }
   },
 
+  "Classical China": {
+    causes: [
+      "Centuries of Warring States exhaustion created appetite for unification",
+      "Qin's harsh legalist administration produced a centralised state machine",
+      "Iron tools and improved agriculture supported a much larger population"
+    ],
+    effects: [
+      "Established a unified Chinese state, script, and bureaucratic model that endured for 2,000+ years",
+      "Created the Silk Road and connected Han China to Rome via Central Asia",
+      "Confucian civil-service examinations became a model for meritocratic government"
+    ],
+    figures: [
+      { name: "Qin Shi Huangdi", dates: "r. 221–210 BCE", role: "First Emperor of China", why: "Unified the Warring States, standardised script and weights, built the first Great Wall — and the Terracotta Army." },
+      { name: "Liu Bang (Emperor Gaozu)", dates: "r. 202–195 BCE", role: "Founder of the Han Dynasty", why: "A peasant who became emperor, replacing brutal Legalism with Confucian governance." },
+      { name: "Han Wudi", dates: "r. 141–87 BCE", role: "Han 'Martial Emperor'", why: "Expanded the empire, made Confucianism the state ideology, opened the Silk Road." },
+      { name: "Zhang Qian", dates: "d. 113 BCE", role: "Han diplomat", why: "His mission to Central Asia opened up the Silk Road trade network." },
+      { name: "Cai Lun", dates: "d. c. 121 CE", role: "Han eunuch & official", why: "Credited with perfecting paper-making — a technology that took over a millennium to reach Europe." }
+    ],
+    connections: ["Ancient India & China", "Classical India", "The Roman Republic & Empire", "The Mongol Empire"],
+    sourceSnippet: {
+      text: "Burn the books and bury the scholars. Let no one again study the past to criticise the present.",
+      attribution: "Edict attributed to Li Si, chancellor under Qin Shi Huangdi, 213 BCE"
+    }
+  },
+
+  "Classical India": {
+    causes: [
+      "The Mauryan unification of the subcontinent created political stability for cultural development",
+      "Trade with the Hellenistic world and the Silk Road brought wealth and ideas",
+      "The patronage of Buddhist and Hindu rulers funded art, science, and literature"
+    ],
+    effects: [
+      "Spread Buddhism across Asia, transforming the religious geography of the continent",
+      "Developed the decimal number system with zero — the basis of modern mathematics",
+      "Crystallised Hinduism in its modern devotional form, with the great epics in their final shape"
+    ],
+    figures: [
+      { name: "Chandragupta Maurya", dates: "r. 322–298 BCE", role: "Founder of the Mauryan Empire", why: "Unified the Indian subcontinent for the first time and built a sophisticated bureaucratic state." },
+      { name: "Ashoka", dates: "r. 268–232 BCE", role: "Mauryan Emperor", why: "Renounced violent conquest after Kalinga, converted to Buddhism, and inscribed his moral vision on rocks across his empire." },
+      { name: "Chandragupta II", dates: "r. c. 380–415 CE", role: "Gupta Emperor", why: "Presided over India's classical golden age of art, mathematics, and literature." },
+      { name: "Aryabhata", dates: "476–550 CE", role: "Mathematician & astronomer", why: "Calculated π, proposed Earth's rotation, and helped develop the decimal/zero number system." },
+      { name: "Kalidasa", dates: "c. 4th–5th century CE", role: "Sanskrit poet & playwright", why: "Author of Shakuntala — the high point of classical Sanskrit literature." }
+    ],
+    connections: ["Ancient India & China", "Classical China", "Rise of World Religions", "The Mughal Empire"],
+    sourceSnippet: {
+      text: "All men are my children. As I desire for my own children that they should obtain welfare and happiness in this world and the next, so do I desire it for all men.",
+      attribution: "Edicts of Ashoka, c. 250 BCE"
+    }
+  },
+
+  "Rise of World Religions": {
+    causes: [
+      "Multi-ethnic empires (Persian, Mauryan, Roman, Han) needed religious frameworks that crossed tribes and cities",
+      "Long-distance trade routes carried missionaries and scriptures alongside merchants",
+      "Writing made religious teaching durable and portable, outliving founders"
+    ],
+    effects: [
+      "Drew the religious map of Eurasia that still largely holds today — Buddhist Asia, Christian Europe, Hindu India",
+      "Created institutions (monasteries, churches, councils) that became centres of learning, welfare, and continuity through political collapse",
+      "Established universal moral frameworks that crossed ethnic and class lines"
+    ],
+    figures: [
+      { name: "Siddhartha Gautama (the Buddha)", dates: "c. 563–483 BCE", role: "Founder of Buddhism", why: "His teaching on suffering, impermanence, and the Eightfold Path became the basis of a faith that would shape Asia." },
+      { name: "Jesus of Nazareth", dates: "c. 4 BCE – 30 CE", role: "Founder of Christianity", why: "His teachings, transmitted by his followers after his execution, grew into the dominant religion of the Roman world and beyond." },
+      { name: "Paul of Tarsus", dates: "c. 5–67 CE", role: "Apostle & theologian", why: "Reframed Christianity as a universal faith, opening it to non-Jews — the decisive turn that made it a world religion." },
+      { name: "Constantine the Great", dates: "r. 306–337 CE", role: "Roman Emperor", why: "Legalised Christianity in 313 CE; his conversion fused Roman imperial structure with Christian institutions." },
+      { name: "Ashoka", dates: "r. 268–232 BCE", role: "Mauryan Emperor", why: "First state sponsor of Buddhism — sent missionaries from Sri Lanka to Greece." }
+    ],
+    connections: ["Classical India", "Classical China", "The Roman Republic & Empire", "The Rise of Islam", "Medieval Europe"],
+    sourceSnippet: {
+      text: "There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus.",
+      attribution: "Paul, Letter to the Galatians, 3:28, c. 50 CE"
+    }
+  },
+
+  "Medieval Europe": {
+    causes: [
+      "Collapse of central Roman authority required new local arrangements",
+      "Christian Church inherited Roman administrative structures and Latin learning",
+      "Viking, Magyar, and Saracen raids made local self-defence essential, fostering feudalism"
+    ],
+    effects: [
+      "Built durable institutions — universities, parliaments, common law, guild towns — that underpin modern Europe",
+      "Cathedrals and Gothic art produced one of the great visual cultures of human history",
+      "Late medieval crises (Black Death, Hundred Years' War) destabilised feudalism and set the stage for early modernity"
+    ],
+    figures: [
+      { name: "Charlemagne", dates: "r. 768–814", role: "King of the Franks, first Holy Roman Emperor", why: "Briefly reunited much of Western Europe and sponsored a renaissance of Latin learning." },
+      { name: "Pope Gregory VII", dates: "r. 1073–1085", role: "Reforming pope", why: "Forced Emperor Henry IV to do penance at Canossa, asserting papal supremacy over secular rulers." },
+      { name: "Thomas Aquinas", dates: "1225–1274", role: "Dominican theologian", why: "Synthesised Aristotle and Christianity in the Summa Theologica — the high point of medieval philosophy." },
+      { name: "William the Conqueror", dates: "r. 1066–1087", role: "Norman king of England", why: "1066 invasion fused Norman feudalism with Anglo-Saxon governance, shaping English law forever." }
+    ],
+    connections: ["The Byzantine Empire", "The Rise of Islam", "The Vikings & the Norse World", "The Renaissance", "The Reformation"],
+    sourceSnippet: {
+      text: "When Adam delved and Eve span, who was then the gentleman?",
+      attribution: "John Ball, sermon during the English Peasants' Revolt, 1381"
+    }
+  },
+
+  "The Byzantine Empire": {
+    causes: [
+      "The eastern Roman Empire was richer, more urbanised, and more defensible than the West",
+      "Constantinople's strategic location and triple walls deterred invasion for nearly a millennium",
+      "Continuity of Roman law, administration, and Greek culture provided unmatched institutional depth"
+    ],
+    effects: [
+      "Preserved classical Greek learning that would later seed the Italian Renaissance",
+      "Codified Roman law in Justinian's Corpus Juris Civilis — basis of much continental European law",
+      "Christianised the Slavs, gave Russia its alphabet (Cyrillic) and church, and shaped the Balkans"
+    ],
+    figures: [
+      { name: "Justinian I", dates: "r. 527–565", role: "Byzantine Emperor", why: "Reconquered parts of the West, codified Roman law, built Hagia Sophia." },
+      { name: "Theodora", dates: "c. 500–548", role: "Empress, wife of Justinian", why: "Probably saved Justinian's throne during the Nika Riots; pushed reforms protecting women." },
+      { name: "Cyril and Methodius", dates: "9th century", role: "Missionary brothers", why: "Christianised the Slavs and invented the alphabet that became Cyrillic." },
+      { name: "Constantine XI Palaiologos", dates: "r. 1449–1453", role: "Last Byzantine Emperor", why: "Died defending Constantinople when it fell to the Ottomans in 1453." }
+    ],
+    connections: ["The Roman Republic & Empire", "Medieval Europe", "The Rise of Islam", "The Ottoman Empire"],
+    sourceSnippet: {
+      text: "We knew not whether we were in heaven or on earth, for surely there is no such splendour or beauty anywhere on earth.",
+      attribution: "Envoys of Prince Vladimir of Kiev describing Hagia Sophia, c. 987"
+    }
+  },
+
+  "The Vikings & the Norse World": {
+    causes: [
+      "Population pressure and political fragmentation in Scandinavia",
+      "Development of the seaworthy longship enabled long-distance raiding and trade",
+      "Wealthy, weakly-defended monasteries on European coasts offered easy targets"
+    ],
+    effects: [
+      "Founded states from Ireland (Dublin) to France (Normandy) to Russia (the Rus)",
+      "Reached North America c. 1000 CE — 500 years before Columbus",
+      "Profoundly influenced English language, English law, and the politics of medieval Europe"
+    ],
+    figures: [
+      { name: "Alfred the Great", dates: "r. 871–899", role: "King of Wessex", why: "Stopped the Viking conquest of England, laid foundations for a unified English kingdom." },
+      { name: "Rollo", dates: "c. 860–933", role: "Viking founder of Normandy", why: "Granted Normandy in 911; his descendants — including William the Conqueror — reshaped England." },
+      { name: "Leif Erikson", dates: "c. 970–1020", role: "Norse explorer", why: "Reached Vinland (Newfoundland) c. 1000 — the first European to reach North America." },
+      { name: "Harald Hardrada", dates: "1015–1066", role: "King of Norway", why: "Served in the Varangian Guard, sought England's throne, died at Stamford Bridge — symbolic end of the Viking Age." }
+    ],
+    connections: ["Medieval Europe", "The Byzantine Empire", "Pre-Columbian Americas"],
+    sourceSnippet: {
+      text: "From the fury of the Northmen, deliver us, O Lord.",
+      attribution: "Anglo-Saxon prayer, 9th century"
+    }
+  },
+
+  "Medieval Japan & Korea": {
+    causes: [
+      "Adoption of Chinese script, Buddhism, and bureaucratic models seeded both states",
+      "Geographic isolation allowed distinct cultural development from China",
+      "Fragmentation of central authority gave rise to warrior elites (samurai) in Japan"
+    ],
+    effects: [
+      "Established the shogun-emperor dual system in Japan, lasting until 1868",
+      "Produced world-class literature (Tale of Genji), aesthetics (Zen, wabi-sabi), and craft traditions",
+      "Korea's hangul alphabet and movable metal type were major contributions to global literacy"
+    ],
+    figures: [
+      { name: "Murasaki Shikibu", dates: "c. 973–1031", role: "Heian court lady & author", why: "Wrote The Tale of Genji, often called the world's first novel." },
+      { name: "Minamoto no Yoritomo", dates: "1147–1199", role: "First shogun of Japan", why: "Founded the Kamakura shogunate, beginning 700 years of military rule." },
+      { name: "Sejong the Great", dates: "r. 1418–1450", role: "Joseon king of Korea", why: "Commissioned the Hangul alphabet, transforming Korean literacy." },
+      { name: "Yi Sun-sin", dates: "1545–1598", role: "Korean admiral", why: "Defended Korea during Hideyoshi's invasions with revolutionary 'turtle ship' tactics." },
+      { name: "Tokugawa Ieyasu", dates: "1543–1616", role: "First Tokugawa shogun", why: "Reunified Japan after Sengoku and founded a dynasty that ruled until 1868." }
+    ],
+    connections: ["Classical China", "The Mongol Empire", "Meiji Japan & Qing China"],
+    sourceSnippet: {
+      text: "The sound of the Gion Shōja bells echoes the impermanence of all things; the colour of the sāla flowers reveals the truth that the prosperous must decline.",
+      attribution: "Opening of The Tale of the Heike, c. 1330"
+    }
+  },
+
+  "Southeast Asian Kingdoms": {
+    causes: [
+      "Indian merchants and monks brought Sanskrit, Hinduism, and Buddhism, which local rulers adopted",
+      "Monsoon-driven maritime trade made the region central to Indian Ocean–South China Sea exchange",
+      "Rice agriculture in great river valleys supported large populations and centralised states"
+    ],
+    effects: [
+      "Built some of the world's greatest religious monuments (Angkor Wat, Borobudur)",
+      "Maintained diverse religious traditions — Hindu, Buddhist, Muslim, animist — that still coexist",
+      "Created the maritime trading networks that European colonisers would later seize"
+    ],
+    figures: [
+      { name: "Suryavarman II", dates: "r. 1113–1150", role: "Khmer king", why: "Built Angkor Wat — the largest religious monument in the world." },
+      { name: "Gajah Mada", dates: "d. c. 1364", role: "Majapahit prime minister", why: "Architect of Majapahit's expansion across the Indonesian archipelago." },
+      { name: "Ngô Quyền", dates: "r. 938–944", role: "Vietnamese king", why: "Defeated Chinese forces at the Battle of Bach Dang, securing Vietnamese independence after 1,000 years of Chinese rule." }
+    ],
+    connections: ["Classical India", "Classical China", "Age of Exploration", "Imperialism & Colonialism"],
+    sourceSnippet: {
+      text: "Until I have unified Nusantara — Gurun, Seram, Tanjungpura, Haru, Pahang, Dompo, Bali, Sunda, Palembang, Tumasik — I shall not taste palapa.",
+      attribution: "Gajah Mada's Palapa Oath, c. 1336"
+    }
+  },
+
+  "Central Asia — Timurids & Turkic Peoples": {
+    causes: [
+      "Steppe geography produced highly mobile, militarily dominant nomadic societies",
+      "Turkic conversion to Islam from the 8th–11th centuries gave them a unifying ideology",
+      "Mongol destruction created a power vacuum filled by post-Mongol successor warlords"
+    ],
+    effects: [
+      "Founded the Seljuk, Timurid, Ottoman, Safavid, and Mughal empires",
+      "Made Samarkand and Herat among the most architecturally splendid cities of the medieval world",
+      "Carried Persian high culture from Bukhara to Delhi and Istanbul"
+    ],
+    figures: [
+      { name: "Tughril Beg", dates: "r. 1037–1063", role: "Founder of the Seljuk Empire", why: "Took Baghdad in 1055, establishing the Sultan-Caliph political model." },
+      { name: "Tamerlane (Timur)", dates: "1336–1405", role: "Conqueror & founder of the Timurid Empire", why: "Built one of the most extensive empires of the late medieval world; rebuilt Samarkand into a wonder of architecture." },
+      { name: "Ulugh Beg", dates: "1394–1449", role: "Timurid sultan & astronomer", why: "Built one of the world's great medieval observatories at Samarkand and produced an unprecedented star catalogue." },
+      { name: "Babur", dates: "1483–1530", role: "Founder of the Mughal Empire", why: "Direct descendant of Tamerlane and Genghis Khan, founded the Mughal Empire in India in 1526." }
+    ],
+    connections: ["The Mongol Empire", "The Rise of Islam", "The Ottoman Empire", "The Mughal Empire"],
+    sourceSnippet: {
+      text: "If you doubt my power, look at my buildings.",
+      attribution: "Inscription on Timur's tomb, the Gur-e-Amir, Samarkand"
+    }
+  },
+
+  "African Kingdoms": {
+    causes: [
+      "Trans-Saharan camel caravans linked West African gold to Mediterranean markets",
+      "Indian Ocean monsoon trade plugged the East African coast into a global economy",
+      "Adoption of Islam (West Africa, Swahili Coast) and Christianity (Aksum) connected African states to broader civilisational networks"
+    ],
+    effects: [
+      "Built some of the wealthiest empires of the medieval world (Mali, Songhai)",
+      "Made Timbuktu, Kilwa, and Great Zimbabwe major cultural and economic centres",
+      "Preserved an intellectual tradition (the Timbuktu manuscripts) and built monumental architecture (Lalibela, Great Zimbabwe) that survives today"
+    ],
+    figures: [
+      { name: "King Ezana of Aksum", dates: "r. c. 320s–360 CE", role: "Aksumite king", why: "Made Aksum one of the earliest Christian states in the world." },
+      { name: "Sundiata Keita", dates: "r. c. 1235–1255", role: "Founder of the Empire of Mali", why: "Subject of West Africa's great oral epic; built Mali into a major imperial power." },
+      { name: "Mansa Musa", dates: "r. 1312–1337", role: "Emperor of Mali", why: "His 1324 pilgrimage to Mecca distributed so much gold it caused regional inflation; possibly the wealthiest individual in human history." },
+      { name: "Askia Muhammad", dates: "r. 1493–1528", role: "Songhai emperor", why: "Centralised Songhai administration and patronised Timbuktu's scholars." }
+    ],
+    connections: ["Ancient Nubia & Kush", "The Rise of Islam", "Age of Exploration", "Imperialism & Colonialism"],
+    sourceSnippet: {
+      text: "He flooded Cairo with his benefactions… so much that they depreciated the gold and caused its value to fall.",
+      attribution: "Al-Umari describing Mansa Musa's visit, c. 1324"
+    }
+  },
+
+  "The Space Race & Exploration": {
+    causes: [
+      "Cold War rivalry made space achievement a proxy for ideological competition",
+      "Captured German V-2 rocket technology gave both U.S. and USSR a starting platform",
+      "Massive state investment (NASA's budget peaked at ~4% of U.S. federal spending)"
+    ],
+    effects: [
+      "Put humans on the Moon and robotic probes throughout the solar system",
+      "Drove technological spinoffs (computing, materials science, satellite telecoms)",
+      "Made Earth visible from space, helping launch the modern environmental movement"
+    ],
+    figures: [
+      { name: "Sergei Korolev", dates: "1907–1966", role: "Soviet chief rocket designer", why: "Architect of the Soviet space programme; his identity was a state secret during his lifetime." },
+      { name: "Yuri Gagarin", dates: "1934–1968", role: "Soviet cosmonaut", why: "First human in space, April 12, 1961." },
+      { name: "Neil Armstrong", dates: "1930–2012", role: "Apollo 11 commander", why: "First human to walk on the Moon, July 20, 1969." },
+      { name: "Katherine Johnson", dates: "1918–2020", role: "NASA mathematician", why: "Calculated trajectories for early Mercury and Apollo missions; broke barriers as a Black woman in 1960s NASA." },
+      { name: "Valentina Tereshkova", dates: "b. 1937", role: "Soviet cosmonaut", why: "First woman in space, 1963." }
+    ],
+    connections: ["The Cold War", "The Industrial Revolution", "The Digital Age"],
+    sourceSnippet: {
+      text: "That's one small step for [a] man, one giant leap for mankind.",
+      attribution: "Neil Armstrong, on stepping onto the Moon, 20 July 1969"
+    }
+  },
+
+  "Decolonisation": {
+    causes: [
+      "WWII bankrupted European empires and broke their prestige",
+      "Long-developing anti-colonial movements reached organisational maturity",
+      "Cold War made both U.S. and USSR willing to support decolonisation, for different reasons"
+    ],
+    effects: [
+      "Created over 80 new independent states between 1945 and 1980",
+      "Drew the political map of the modern Global South",
+      "Left long-running problems: arbitrary colonial borders, neocolonial economic dependence, ethnic conflict"
+    ],
+    figures: [
+      { name: "Mahatma Gandhi", dates: "1869–1948", role: "Indian independence leader", why: "Pioneered mass nonviolent resistance against British rule; assassinated in 1948." },
+      { name: "Kwame Nkrumah", dates: "1909–1972", role: "First Prime Minister of independent Ghana", why: "Led the first Sub-Saharan African colony to independence and championed Pan-Africanism." },
+      { name: "Ho Chi Minh", dates: "1890–1969", role: "Vietnamese revolutionary leader", why: "Led Vietnamese resistance against the French and then the Americans, achieving independence at enormous cost." },
+      { name: "Nelson Mandela", dates: "1918–2013", role: "South African leader & first president of post-apartheid South Africa", why: "Spent 27 years in prison, then led South Africa's transition from apartheid to democracy." },
+      { name: "Frantz Fanon", dates: "1925–1961", role: "Martinican-Algerian psychiatrist & theorist", why: "His Wretched of the Earth (1961) became the foundational text of anti-colonial thought." }
+    ],
+    connections: ["Imperialism & Colonialism", "World War II", "The Cold War"],
+    sourceSnippet: {
+      text: "The wind of change is blowing through this continent. Whether we like it or not, this growth of national consciousness is a political fact.",
+      attribution: "British PM Harold Macmillan to the South African Parliament, 3 February 1960"
+    }
+  },
+
+  "South Asia Since Partition": {
+    causes: [
+      "1947 Partition of British India along religious lines created India and Pakistan",
+      "Border-drawing decisions (especially over Kashmir) and population exchanges produced lasting hostility",
+      "Cold War alignments (India non-aligned then Soviet-leaning, Pakistan U.S.-aligned) shaped the next 50 years"
+    ],
+    effects: [
+      "Made India and Pakistan permanent rivals — both nuclear-armed since 1998",
+      "Produced the secession of Bangladesh in 1971 after a brutal war",
+      "South Asia now contains roughly a quarter of humanity and a major emerging economic power"
+    ],
+    figures: [
+      { name: "Mahatma Gandhi", dates: "1869–1948", role: "Father of Indian independence", why: "Architect of nonviolent resistance; assassinated in 1948 by a Hindu nationalist." },
+      { name: "Jawaharlal Nehru", dates: "1889–1964", role: "First Prime Minister of India", why: "Built India as a secular democratic state and a leader of the Non-Aligned Movement." },
+      { name: "Muhammad Ali Jinnah", dates: "1876–1948", role: "Founder of Pakistan", why: "Led the Muslim League's demand for a separate Muslim state; first Governor-General of Pakistan." },
+      { name: "Indira Gandhi", dates: "1917–1984", role: "Prime Minister of India", why: "Powerful and controversial leader; declared the 1975 Emergency; assassinated in 1984." },
+      { name: "Sheikh Mujibur Rahman", dates: "1920–1975", role: "Founder of Bangladesh", why: "Led East Pakistan's independence struggle; first president of Bangladesh; assassinated in 1975." },
+      { name: "Narendra Modi", dates: "b. 1950", role: "Prime Minister of India since 2014", why: "Architect of the Hindu nationalist BJP's dominance of Indian politics." }
+    ],
+    connections: ["Imperialism & Colonialism", "Decolonisation", "The Cold War"],
+    sourceSnippet: {
+      text: "At the stroke of the midnight hour, when the world sleeps, India will awake to life and freedom.",
+      attribution: "Jawaharlal Nehru, 'Tryst with Destiny' speech, 14 August 1947"
+    }
+  },
+
+  "Modern Latin America": {
+    causes: [
+      "Long colonial legacy of inequality and concentrated land ownership",
+      "Cold War made the region a battleground between U.S.-backed regimes and Cuba-inspired revolutionaries",
+      "Resource-export economies left countries vulnerable to commodity-price swings"
+    ],
+    effects: [
+      "Cycles of populist mobilisation, military dictatorship, and democratic restoration",
+      "Some of the world's deepest economic inequalities, persistent into the 21st century",
+      "A 'pink tide' of left-wing governments in the 2000s that has receded but partially returned"
+    ],
+    figures: [
+      { name: "Emiliano Zapata", dates: "1879–1919", role: "Mexican revolutionary", why: "Led peasant land-reform movement during the Mexican Revolution." },
+      { name: "Juan Perón", dates: "1895–1974", role: "Argentine president & founder of Peronism", why: "Defined the dominant populist tradition in Latin American politics." },
+      { name: "Fidel Castro", dates: "1926–2016", role: "Cuban revolutionary leader", why: "Led the 1959 revolution; ruled Cuba for nearly half a century." },
+      { name: "Salvador Allende", dates: "1908–1973", role: "Chilean Marxist president", why: "Democratically elected; killed in the 1973 U.S.-backed coup that brought Pinochet to power." },
+      { name: "Augusto Pinochet", dates: "1915–2006", role: "Chilean military dictator", why: "Ruled Chile 1973–1990; oversaw thousands of deaths and economic restructuring." },
+      { name: "Lula da Silva", dates: "b. 1945", role: "Brazilian President (2003–2010, 2023– )", why: "Former union leader; presided over major poverty reduction in Brazil." }
+    ],
+    connections: ["Age of Revolutions", "The Cold War", "Imperialism & Colonialism"],
+    sourceSnippet: {
+      text: "I would rather die on my feet than live on my knees.",
+      attribution: "Often attributed to Emiliano Zapata, Mexican Revolution"
+    }
+  },
+
+  "Civil Rights Movements": {
+    causes: [
+      "Long-suppressed racial, gender, and sexual minorities organised mass political movements",
+      "The post-WWII anti-fascist consensus made racial discrimination internationally embarrassing",
+      "Television and mass media made injustices visible to wider publics"
+    ],
+    effects: [
+      "Ended legal racial segregation in the U.S. and apartheid in South Africa",
+      "Won voting rights, equal-pay laws, and same-sex marriage in many countries",
+      "Established that organised social movements can change deeply entrenched legal regimes"
+    ],
+    figures: [
+      { name: "Martin Luther King Jr.", dates: "1929–1968", role: "American civil rights leader", why: "Apostle of nonviolent direct action; led the U.S. movement to legal victories before assassination in 1968." },
+      { name: "Malcolm X", dates: "1925–1965", role: "American black-nationalist leader", why: "Powerful counterpoint to King's nonviolence; assassinated in 1965." },
+      { name: "Rosa Parks", dates: "1913–2005", role: "Civil rights activist", why: "Her 1955 refusal to give up her bus seat sparked the Montgomery Bus Boycott." },
+      { name: "Nelson Mandela", dates: "1918–2013", role: "Anti-apartheid leader & South African president", why: "Symbol of the global anti-apartheid struggle." },
+      { name: "Betty Friedan", dates: "1921–2006", role: "American feminist", why: "Author of The Feminine Mystique (1963), which helped launch second-wave feminism." },
+      { name: "Marsha P. Johnson", dates: "1945–1992", role: "American LGBTQ+ activist", why: "Black trans woman, central to the Stonewall uprising and to early gay liberation organising." }
+    ],
+    connections: ["Abolition & Reform", "Decolonisation", "Globalisation"],
+    sourceSnippet: {
+      text: "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.",
+      attribution: "Martin Luther King Jr., March on Washington, 28 August 1963"
+    }
+  },
+
+  "The Yugoslav Wars": {
+    causes: [
+      "Tito's death in 1980 left Yugoslavia without a unifying figure",
+      "Economic crisis and the collapse of communism elsewhere weakened the federation",
+      "Slobodan Milošević's exploitation of Serbian nationalism set off a chain of secessions"
+    ],
+    effects: [
+      "Killed approximately 140,000 people and displaced millions",
+      "Brought ethnic cleansing and genocide to Europe within a generation of the Holocaust",
+      "Established new precedents in international criminal law (ICTY)"
+    ],
+    figures: [
+      { name: "Josip Broz Tito", dates: "1892–1980", role: "Communist leader of Yugoslavia", why: "Held the federation together through personal authority; broke with Stalin in 1948." },
+      { name: "Slobodan Milošević", dates: "1941–2006", role: "Serbian nationalist leader", why: "Architect of Serbia's role in the Yugoslav wars; first sitting head of state indicted for war crimes; died in custody before verdict." },
+      { name: "Ratko Mladić", dates: "b. 1942", role: "Bosnian Serb general", why: "Commander at Srebrenica; convicted of genocide in 2017." },
+      { name: "Radovan Karadžić", dates: "b. 1945", role: "Bosnian Serb political leader", why: "Wartime president of Republika Srpska; convicted of genocide and war crimes." },
+      { name: "Alija Izetbegović", dates: "1925–2003", role: "Bosnian president", why: "Led wartime Bosnia-Herzegovina and signed the Dayton Accords." }
+    ],
+    connections: ["Genocides of the 20th Century", "The Cold War", "World War II"],
+    sourceSnippet: {
+      text: "We do not want to live in your Yugoslavia, but you cannot make us live in your Serbia.",
+      attribution: "Bosnian saying during the war"
+    }
+  },
+
+  "Globalisation": {
+    causes: [
+      "Postwar institutions (Bretton Woods, GATT/WTO, EU) progressively reduced trade and capital barriers",
+      "Containerised shipping and information technology collapsed the costs of moving goods and ideas",
+      "End of the Cold War and China's reforms brought billions of people into the global market"
+    ],
+    effects: [
+      "Largest reduction of extreme poverty in human history",
+      "Rising inequality within wealthy countries; decline of manufacturing in former industrial regions",
+      "Climate change as the central global externality of fossil-fuel-driven growth"
+    ],
+    figures: [
+      { name: "Deng Xiaoping", dates: "1904–1997", role: "Paramount leader of China", why: "Architect of China's market reforms from 1978 — arguably the most consequential economic transformation of the 20th century." },
+      { name: "Margaret Thatcher", dates: "1925–2013", role: "British Prime Minister 1979–1990", why: "Helped define the neoliberal turn — privatisation, deregulation, free trade." },
+      { name: "Ronald Reagan", dates: "1911–2004", role: "U.S. President 1981–1989", why: "American counterpart to Thatcher; reshaped U.S. economic policy along similar lines." },
+      { name: "Manmohan Singh", dates: "1932–2024", role: "Indian Finance Minister & PM", why: "Architected India's 1991 liberalisation, integrating India into the global economy." },
+      { name: "Greta Thunberg", dates: "b. 2003", role: "Climate activist", why: "Galvanised global youth climate protest from 2018 with Fridays for Future." }
+    ],
+    connections: ["The Cold War", "The Industrial Revolution", "The Digital Age", "Imperialism & Colonialism"],
+    sourceSnippet: {
+      text: "It does not matter whether the cat is black or white — as long as it catches mice.",
+      attribution: "Deng Xiaoping, paraphrased in support of pragmatic economic reform"
+    }
+  },
+
+  "The Digital Age": {
+    causes: [
+      "Sustained doubling of computing power (Moore's Law) made personal computers cheap and powerful",
+      "ARPANET and the World Wide Web created a global information infrastructure",
+      "Smartphones and mobile internet brought the network to billions of new users"
+    ],
+    effects: [
+      "Transformed work, communication, retail, finance, dating, and politics in a single generation",
+      "Made surveillance and disinformation possible at unprecedented scale",
+      "Set the stage for artificial intelligence as a general-purpose technology"
+    ],
+    figures: [
+      { name: "Alan Turing", dates: "1912–1954", role: "British mathematician & computer pioneer", why: "Founded theoretical computer science; broke the Enigma code; died early after persecution for being gay." },
+      { name: "Tim Berners-Lee", dates: "b. 1955", role: "Inventor of the World Wide Web", why: "Designed the system of linked documents that became the web; gave it away free in 1991." },
+      { name: "Steve Jobs", dates: "1955–2011", role: "Apple co-founder", why: "Drove the personal computer revolution and (with the iPhone) the mobile-internet revolution." },
+      { name: "Bill Gates", dates: "b. 1955", role: "Microsoft co-founder", why: "Built the operating-system monopoly that defined the PC era; later turned to global health philanthropy." },
+      { name: "Tim Cook", dates: "b. 1960", role: "CEO of Apple", why: "Oversaw Apple's rise to the world's most valuable company; pioneered tech-company supply-chain management." },
+      { name: "Edward Snowden", dates: "b. 1983", role: "NSA whistleblower", why: "2013 leaks revealed the global scale of state surveillance; remains in exile in Russia." }
+    ],
+    connections: ["Globalisation", "The Industrial Revolution", "The Cold War", "The Space Race & Exploration"],
+    sourceSnippet: {
+      text: "Information wants to be free.",
+      attribution: "Stewart Brand, 1984"
+    }
+  },
+
+  "The Russian Revolution": {
+    causes: [
+      "Tsarist autocracy refused meaningful reform despite mounting peasant and worker discontent",
+      "WWI exposed the regime's military and economic incapacity",
+      "Lenin and the Bolsheviks offered a clear, ruthless plan: peace, land, bread, all power to the soviets"
+    ],
+    effects: [
+      "Created the Soviet Union — the first state explicitly built on Marxist principles",
+      "Inspired communist movements worldwide, from China to Vietnam to Cuba",
+      "Made the Cold War possible and shaped the 20th-century ideological landscape"
+    ],
+    figures: [
+      { name: "Vladimir Lenin", dates: "1870–1924", role: "Bolshevik leader, founder of Soviet state", why: "Ruthless tactician who positioned the Bolsheviks to seize power in October 1917." },
+      { name: "Leon Trotsky", dates: "1879–1940", role: "Bolshevik intellectual & Red Army founder", why: "Built the Red Army from scratch and led it to victory in the Civil War; later murdered in exile by Stalin's agents." },
+      { name: "Joseph Stalin", dates: "1878–1953", role: "Soviet dictator", why: "Outmanoeuvred Lenin's other heirs to seize power; industrialised the USSR through forced collectivisation, terror, and the Gulag." },
+      { name: "Tsar Nicholas II", dates: "r. 1894–1917", role: "Last Russian Emperor", why: "Personally amiable, politically catastrophic; abdicated in March 1917, executed with his family in 1918." },
+      { name: "Alexander Kerensky", dates: "1881–1970", role: "Provisional Government leader", why: "Moderate socialist who tried to keep Russia in WWI and lost authority to the Bolsheviks." }
+    ],
+    connections: ["World War I", "The Industrial Revolution", "World War II", "The Cold War"],
+    sourceSnippet: {
+      text: "Peace, Land, and Bread!",
+      attribution: "Bolshevik slogan, 1917"
+    }
+  },
+
+  "The Interwar Period": {
+    causes: [
+      "Versailles Treaty's harsh terms produced German resentment and economic instability",
+      "The Great Depression destroyed faith in liberal democracy and market capitalism",
+      "Russia's revolution made communism a global force, frightening conservatives into the arms of fascism"
+    ],
+    effects: [
+      "Brought fascism to power in Italy, Germany, and (eventually) Spain",
+      "Discredited the League of Nations and revealed the limits of collective security",
+      "Made WWII possible — and arguably inevitable — by 1939"
+    ],
+    figures: [
+      { name: "Benito Mussolini", dates: "r. 1922–1943", role: "Fascist dictator of Italy", why: "First major fascist leader; pioneered the political model Hitler and Franco would adapt." },
+      { name: "Adolf Hitler", dates: "r. 1933–1945", role: "Nazi Führer of Germany", why: "Used the Depression to bring Nazi extremism to power; rebuilt German military to launch WWII." },
+      { name: "Franklin Delano Roosevelt", dates: "r. 1933–1945", role: "U.S. President", why: "Delivered the New Deal in response to the Depression; led the U.S. into and through WWII." },
+      { name: "Neville Chamberlain", dates: "PM 1937–1940", role: "British Prime Minister", why: "Architect of the Munich Agreement and appeasement policy that failed to prevent WWII." },
+      { name: "John Maynard Keynes", dates: "1883–1946", role: "British economist", why: "Predicted Versailles would lead to disaster; later founded modern macroeconomics." }
+    ],
+    connections: ["World War I", "The Russian Revolution", "World War II", "The Spanish Civil War"],
+    sourceSnippet: {
+      text: "I believe it is peace for our time.",
+      attribution: "Neville Chamberlain after the Munich Agreement, 30 September 1938"
+    }
+  },
+
+  "The Spanish Civil War": {
+    causes: [
+      "Spain entered the 1930s as a politically polarised society between landowning conservatives and reformist left",
+      "The Second Republic's reforms enraged conservative elites, the Church, and the military",
+      "Foreign powers (Germany, Italy, USSR) saw Spain as a proxy battleground"
+    ],
+    effects: [
+      "Established Franco's military dictatorship, which lasted until 1975",
+      "Demonstrated the weakness of European democracies in resisting fascism",
+      "Foreshadowed WWII tactics, including aerial bombing of civilians"
+    ],
+    figures: [
+      { name: "Francisco Franco", dates: "r. 1939–1975", role: "Spanish dictator", why: "Led the Nationalist victory and ruled Spain for 36 years; one of the most consequential European dictators of the 20th century." },
+      { name: "Manuel Azaña", dates: "1880–1940", role: "Republican president of Spain", why: "Reformist president who oversaw the Republic's struggle and exile after defeat." },
+      { name: "Dolores Ibárruri ('La Pasionaria')", dates: "1895–1989", role: "Communist Republican leader", why: "Iconic Republican orator whose 'No pasarán!' (They shall not pass!) became the slogan of anti-fascism." },
+      { name: "George Orwell", dates: "1903–1950", role: "British writer", why: "Fought for the POUM, was wounded, and described the war and its internal Republican betrayals in Homage to Catalonia." }
+    ],
+    connections: ["The Interwar Period", "World War II", "Imperialism & Colonialism"],
+    sourceSnippet: {
+      text: "It is better to die on your feet than to live on your knees.",
+      attribution: "Dolores Ibárruri, La Pasionaria, 1936"
+    }
+  },
+
+  "Genocides of the 20th Century": {
+    causes: [
+      "Total war, ideological extremism, and modern bureaucratic capacity made mass killing possible at unprecedented scale",
+      "Ethnic and religious nationalism, often state-sponsored, defined who 'belonged' and who didn't",
+      "Failure of international institutions to intervene early or consistently allowed perpetrators to act with impunity"
+    ],
+    effects: [
+      "Established the legal concept of genocide and the UN Genocide Convention (1948)",
+      "Created international tribunals (Nuremberg, ICTY, ICTR, ICC) — imperfect but precedent-setting",
+      "Reshaped postwar memory, monuments, and education across multiple countries"
+    ],
+    figures: [
+      { name: "Raphael Lemkin", dates: "1900–1959", role: "Polish-Jewish lawyer", why: "Coined the word 'genocide' in 1944 and devoted his life to making it a legal concept; lost 49 family members to the Nazis." },
+      { name: "Adolf Eichmann", dates: "1906–1962", role: "Nazi bureaucrat", why: "Logistical organiser of the Holocaust; tried in Jerusalem in 1961 — Hannah Arendt's famous 'banality of evil.'" },
+      { name: "Pol Pot", dates: "1925–1998", role: "Khmer Rouge leader", why: "Architect of the Cambodian genocide; died without ever facing trial." },
+      { name: "Romeo Dallaire", dates: "b. 1946", role: "Canadian general & UN commander in Rwanda", why: "Tried in vain to get UN to authorise force to stop the Rwandan genocide; his memoir is essential reading." },
+      { name: "Ratko Mladić", dates: "b. 1942", role: "Bosnian Serb general", why: "Commanded forces at Srebrenica; convicted of genocide in 2017." }
+    ],
+    connections: ["World War II", "The Russian Revolution", "The Interwar Period", "The Yugoslav Wars"],
+    sourceSnippet: {
+      text: "Genocide is a denial of the right of existence of entire human groups, as homicide is the denial of the right to live of individual human beings.",
+      attribution: "UN General Assembly Resolution 96(I), 1946"
+    }
+  },
+
+  "Imperialism & Colonialism": {
+    causes: [
+      "Industrial technology (steamships, quinine, machine guns) made conquest easier",
+      "Industrial economies needed colonial raw materials and markets",
+      "Pseudoscientific racism and 'civilising mission' rhetoric provided ideological cover"
+    ],
+    effects: [
+      "Drew most of the world's modern political borders, often arbitrarily",
+      "Extracted vast wealth from colonies, fuelling Western European prosperity and Asian/African impoverishment",
+      "Created enduring patterns of inequality, ethnic conflict, and global migration"
+    ],
+    figures: [
+      { name: "Cecil Rhodes", dates: "1853–1902", role: "British imperialist", why: "Built a diamond empire in South Africa and dreamed of British territory from 'Cape to Cairo'." },
+      { name: "King Leopold II", dates: "r. 1865–1909", role: "King of the Belgians", why: "Personally owned the Congo Free State as private property; oversaw atrocities that killed perhaps 10 million Congolese." },
+      { name: "Emperor Menelik II", dates: "r. 1889–1913", role: "Emperor of Ethiopia", why: "Defeated Italy at Adwa in 1896, keeping Ethiopia independent through the colonial era." },
+      { name: "Rudyard Kipling", dates: "1865–1936", role: "British poet and writer", why: "Wrote 'The White Man's Burden' — the classic statement of imperial ideology." }
+    ],
+    connections: ["The Industrial Revolution", "The Mughal Empire", "African Kingdoms", "Decolonisation"],
+    sourceSnippet: {
+      text: "Take up the White Man's burden — / Send forth the best ye breed — / Go bind your sons to exile / To serve your captives' need.",
+      attribution: "Rudyard Kipling, 'The White Man's Burden,' 1899"
+    }
+  },
+
+  "Ireland — Famine & Nationalism": {
+    causes: [
+      "Tenant agricultural system made the rural poor dependent on a single crop — the potato",
+      "British political and economic rule treated Ireland as a peripheral colony",
+      "Late blight (Phytophthora infestans) destroyed successive potato harvests from 1845"
+    ],
+    effects: [
+      "About 1 million dead and 1–2 million emigrated; population fell ~20% in seven years",
+      "Created a global Irish diaspora that reshaped American politics and culture",
+      "Galvanised Irish nationalism, leading to the Easter Rising and eventual independence in 1922"
+    ],
+    figures: [
+      { name: "Charles Stewart Parnell", dates: "1846–1891", role: "Irish parliamentary leader", why: "Pushed for Home Rule and led the political wing of the Irish nationalist movement." },
+      { name: "Michael Collins", dates: "1890–1922", role: "IRA leader and statesman", why: "Led the guerrilla campaign in the War of Independence, negotiated the 1921 Treaty, and was killed in the Civil War that followed." },
+      { name: "Patrick Pearse", dates: "1879–1916", role: "Easter Rising leader", why: "Read the Proclamation of the Irish Republic in 1916; executed by the British, became a national martyr." },
+      { name: "Charles Trevelyan", dates: "1807–1886", role: "British Treasury official", why: "Oversaw the British government's catastrophically inadequate response to the Famine." }
+    ],
+    connections: ["The Industrial Revolution", "Imperialism & Colonialism", "Age of Revolutions"],
+    sourceSnippet: {
+      text: "We declare the right of the people of Ireland to the ownership of Ireland and to the unfettered control of Irish destinies, to be sovereign and indefeasible.",
+      attribution: "Proclamation of the Irish Republic, 1916"
+    }
+  },
+
+  "Abolition & Reform": {
+    causes: [
+      "Enlightenment arguments about universal human equality undermined slavery's legitimacy",
+      "Religious movements (especially Quakers and Methodists) made abolition a moral imperative",
+      "Industrial capitalism's growth made slave-based agriculture increasingly anomalous"
+    ],
+    effects: [
+      "Ended legal slavery in the British Empire (1833), the U.S. (1865), and Brazil (1888)",
+      "Established the precedent that mass social movements could overturn ancient institutions",
+      "Launched the women's rights movement that won suffrage across most of the world by 1950"
+    ],
+    figures: [
+      { name: "William Wilberforce", dates: "1759–1833", role: "British MP and abolitionist", why: "Led the parliamentary campaign that ended the British slave trade (1807) and slavery (1833)." },
+      { name: "Frederick Douglass", dates: "1818–1895", role: "American abolitionist & orator", why: "Self-emancipated slave whose speeches and autobiography were among abolition's sharpest weapons." },
+      { name: "Harriet Tubman", dates: "c. 1822–1913", role: "Underground Railroad conductor", why: "Escaped slavery and returned 13 times to lead approximately 70 enslaved people to freedom." },
+      { name: "Elizabeth Cady Stanton", dates: "1815–1902", role: "American women's rights leader", why: "Co-organised Seneca Falls (1848) and drafted the Declaration of Sentiments." },
+      { name: "Emmeline Pankhurst", dates: "1858–1928", role: "British suffragette leader", why: "Founded the militant Women's Social and Political Union; used direct action to win British women the vote." },
+      { name: "Olaudah Equiano", dates: "c. 1745–1797", role: "Igbo abolitionist and writer", why: "His 1789 autobiography of his enslavement and emancipation was a key abolitionist text." }
+    ],
+    connections: ["The Enlightenment", "Age of Revolutions", "The Industrial Revolution", "Civil Rights Movements"],
+    sourceSnippet: {
+      text: "We hold these truths to be self-evident: that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights.",
+      attribution: "Declaration of Sentiments, Seneca Falls Convention, 1848"
+    }
+  },
+
+  "Meiji Japan & Qing China": {
+    causes: [
+      "Western industrial powers forcibly opened both Japan and China to trade in the 1850s–60s",
+      "Both nations faced existential pressure to modernise or be colonised",
+      "Internal political crises (Taiping Rebellion in China, Tokugawa decline in Japan) created openings for radical change"
+    ],
+    effects: [
+      "Japan transformed into a modern industrial and military power within a single generation",
+      "China suffered a 'century of humiliation' that ended only with the 1949 Communist victory",
+      "Established a divergence in East Asian development that shaped the entire 20th century"
+    ],
+    figures: [
+      { name: "Emperor Meiji", dates: "r. 1867–1912", role: "Emperor of Japan", why: "Symbolic head of the Meiji Restoration, presided over Japan's transformation into a modern state." },
+      { name: "Empress Dowager Cixi", dates: "1835–1908", role: "Effective ruler of late Qing China", why: "Dominated Qing politics for nearly 50 years; her conservative resistance contributed to the dynasty's failure to reform." },
+      { name: "Lin Zexu", dates: "1785–1850", role: "Qing imperial commissioner", why: "Tried to suppress the British opium trade in 1839; his actions triggered the First Opium War." },
+      { name: "Hong Xiuquan", dates: "1814–1864", role: "Leader of the Taiping Rebellion", why: "Claimed to be Jesus's younger brother and led the bloodiest civil war in human history." },
+      { name: "Itō Hirobumi", dates: "1841–1909", role: "First Prime Minister of Japan", why: "Architect of the Meiji Constitution and one of the chief modernisers of Japan." },
+      { name: "Sun Yat-sen", dates: "1866–1925", role: "Chinese revolutionary leader", why: "Founded the Republic of China after the 1911 revolution overthrew the Qing." }
+    ],
+    connections: ["The Industrial Revolution", "Imperialism & Colonialism", "Medieval Japan & Korea", "World War II", "The Cold War"],
+    sourceSnippet: {
+      text: "Knowledge shall be sought throughout the world, so as to strengthen the foundations of imperial rule.",
+      attribution: "Charter Oath of the Meiji Emperor, 1868"
+    }
+  },
+
+  "The Enlightenment": {
+    causes: [
+      "The Scientific Revolution (Newton, Galileo) suggested human reason could decode any system",
+      "Religious wars exhausted Europe and made tolerance attractive",
+      "Printing presses, salons, and rising literacy created a public sphere for ideas"
+    ],
+    effects: [
+      "Provided the philosophical foundations of modern democracy and human rights",
+      "Inspired the American and French Revolutions",
+      "Established the case for religious tolerance and separation of church and state"
+    ],
+    figures: [
+      { name: "John Locke", dates: "1632–1704", role: "English philosopher", why: "Argued government legitimacy comes from consent of the governed; foundational to American political thought." },
+      { name: "Voltaire", dates: "1694–1778", role: "French philosophe", why: "Most famous defender of religious tolerance and free expression; wit and satire shaped public opinion." },
+      { name: "Montesquieu", dates: "1689–1755", role: "French political philosopher", why: "Argued for separation of powers; directly influenced the U.S. Constitution." },
+      { name: "Rousseau", dates: "1712–1778", role: "Genevan philosopher", why: "Argued legitimate government comes from the 'general will' of the people; foundational to democratic theory." },
+      { name: "Mary Wollstonecraft", dates: "1759–1797", role: "English writer", why: "Wrote A Vindication of the Rights of Woman (1792), founding modern feminist thought." },
+      { name: "Adam Smith", dates: "1723–1790", role: "Scottish moral philosopher", why: "Wrote The Wealth of Nations (1776), founding modern economics." }
+    ],
+    connections: ["The Renaissance", "The Reformation", "Age of Revolutions", "The Industrial Revolution"],
+    sourceSnippet: {
+      text: "I disapprove of what you say, but I will defend to the death your right to say it.",
+      attribution: "Often attributed to Voltaire (paraphrased by biographer Evelyn Beatrice Hall, 1906)"
+    }
+  },
+
+  "Age of Revolutions": {
+    causes: [
+      "Enlightenment ideas about consent, rights, and reason undermined absolute monarchy",
+      "Atlantic trade and capitalism created a wealthy bourgeoisie excluded from aristocratic privilege",
+      "British financial crises after the Seven Years' War triggered colonial taxation disputes"
+    ],
+    effects: [
+      "Established the United States, Haiti, and most of Latin America as independent nations",
+      "Ended absolute monarchy in France and challenged it everywhere in Europe",
+      "Created the political vocabulary — democracy, citizenship, human rights — still used today"
+    ],
+    figures: [
+      { name: "Thomas Jefferson", dates: "1743–1826", role: "American Founding Father", why: "Drafted the Declaration of Independence; later third U.S. president." },
+      { name: "Maximilien Robespierre", dates: "1758–1794", role: "French revolutionary leader", why: "Architect of the Reign of Terror; symbolised the dark side of revolutionary purity." },
+      { name: "Toussaint Louverture", dates: "c. 1743–1803", role: "Haitian revolutionary leader", why: "Led the only successful slave revolt in modern history; died in a French prison." },
+      { name: "Napoleon Bonaparte", dates: "1769–1821", role: "Emperor of the French", why: "Codified revolutionary law (Napoleonic Code) and exported revolutionary ideas across Europe — at the point of a bayonet." },
+      { name: "Simón Bolívar", dates: "1783–1830", role: "Liberator of South America", why: "Led independence movements in Venezuela, Colombia, Ecuador, Peru, and Bolivia." },
+      { name: "Olympe de Gouges", dates: "1748–1793", role: "French playwright and feminist", why: "Wrote the Declaration of the Rights of Woman in 1791; guillotined for her radicalism." }
+    ],
+    connections: ["The Enlightenment", "The Reformation", "The Industrial Revolution", "Abolition & Reform"],
+    sourceSnippet: {
+      text: "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.",
+      attribution: "U.S. Declaration of Independence, 1776"
+    }
+  },
+
+  "Polynesian Voyaging & Pacific Peoples": {
+    causes: [
+      "Sophisticated double-hulled voyaging canoe technology enabled open-ocean travel",
+      "An Austronesian linguistic and cultural inheritance carried sailing traditions across millennia",
+      "Population growth on small islands required outward exploration for new land"
+    ],
+    effects: [
+      "Settled the largest area of the Earth's surface ever colonised by a pre-modern civilisation",
+      "Reached Hawaii, Easter Island, and New Zealand — among the most isolated places on Earth",
+      "Preserved a navigation tradition (wayfinding) only recently revived and now globally celebrated"
+    ],
+    figures: [
+      { name: "Hawailoa (legendary)", dates: "c. 1st millennium CE", role: "Traditional founding navigator of Hawaii", why: "Stands for the generations of unnamed Polynesian explorers who reached the most remote islands." },
+      { name: "Kupe", dates: "legendary, c. 925 CE", role: "Polynesian navigator", why: "Māori tradition credits him with the discovery of Aotearoa (New Zealand)." },
+      { name: "Mau Piailug", dates: "1932–2010", role: "Micronesian master navigator", why: "Revived traditional Pacific wayfinding in the 1970s, sailing the Hōkūle'a from Hawaii to Tahiti without instruments." },
+      { name: "Tupaia", dates: "c. 1725–1770", role: "Tahitian high priest & navigator", why: "Sailed with Captain Cook and demonstrated Polynesian geographic knowledge of much of the Pacific." }
+    ],
+    connections: ["Cradles of Civilisation", "Southeast Asian Kingdoms", "Age of Exploration"],
+    sourceSnippet: {
+      text: "He hono tangata e kore e motu; ka pā he taura waka, ka motu. — A bond of people will not be severed; only the rope of a canoe can be cut.",
+      attribution: "Māori whakataukī (proverb)"
+    }
+  },
+
+  // ── Ancient Egypt — Module 1 ────────────────────────────
+  "Ancient Egypt::1": {
+    causes: [
+      "Monsoon rains in the Ethiopian highlands caused predictable annual Nile floods",
+      "Desert barriers and Nile cataracts isolated the valley from outside invasion",
+      "Centuries of farming villages built social complexity before kingship"
+    ],
+    effects: [
+      "Created a unified state under a divine king (pharaoh) by c. 3100 BCE",
+      "Established the iconography of Egyptian kingship — Double Crown, smiting pose, Double Lands",
+      "Set the template for 3,000 years of Egyptian cultural continuity"
+    ],
+    figures: [
+      { name: "Narmer", dates: "r. c. 3100 BCE", role: "Founder of the 1st Dynasty", why: "Credited with unifying Upper and Lower Egypt; the Narmer Palette is the earliest 'historical' monument of Egypt." },
+      { name: "Menes", dates: "legendary, c. 3100 BCE", role: "Traditional unifier-king", why: "Later Egyptian king-lists name him as first pharaoh — most scholars identify him with Narmer." },
+      { name: "Herodotus", dates: "c. 484–425 BCE", role: "Greek historian", why: "Coined the phrase 'Egypt is the gift of the Nile' — still the best one-line summary of the civilisation's foundation." }
+    ],
+    connections: ["Cradles of Civilisation", "Ancient Egypt", "Ancient Nubia & Kush"],
+    sourceSnippet: {
+      text: "When the Nile inundates the land, the whole country is converted into a sea, and nothing appears but the cities, which look like the islands in the Aegean.",
+      attribution: "Herodotus, Histories, Book II, c. 440 BCE"
+    }
+  },
+
 };

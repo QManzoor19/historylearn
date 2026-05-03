@@ -55,6 +55,33 @@ const resourcesData = [
     tags: ["ancient", "classical", "medieval"],
     difficulty: "intermediate"
   },
+  {
+    title: "The Entire History of Ancient Egyptian Civilization (Joann Fletcher)",
+    url: "https://www.youtube.com/watch?v=ZU2Roq-emxw&t=518s",
+    type: "video",
+    icon: "🎬",
+    description: "Egyptologist Joann Fletcher walks through the full arc of Egyptian civilisation — from predynastic roots to Roman conquest.",
+    tags: ["ancient"],
+    difficulty: "beginner"
+  },
+  {
+    title: "The History of Ancient Egypt — Bob Brier Lectures",
+    url: "https://www.youtube.com/watch?v=X4cld7OUKcs",
+    type: "video",
+    icon: "🎬",
+    description: "Dr. Bob Brier's classic university-style lecture series on Ancient Egypt. Rigorous, thorough, and ideal for deep study.",
+    tags: ["ancient"],
+    difficulty: "intermediate"
+  },
+  {
+    title: "The Entire History of Ancient Egypt — Full Docuseries",
+    url: "https://www.youtube.com/watch?v=e0yFgmqC9xM",
+    type: "video",
+    icon: "🎬",
+    description: "A complete documentary series covering the pharaohs, dynasties, and major turning points of Ancient Egypt.",
+    tags: ["ancient"],
+    difficulty: "beginner"
+  },
 
   // === Podcasts ===
   {
@@ -122,6 +149,15 @@ const resourcesData = [
     tags: ["early-modern", "nineteenth", "contemporary"],
     difficulty: "intermediate"
   },
+  {
+    title: "The Rise and Fall of Ancient Egypt — Toby Wilkinson",
+    url: "file:///C:/Users/Mano/Downloads/_OceanofPDF.com_The_Rise_and_Fall_of_Ancient_Egypt_-_Toby_Wilkinson.pdf",
+    type: "book",
+    icon: "📚",
+    description: "Wilkinson's sweeping 3,000-year narrative of Egyptian civilisation — from the first pharaohs to Cleopatra. Local PDF.",
+    tags: ["ancient"],
+    difficulty: "intermediate"
+  },
 
   // === Websites & Interactive ===
   {
@@ -167,6 +203,24 @@ const resourcesData = [
     icon: "🎓",
     description: "Free structured courses with videos, articles, and practice exercises covering all periods of world history.",
     tags: ["all"],
+    difficulty: "beginner"
+  },
+  {
+    title: "Ancient Egypt Online — Library",
+    url: "https://ancientegyptonline.co.uk/library/",
+    type: "website",
+    icon: "🌐",
+    description: "A dedicated library on Ancient Egypt covering gods, pharaohs, hieroglyphs, daily life, and archaeology.",
+    tags: ["ancient"],
+    difficulty: "beginner"
+  },
+  {
+    title: "World History Encyclopedia — Ancient Egypt",
+    url: "https://www.worldhistory.org/egypt/",
+    type: "website",
+    icon: "🌐",
+    description: "The Egypt hub of World History Encyclopedia — peer-reviewed articles, timelines, and maps focused on Ancient Egypt.",
+    tags: ["ancient"],
     difficulty: "beginner"
   },
 ];

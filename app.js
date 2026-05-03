@@ -6,6 +6,7 @@ const STORAGE = 'historylearn';
 
 // ═══ STATE ═══
 let done = new Set(JSON.parse(localStorage.getItem(`${STORAGE}-done`) || '[]'));
+let moduleDone = new Set(JSON.parse(localStorage.getItem(`${STORAGE}-modules`) || '[]'));
 let collapsed = JSON.parse(localStorage.getItem(`${STORAGE}-collapsed`) || '{}');
 let xp = parseInt(localStorage.getItem(`${STORAGE}-xp`) || '0');
 let streak = parseInt(localStorage.getItem(`${STORAGE}-streak`) || '0');
@@ -29,6 +30,7 @@ localStorage.setItem(`${STORAGE}-streak`, streak);
 
 function save() {
   localStorage.setItem(`${STORAGE}-done`, JSON.stringify([...done]));
+  localStorage.setItem(`${STORAGE}-modules`, JSON.stringify([...moduleDone]));
   localStorage.setItem(`${STORAGE}-xp`, xp);
   localStorage.setItem(`${STORAGE}-streak`, streak);
 }
@@ -84,27 +86,68 @@ function toggleUnit(num) {
 }
 
 let currentLesson = null;
+let currentModule = null; // { topicUnit, topicName, topicSub, moduleId } when viewing a module
 let lastScrollY = 0;
 
-function openLesson(unitNum, name, sub) {
+// Router — entry point from skill tree. If the topic has modules, show the
+// module outline. Otherwise open the single lesson view as before.
+function openTopic(unitNum, name, sub) {
+  const node = findNodeByName(name)?.node;
+  if (node && Array.isArray(node.modules) && node.modules.length > 0) {
+    openModuleOutline(unitNum, name, sub);
+  } else {
+    openLesson(unitNum, name, sub);
+  }
+}
+
+function openLesson(unitNum, name, sub, moduleId) {
   currentLesson = { unitNum, name, sub };
-  lastScrollY = window.scrollY;
+  currentModule = null;
+  if (!document.getElementById('module-outline') || document.getElementById('module-outline').style.display !== 'block') {
+    lastScrollY = window.scrollY;
+  }
 
   document.getElementById('lesson-list').style.display = 'none';
+  const mo = document.getElementById('module-outline');
+  if (mo) mo.style.display = 'none';
   document.getElementById('lesson-reader').style.display = 'block';
-  document.getElementById('lesson-title').textContent = name;
-  document.getElementById('lesson-sub').textContent = sub;
 
-  const content = L[name] || simpleContent(name, sub);
+  // Resolve content key and display title
+  let key = name;
+  let displayTitle = name;
+  let displaySub = sub;
+  let backLabel = '← Back to Journey';
+
+  if (moduleId != null) {
+    const node = findNodeByName(name)?.node;
+    const mod = node?.modules?.find(m => m.id === moduleId);
+    if (mod) {
+      key = `${name}::${moduleId}`;
+      displayTitle = mod.name;
+      displaySub = `${name} · Module ${mod.id} of ${node.modules.length} · ${mod.timespan}`;
+      currentModule = { topicUnit: unitNum, topicName: name, topicSub: sub, moduleId };
+      backLabel = `← Back to ${name}`;
+    }
+  }
+
+  document.getElementById('lesson-title').textContent = displayTitle;
+  document.getElementById('lesson-sub').textContent = displaySub;
+
+  const backBtn = document.querySelector('#lesson-reader .back-btn');
+  if (backBtn) backBtn.textContent = backLabel;
+
+  const content = L[key] || simpleContent(displayTitle, displaySub);
   document.getElementById('lesson-content').innerHTML = content;
-  buildTopicDetails(name);
+  buildTopicDetails(key);
 
-  const id = unitNum + '-' + name;
+  // Completion button state
   const btn = document.getElementById('lesson-done-btn');
-  if (done.has(id)) {
-    btn.textContent = '✓ Already Complete — Close';
+  if (currentModule) {
+    const mKey = `${unitNum}-${name}::${moduleId}`;
+    btn.textContent = moduleDone.has(mKey) ? '✓ Module Complete — Close' : '✓ Mark Module Complete';
   } else {
-    btn.textContent = '✓ Mark Complete & Continue';
+    const id = unitNum + '-' + name;
+    btn.textContent = done.has(id) ? '✓ Already Complete — Close' : '✓ Mark Complete & Continue';
   }
 
   window.scrollTo(0, 0);
@@ -112,9 +155,91 @@ function openLesson(unitNum, name, sub) {
 
 function closeLesson() {
   document.getElementById('lesson-reader').style.display = 'none';
+  document.getElementById('ai-panel').classList.remove('visible');
+
+  // If we came from a module, go back to the module outline; else journey
+  if (currentModule) {
+    openModuleOutline(currentModule.topicUnit, currentModule.topicName, currentModule.topicSub, true);
+    currentModule = null;
+  } else {
+    document.getElementById('lesson-list').style.display = 'block';
+    window.scrollTo(0, lastScrollY);
+  }
+}
+
+// ═══ MODULE OUTLINE ═══
+function openModuleOutline(unitNum, name, sub, returning) {
+  if (!returning) lastScrollY = window.scrollY;
+  currentLesson = { unitNum, name, sub };
+
+  document.getElementById('lesson-list').style.display = 'none';
+  document.getElementById('lesson-reader').style.display = 'none';
+  const mo = document.getElementById('module-outline');
+  mo.style.display = 'block';
+
+  buildModuleOutline(unitNum, name, sub);
+  if (!returning) window.scrollTo(0, 0);
+}
+
+function closeModuleOutline() {
+  document.getElementById('module-outline').style.display = 'none';
   document.getElementById('lesson-list').style.display = 'block';
   document.getElementById('ai-panel').classList.remove('visible');
+  currentLesson = null;
   window.scrollTo(0, lastScrollY);
+}
+
+function buildModuleOutline(unitNum, name, sub) {
+  const node = findNodeByName(name)?.node;
+  if (!node || !node.modules) return;
+
+  const totalMods = node.modules.length;
+  const doneMods = node.modules.filter(m => moduleDone.has(`${unitNum}-${name}::${m.id}`)).length;
+  const pct = totalMods ? Math.round((doneMods / totalMods) * 100) : 0;
+  const topicDone = done.has(`${unitNum}-${name}`);
+
+  let h = `<button class="back-btn" onclick="closeModuleOutline()">← Back to Journey</button>
+
+    <div class="mo-header">
+      <div class="mo-icon">${node.icon}</div>
+      <div class="mo-title-wrap">
+        <h1 class="mo-title">${name}</h1>
+        <p class="mo-sub">${sub}</p>
+      </div>
+      ${topicDone ? '<div class="mo-done-badge">✓ Topic Complete</div>' : ''}
+    </div>
+
+    <div class="mo-progress">
+      <div class="mo-progress-bar"><div class="mo-progress-fill" style="width:${pct}%"></div></div>
+      <div class="mo-progress-label">${doneMods} of ${totalMods} modules complete · ${pct}%</div>
+    </div>
+
+    <div class="mo-modules">`;
+
+  node.modules.forEach(m => {
+    const mKey = `${unitNum}-${name}::${m.id}`;
+    const d = moduleDone.has(mKey);
+    const safeName = name.replace(/'/g, "\\'");
+    const safeSub = sub.replace(/'/g, "\\'");
+    h += `<div class="mo-module ${d ? 'done' : ''}" onclick="openLesson(${unitNum},'${safeName}','${safeSub}',${m.id})">
+      <div class="mo-module-num">${d ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>' : m.id}</div>
+      <div class="mo-module-body">
+        <div class="mo-module-head">
+          <div class="mo-module-icon">${m.icon || '📖'}</div>
+          <div>
+            <div class="mo-module-name">${m.name}</div>
+            <div class="mo-module-span">${m.timespan}</div>
+          </div>
+        </div>
+        <div class="mo-module-blurb">${m.blurb || ''}</div>
+      </div>
+      <div class="mo-module-go">→</div>
+    </div>`;
+  });
+
+  h += '</div>';
+
+  document.getElementById('module-outline').innerHTML = h;
 }
 
 function getCurrentContext() {
@@ -391,7 +516,26 @@ function formatAI(text) {
 }
 
 function completeLessonAndClose() {
-  if (currentLesson) {
+  if (currentModule) {
+    // Module completion — mark module done; auto-mark topic done when all are done
+    const { topicUnit, topicName, moduleId } = currentModule;
+    const mKey = `${topicUnit}-${topicName}::${moduleId}`;
+    if (!moduleDone.has(mKey)) {
+      moduleDone.add(mKey);
+      addXP(15);
+      save();
+    }
+    const node = findNodeByName(topicName)?.node;
+    if (node?.modules) {
+      const allDone = node.modules.every(m => moduleDone.has(`${topicUnit}-${topicName}::${m.id}`));
+      const topicKey = `${topicUnit}-${topicName}`;
+      if (allDone && !done.has(topicKey)) {
+        done.add(topicKey);
+        addXP(25);
+        save();
+      }
+    }
+  } else if (currentLesson) {
     const id = currentLesson.unitNum + '-' + currentLesson.name;
     if (!done.has(id)) {
       done.add(id);
@@ -483,7 +627,7 @@ function buildOutline() {
       const safeName = n.name.replace(/'/g, "\\'");
       const safeSub = n.sub.replace(/'/g, "\\'");
 
-      h += `<div class="outline-topic" onclick="openLesson(${u.unitNum},'${safeName}','${safeSub}')">
+      h += `<div class="outline-topic" onclick="openTopic(${u.unitNum},'${safeName}','${safeSub}')">
         <div class="outline-topic-head">
           <span class="outline-topic-icon">${n.icon}</span>
           <span class="outline-topic-name">${n.name}</span>
@@ -531,10 +675,13 @@ function buildSkillTree() {
 
       const safeName = n.name.replace(/'/g, "\\'");
       const safeSub = n.sub.replace(/'/g, "\\'");
-      h += `<div class="duo-node ${cls}" onclick="openLesson(${u.unitNum},'${safeName}','${safeSub}')">
+      const modCount = Array.isArray(n.modules) ? n.modules.length : 0;
+      const modsDoneCount = modCount ? n.modules.filter(m => moduleDone.has(`${u.unitNum}-${n.name}::${m.id}`)).length : 0;
+      const modBadge = modCount ? `<span class="node-mod-badge">${modsDoneCount}/${modCount} modules</span>` : '';
+      h += `<div class="duo-node ${cls}" onclick="openTopic(${u.unitNum},'${safeName}','${safeSub}')">
         <button class="duo-btn ${cls}">${d ? checkSvg : n.icon}${d ? checkBadge : ''}</button>
         <div class="duo-node-label">
-          <div class="node-name">${n.name}</div>
+          <div class="node-name">${n.name} ${modBadge}</div>
           <div class="node-sub">${n.sub}</div>
         </div>
       </div>`;
@@ -1104,7 +1251,7 @@ function buildTopicDetails(name) {
       if (found) {
         const safeName = c.replace(/'/g, "\\'");
         const safeSub = (found.node.sub || '').replace(/'/g, "\\'");
-        h += `<span class="td-connection-chip" onclick="openLesson(${found.unitNum},'${safeName}','${safeSub}')">${found.node.icon} ${c}</span>`;
+        h += `<span class="td-connection-chip" onclick="openTopic(${found.unitNum},'${safeName}','${safeSub}')">${found.node.icon} ${c}</span>`;
       } else {
         h += `<span class="td-connection-chip">${c}</span>`;
       }
@@ -1290,7 +1437,7 @@ function renderSearchResults(q) {
     topicMatches.slice(0, 6).forEach(({ u, n }) => {
       const safeName = n.name.replace(/'/g, "\\'");
       const safeSub = n.sub.replace(/'/g, "\\'");
-      h += `<div class="search-result" onclick="closeSearch();document.querySelector('[data-tab=explore]').click();openLesson(${u.unitNum},'${safeName}','${safeSub}')">
+      h += `<div class="search-result" onclick="closeSearch();document.querySelector('[data-tab=explore]').click();openTopic(${u.unitNum},'${safeName}','${safeSub}')">
         <div class="search-result-icon">${n.icon}</div>
         <div class="search-result-body">
           <div class="search-result-title">${highlight(n.name, query)}</div>

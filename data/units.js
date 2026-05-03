@@ -20,7 +20,17 @@ const units = [
         subtopics: ["The Neolithic Revolution — why humans settled down","Mesopotamia: Sumer, Ur, cuneiform & the Code of Hammurabi","Ancient Egypt: the Nile, Narmer's unification & Ma'at","The Indus Valley: Mohenjo-daro, Harappa & the undeciphered script","Ancient China: Shang oracle bones, Zhou & the Mandate of Heaven","What defines a civilisation? Cities, writing, government, hierarchy","Early trade networks & the seeds of global connection"] },
       { icon: "⚱️", name: "Ancient Egypt", sub: "Pharaohs, pyramids & the Nile's gift",
         regions: ["Africa"],
-        subtopics: ["The gift of the Nile — geography & predictability","The three kingdoms: Old, Middle & New","The pharaoh as god-king","Religion, mummification & the afterlife","Monumental architecture: pyramids, Karnak, the Valley of the Kings","Hieroglyphs & the Rosetta Stone","Famous pharaohs: Khufu, Hatshepsut, Akhenaten, Tutankhamun, Ramses II","The decline — Persian, Greek & Roman conquests"] },
+        subtopics: ["The gift of the Nile — geography & predictability","The three kingdoms: Old, Middle & New","The pharaoh as god-king","Religion, mummification & the afterlife","Monumental architecture: pyramids, Karnak, the Valley of the Kings","Hieroglyphs & the Rosetta Stone","Famous pharaohs: Khufu, Hatshepsut, Akhenaten, Tutankhamun, Ramses II","The decline — Persian, Greek & Roman conquests"],
+        modules: [
+          { id: 1, icon: "🌊", name: "The Nile & the First Egyptians", timespan: "c. 6000 – 3100 BCE", blurb: "Geography, predynastic villages, and the unification that started it all." },
+          { id: 2, icon: "🔺", name: "The Pyramid Age — Old Kingdom", timespan: "c. 2686 – 2181 BCE", blurb: "Djoser, Khufu, and the god-king at the height of his power." },
+          { id: 3, icon: "📜", name: "Collapse & the Middle Kingdom", timespan: "c. 2181 – 1650 BCE", blurb: "Fracture, reunification, and a newly introspective civilisation." },
+          { id: 4, icon: "👑", name: "Empire — The New Kingdom Rises", timespan: "c. 1550 – 1353 BCE", blurb: "Ahmose, Hatshepsut, Thutmose III — Egypt becomes a superpower." },
+          { id: 5, icon: "☀️", name: "Revolution & Restoration", timespan: "c. 1353 – 1069 BCE", blurb: "Akhenaten's heresy, Tutankhamun, Ramses II — and the long decline." },
+          { id: 6, icon: "🪶", name: "Gods, Afterlife & Daily Life", timespan: "Thematic", blurb: "The pantheon, mummification, and what ordinary Egyptians did all day." },
+          { id: 7, icon: "𓂀", name: "Writing, Art & Monument", timespan: "Thematic", blurb: "Hieroglyphs, the Rosetta Stone, temples, and the canon of Egyptian art." },
+          { id: 8, icon: "🌅", name: "Twilight — Kushites to Cleopatra", timespan: "c. 1069 – 30 BCE", blurb: "Nubian pharaohs, Persian rule, Alexander, and the last pharaoh." }
+        ] },
       { icon: "🐪", name: "Ancient Nubia & Kush", sub: "Africa's oldest civilisations along the Upper Nile",
         regions: ["Africa"],
         subtopics: ["Nubia — rival, partner & heir of Egypt","The Kingdom of Kerma (c. 2500–1500 BCE)","Egyptian conquest & cultural fusion","The 25th 'Nubian' Dynasty — Black pharaohs rule Egypt","The Kingdom of Kush at Meroë","Iron production & the pyramid-builders of Sudan","Aksum — the next great African power & early Christianity","Why African history is often underrepresented"] },
