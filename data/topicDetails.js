@@ -1169,6 +1169,33 @@ const topicDetails = {
     }
   },
 
+  // ── Bronze Age Collapse — Module 6 ──────────────────────
+  "The Bronze Age Collapse::6": {
+    causes: [
+      "The 3.2-kiloyear climate event produced sustained drought across the eastern Mediterranean",
+      "An apparent cluster of major earthquakes along the eastern Mediterranean fault system in the early 12th century BCE",
+      "The Late Bronze Age palace economies' structural dependence on stable agricultural surplus made them especially vulnerable to climate stress"
+    ],
+    effects: [
+      "Reduced agricultural output across multiple regions simultaneously, breaking the Bronze Age food redistribution networks",
+      "Caused mass migration of displaced populations (the Sea Peoples among them)",
+      "Generated documented famine references in Hittite, Egyptian, Mycenaean, and Ugaritic sources",
+      "Provided the underlying physical driver that turned local political crises into a regional civilisational catastrophe"
+    ],
+    figures: [
+      { name: "Dafna Langgut", dates: "active 2010s–", role: "Israeli palaeobotanist", why: "Co-author of the 2013 Sea of Galilee pollen-core study that demonstrated severe drought across the southern Levant during the Bronze Age Collapse." },
+      { name: "Israel Finkelstein", dates: "b. 1949", role: "Israeli archaeologist", why: "Co-author of the Sea of Galilee study and a leading voice in palaeoclimate-archaeology synthesis for the Bronze Age and Iron Age Levant." },
+      { name: "Peter Kuniholm", dates: "1937–2017", role: "American dendrochronologist", why: "Built the Anatolian tree-ring chronology that documents narrow rings during the collapse decades." },
+      { name: "Amos Nur", dates: "b. 1938", role: "American seismologist", why: "Principal proponent of the 'earthquake storm' theory of the Bronze Age Collapse, with archaeologist Eric Cline." },
+      { name: "Eric Cline", dates: "b. 1960", role: "American archaeologist", why: "Author of '1177 B.C.: The Year Civilization Collapsed' (2014), the central modern synthesis of all the collapse drivers including climate and seismicity." }
+    ],
+    connections: ["The Bronze Age Collapse", "The Bronze Age Collapse::5", "The Bronze Age Collapse::7", "Ancient Egypt::2", "The Digital Age"],
+    sourceSnippet: {
+      text: "There is famine in your house; we shall die of hunger.",
+      attribution: "Letter from the Ugarit archive, c. 1185 BCE — one of several famine references in the city's final correspondence"
+    }
+  },
+
   // ── Bronze Age Collapse — Module 5 ──────────────────────
   "The Bronze Age Collapse::5": {
     causes: [
