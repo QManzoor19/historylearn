@@ -1169,6 +1169,34 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Egypt — Module 7 ────────────────────────────
+  "Ancient Egypt::7": {
+    causes: [
+      "A bureaucratic state required durable writing for taxation, decrees, and ritual continuity",
+      "Religious ideology demanded that royal images and texts survive eternally — driving the canonical art style",
+      "Pharaonic legitimacy required ever-grander monuments, leading to additive temple complexes built by successive kings"
+    ],
+    effects: [
+      "Produced the longest-lived writing system in human history (3,600+ years of continuous hieroglyphic use)",
+      "Created a visual canon so distinctive that Egyptian art is instantly recognisable to anyone, anywhere",
+      "Built monumental complexes — Karnak, Luxor, Abu Simbel — that remain among the most-visited heritage sites on Earth",
+      "Made possible, through the Rosetta Stone, the modern recovery of an entire ancient civilisation"
+    ],
+    figures: [
+      { name: "Jean-François Champollion", dates: "1790–1832", role: "French linguist, decipherer of hieroglyphs", why: "Read the first hieroglyphic text in over 1,400 years in 1822. Founded the modern discipline of Egyptology." },
+      { name: "Thomas Young", dates: "1773–1829", role: "British polymath", why: "Made critical early progress on the Rosetta Stone — correctly identified the cartouches of Ptolemy and Cleopatra and showed hieroglyphs contained phonograms." },
+      { name: "Athanasius Kircher", dates: "1602–1680", role: "Jesuit polymath", why: "17th-century scholar whose entirely fictional 'translations' of hieroglyphs typified pre-Champollion guesswork." },
+      { name: "Senenmut", dates: "fl. c. 1473–1458 BCE", role: "Architect of Hatshepsut's Deir el-Bahri", why: "One of the few named Egyptian architects; his terraced temple is one of the most innovative works of ancient architecture." },
+      { name: "Imhotep", dates: "fl. c. 2670 BCE", role: "Architect of the Step Pyramid", why: "The first non-royal Egyptian named in surviving inscriptions. Later worshipped as a god of wisdom and medicine." },
+      { name: "Howard Carter", dates: "1874–1939", role: "British archaeologist", why: "Discovered Tutankhamun's KV62 in 1922 — the only essentially intact royal tomb ever found in the Valley of the Kings." }
+    ],
+    connections: ["Ancient Egypt", "Ancient Egypt::1", "Ancient Egypt::2", "Ancient Egypt::5", "Ancient Egypt::6", "Cradles of Civilisation"],
+    sourceSnippet: {
+      text: "I clasp it in my hand. I read it. It opens for me. I see — I see clearly — that the inscriptions of Rameses and Thutmosis are the same, that we have here the names of the kings of Egypt as the Greeks knew them.",
+      attribution: "Jean-François Champollion, on the morning of 14 September 1822, on first reading a royal cartouche"
+    }
+  },
+
   // ── Ancient Egypt — Module 6 ────────────────────────────
   "Ancient Egypt::6": {
     causes: [

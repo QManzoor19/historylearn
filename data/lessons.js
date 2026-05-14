@@ -1528,6 +1528,146 @@ The mummy of <strong>Seti I</strong>, father of Ramses II and one of the great w
 
 </div>`;
 
+L["Ancient Egypt::7"] = `<div class="lesson-body">
+
+<h3>Reading the World the Egyptians Made</h3>
+<p>If you walked into any major museum tomorrow, you would recognise Egyptian art instantly. Even without reading the label. Even without seeing the date. A figure with a head in profile, eyes and torso facing forward, feet in profile again; a pharaoh of impossible muscularity calmly grasping a fistful of enemies by the hair; columns shaped like papyrus stalks; pylons; cartouches; a falcon-headed god. The visual vocabulary of ancient Egypt is one of the most distinctive and instantly identifiable in human history.</p>
+
+<p>That immediate recognisability is not accidental. Egyptian art and architecture were built on a strict, conscious, deliberately repeated <span class="vocab-pill">canon</span> — a set of conventions about proportion, perspective, posture, and subject matter that artists were trained to follow with remarkable fidelity for three thousand years. To understand why Egyptian art looks the way it does is to understand something fundamental about the civilisation that produced it. The Egyptians were not bad at perspective. They were doing something different — and doing it consistently across more time than separates us from Julius Caesar.</p>
+
+<p>This module covers three intertwined subjects: how Egyptians wrote, what their art was for, and how they built the monuments that still stand. Together, they form the material culture that has made "Ancient Egypt" a permanent feature of the world's imagination.</p>
+
+<h3>Three Scripts for One Language</h3>
+<p>The Egyptian language was written, at different times and for different purposes, in three distinct scripts. All three encoded essentially the same spoken language; they differed in form and function the way printed text, cursive handwriting, and shorthand differ today.</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Hieroglyphs</strong> — the formal pictorial script, used for monumental inscriptions, religious texts, and royal documents. The word is Greek (<em>hieros</em> "sacred" + <em>glyphein</em> "to carve"). Hieroglyphs first appear around 3200 BCE and remained in use, with relatively minor changes, until the last known inscription in 394 CE at the temple of Isis on Philae. That's roughly 3,600 years of continuous use, by far the longest-lived writing system in human history.</li>
+<li><strong>Hieratic</strong> — a cursive, simplified version of hieroglyphs, designed for fast handwriting with a reed brush on papyrus. It emerged around 2600 BCE and remained the everyday script of bureaucrats and scribes for administrative documents, letters, and most literary texts. The same characters as hieroglyphs, but flowing rather than pictorial.</li>
+<li><strong>Demotic</strong> — an even more cursive, much more abbreviated script that developed around 650 BCE. By the late period, demotic was the universal everyday script of Egypt. It is harder for modern Egyptologists to read than hieroglyphs because its forms are so abbreviated that the original pictographic basis is often invisible.</li>
+</ul>
+
+<p>To these three Egyptian scripts must be added a fourth: <strong>Coptic</strong>. Beginning in the 1st century CE, Egyptian Christians began to write Egyptian using the Greek alphabet supplemented with a handful of demotic-derived letters. Coptic survived through the Arab conquest as the liturgical language of the Egyptian Christian church and is still used in Coptic services today. It is a direct linguistic descendant of the language Cleopatra and Tutankhamun spoke.</p>
+
+<h3>How Hieroglyphs Actually Work</h3>
+<p>The popular image of hieroglyphs is that each picture stands for the thing it depicts — a sun for "sun," an owl for "owl," and so on. This is wrong. Hieroglyphs are far more sophisticated. They function as three distinct kinds of sign, often combined in a single word:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Logograms</strong> ("ideograms") — pictures that stand for the thing they depict. The sun-disc 𓇳 means "sun" or "day." The mouth 𓂋 means "mouth." Roughly 5% of hieroglyphs work this way.</li>
+<li><strong>Phonograms</strong> — pictures that stand for <em>sounds</em>, regardless of what the picture depicts. The owl 𓅓 stands for the sound <em>m</em>. The reed-leaf 𓇋 stands for the sound <em>i</em>. There are roughly 24 single-consonant phonograms — close to an alphabet, but Egyptians never abstracted it as one. Most hieroglyphs are phonograms, and some stand for two or three consonants at once.</li>
+<li><strong>Determinatives</strong> — silent pictures added at the end of a word to indicate what category it belongs to. After a verb of motion, you'd add a pair of walking legs. After a personal name, a seated person. After a god's name, a god's figure. These helped readers disambiguate words that sounded the same but meant different things.</li>
+</ul>
+
+<p>The full system mixes all three. A given word is typically written with phonograms spelling out its sound, often with a logogram or determinative at the end to clarify meaning. Egyptian writing was therefore both phonetic and pictorial at once — capable, in capable hands, of subtle puns, sacred numerology, and visual aesthetic effects that pure alphabetic scripts can never match. Egyptian scribes considered the script itself a kind of art form. The arrangement of signs into balanced groups, the symmetry of inscriptions on temple walls, the visual rhythm — all were carefully planned.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+Imagine a writing system that could simultaneously work like the alphabet (phonetic spelling), Chinese characters (logograms for whole words), and emoji (determinatives clarifying tone or category). That's hieroglyphs. The complexity is why it took so long to decipher in the modern era — and why, once it was deciphered, it turned out that Egyptian scribes had been doing things with their script that took early modern Europeans by surprise.
+</div>
+
+<h3>The Loss of Reading</h3>
+<p>By around 400 CE, Christianity had displaced traditional Egyptian religion. The temples that had taught hieroglyphic literacy closed. The last priest who could read hieroglyphs probably died sometime in the 5th century. By the early Middle Ages, Egyptian inscriptions were unreadable to everyone — including Egyptians.</p>
+
+<p>For the next 1,400 years, Europeans who encountered hieroglyphs treated them as mystical symbols, often inventing wholly fictional interpretations. The 17th-century Jesuit polymath Athanasius Kircher published vast hieroglyphic "translations" that turned out to be entirely fantasy. The script remained, in the popular imagination, a deliberate code of ancient mystery — beautiful and decipherable only to initiates who had access to lost esoteric wisdom.</p>
+
+<h3>The Rosetta Stone</h3>
+<p>In <strong>July 1799</strong>, French soldiers digging defensive earthworks near the town of Rashid (Rosetta) in the Nile Delta uncovered a black granitoid slab covered in three blocks of writing. The top section was hieroglyphic; the middle, demotic; the bottom, ancient Greek. The Greek text was readable — it was a 196 BCE decree of the priesthood of Memphis honouring the boy-king Ptolemy V — and it ended with the explicit statement that the same decree had been inscribed in all three scripts. Scholars realised immediately what they had: a Rosetta Stone.</p>
+
+<p>The British seized the stone after the French defeat at Alexandria in 1801, and it has been in the British Museum since 1802 (where it remains the most-visited single artefact). For the next two decades, scholars across Europe tried to use it to crack hieroglyphs. The British physicist <strong>Thomas Young</strong> made critical early progress: he correctly identified the hieroglyphic spellings of "Ptolemy" and "Cleopatra," and proved that hieroglyphs contained phonograms. But it was the young French linguist <strong>Jean-François Champollion</strong> who, in <strong>September 1822</strong>, finally produced a coherent system. Champollion had a critical advantage: he spoke Coptic. He realised that the language behind the hieroglyphs was essentially Coptic in older form, and he used that knowledge to read whole sentences for the first time in over a millennium.</p>
+
+<p>Champollion's famous letter to the secretary of the Académie des Inscriptions — the <em>Lettre à M. Dacier</em>, dated 27 September 1822 — is one of the great moments in the history of scholarship. Within the next decade he produced a working hieroglyphic grammar and the first translations of Egyptian texts since antiquity. He died in 1832, exhausted, at the age of 41. Within a generation, Egyptology was a recognised discipline. Within a century, every major museum had its own Egyptian gallery. The systematic recovery of pharaonic civilisation — by far the most thoroughly documented ancient civilisation we have — was made possible by one boy from Figeac who learned to read Coptic.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What did the Rosetta Stone provide that allowed hieroglyphs to be decoded?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A list of pharaohs from Narmer to Cleopatra</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The same decree in three scripts — hieroglyphic, demotic, and Greek</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A bilingual dictionary of Coptic and Greek</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Canon of Egyptian Art</h3>
+<p>To a modern eye trained on the Renaissance tradition of single-vanishing-point perspective, Egyptian art can look "wrong" — as if Egyptian artists were straining toward realism and failing. They were not. Egyptian art was governed by a deliberate, sophisticated set of conventions designed to produce a specific kind of image — one that would convey the maximum possible information about a person or scene in a stable, eternal, ritually correct way.</p>
+
+<p>The fundamental conventions:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Composite view of the human body</strong>: the head and legs in profile, the eye and shoulders frontal, the hips and feet in profile. Each body part is shown from its most identifiable angle. The result is not realistic but extraordinarily clear — you can immediately read who this person is, what they're holding, what they're doing.</li>
+<li><strong>Hierarchic proportion</strong>: figures are sized according to their social importance, not their physical position in space. A king towers over his subjects, who tower over their servants, who tower over their animals. A foreigner being smitten is the size of an Egyptian child.</li>
+<li><strong>Frontality</strong>: divine and royal figures are typically shown frontally and full-length, gazing eternally outward. This is the pose that, in Greek religious sculpture a millennium later, was called <em>kore</em> and <em>kouros</em>. Egyptian art was probably its source.</li>
+<li><strong>Strict grids</strong>: Egyptian artists laid out their figures on a precise grid that defined exact proportions — a standing figure was 18 squares high (later 21), with consistent measurements for the head, shoulders, waist, knees. The grid was redrawn very slightly over millennia but its fundamental structure remained stable.</li>
+<li><strong>No "perspective" in the Renaissance sense</strong>: depth was shown by stacking — figures behind others were placed higher on the picture plane, not made smaller. A scene depicting twenty soldiers shows twenty soldiers, each fully visible, stacked in registers, not realistically receding into a vanishing point.</li>
+</ul>
+
+<p>These conventions had a purpose. Egyptian art was not made for aesthetic admiration in the modern sense; most of it was buried in tombs or installed in temples, often inaccessible to all but a handful of priests. The audience for which it was made was the gods, the deceased, and eternity. The conventions guaranteed that an image would still be readable and ritually effective a thousand years later, regardless of any individual artist's idiosyncrasies. The system worked. The same canon that governed the wall paintings of a Fifth Dynasty tomb governed the temple reliefs of Ramses II two thousand years later — and the result is still legible to us four thousand years after that.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The brief artistic revolution under <strong>Akhenaten</strong> (Module 5) is the exception that proves the rule. For about two decades, royal sculptors abandoned the rigid canon and depicted the king with elongated head, swollen belly, and almost cartoonishly exaggerated features. They drew his daughters in informal poses, his wife embracing him, the royal family eating dinner. Some scholars call it the most experimental period in Egyptian art. As soon as Akhenaten died, the old canon snapped back into place. The Amarna interlude is a measure of just how strong the underlying conventions were — and how immediately the system reasserted itself.
+</div>
+
+<h3>Temple Architecture: Building for the Gods</h3>
+<p>Egyptian temples shared a basic architectural template across the New Kingdom, refined and elaborated by every major pharaoh. The standard layout, from front to back:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>The dromos</strong> — a long avenue of statues (often sphinxes) leading to the temple entrance. The Avenue of Sphinxes between Karnak and Luxor, recently restored, runs for nearly three kilometres.</li>
+<li><strong>The pylon</strong> — two massive trapezoidal towers flanking the entrance, often inscribed with reliefs of the pharaoh smiting enemies. Pylons were typically the tallest and most visible part of any temple, marking the threshold between the outside world and sacred space.</li>
+<li><strong>The peristyle court</strong> — a large open court surrounded by colonnades, where public ceremonies might be held.</li>
+<li><strong>The hypostyle hall</strong> — a forest of columns supporting a high stone roof. The most famous, at Karnak, contains 134 columns up to 23 metres tall and remains one of the most overwhelming interior spaces in any ancient architecture.</li>
+<li><strong>The inner sanctuary</strong> — a small, dark, off-limits room housing the cult statue of the temple's god. Only the high priest entered. Once a day, the statue was awakened, washed, dressed, anointed with oil, and presented with food offerings, then put back to bed. Egyptian temples were less houses of worship than houses where a god physically lived.</li>
+</ul>
+
+<p>The temples grew over centuries by addition. Karnak in particular is not a single building but a vast accumulation of sanctuaries, pylons, halls, and obelisks built by successive pharaohs over nearly two millennia. Walking through Karnak today is walking through an architectural palimpsest in which Senusret I, Thutmose I, Hatshepsut, Thutmose III, Amenhotep III, Seti I, Ramses II, Ramses III, and the Ptolemies all left visible contributions. Egyptian rulers did not generally tear down their predecessors' work. They added their own.</p>
+
+<h3>Karnak, Luxor, and Abu Simbel</h3>
+<p>Three monumental complexes deserve special mention.</p>
+
+<p><strong>Karnak</strong> at Thebes was the single largest religious building of the ancient world. The temple of Amun-Ra alone covered over 80 hectares — large enough to fit the entire ancient city of Athens. At its centre, the Great Hypostyle Hall of Seti I and Ramses II is a space whose 134 columns rise so high and so densely that natural light only filters in from clerestory windows near the roof, creating a deliberately disorienting effect. Visitors emerge feeling that they have walked through a vast stone forest in the dim red light of dawn. That was the point.</p>
+
+<p><strong>Luxor Temple</strong>, a kilometre south of Karnak, was built primarily by Amenhotep III and extended by Ramses II. It was the southern terminus of the Opet Festival procession, when the cult statue of Amun was carried from Karnak to Luxor in an annual fertility ritual. The temple's first pylon, fronted by colossal statues of Ramses II and one surviving obelisk (its twin now stands at the Place de la Concorde in Paris, exchanged for a clock that never worked), is one of the most iconic facades in Egyptian architecture.</p>
+
+<p><strong>Abu Simbel</strong>, near the Nubian frontier, is something else entirely. Two rock-cut temples — the Great Temple of Ramses II and the smaller Temple of Hathor dedicated to his queen Nefertari — were carved into a sandstone cliff in the 13th century BCE. The Great Temple's facade is dominated by four 20-metre seated colossi of Ramses, each large enough that a person can stand in the gap between the lips and the chin. A 60-metre corridor leads back into the cliff to an inner sanctuary, aligned so that twice a year the rising sun penetrates the entire length of the temple and illuminates three of the four statues in the sanctuary — Amun-Ra, Ramses, and Ra-Horakhty. The fourth statue is Ptah, the god of the underworld, who is appropriately left in darkness.</p>
+
+<p>When the Aswan High Dam threatened to submerge Abu Simbel in the 1960s, UNESCO coordinated an unprecedented international rescue effort. Between 1964 and 1968, the entire temple complex was cut into more than a thousand massive blocks, lifted 65 metres up the cliff, and reassembled on higher ground. The sunlight alignment was preserved with an error of one day. It is one of the great engineering achievements of modern archaeology — saving a 3,300-year-old monument by physically moving it.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What is the standard front-to-back layout of a New Kingdom Egyptian temple?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Sanctuary → hypostyle hall → court → pylon → avenue</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Avenue → pylon → court → hypostyle hall → inner sanctuary</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Open courtyard surrounded on all sides by identical chambers</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Valley of the Kings</h3>
+<p>The royal necropolis of the New Kingdom is one of the most remarkable archaeological landscapes in the world. From around 1500 BCE (Thutmose I) to roughly 1075 BCE (Ramses XI), nearly every pharaoh of the 18th, 19th, and 20th Dynasties was buried in a hidden rock-cut tomb in a single secluded wadi in the cliffs of the west bank at Thebes. The valley contains 65 numbered tombs (some belonging to queens and high officials), several with corridors and burial chambers stretching more than a hundred metres into the rock.</p>
+
+<p>Each tomb followed roughly the same plan — a sloping corridor leading down to a burial chamber, with side rooms for grave goods. The walls were painted with scenes from books of the underworld (the Book of the Dead, the Book of Gates, the Book of Caverns), depicting the king's journey through the twelve hours of the night. The ceilings of some chambers preserve astronomical maps — early star charts that have survived nowhere else in the ancient world.</p>
+
+<p>The hidden location was supposed to deter tomb robbers. It largely failed. Most royal tombs were systematically looted in antiquity, often by the very workmen who had built them — some of the Deir el-Medina archive records the prosecutions. By the 21st Dynasty, priests had moved many of the surviving royal mummies to a secret cache at Deir el-Bahri for safekeeping. That cache, rediscovered in 1881, contained the mummies of Seti I, Ramses II, Ramses III, Thutmose III, and dozens of others — and is the reason we have face-to-face encounters with so many New Kingdom pharaohs today.</p>
+
+<p>The single intact royal tomb that escaped the robbers was, of course, <strong>Tutankhamun's KV62</strong> (Module 5), hidden under the rubble of Ramses VI's later construction and forgotten until Howard Carter found it in 1922. KV62 is the small exception to the rule. Imagine what the large rule looked like.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What was found in the secret royal mummy cache rediscovered at Deir el-Bahri in 1881?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The intact treasures of Khufu and Khafre</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The mummies of Seti I, Ramses II, Ramses III, Thutmose III and dozens of other New Kingdom pharaohs, hidden by priests during the 21st Dynasty</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The original copy of the Rosetta Stone before it was moved to Rosetta</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The writing, art, and architecture of ancient Egypt were a single coherent system — a deliberate aesthetic developed over three thousand years to communicate cosmic order, royal legitimacy, and religious truth in forms designed to last forever. The system worked. We are still reading it. We are still walking through its monuments. And we owe most of our access to it to the persistence of one French linguist who, in 1822, finally learned to read what no one had read for over fourteen centuries.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════
