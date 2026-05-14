@@ -1169,6 +1169,31 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Nubia & Kush — Module 2 ─────────────────────
+  "Ancient Nubia & Kush::2": {
+    causes: [
+      "The fertile basin south of the Third Cataract supported an urban centre by 2500 BCE",
+      "Control of trans-Saharan and Nile-valley trade in gold, ebony, and ivory made Kerma kings rich",
+      "Kerma's military strength, especially its archers, kept Egypt from simply absorbing it for over a millennium"
+    ],
+    effects: [
+      "Built the largest pre-modern mud-brick structures in sub-Saharan Africa (the deffufas)",
+      "Demonstrated that complex African urban civilisation existed independently of and parallel to Egypt",
+      "Defeated Egyptian fortresses during the Second Intermediate Period and briefly ruled Lower Nubia",
+      "Established a cultural template that the later Kushite kings of Napata explicitly claimed as their heritage"
+    ],
+    figures: [
+      { name: "Charles Bonnet", dates: "b. 1933", role: "Swiss archaeologist", why: "Director of the Kerma excavations from 1977 onward — produced the modern understanding of Kerma as an independent urban African civilisation." },
+      { name: "Apophis", dates: "r. mid-16th century BCE", role: "Hyksos king of Lower Egypt", why: "Attempted to ally with the Kerma king against Egyptian Thebes — a diplomatic letter intercepted by Theban forces survives as evidence of Kerma's status as a Great Power." },
+      { name: "Thutmose I", dates: "r. c. 1504–1492 BCE", role: "Egyptian pharaoh, conqueror of Kerma", why: "His campaign around 1500 BCE captured the city and ended Kerma's political independence; his demonstratively brutal victory inscription tells us how seriously Egypt took the Kerma threat." }
+    ],
+    connections: ["Ancient Nubia & Kush", "Ancient Nubia & Kush::1", "Ancient Nubia & Kush::3", "Ancient Egypt::3", "Ancient Egypt::4", "African Kingdoms"],
+    sourceSnippet: {
+      text: "Send a message that we shall now move, you and I, on this Egypt and divide its towns between us, since my heart is troubled.",
+      attribution: "Hyksos king Apophis to the king of Kush, c. 1555 BCE — Carnarvon Tablet I, intercepted by Theban forces"
+    }
+  },
+
   // ── Ancient Nubia & Kush — Module 1 ─────────────────────
   "Ancient Nubia & Kush::1": {
     causes: [
