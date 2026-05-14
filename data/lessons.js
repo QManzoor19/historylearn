@@ -3908,6 +3908,129 @@ The <strong>Philistines</strong> who settled in southern Canaan after the Sea Pe
 
 </div>`;
 
+L["Ancient Greece::1"] = `<div class="lesson-body">
+
+<h3>Two Civilisations Before Greece</h3>
+<p>The Greek story does not begin with Athens, Sparta, or Homer. It begins almost a thousand years earlier — with two Bronze Age civilisations on the Aegean that the classical Greeks themselves had only fragmentary, half-mythical memory of. The first was the <strong>Minoan</strong> civilisation on the island of Crete, flourishing from roughly <strong>2000 to 1450 BCE</strong>. The second was the <strong>Mycenaean</strong> palace civilisation on the Greek mainland, flourishing from roughly <strong>1600 to 1100 BCE</strong>. Together, these two civilisations built the cultural and physical foundation on which everything later "Greek" would be raised.</p>
+
+<p>Neither civilisation looked much like the Greece we usually picture. The Minoans were not even certainly Greek-speaking — their indigenous Linear A script is still undeciphered, and their language remains unknown. The Mycenaeans <em>were</em> Greek-speaking (we now know, after Linear B was deciphered in 1952), but they organised themselves into hierarchical palace bureaucracies that look nothing like the polis democracy that would emerge centuries later. The classical Greek tradition remembered both civilisations only as the world of heroes, demigods, and labyrinths — Theseus and the Minotaur, Agamemnon and the Trojan War. The actual Bronze Age Aegean was both more sophisticated and, in its own way, stranger than the myths it left behind.</p>
+
+<p>This module covers both civilisations: their geographic settings, their archaeological evidence, the work that recovered them in the late 19th and 20th centuries, and how they connected to the broader Late Bronze Age world we have already met in the Bronze Age Collapse curriculum. By the end you should have a clear picture of what was on the Aegean before the dark ages — and what the dark ages obliterated.</p>
+
+<h3>Bronze Age Crete</h3>
+<p>The Minoan civilisation centred on the large island of <strong>Crete</strong>, in the southern Aegean midway between mainland Greece and Egypt. Crete is mountainous, fertile, and almost perfectly placed for maritime trade — close enough to Egypt to ship goods south on summer winds, close enough to Anatolia and the Levant to trade east, and close enough to mainland Greece to dominate Aegean shipping. From around <strong>2000 BCE</strong> onward, a sophisticated palace society emerged on Crete that would be, for the next five centuries, the most advanced civilisation in the Aegean basin.</p>
+
+<p>The Minoans were named in the early 20th century by the British archaeologist <strong>Sir Arthur Evans</strong>, who chose the name from the mythical Cretan king <strong>Minos</strong>. We do not know what the Minoans called themselves. Their language remains unread. We refer to them, as we do to so many ancient peoples, by a label invented for our convenience long after they were gone.</p>
+
+<p>Minoan Crete was organised around a network of <strong>palace complexes</strong>: <strong>Knossos</strong> (by far the largest), <strong>Phaistos</strong> on the south coast, <strong>Malia</strong> on the north, <strong>Zakros</strong> on the east, and a constellation of smaller centres. The palaces were not fortified. They had no military architecture. The largest, Knossos, covered about 22,000 square metres and contained over 1,300 rooms — a sprawling complex of administrative offices, storerooms holding enormous painted ceramic pithoi (storage jars) for grain, oil, and wine, ritual spaces, courtyards, workshops, and elaborately decorated audience halls.</p>
+
+<h3>The Labyrinth and Sir Arthur Evans</h3>
+<p>The Knossos palace is, even today, an architectural maze. Multiple stories, light wells, complex floor plans, and intricately joined corridors give visitors the immediate impression of being inside a literal labyrinth — and many scholars now think this is exactly what the classical Greek myth of the Minotaur's labyrinth, in which Theseus had to navigate to kill the half-bull, half-human creature kept by King Minos, remembered. The myth is the post-Bronze Age memory of a building whose original purpose had been forgotten but whose stones still stood.</p>
+
+<p><strong>Sir Arthur Evans</strong>, who excavated Knossos from 1900 onward, did more than recover the palace — he <em>partially reconstructed</em> it, restoring fallen walls, reconstructing fresco fragments into nearly complete murals, and rebuilding sections in modern concrete to give visitors a sense of the original space. This was controversial then and remains controversial now. Some scholars argue that Evans's reconstructions are too speculative, importing his Edwardian aesthetic assumptions into the Bronze Age past. Others credit him with making the Minoan world accessible to a wide audience and saving fragile remains from further weathering. Either way, the Knossos visitors see today is a hybrid of Bronze Age original and Edwardian interpretation, in roughly equal measure.</p>
+
+<p>The frescoes recovered from Knossos and other Minoan sites are unlike anything else in the Bronze Age world. They depict young people leaping over bulls in what appears to be a religious or athletic ritual; women in elaborate flounced skirts with bare breasts; processions of figures carrying ritual vessels; saffron-gathering scenes (most spectacularly preserved at the related site of <strong>Akrotiri</strong> on the island of Thera); blue monkeys; flying fish. The colours are vivid — deep reds, blues, yellows, and whites. The figures are more naturalistic than contemporary Egyptian art. The overall effect is of a civilisation comfortable with sensuality and ritual, with relatively prominent female figures, and with imagery that suggests cosmopolitan trading contacts across the eastern Mediterranean.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+The Minoans are, in their visible art, surprisingly modern-looking for a Bronze Age civilisation. Their frescoes have a fluid, almost Art Nouveau elegance that contemporary Egyptian and Levantine art does not match. Whatever the Minoans were, they had developed a distinctive visual idiom — at home with the body, comfortable with women in religious imagery, fascinated by the sea — that the Mycenaeans who would later dominate them never quite reproduced. The Minoan aesthetic vanished with the civilisation. Classical Greek art would only partially recover what they had achieved a thousand years earlier.
+</div>
+
+<h3>Linear A and the Unread Language</h3>
+<p>The Minoans wrote. They left thousands of clay tablets, sealings, and pottery inscriptions in a syllabic script called <strong>Linear A</strong>. The script is clearly related to the slightly later Linear B (which we can read — see below), but Linear A records an entirely different language — and that language has never been identified or deciphered.</p>
+
+<p>Decades of work have established that Linear A is probably a member of an extinct language family entirely unrelated to Greek, Semitic, Egyptian, or Anatolian. Suggestions have been made for connections to Etruscan, to Hurrian, to indigenous pre-Indo-European Aegean languages — none confirmed. The Minoan language remains, at the time of writing, the oldest known undeciphered writing system from any major Mediterranean civilisation. We can identify some words by context (numerals, weights, some commodity names) but cannot translate Linear A texts.</p>
+
+<p>This is the most serious gap in our knowledge of the Minoans. We have their palaces, their frescoes, their pottery, their burial customs, their religious imagery — and almost nothing they themselves wrote about any of it. The Minoan worldview, religion, royal ideology, and social structure are reconstructed almost entirely from material evidence rather than from texts in their own voice.</p>
+
+<h3>The Thera Eruption</h3>
+<p>Around <strong>1620 BCE</strong> (the precise date is debated by 50–100 years), the island of <strong>Thera</strong> (modern Santorini) erupted in one of the largest volcanic events of the Holocene. The eruption was perhaps four times the size of the famous Krakatoa explosion of 1883, ejecting an estimated 60 cubic kilometres of magma and creating the caldera that now defines Santorini's distinctive crescent shape.</p>
+
+<p>The Minoan town of <strong>Akrotiri</strong> on Thera was buried under volcanic ash, preserving an extraordinary Pompeii-like archaeological site that gives us our clearest single window into Minoan daily life. Multi-storey houses with fresco-decorated walls. Storage jars still in storage. Workshop tools still on benches. Personal belongings still in their owners' rooms. Akrotiri was discovered and excavated from 1967 onward by the Greek archaeologist <strong>Spyridon Marinatos</strong> (who died at the site in 1974). Its frescoes — especially the famous "Spring Fresco" with leaping antelopes and red lilies, and the "Fisherman" panel — are among the masterpieces of Bronze Age art.</p>
+
+<p>What the Thera eruption did to broader Minoan civilisation is contested. Marinatos originally proposed that it caused the entire collapse of Minoan Crete. Modern scholarship treats this as overstated — Minoan civilisation continued at full strength for at least a century after Thera. But the eruption certainly disrupted Minoan shipping (the tsunami it generated would have devastated the north coast of Crete), reduced Minoan agricultural output (volcanic ash deposits are documented as far away as Egypt), and may have weakened the civilisation enough that the Mycenaean takeover of Knossos around 1450 BCE — a century and a half later — was less resisted than it might otherwise have been.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What is the current state of the Minoan written language?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Fully deciphered — Minoan texts are routinely translated</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Linear A remains the oldest undeciphered writing system from a major Mediterranean civilisation</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">No surviving Minoan inscriptions have ever been found</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Mycenaean Mainland</h3>
+<p>While the Minoans dominated the Aegean from Crete, a different civilisation rose on the Greek mainland. The <strong>Mycenaeans</strong> — named after their largest centre, <strong>Mycenae</strong> in the northeast Peloponnese — emerged in the 16th century BCE as a network of small palace states ruling the regions of southern and central Greece. Their major centres included Mycenae, <strong>Tiryns</strong> nearby in the Argolid, <strong>Pylos</strong> on the southwest coast, <strong>Thebes</strong> in central Greece, and (from around 1450 BCE) <strong>Knossos</strong> itself on Crete, after the Mycenaeans took over the abandoned or weakened Minoan palace.</p>
+
+<p>Mycenaean palaces look entirely different from Minoan ones. They are <strong>fortified</strong> — massively so. The walls of Mycenae and Tiryns are built of huge unworked limestone boulders, fitted together so carefully that later Greeks could not believe humans had built them and called the work <strong>Cyclopean masonry</strong> (after the mythical giant Cyclops). The Lion Gate at Mycenae, with its triangular relief carving of two confronting lionesses (or sphinxes), is the oldest surviving piece of monumental sculpture in Europe. The Mycenaean palaces were warrior strongholds, not Minoan-style open palace-temples.</p>
+
+<p>The Mycenaeans buried their elite dead in <strong>shaft graves</strong> (vertical pits with side chambers) and, later, in massive corbel-vaulted <strong>tholos tombs</strong> shaped like beehives. The most famous tholos, the so-called "Treasury of Atreus" at Mycenae (probably c. 1250 BCE), has a domed interior nearly 14 metres in diameter and was the largest unsupported dome in the world until the Roman Pantheon was built fourteen centuries later. The Mycenaean shaft graves at Mycenae's "Grave Circle A," excavated by Heinrich Schliemann in 1876, yielded extraordinary gold artefacts including the famous funerary mask Schliemann theatrically labelled "<strong>the Mask of Agamemnon</strong>" — though it actually dates from about three centuries before the traditional time of the Trojan War and certainly did not belong to any historical Agamemnon.</p>
+
+<h3>Schliemann and the Trojan War</h3>
+<p>Modern knowledge of the Mycenaeans owes much to the controversial work of <strong>Heinrich Schliemann</strong> — a German businessman who had made a fortune in California gold-rush banking and Russian indigo trading, retired in middle age, and devoted the rest of his life to proving that the heroes of Homer's Iliad were historical figures whose cities could be excavated. Schliemann excavated <strong>Troy</strong> (at Hisarlik in modern Turkey) from 1870 and Mycenae from 1874, with breathtaking finds in both places.</p>
+
+<p>Schliemann's methods were appalling by modern standards. He used dynamite. He destroyed layers of Bronze Age stratigraphy in his rush to reach what he believed to be Homer's Troy. He smuggled finds out of the Ottoman Empire and Greece. He probably planted some of his own gold purchases in trenches to claim greater discoveries. The "Mask of Agamemnon" itself has been suggested by some scholars to be a 19th-century forgery or modification, though the case is not proven. Schliemann was, by any modern measure, a poor archaeologist and a partial fraud.</p>
+
+<p>But Schliemann's finds were real. Troy (Hisarlik) really did contain a sequence of fortified Bronze Age cities, one of which (level VIIa, c. 1250 BCE) was destroyed by fire in roughly the right period to correspond to the Trojan War of Homeric tradition. Mycenae really did contain a Bronze Age palace and royal cemetery with extraordinary gold artefacts. The Mycenaean civilisation Schliemann reconstructed was a real thing — the actual late-Bronze-Age palace society on which the Greek heroic legends had grown up over centuries of oral tradition. The Trojan War in Homer is not literal Bronze Age history. But it remembers, in transmuted poetic form, the world of warrior kings, fortified palaces, ships at sea, and chariot warfare that Mycenaean Greece was. The myth and the archaeology meet, distorted by centuries of oral transmission but recognisably connected.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The Hittite archives at Hattusa (Bronze Age Collapse Module 2) preserve diplomatic correspondence with a Late Bronze Age power the Hittites called the <em>Ahhiyawa</em> — almost certainly the Mycenaean Greeks, who Homer's Iliad calls the <strong>Achaeans</strong>. One letter, the so-called "Tawagalawa Letter," refers to a city the Hittites call <em>Wilusa</em> — almost certainly Troy/Hisarlik, called <em>Ilios</em> in Homer. The Hittite Empire knew about Mycenaean Greeks attacking <em>Ilios/Wilusa</em>. The Trojan War, in some attenuated historical form, was a real phenomenon in late Bronze Age international politics — and the Hittites filed a diplomatic note about it.
+</div>
+
+<h3>Linear B and Michael Ventris</h3>
+<p>The Mycenaeans also wrote. Their script, called <strong>Linear B</strong>, was clearly derived from Minoan Linear A but recorded a different language. For most of the 20th century, Linear B was thought to be Minoan and undecipherable — until <strong>1952</strong>, when the British architect <strong>Michael Ventris</strong> (working with the philologist John Chadwick) achieved one of the great intellectual breakthroughs of the modern humanities.</p>
+
+<p>Ventris was an architect, not a professional linguist. He had been fascinated by Linear B since childhood. Working in his free time, he gradually built up evidence that certain Linear B sign-sequences appeared only at Knossos and not at mainland sites — suggesting they were place names specific to Crete. From those place names he back-derived possible phonetic values for the syllabic signs. When he plugged the values back into other Linear B tablets, the resulting language turned out to be <strong>an archaic form of Greek</strong>. Ventris was, briefly, suspicious of his own result — he had expected Linear B to be a non-Greek Minoan language — but the evidence was overwhelming.</p>
+
+<p>Ventris's decipherment proved that the Mycenaeans were Greek-speakers, that Greek was being written on clay tablets a thousand years before the classical period, and that the Mycenaean palace bureaucracies were administering their territories in a recognisably proto-Greek language. The Linear B tablets — about 6,000 from Knossos, 1,100 from Pylos, smaller numbers from Mycenae and Thebes — are all administrative records: lists of palace inventory, ration distributions, named workers and craftsmen, sheep counts, oil quantities, military preparations. They are not literature. But they revolutionised our understanding of Greek prehistory.</p>
+
+<p>Ventris died in a car accident in 1956, at age 34, just four years after his breakthrough. He never lived to see the full scholarly elaboration of the field he had effectively created.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What was the major revelation of Michael Ventris's 1952 decipherment of Linear B?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">That the Minoans had invented writing centuries before Mesopotamia</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">That the Mycenaeans were Greek-speakers — Greek had been written on clay tablets a thousand years before the classical period</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">That Linear B was a code used only for religious ritual</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Mycenaean Palace Economy</h3>
+<p>The Linear B tablets reveal a Mycenaean palace economy of remarkable detail and centralisation. Each major palace was the administrative centre of a small territorial state. At its head was a king titled the <span class="vocab-pill">wanax</span> (the same word survives, slightly altered, in Homer's <em>anax</em>, "lord"). Below the wanax were officials whose titles we know — <em>lawagetas</em> (war-leader), <em>basileus</em> (local chieftain — and the same word would later mean "king" in classical Greek), <em>e-qe-ta</em> (companions), <em>te-re-ta</em> (overseers).</p>
+
+<p>The palaces ran tightly managed economies. Linear B tablets list specific named craftsmen — bronzeworkers, perfumers, oil-bottlers, chariot-builders — receiving palace-assigned rations. Sheep flocks were counted to the head. Olive oil and wine were stored in palace cellars. Bronze ingots were inventoried. There is no evidence of a market economy in any modern sense; almost all production seems to have been palace-organised and palace-redistributed. This is a familiar pattern from the wider Late Bronze Age palace economies we have already seen at Egypt, Hatti, Ugarit, and elsewhere.</p>
+
+<p>The Mycenaeans traded actively across the eastern Mediterranean. Their distinctive stirrup-jars (containing wine or perfumed oil) appear in archaeological contexts from Egypt to Cyprus to the Levant. The Uluburun shipwreck (Bronze Age Collapse Module 1) was carrying Mycenaean pottery as part of its mixed cargo. The Mycenaeans were full participants in the Late Bronze Age trading system — though, by the standards of Egypt or Hatti, a peripheral player. The Hittites took them seriously enough to correspond diplomatically; the Egyptian Amarna Letters never address a Mycenaean king as a Great King the way they do the rulers of Mitanni or Babylon. The Mycenaean position was significant but secondary.</p>
+
+<h3>The Collapse and the Hand-Off</h3>
+<p>Between approximately <strong>1200 and 1100 BCE</strong>, every major Mycenaean palace was destroyed by fire. This is the Mycenaean component of the broader Bronze Age Collapse described in detail in our Bronze Age Collapse Module 5. The Pylos archive of 1,100 tablets includes desperate preparations — rowers being mobilised, watchers being posted on the coast — for an attack that came anyway. The palaces were burned. The Linear B administrative system ended. The Greek language survived, but it stopped being written for the next 400 years.</p>
+
+<p>What followed was the <strong>Greek Dark Ages</strong> (c. 1100 – 800 BCE) — a long period of population decline, cultural simplification, and lost literacy that we will follow in Module 2. The Mycenaean palace civilisation simply ended. Some refugees probably moved across the Aegean to settle on Cyprus and the western Anatolian coast. The Greek mainland reverted to smaller, less centralised, less literate communities. The classical Greek world that would emerge from the dark ages centuries later was built from the dispersed cultural memory of the Mycenaean past, not from any institutional continuity with it.</p>
+
+<p>What survived, though, was language. Greek itself — the Greek that Mycenaean scribes were writing in Linear B at Pylos in 1200 BCE — is recognisably the same language Homer would compose his epics in around 750 BCE, and that Plato would write philosophy in around 400 BCE. The vocabulary changed, the script changed, the dialectal forms shifted — but the language is continuous. Modern Greek is a direct descendant of the Mycenaean Greek of the Linear B tablets. It is one of the longest continuous linguistic traditions in any modern language family.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What survived the Mycenaean palace collapse around 1200-1100 BCE?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Linear B writing system, continuously used through to classical Greece</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The Greek language itself — modern Greek is a direct descendant of Mycenaean Greek, though the script and most institutions were lost</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Minoan civilisation, which absorbed the Mycenaean refugees and continued for several more centuries</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> Greek civilisation has two beginnings. The first, in the Bronze Age, produced two sophisticated palace societies — Minoan Crete and Mycenaean Greece — that were full participants in the Late Bronze Age Mediterranean world. The Minoans gave us the labyrinth, the bull-leaping frescoes, and an undeciphered script we still cannot read. The Mycenaeans gave us the Cyclopean walls, the Trojan War of distant memory, and the earliest written form of the Greek language. Both civilisations were destroyed in the Bronze Age Collapse. The classical Greek world that would emerge from the dark ages four centuries later is, in many ways, the second Greek beginning — built on the fragmented memory of the first. We turn to that long dark age and its remarkable recovery in Module 2.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════

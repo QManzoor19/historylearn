@@ -1169,6 +1169,32 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Greece — Module 1 ───────────────────────────
+  "Ancient Greece::1": {
+    causes: [
+      "Crete's geographic position made it a natural hub for Aegean and eastern Mediterranean trade",
+      "Greek mainland fortified hilltop settlements grew into palace centres modelled partly on Minoan precedents",
+      "The wider Late Bronze Age trading system supplied both Crete and the mainland with the wealth that supported palace administration"
+    ],
+    effects: [
+      "Established the first complex civilisations on Crete (Minoan) and the Greek mainland (Mycenaean)",
+      "Produced Linear A (still undeciphered) and Linear B (deciphered by Ventris as early Greek)",
+      "Created the cultural memory — Trojan War, the labyrinth, the heroic age — that classical Greek tradition would later inherit and transform"
+    ],
+    figures: [
+      { name: "Sir Arthur Evans", dates: "1851–1941", role: "British archaeologist", why: "Excavated Knossos from 1900, recovered the Minoan civilisation, named it after the legendary King Minos, and produced the controversial partial reconstructions still visible at the site." },
+      { name: "Heinrich Schliemann", dates: "1822–1890", role: "German businessman & amateur archaeologist", why: "Excavated Troy (1870) and Mycenae (1874), discovered the Bronze Age palace civilisation, theatrically named the 'Mask of Agamemnon' — methods flawed but discoveries genuine." },
+      { name: "Spyridon Marinatos", dates: "1901–1974", role: "Greek archaeologist", why: "Excavated Akrotiri on Thera from 1967, recovered the spectacular Bronze Age frescoes and the Pompeii-like preservation under volcanic ash. Died at the site." },
+      { name: "Michael Ventris", dates: "1922–1956", role: "British architect & linguist", why: "Deciphered Linear B in 1952, proving Mycenaean Greek was an early form of Greek and revolutionising the understanding of Bronze Age Greece. Died in a car accident at age 34." },
+      { name: "John Chadwick", dates: "1920–1998", role: "British classical philologist", why: "Collaborated with Ventris on the Linear B decipherment and continued the scholarly elaboration after Ventris's death." }
+    ],
+    connections: ["Ancient Greece", "The Bronze Age Collapse", "The Bronze Age Collapse::2", "The Bronze Age Collapse::5", "Cradles of Civilisation"],
+    sourceSnippet: {
+      text: "There is a land called Crete, in the midst of the wine-dark sea, a fair, rich land, begirt with water… and among the cities is the great city Knossos, where Minos ruled.",
+      attribution: "Homer, Odyssey 19.172–179, c. 750 BCE — preserving classical Greek memory of Bronze Age Crete"
+    }
+  },
+
   // ── Bronze Age Collapse — Module 8 ──────────────────────
   "The Bronze Age Collapse::8": {
     causes: [
