@@ -2962,6 +2962,136 @@ The Uluburun ship's <strong>tin ingots</strong> have been chemically analysed us
 
 </div>`;
 
+L["The Bronze Age Collapse::2"] = `<div class="lesson-body">
+
+<h3>The Players on the Board</h3>
+<p>Module 1 sketched the trade network. This module profiles the <em>people who ran it</em> — the major Late Bronze Age civilisations as they stood around <strong>1250 BCE</strong>, on the eve of the collapse. Eight states deserve attention: <strong>Egypt</strong>, the <strong>Hittite Empire</strong>, <strong>Mitanni</strong>, <strong>Assyria</strong>, <strong>Babylon</strong>, <strong>Mycenaean Greece</strong>, <strong>Cyprus (Alashiya)</strong>, and the commercial city-state of <strong>Ugarit</strong>. Together they covered most of the eastern Mediterranean and the western Near East. Each had its own internal politics, its own religion, its own writing system, and its own role in the trade and diplomatic network we will see come apart in Modules 4–5.</p>
+
+<p>This module is necessarily a survey — none of these civilisations gets the depth of treatment they each deserve. (Egypt has its own 8-module deep-dive already.) But the point of this module is to get a clear picture of <em>who was there</em>, what each kingdom looked like, and what each was about to lose.</p>
+
+<h3>Egypt: The New Kingdom Empire</h3>
+<p>Egypt by 1250 BCE was in the late <strong>Nineteenth Dynasty</strong>, near the end of the long reign of <strong>Ramses II</strong> (Egypt Module 5). It was the wealthiest single state in the eastern Mediterranean. Its territory ran from the Mediterranean coast in the north to the Fourth Cataract of the Nile in the south — about 2,500 kilometres along the river. Its army included chariot divisions modelled on Hittite practice, infantry units organised by region, mercenaries from Libya and Nubia, and a substantial navy operating on the Mediterranean and Red Sea.</p>
+
+<p>Egypt produced enormous quantities of <strong>grain</strong> (wheat and barley from the Nile floodplain), <strong>gold</strong> (from the eastern desert and Nubian mines), <strong>papyrus</strong> (the standard writing material of the entire Mediterranean), <strong>linen</strong> (the finest in the ancient world), and <strong>luxury crafts</strong>. It imported tin from far-off mines, wine and olive oil from Canaan and the Aegean, timber from Lebanon (cedar especially), and lapis lazuli from Afghanistan. Its diplomatic correspondence — preserved most spectacularly in the Amarna Letters (Module 3) — addressed all the major Great Kings as "brother."</p>
+
+<p>The internal Egyptian state was, by Late Bronze Age standards, exceptionally durable. Centralised pharaonic ideology, a literate bureaucracy, the priesthood of Amun, and the stable agricultural base of the Nile gave Egypt advantages that the other Great Powers lacked. When the collapse came, Egypt would suffer — but it would survive, alone among the major Late Bronze Age states.</p>
+
+<h3>Hatti: The Hittite Empire</h3>
+<p>The <strong>Hittite Empire</strong> was Egypt's principal rival and, by the late 13th century BCE, the dominant land power of Anatolia and northern Syria. Its capital, <strong>Hattusa</strong> (modern Boğazkale in central Turkey), sat on a steep limestone ridge surrounded by massive walls, gates, and rock-cut sanctuaries. At its peak under <strong>Suppiluliuma I</strong> (r. c. 1344–1322 BCE) the empire stretched from the Aegean coast of Anatolia to the Euphrates in the east, with vassal kingdoms across northern Syria and treaty relationships extending into the Levant.</p>
+
+<p>The Hittites were the dominant Indo-European-speaking civilisation of the Late Bronze Age. Their state was held together by an extraordinarily sophisticated <strong>treaty system</strong> — almost every major political relationship was governed by a written agreement preserved in clay tablet archives. The Hittite emperor (<em>tabarna</em>) was both military commander and high priest, presiding over a pantheon of about a thousand gods absorbed from the many cultures the empire had conquered.</p>
+
+<p>The Hittites' military reputation rested on their <strong>chariot warfare</strong>. A Hittite chariot carried three men — driver, warrior, and shield-bearer — making it heavier and more powerful than the Egyptian two-man chariot. At the <strong>Battle of Kadesh</strong> in 1274 BCE (Egypt Module 5), Ramses II's lighter Egyptian chariots fought Muwatalli II's heavier Hittite forces to a tactical draw. The peace treaty of 1258 BCE between the Hittite emperor Hattusili III and Ramses II is the world's oldest surviving international peace treaty — copies survive in both Akkadian (at Hattusa) and Egyptian hieroglyphic (at Karnak).</p>
+
+<p>Hattusa was discovered and identified by German archaeologists in the early 20th century. Excavations recovered over <strong>30,000 cuneiform tablets</strong> from its royal archives — the largest Late Bronze Age archive after Mari. The Hittite language was deciphered in 1915 by the Czech scholar Bedřich Hrozný, who realised it was Indo-European. Hattusa today is a Turkish UNESCO World Heritage Site. Its ruined walls and the Lion Gate are some of the most evocative remains of the Bronze Age world.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+The Hittite Empire was, structurally, the Late Bronze Age equivalent of Persia under the Achaemenids or the Holy Roman Empire under the Habsburgs — a multi-ethnic, multilingual, treaty-based imperial system held together by a single royal house and a small bureaucratic-priestly elite. It worked. It also showed every sign, when it collapsed in the 12th century BCE, of having outgrown its political and material foundations. When Hattusa was abandoned and burned around 1180 BCE, an entire imperial tradition — one of the longest-lasting in the ancient world — simply ended.
+</div>
+
+<h3>Mitanni: The Hurrian Kingdom</h3>
+<p>For most of the 16th to 14th centuries BCE, the dominant power in northern Mesopotamia and Syria was the kingdom of <strong>Mitanni</strong>, ruled by a Hurrian-speaking elite often led by a small caste of warriors with Indo-Aryan names. Mitanni controlled the upper Euphrates and Tigris, much of northern Syria, and exercised influence over the Levantine coast. Its capital, <strong>Washukanni</strong>, has never been definitively identified — somewhere in modern northeastern Syria — and is one of the great unsolved archaeological puzzles of the Late Bronze Age.</p>
+
+<p>Mitanni at its height under <strong>Saushtatar</strong> (c. 1450 BCE) was a Great Power on equal terms with Egypt and the Hittites. The pharaoh Thutmose IV married a Mitannian princess. Amenhotep III's chief queen Tiye corresponded with the Mitannian king. Mitanni's military expertise included some of the earliest skilled chariot warfare in the region — a Mitannian Hurrian named <strong>Kikkuli</strong> wrote a four-tablet treatise on horse training that survives in the Hittite archives.</p>
+
+<p>Mitanni was destroyed not by the Bronze Age Collapse but earlier — by the Hittite king Suppiluliuma I around 1340 BCE in a sustained campaign that broke Mitannian power and absorbed its territory. The collapse of Mitanni was, in a sense, a foreshadowing of the larger collapse to come. A Great Power could end; an entire trading system could lose one of its main components. The Hittites who replaced Mitanni did not entirely fill the gap. The eastern frontier of the Late Bronze Age system was always slightly more fragile after Mitanni was gone.</p>
+
+<h3>Assyria: The Rising Power</h3>
+<p>While Mitanni was being broken, the kingdom of <strong>Assyria</strong> — based around the city of <strong>Ashur</strong> on the Tigris in northern Iraq — was rising. Under <strong>Ashur-uballit I</strong> (r. c. 1363–1328 BCE), the Assyrian state asserted independence from Mitannian overlordship and began its long climb. By the time of <strong>Tukulti-Ninurta I</strong> (r. c. 1244–1207 BCE), Assyria had become a major military power. Tukulti-Ninurta sacked Babylon, deported a Babylonian king to Assyria, and briefly ruled both states.</p>
+
+<p>This Middle Assyrian period of the late 13th century BCE is the moment when Assyria first appears as a structural participant in the Great King system. Its inscriptions claim, with the characteristic Assyrian fierceness that would become more pronounced under the Neo-Assyrian Empire centuries later, that the Assyrian king is the conqueror of cities, the master of kings. The Late Bronze Age Collapse would weaken Assyria significantly, but unlike Mitanni or the Hittites it would survive — partly because it was further inland from the coastal disruptions that did the most damage, partly because its institutional core in the city of Ashur proved unusually durable.</p>
+
+<h3>Babylon: The Kassite Dynasty</h3>
+<p>Down the Tigris and Euphrates from Assyria sat <strong>Babylon</strong>, ruled in this period by the <strong>Kassite</strong> dynasty (c. 1595–1155 BCE). The Kassites were a foreign people — originally from the Zagros mountains to the east — who had taken over Babylon after the fall of the Old Babylonian dynasty. They presided over a long period of relative stability, careful administration, and active participation in the Great King system. Kassite Babylon is, on the surface, the least dynamic of the Great Powers — but its archives show a thriving bureaucratic state, sophisticated land tenure systems, and continuous correspondence with Egypt, Hatti, Mitanni, and Assyria.</p>
+
+<p>Kassite Babylon's most famous king was <strong>Burnaburiash II</strong> (r. c. 1359–1333 BCE), whose Amarna Letters to Akhenaten complain forcefully about the quality and quantity of Egyptian gold gifts and about the pharaoh's failure to receive Babylonian ambassadors with appropriate respect. The exchanges are wonderfully readable — two Great Kings squabbling over diplomatic protocol like 18th-century European monarchs. They give us, perhaps better than any other source, the texture of how the system actually felt to its participants.</p>
+
+<p>The Kassite dynasty would survive the Late Bronze Age Collapse by a generation or two, but eventually fell to Elamite invaders around 1155 BCE. The collapse's reverberations reached even Mesopotamia — albeit more slowly than they hit the coastal civilisations.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Which dynasty ruled Babylon for most of the Late Bronze Age?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Achaemenid dynasty</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The Kassite dynasty</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Chaldean dynasty</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Mycenaean Greece: The Aegean Palaces</h3>
+<p>On the Aegean periphery of the Great Power system stood <strong>Mycenaean Greece</strong> — a network of small palace states across the southern and central Greek mainland and the larger Aegean islands. The major centres were at <strong>Mycenae</strong> (the most powerful, on the Argolid plain in the Peloponnese), <strong>Tiryns</strong> (nearby, with massive Cyclopean walls), <strong>Pylos</strong> (on the southwest coast), <strong>Thebes</strong> (in central Greece), <strong>Knossos</strong> (on Crete, taken over from the earlier Minoan civilisation), and probably about a dozen smaller palaces.</p>
+
+<p>Each Mycenaean palace was the centre of a small territorial state ruled by a king called the <span class="vocab-pill">wanax</span>. The palace was both administrative capital and economic hub — sheep flocks, oil presses, textile workshops, and metalworking forges were all centrally managed by palace officials. The bureaucracy kept records in <strong>Linear B</strong>, a syllabic script used for accounting and administration; the tablets we have are essentially inventory lists, ration rolls, and craft assignments.</p>
+
+<p>The Mycenaeans corresponded with the Hittites (the Hittite documents call them the <em>Ahhiyawa</em> — "Achaeans") and sent pottery throughout the eastern Mediterranean. Mycenaean stirrup-jars containing wine or olive oil have been recovered from sites in Egypt, the Levant, Cyprus, and Anatolia. The Mycenaean military featured chariots, bronze weapons, and the boar-tusk helmets famously described by Homer four centuries later.</p>
+
+<p>The Mycenaean palaces would be among the first to fall in the collapse. Between roughly 1200 and 1180 BCE, almost every major Mycenaean palace was destroyed — burned, abandoned, or both. The Mycenaean script Linear B simply stops being used after the destructions. Greek would not be written again for about 400 years.</p>
+
+<h3>Cyprus: Alashiya, the Copper Island</h3>
+<p>The island of <strong>Cyprus</strong> — known to its contemporaries as <strong>Alashiya</strong> — was central to the Late Bronze Age trading system because of its enormous copper deposits (Module 1). Alashiya was probably a single united kingdom rather than a network of city-states, though the political details are still debated. Its capital may have been at the site we now call <strong>Enkomi</strong>, with secondary centres at <strong>Hala Sultan Tekke</strong>, <strong>Maa-Palaiokastro</strong>, and <strong>Kition</strong>.</p>
+
+<p>Alashiya appears as a Great Power in the Amarna correspondence. The king of Alashiya complains to the pharaoh about plague, requests Egyptian silver, apologises for delayed copper shipments. The Hittites recognised Alashiya as politically equivalent to themselves. The economic centrality of Cypriot copper made the island, paradoxically, both rich and vulnerable — when long-distance trade broke, Cyprus's main source of wealth disappeared overnight.</p>
+
+<h3>Ugarit: The Commercial Hub</h3>
+<p>The single most important non-royal player in the system was the city-state of <strong>Ugarit</strong>, on the Syrian coast just south of modern Latakia. Ugarit was not a Great Power — its king was a vassal of the Hittites — but its commercial position made it perhaps the most economically important node in the entire eastern Mediterranean network.</p>
+
+<p>Ugarit sat at the meeting point of land caravans from Mesopotamia and sea routes to Egypt, Cyprus, the Aegean, and Anatolia. Its deepwater port handled enormous tonnages of commodities. Its scribal schools taught at least four languages (Akkadian, Hittite, Egyptian hieroglyphic, and an indigenous Ugaritic). Its merchant community included resident Egyptians, Mycenaeans, Cypriots, Hittites, and Levantines.</p>
+
+<p>The Ugaritic archives — recovered from the late 1920s onward — preserve over 1,500 clay tablets in the indigenous Ugaritic alphabet alone, plus thousands more in Akkadian. They include international treaties, commercial contracts, ration lists, ritual texts, religious mythology (including the great Baal Cycle, a key source for understanding Canaanite religion), and the most poignant document of the entire Bronze Age Collapse: the so-called "<strong>last letter</strong>" from the king of Ugarit, reporting that enemy ships have been sighted at sea and asking for help that would never arrive. We will read it more closely in Module 5.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The <strong>Ugaritic alphabet</strong> — invented at Ugarit around 1400 BCE and used for the indigenous local language — was one of the earliest true alphabets in the world, with only 30 signs (compared to hundreds in Egyptian hieroglyphs or Akkadian cuneiform). It writes consonants only, like later Phoenician. It was almost certainly an ancestor (or at least a close cousin) of the Phoenician alphabet that, three centuries later, would spread across the Mediterranean and become the basis of Greek, Latin, Hebrew, Arabic, and every modern European alphabet. When Ugarit was destroyed in the 1180s BCE, this innovation seemed to die with it — until the Phoenician trading cities of the Iron Age picked it back up.
+</div>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What was Ugarit's role in the Late Bronze Age system?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A Great Power on diplomatic par with Egypt and Hatti</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">A Hittite-vassal city-state but the most important commercial hub of the entire eastern Mediterranean, with multilingual scribal schools and a deepwater port</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A Mycenaean colonial outpost in the Levant</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Below the Great Powers</h3>
+<p>Beneath the Great Powers and the major commercial cities was a layer of smaller states and city-states that were vassals or allies of the larger players. In the Levant, the coastal cities of <strong>Byblos</strong>, <strong>Sidon</strong>, <strong>Tyre</strong>, and <strong>Ashkelon</strong> were technically Egyptian vassals but operated with substantial commercial autonomy. The Canaanite hill kingdoms like <strong>Jerusalem</strong>, <strong>Megiddo</strong>, <strong>Hazor</strong>, and dozens more sent tribute to Egypt and corresponded with the pharaoh.</p>
+
+<p>In Anatolia, the kingdoms of <strong>Arzawa</strong>, <strong>Lukka</strong> (Lycia), and <strong>Wilusa</strong> (almost certainly Troy) were Hittite vassals or competitors. The Greek Mycenaean palaces of the Argolid had a complicated relationship with the Aegean coastal kingdoms of western Anatolia — alternately trading, fighting, and intermarrying. Some scholars now think the Trojan War remembered in the Iliad reflects, distantly, real Mycenaean-Anatolian conflicts of the late 13th century BCE.</p>
+
+<p>None of these smaller states would survive the collapse intact. Megiddo would be destroyed. Hazor would be burned to the ground. Tyre and Sidon would lose their Egyptian overlord and have to reinvent themselves as the independent Phoenician trading cities of the Iron Age — the eventual successor to Ugarit's commercial role.</p>
+
+<h3>The Connections That Held the System Together</h3>
+<p>The Great Powers and their vassals were bound together by three overlapping kinds of relationship:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Diplomatic correspondence</strong>: The Amarna Letters and Hittite archives preserve thousands of clay tablets in Akkadian cuneiform — the diplomatic <em>lingua franca</em> — that document the relationships among the courts. Sister-marriages, gift exchanges, mutual recognition of borders.</li>
+<li><strong>Commercial exchange</strong>: The trade in tin, copper, gold, ivory, grain, oil, wine, textiles, and luxury goods we surveyed in Module 1. The Uluburun ship was, in its way, the embodied form of these relationships.</li>
+<li><strong>Treaty obligations</strong>: Particularly within the Hittite sphere, but also extending to the major treaties like the Hittite-Egyptian peace of 1258 BCE. Treaties were sworn before the gods and considered religiously binding.</li>
+</ul>
+
+<p>None of these connections were robust enough, individually, to hold the system together if the others failed. The collapse would, in essence, involve the simultaneous breakdown of all three — trade routes disrupted by Sea Peoples and drought, diplomacy made impossible by the destruction of royal centres, treaties annulled by the death of the kings who had sworn them. When everything broke at once, there was nothing left to fall back on.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Which capital city was destroyed and abandoned in the Late Bronze Age Collapse — and never reoccupied at the same scale?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Babylon</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Memphis</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Hattusa, the Hittite capital</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The Late Bronze Age Great Power system was not a vague network of competing tribes. It was a defined club of states — Egypt, Hatti, Mitanni, Assyria, Babylon, Mycenaean Greece, Cyprus, Ugarit — each with its own institutions, archives, language, and place in a stable diplomatic and commercial order. By 1250 BCE this system had been running for around 300 years and looked permanent. Within fifty years, four of these powers would be effectively destroyed, two would be permanently weakened, and one (Egypt) would survive only at significant cost. Knowing the players is the prerequisite to understanding the disaster. In the next module we'll look at the most direct surviving evidence we have of how they talked to each other: the Amarna Letters.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════

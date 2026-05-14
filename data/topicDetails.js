@@ -1169,6 +1169,32 @@ const topicDetails = {
     }
   },
 
+  // ── Bronze Age Collapse — Module 2 ──────────────────────
+  "The Bronze Age Collapse::2": {
+    causes: [
+      "Centuries of state-building produced eight major Late Bronze Age polities with overlapping diplomatic, commercial, and treaty relationships",
+      "Bronze metallurgy and long-distance trade tied these states into mutual dependence",
+      "The 'Great King' system formalised diplomatic recognition among Egypt, Hatti, Mitanni, Babylon, Assyria, and Cyprus"
+    ],
+    effects: [
+      "Created the first interregional diplomatic order in human history, complete with sister-marriages and gift exchange",
+      "Established commercial hubs (Ugarit) that handled multilingual long-distance commerce",
+      "Set up the structural dependencies — palace economies reliant on imported strategic materials — that would prove fatal in the collapse"
+    ],
+    figures: [
+      { name: "Suppiluliuma I", dates: "r. c. 1344–1322 BCE", role: "Hittite emperor", why: "Greatest Hittite conqueror; destroyed Mitanni and brought the Hittite Empire to its territorial peak." },
+      { name: "Hattusili III", dates: "r. c. 1267–1237 BCE", role: "Hittite king", why: "Signed the world's oldest surviving peace treaty with Ramses II of Egypt in 1258 BCE." },
+      { name: "Tukulti-Ninurta I", dates: "r. c. 1244–1207 BCE", role: "Middle Assyrian king", why: "Sacked Babylon and briefly ruled both Assyria and Babylonia — Assyria's first emergence as a structural Great Power." },
+      { name: "Burnaburiash II", dates: "r. c. 1359–1333 BCE", role: "Kassite king of Babylon", why: "Author of some of the most readable Amarna Letters complaining about Egyptian diplomatic protocol." },
+      { name: "Bedřich Hrozný", dates: "1879–1952", role: "Czech philologist", why: "Deciphered Hittite in 1915, revealing it as an Indo-European language and opening up the Hittite archives." }
+    ],
+    connections: ["The Bronze Age Collapse", "The Bronze Age Collapse::1", "The Bronze Age Collapse::3", "Ancient Egypt::4", "Ancient Egypt::5", "Ancient Greece"],
+    sourceSnippet: {
+      text: "Behold, may my brother and I live forever, may the gods give us friendship and goodly relations. May the messengers of my brother arrive constantly with the messengers of mine.",
+      attribution: "Burnaburiash II of Babylon to Akhenaten of Egypt, Amarna Letter EA 7, c. 1340 BCE"
+    }
+  },
+
   // ── Bronze Age Collapse — Module 1 ──────────────────────
   "The Bronze Age Collapse::1": {
     causes: [
