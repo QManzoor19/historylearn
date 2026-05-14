@@ -1169,6 +1169,33 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Egypt — Module 2 ────────────────────────────
+  "Ancient Egypt::2": {
+    causes: [
+      "Centuries of Predynastic and Early Dynastic political development produced a state capable of mass coordination",
+      "Reliable Nile floods generated reliable agricultural surplus, freeing tens of thousands of seasonal workers",
+      "The ideology of the pharaoh as god-king made monument-building a cosmic, not merely political, obligation"
+    ],
+    effects: [
+      "Produced the Great Pyramid of Giza — tallest human-made structure on Earth for nearly 3,800 years",
+      "Built an administrative and engineering tradition that survived the Old Kingdom's collapse",
+      "Established the visual vocabulary of Ancient Egypt (pyramid, Sphinx, god-king) that still defines the civilisation in our imagination"
+    ],
+    figures: [
+      { name: "Djoser", dates: "r. c. 2670–2650 BCE", role: "Pharaoh, 3rd Dynasty", why: "Commissioned the world's first pyramid — the Step Pyramid at Saqqara — and changed monumental architecture forever." },
+      { name: "Imhotep", dates: "c. 2670 BCE", role: "Architect, vizier, polymath", why: "Designed the Step Pyramid; the first non-royal individual in history whose name has come down to us. Later deified." },
+      { name: "Sneferu", dates: "r. c. 2613–2589 BCE", role: "Founder, 4th Dynasty", why: "Built three pyramids (Meidum, Bent, Red), refining the form into the smooth-sided true pyramid. Moved more stone than any other pharaoh." },
+      { name: "Khufu (Cheops)", dates: "r. c. 2589–2566 BCE", role: "Builder of the Great Pyramid", why: "His Great Pyramid of Giza is the largest and most famous monument of antiquity." },
+      { name: "Khafre", dates: "r. c. 2558–2532 BCE", role: "Pharaoh, 4th Dynasty", why: "Built the second Giza pyramid and almost certainly the Great Sphinx." },
+      { name: "Pepi II", dates: "r. c. 2278–2184 BCE", role: "Last great pharaoh of the Old Kingdom", why: "Possibly the longest-reigning monarch in history (~94 years); his exceptionally long reign destabilised succession and helped trigger the collapse." }
+    ],
+    connections: ["Ancient Egypt", "Ancient Egypt::1", "Ancient Egypt::3", "Cradles of Civilisation", "The Bronze Age Collapse"],
+    sourceSnippet: {
+      text: "Inspection of the akhet-Khufu by the inspector Merer. We spent the day loading the boat with stones from the limestone quarries of Tura South.",
+      attribution: "The Diary of Merer, Wadi al-Jarf papyri, c. 2560 BCE — the oldest known papyrus on Earth"
+    }
+  },
+
   // ── Ancient Egypt — Module 1 ────────────────────────────
   "Ancient Egypt::1": {
     causes: [

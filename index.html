@@ -1555,6 +1555,21 @@ nav::-webkit-scrollbar { display: none; }
   padding: 0 2px;
   border-radius: 3px;
 }
+
+/* Deep-link highlight — applied inside the lesson when search opens a hit */
+mark.search-hit {
+  background: linear-gradient(180deg, transparent 55%, rgba(242, 212, 121, 0.85) 55%);
+  color: inherit;
+  padding: 0 1px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px rgba(242, 212, 121, 0.25);
+  animation: searchHitPulse 1.6s ease-out 1;
+}
+@keyframes searchHitPulse {
+  0%   { background: rgba(242, 212, 121, 0.95); box-shadow: 0 0 0 6px rgba(242, 212, 121, 0.4); }
+  60%  { background: rgba(242, 212, 121, 0.85); box-shadow: 0 0 0 4px rgba(242, 212, 121, 0.25); }
+  100% { background: linear-gradient(180deg, transparent 55%, rgba(242, 212, 121, 0.85) 55%); box-shadow: 0 0 0 2px rgba(242, 212, 121, 0.25); }
+}
 .search-empty {
   padding: 40px 20px;
   text-align: center;

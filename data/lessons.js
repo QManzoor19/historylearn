@@ -969,6 +969,121 @@ In a Naqada II grave at Hierakonpolis, archaeologists found painted pottery show
 
 </div>`;
 
+L["Ancient Egypt::2"] = `<div class="lesson-body">
+
+<h3>An Age Defined by Stone</h3>
+<p>Between roughly <strong>2686 and 2181 BCE</strong>, Egypt experienced one of the most remarkable cultural and political flowerings in human history. We call it the <strong>Old Kingdom</strong> — the era of the great pyramids. In just five centuries, Egyptian civilisation moved from building royal tombs out of mud brick to raising the tallest stone structures the world would see for the next four thousand years. The state grew enormously powerful. The pharaoh became, in the official ideology, not merely a king but a living god. And then, with surprising speed, the whole system collapsed.</p>
+
+<p>This is the period that gave us almost every image we associate with ancient Egypt: the smooth-sided pyramids of Giza, the Sphinx, the seated god-king, the priestly bureaucracy. It is also the period that demonstrates how much organisation, mathematics, engineering, and human labour an ancient state could mobilise when it had complete confidence in its mission.</p>
+
+<h3>Djoser and Imhotep: The First Pyramid</h3>
+<p>The Old Kingdom is conventionally dated from the start of the <strong>Third Dynasty</strong>, around 2686 BCE. Its second king, <strong>Djoser</strong> (also written Netjerikhet), broke decisively with everything that had come before. Earlier kings had been buried in <span class="vocab-pill">mastabas</span> — flat-roofed mud-brick rectangles, impressive but earthly. Djoser commissioned something new.</p>
+
+<p>His architect was <strong>Imhotep</strong>, a name worth remembering. Imhotep was vizier, high priest, physician, and chief architect — perhaps the first non-royal individual in history whose name has come down to us through the millennia. He started by building a mastaba at Saqqara out of <em>stone</em> rather than mud brick. Then he kept going. He stacked another mastaba on top of it. Then another. Then three more. The result, when it was finished around 2650 BCE, was the <strong>Step Pyramid of Djoser</strong> — a six-stepped stone structure rising 60 metres above the desert plateau. It was the largest single building in the world at the time.</p>
+
+<p>The Step Pyramid was not just a tomb. It was the centre of a vast funerary complex covering 15 hectares — courtyards, shrines, dummy buildings (carved in stone to imitate the perishable mud-brick palaces of life), all surrounded by an enclosure wall over a kilometre long. Imhotep was inventing not just an architectural form but an entire ritual landscape. Two thousand years later, the Egyptians still worshipped him as a god of wisdom and medicine. The Greeks identified him with Asclepius.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+Imagine a society where, within a single human lifetime, the largest building you could think of grows from one storey of mud brick to a six-storey palace of dressed stone. That is what Djoser and Imhotep represented to their contemporaries — an enormous, sudden leap in what was possible. Every later pyramid is essentially trying to top, refine, or rival what they started.
+</div>
+
+<h3>Sneferu: The True Pyramid Emerges</h3>
+<p>The next great pyramid-builder was <strong>Sneferu</strong>, founder of the Fourth Dynasty (r. c. 2613–2589 BCE). Sneferu didn't build one pyramid. He built three, learning as he went.</p>
+
+<p>His first attempt was the <strong>Meidum Pyramid</strong>, which began as a stepped structure and was later modified to have smooth sides — but the outer casing collapsed catastrophically (perhaps during construction). His second was the <strong>Bent Pyramid</strong> at Dahshur, where the builders started at one steep angle (54°) and then, alarmingly, switched halfway up to a much shallower angle (43°). They had clearly realised the original angle wouldn't hold. His third was the <strong>Red Pyramid</strong>, also at Dahshur — the first true geometrically perfect smooth-sided pyramid in history.</p>
+
+<p>By the end of Sneferu's reign, Egyptian builders had figured out how to construct a true pyramid. Sneferu in fact moved more stone — perhaps 3.7 million cubic metres across his three pyramids — than any other Egyptian king. He was the master engineer who made his son's project possible.</p>
+
+<h3>Khufu and the Great Pyramid</h3>
+<p>That son was <strong>Khufu</strong> (also known by his Greek name, Cheops), and the project was the <strong>Great Pyramid of Giza</strong>, built c. 2560 BCE. It remains one of humanity's most extraordinary achievements.</p>
+
+<p>The Great Pyramid contains approximately <strong>2.3 million blocks of limestone</strong>, weighing on average 2.5 tonnes each (some interior blocks weigh up to 80 tonnes). Its base covers about 5.3 hectares — large enough to fit eight football pitches. Its sides are aligned to the cardinal directions with an error of less than a tenth of a degree. Its original height was 146.6 metres; until the Lincoln Cathedral spire was completed in 1311 CE, no human-made structure on Earth was taller. <strong>For nearly 3,800 years, the Great Pyramid was the tallest building in the world.</strong></p>
+
+<p>Khufu's pyramid stands alongside two others on the Giza plateau: <strong>Khafre's</strong> (almost as tall, looking taller because it sits on higher ground and still retains a fragment of its original limestone casing at the top) and <strong>Menkaure's</strong> (about half the size of the other two, the last of the great pyramids). Khafre is also widely credited with commissioning the <strong>Great Sphinx</strong> — carved from a single limestone outcrop, with the body of a lion and a human face that may be his own portrait.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">For roughly how long was the Great Pyramid of Khufu the tallest building in the world?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">About 400 years</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">About 1,200 years</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Nearly 3,800 years</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>How Were the Pyramids Built?</h3>
+<p>For centuries, the popular imagination has filled the gap with extravagant theories — aliens, lost technologies, even psychic powers. The reality is, in some ways, more impressive. The pyramids were built by ordinary Egyptian workers, with copper tools, simple ropes, wooden sledges, levers, and a staggering capacity for organisation.</p>
+
+<p>Modern archaeology has uncovered the workers' settlement at Giza, just south of the pyramids. It included <strong>permanent housing, bakeries, breweries, and butcher's yards capable of processing thousands of animals</strong>. The skeletal remains show injuries consistent with hard physical labour, but also signs of careful medical care — broken bones set, lives prolonged. These weren't slaves. They were skilled, fed, and respected workers — many of them seasonal farmers who came to the building site during the flood months when their fields were underwater.</p>
+
+<p>Estimates suggest a workforce of around <strong>20,000–30,000 people</strong> built the Great Pyramid over roughly 20 years. That's a colossal undertaking but a far cry from the "millions of slaves" of Hollywood imagination. The Egyptians cut the limestone blocks from quarries (most onsite, but the finest casing stones came from Tura across the Nile and Aswan granite from 700 km south), floated them down the Nile, and dragged them on sledges up earthen ramps. Recent papyrus discoveries — particularly the <strong>diary of Merer</strong>, a Fourth Dynasty official — describe the daily logistics in remarkable detail.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The <strong>Diary of Merer</strong>, discovered in 2013 at Wadi al-Jarf on the Red Sea coast, is the oldest known papyrus document on Earth. It records, in matter-of-fact bureaucratic language, the work of a team that quarried fine Tura limestone and shipped it to Giza for the casing of Khufu's pyramid. Merer logs ship arrivals, work parties, food rations. He even refers to his boss, "the noble Ankhhaf," who we now know managed the construction project. It is the most direct administrative evidence we have for how the Great Pyramid was actually built.
+</div>
+
+<h3>The Pharaoh as God-King</h3>
+<p>Why this enormous expenditure of human effort? Because in Old Kingdom theology, the pharaoh was not just a ruler but a <span class="vocab-pill">god</span>. In life he was the earthly incarnation of <strong>Horus</strong>, the falcon-god of kingship. In death he became <strong>Osiris</strong>, ruler of the underworld. His successful journey to the afterlife wasn't just a personal concern — it was the cosmic necessity that guaranteed the rebirth of crops, the predictability of the Nile flood, the order (<span class="vocab-pill">ma'at</span>) that held the universe together.</p>
+
+<p>The pyramid was the vehicle of that journey. It was a launchpad for the king's soul, a stone reproduction of the primordial mound from which the world had emerged, a monument designed to outlast every conceivable catastrophe. The size of the pyramid was a statement of cosmic confidence: <em>this king's afterlife is secure, and therefore so is yours</em>. Egyptians did not build pyramids to one-up each other. They built them because the entire moral order of the universe was understood to depend on the success of the burial.</p>
+
+<p>This ideology required a powerful, centralised state. The pharaoh's vizier headed a hierarchy of officials who collected grain taxes, organised the workforce, ran the quarries, managed the priesthood, and surveyed the land each year after the floods. Old Kingdom Egypt was one of the most bureaucratically sophisticated states the ancient world would produce. The famous bust of <strong>Prince Rahotep and his wife Nofret</strong> — painted limestone, eyes inlaid with rock crystal, almost three-dimensional in their realism — is a portrait of this Old Kingdom elite at its confident height.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">In Old Kingdom theology, what was the pharaoh believed to <em>become</em> after death?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">An ancestor spirit, but not divine</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Osiris, ruler of the underworld</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A star in the night sky, but never a god</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Cracks in the System</h3>
+<p>By the Fifth and Sixth Dynasties, the absolute confidence of the early Old Kingdom was beginning to ebb. Pyramids got smaller. The kings of the Fifth Dynasty (Userkaf, Sahure, Nyuserre) still built pyramids, but they also poured huge resources into solar temples — vast open-air shrines to the sun god Ra. The cult of Ra was rising. The cult of the king, by comparison, was being shared.</p>
+
+<p>Provincial governors — the <span class="vocab-pill">nomarchs</span> — also became more powerful. Originally appointed by the king and recallable at will, they gradually turned into hereditary local rulers, accumulating wealth and loyalty in their own districts. The Egyptian state, which had functioned as a single unified machine under Khufu, began to fragment into competing centres of power.</p>
+
+<p>The longest-reigning pharaoh of the Old Kingdom was <strong>Pepi II</strong>, who, according to later tradition, ruled for an astonishing 94 years (c. 2278–2184 BCE). His extraordinarily long reign created a succession crisis no one had planned for. By the time he died, the central state was already dissolving.</p>
+
+<h3>The Collapse</h3>
+<p>Around 2181 BCE, the Old Kingdom ended. The Sixth Dynasty fragmented; rival claimants vied for the throne; central authority effectively disappeared. Egypt entered what historians call the <strong>First Intermediate Period</strong> — a phrase Egyptologists invented to politely describe a chaotic century during which there was sometimes no clear king at all.</p>
+
+<p>What caused the collapse? Modern research points to a perfect storm of three factors:</p>
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Climate change</strong>. Sediment cores from the Nile and pollen records from Lake Faiyum show that between roughly 2200 and 2000 BCE, the African monsoon weakened dramatically. The Nile floods, which Old Kingdom Egypt depended on so absolutely, became erratic. Several consecutive years of low floods meant famine. This was part of a much larger regional event — the so-called <strong>4.2 kiloyear event</strong> — that also collapsed the Akkadian Empire in Mesopotamia and the Indus Valley civilisation.</li>
+<li><strong>Decentralisation</strong>. The hereditary nomarchs had grown strong enough that, when the central state weakened, they could fend for themselves. They did. Provinces splintered into local rivalries.</li>
+<li><strong>Ideological exhaustion</strong>. The pyramid project required total state confidence. By the late Sixth Dynasty, the state had been building progressively shabbier pyramids for two centuries. The aura of god-kingship was thinning long before the political crisis arrived.</li>
+</ul>
+
+<p>The transition was not entirely violent — there's evidence of social mobility, even creativity, in this period. But the great Old Kingdom system, that magnificent confident pyramid-state, was gone.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What climate event is now thought to have helped collapse the Old Kingdom around 2200 BCE?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A volcanic winter caused by an eruption in Iceland</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">A drying of the African monsoon known as the 4.2 kiloyear event</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A sudden rise in sea level that flooded the Nile Delta</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Why the Pyramid Age Still Matters</h3>
+<p>The Old Kingdom is the source of nearly every cliché about ancient Egypt. But strip away the clichés and what's left is genuinely astonishing: a society that, within a few generations of becoming a unified state, built the largest stone structures the world would see for thousands of years; that produced engineering, mathematics, and bureaucratic systems easily good enough to make Khufu's pyramid the wonder it remains; and that did so in service of a religious vision — the god-king's safe passage to eternity — that they believed held the entire universe together.</p>
+
+<p>And then it ended. Not because of invasion (Egypt was famously hard to invade), but because of climate stress, political devolution, and the slow erosion of ideological confidence. The First Intermediate Period that followed would teach Egyptians something they had not previously understood about themselves: their gods could fail, their kings could be powerless, and their world could come apart. When Egypt reunified a century later under the Middle Kingdom, it would be sobered, less grand — and in some ways, more humane. That's the story of Module 3.</p>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The Old Kingdom is a case study in what a coherent, confident, organised pre-modern state can accomplish. It also shows how a society can become so committed to one specific ideological project — in this case, building monuments to god-kings — that when external pressures (climate, political fragmentation) arrive, it lacks the flexibility to adapt. Both the magnificence and the collapse are lessons. The Egyptians themselves never forgot either.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════

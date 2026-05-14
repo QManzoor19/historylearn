@@ -91,16 +91,76 @@ let lastScrollY = 0;
 
 // Router — entry point from skill tree. If the topic has modules, show the
 // module outline. Otherwise open the single lesson view as before.
-function openTopic(unitNum, name, sub) {
+// `searchTerm` (optional): if provided, the lesson opens with that word
+// highlighted and scrolled into view. For topics with modules, we also scan
+// every module's lesson body for the term and open the matching module
+// directly, so the user lands on the exact word.
+function openTopic(unitNum, name, sub, searchTerm) {
   const node = findNodeByName(name)?.node;
   if (node && Array.isArray(node.modules) && node.modules.length > 0) {
+    if (searchTerm) {
+      const lessons = getStrippedLessons();
+      const q = String(searchTerm).toLowerCase();
+      for (const m of node.modules) {
+        const text = lessons[`${name}::${m.id}`];
+        if (text && text.toLowerCase().includes(q)) {
+          openLesson(unitNum, name, sub, m.id, searchTerm);
+          return;
+        }
+      }
+    }
     openModuleOutline(unitNum, name, sub);
   } else {
-    openLesson(unitNum, name, sub);
+    openLesson(unitNum, name, sub, null, searchTerm);
   }
 }
 
-function openLesson(unitNum, name, sub, moduleId) {
+// Walk `rootEl`'s text nodes, wrap every (case-insensitive) match of `query`
+// in <mark class="search-hit">, and return the first mark element. Used by
+// the global search to deep-link straight to a word inside a lesson.
+function highlightTextInElement(rootEl, query) {
+  if (!rootEl || !query) return null;
+  const q = String(query).toLowerCase();
+  if (!q) return null;
+
+  const walker = document.createTreeWalker(rootEl, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const p = node.parentElement;
+      if (!p) return NodeFilter.FILTER_REJECT;
+      if (p.closest('script,style,.search-hit')) return NodeFilter.FILTER_REJECT;
+      return node.nodeValue.toLowerCase().includes(q)
+        ? NodeFilter.FILTER_ACCEPT
+        : NodeFilter.FILTER_REJECT;
+    }
+  });
+
+  const nodes = [];
+  let n;
+  while ((n = walker.nextNode())) nodes.push(n);
+
+  let firstMark = null;
+  nodes.forEach(node => {
+    const text = node.nodeValue;
+    const lower = text.toLowerCase();
+    const frag = document.createDocumentFragment();
+    let last = 0, idx;
+    while ((idx = lower.indexOf(q, last)) !== -1) {
+      if (idx > last) frag.appendChild(document.createTextNode(text.slice(last, idx)));
+      const mark = document.createElement('mark');
+      mark.className = 'search-hit';
+      mark.textContent = text.slice(idx, idx + q.length);
+      frag.appendChild(mark);
+      if (!firstMark) firstMark = mark;
+      last = idx + q.length;
+    }
+    if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  });
+
+  return firstMark;
+}
+
+function openLesson(unitNum, name, sub, moduleId, searchTerm) {
   currentLesson = { unitNum, name, sub };
   currentModule = null;
   if (!document.getElementById('module-outline') || document.getElementById('module-outline').style.display !== 'block') {
@@ -140,6 +200,25 @@ function openLesson(unitNum, name, sub, moduleId) {
   document.getElementById('lesson-content').innerHTML = content + renderTopicVideo(key, name, displayTitle);
   buildTopicDetails(key);
 
+  // Deep-link from search: highlight the term in the lesson and scroll to it.
+  // The small timeout (rather than a bare rAF) is deliberate — it gives the
+  // browser time to finish any tab-switching layout work that may have been
+  // queued by the click handler that called us, so scrollIntoView lands on
+  // the laid-out element rather than a still-hidden one.
+  if (searchTerm) {
+    setTimeout(() => {
+      const lessonEl = document.getElementById('lesson-content');
+      const detailsEl = document.getElementById('topic-details');
+      const first = highlightTextInElement(lessonEl, searchTerm)
+                 || highlightTextInElement(detailsEl, searchTerm);
+      if (first) {
+        first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        window.scrollTo(0, 0);
+      }
+    }, 60);
+  }
+
   // Completion button state
   const btn = document.getElementById('lesson-done-btn');
   if (currentModule) {
@@ -150,7 +229,7 @@ function openLesson(unitNum, name, sub, moduleId) {
     btn.textContent = done.has(id) ? '✓ Already Complete — Close' : '✓ Mark Complete & Continue';
   }
 
-  window.scrollTo(0, 0);
+  if (!searchTerm) window.scrollTo(0, 0);
 }
 
 function closeLesson() {
@@ -1698,37 +1777,148 @@ function highlight(text, q) {
   return safe.replace(re, '<mark>$1</mark>');
 }
 
+// Cached stripped-text version of every lesson in L. Built lazily on first
+// search so the search-modal can scan ~60KB of lesson prose every keystroke
+// without re-stripping HTML each time.
+let _strippedLessonsCache = null;
+function getStrippedLessons() {
+  if (_strippedLessonsCache) return _strippedLessonsCache;
+  _strippedLessonsCache = {};
+  if (typeof L === 'undefined') return _strippedLessonsCache;
+  for (const key in L) {
+    if (typeof L[key] === 'string') {
+      _strippedLessonsCache[key] = L[key]
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+  }
+  return _strippedLessonsCache;
+}
+
+// Slice a small context window around the first occurrence of `query` in
+// `text`. Used to show a snippet in search results.
+function snippetAround(text, query, before = 50, after = 90) {
+  if (!text) return '';
+  const lower = text.toLowerCase();
+  const i = lower.indexOf(query);
+  if (i === -1) return text.slice(0, before + after) + (text.length > before + after ? '…' : '');
+  const start = Math.max(0, i - before);
+  const end = Math.min(text.length, i + query.length + after);
+  let s = text.slice(start, end);
+  if (start > 0) s = '…' + s;
+  if (end < text.length) s = s + '…';
+  return s;
+}
+
 function renderSearchResults(q) {
   const el = document.getElementById('search-results');
   const query = q.trim().toLowerCase();
 
   if (!query) {
-    el.innerHTML = `<div class="search-hint">Type to search across lessons, glossary, sources & flashcards.<br>Press <strong>Esc</strong> to close · <strong>/</strong> to open.</div>`;
+    el.innerHTML = `<div class="search-hint">Search any word across lessons, topic details, glossary, sources, flashcards, resources & timeline.<br>Press <strong>Esc</strong> to close · <strong>/</strong> to open.</div>`;
     return;
   }
 
-  // 1. Topics (units)
+  // 1. Topic names/subtitles/subtopics
   const topicMatches = [];
+  const topicNameMatchSet = new Set(); // for deduping with lesson-body matches
   units.forEach(u => {
     u.nodes.forEach(n => {
       const hay = (n.name + ' ' + n.sub + ' ' + (n.subtopics || []).join(' ')).toLowerCase();
       if (hay.includes(query)) {
         topicMatches.push({ u, n });
+        if (n.name.toLowerCase().includes(query)) topicNameMatchSet.add(n.name);
       }
     });
   });
 
-  // 2. Glossary
+  // 2. Lesson body text (full lesson prose for every topic & module)
+  const lessonMatches = [];
+  const lessons = getStrippedLessons();
+  for (const key in lessons) {
+    const text = lessons[key];
+    if (!text.toLowerCase().includes(query)) continue;
+
+    const isModule = key.includes('::');
+    const topicName = isModule ? key.split('::')[0] : key;
+    const moduleId = isModule ? parseInt(key.split('::')[1], 10) : null;
+
+    // Skip if topic name already matched (avoid duplicate cards) UNLESS it's
+    // a module — those have distinct destinations.
+    if (!isModule && topicNameMatchSet.has(topicName)) continue;
+
+    const found = (typeof findNodeByName === 'function') ? findNodeByName(topicName) : null;
+    if (!found) continue;
+
+    // Note when this match is the parent lesson of a topic-with-modules.
+    // Those clicks must bypass the module outline and open the parent
+    // lesson directly so the highlight has a target.
+    const parentOfModular = !isModule && Array.isArray(found.node.modules) && found.node.modules.length > 0;
+
+    let modInfo = null;
+    if (isModule && Array.isArray(found.node.modules)) {
+      modInfo = found.node.modules.find(m => m.id === moduleId) || null;
+    }
+
+    lessonMatches.push({
+      parentOfModular,
+      unitNum: found.unitNum,
+      node: found.node,
+      topicName,
+      moduleId,
+      modInfo,
+      snippet: snippetAround(text, query),
+    });
+  }
+
+  // 3. Topic details (figures, causes, effects, connections, source quote)
+  const tdMatches = [];
+  if (typeof topicDetails !== 'undefined') {
+    for (const key in topicDetails) {
+      const d = topicDetails[key];
+      const parts = [];
+      if (Array.isArray(d.causes)) parts.push(d.causes.join(' '));
+      if (Array.isArray(d.effects)) parts.push(d.effects.join(' '));
+      if (Array.isArray(d.figures)) parts.push(d.figures.map(f => `${f.name || ''} ${f.role || ''} ${f.why || ''} ${f.dates || ''}`).join(' '));
+      if (Array.isArray(d.connections)) parts.push(d.connections.join(' '));
+      if (d.sourceSnippet) parts.push(`${d.sourceSnippet.text || ''} ${d.sourceSnippet.attribution || ''}`);
+      const hay = parts.join(' ');
+      if (!hay.toLowerCase().includes(query)) continue;
+
+      const isModule = key.includes('::');
+      const topicName = isModule ? key.split('::')[0] : key;
+      if (!isModule && topicNameMatchSet.has(topicName)) continue;
+
+      const found = (typeof findNodeByName === 'function') ? findNodeByName(topicName) : null;
+      if (!found) continue;
+
+      tdMatches.push({
+        unitNum: found.unitNum,
+        node: found.node,
+        topicName,
+        moduleId: isModule ? parseInt(key.split('::')[1], 10) : null,
+        snippet: snippetAround(hay, query),
+      });
+    }
+  }
+
+  // 4. Glossary
   const gMatches = (typeof glossaryData !== 'undefined' ? glossaryData : []).filter(g =>
     g.term.toLowerCase().includes(query) || g.def.toLowerCase().includes(query)
   );
 
-  // 3. Sources
+  // 5. Primary sources
   const sMatches = (typeof primarySources !== 'undefined' ? primarySources : []).filter(s =>
-    s.title.toLowerCase().includes(query) || s.excerpt.toLowerCase().includes(query) || s.context.toLowerCase().includes(query)
+    (s.title + ' ' + (s.excerpt || '') + ' ' + (s.context || '')).toLowerCase().includes(query)
   );
 
-  // 4. Flashcards
+  // 6. Flashcards
   const fMatches = [];
   (typeof flashcardDecks !== 'undefined' ? flashcardDecks : []).forEach(d => {
     d.cards.forEach(c => {
@@ -1736,7 +1926,19 @@ function renderSearchResults(q) {
     });
   });
 
-  const total = topicMatches.length + gMatches.length + sMatches.length + fMatches.length;
+  // 7. Resources
+  const rMatches = (typeof resourcesData !== 'undefined' ? resourcesData : []).filter(r =>
+    (r.title + ' ' + (r.description || '') + ' ' + (r.tags || []).join(' ')).toLowerCase().includes(query)
+  );
+
+  // 8. Timeline events
+  const tlMatches = (typeof timelineEvents !== 'undefined' ? timelineEvents : []).filter(e =>
+    (e.title + ' ' + (e.desc || '') + ' ' + (e.date || '')).toLowerCase().includes(query)
+  );
+
+  const total = topicMatches.length + lessonMatches.length + tdMatches.length +
+                gMatches.length + sMatches.length + fMatches.length +
+                rMatches.length + tlMatches.length;
   if (total === 0) {
     el.innerHTML = `<div class="search-empty">No matches for "${escapeHTML(q)}"</div>`;
     return;
@@ -1744,12 +1946,32 @@ function renderSearchResults(q) {
 
   let h = '';
 
+  // Helper to build openTopic/openLesson click handler for topic and module matches.
+  // The third+ argument carries the user's query so the destination lesson can
+  // scroll to (and highlight) the first matching word. Values are first JS-escaped
+  // (for the single-quoted string literal) and then HTML-attribute-escaped (so &
+  // and " inside don't break the surrounding double-quoted attribute).
+  const escForJsAttr = (s) =>
+    String(s)
+      .replace(/\\/g, '\\\\')
+      .replace(/'/g, "\\'")
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;');
+  const safeQuery = escForJsAttr(query);
+  const lessonClick = (unitNum, name, sub, moduleId) => {
+    const safeName = escForJsAttr(name);
+    const safeSub = escForJsAttr(sub || '');
+    const openCall = moduleId
+      ? `openLesson(${unitNum},'${safeName}','${safeSub}',${moduleId},'${safeQuery}')`
+      : `openTopic(${unitNum},'${safeName}','${safeSub}','${safeQuery}')`;
+    return `closeSearch();document.querySelector('[data-tab=explore]').click();${openCall}`;
+  };
+
   if (topicMatches.length) {
     h += `<div class="search-group"><div class="search-group-label">Topics (${topicMatches.length})</div>`;
     topicMatches.slice(0, 6).forEach(({ u, n }) => {
-      const safeName = n.name.replace(/'/g, "\\'");
-      const safeSub = n.sub.replace(/'/g, "\\'");
-      h += `<div class="search-result" onclick="closeSearch();document.querySelector('[data-tab=explore]').click();openTopic(${u.unitNum},'${safeName}','${safeSub}')">
+      h += `<div class="search-result" onclick="${lessonClick(u.unitNum, n.name, n.sub)}">
         <div class="search-result-icon">${n.icon}</div>
         <div class="search-result-body">
           <div class="search-result-title">${highlight(n.name, query)}</div>
@@ -1760,10 +1982,55 @@ function renderSearchResults(q) {
     h += '</div>';
   }
 
+  if (lessonMatches.length) {
+    h += `<div class="search-group"><div class="search-group-label">Lesson Text (${lessonMatches.length})</div>`;
+    lessonMatches.slice(0, 8).forEach(m => {
+      const label = m.moduleId
+        ? `${m.topicName} · Module ${m.moduleId}${m.modInfo ? ' — ' + m.modInfo.name : ''}`
+        : (m.parentOfModular ? `${m.topicName} · Overview` : m.topicName);
+      const icon = m.moduleId && m.modInfo?.icon ? m.modInfo.icon : m.node.icon;
+      // Parent lessons of topics that have modules must open via openLesson
+      // directly — openTopic would redirect them to the module outline,
+      // which doesn't show the parent's body where the search hit lives.
+      const onclick = m.parentOfModular
+        ? `closeSearch();document.querySelector('[data-tab=explore]').click();openLesson(${m.unitNum},'${escForJsAttr(m.topicName)}','${escForJsAttr(m.node.sub)}',null,'${safeQuery}')`
+        : lessonClick(m.unitNum, m.topicName, m.node.sub, m.moduleId);
+      h += `<div class="search-result" onclick="${onclick}">
+        <div class="search-result-icon">${icon}</div>
+        <div class="search-result-body">
+          <div class="search-result-title">${highlight(label, query)}</div>
+          <div class="search-result-sub">${highlight(m.snippet, query)}</div>
+        </div>
+      </div>`;
+    });
+    h += '</div>';
+  }
+
+  if (tdMatches.length) {
+    h += `<div class="search-group"><div class="search-group-label">Topic Details (${tdMatches.length})</div>`;
+    tdMatches.slice(0, 6).forEach(m => {
+      const isParentOfModular = !m.moduleId && Array.isArray(m.node.modules) && m.node.modules.length > 0;
+      const label = m.moduleId
+        ? `${m.topicName} · Module ${m.moduleId}`
+        : (isParentOfModular ? `${m.topicName} · Overview` : m.topicName);
+      const onclick = isParentOfModular
+        ? `closeSearch();document.querySelector('[data-tab=explore]').click();openLesson(${m.unitNum},'${escForJsAttr(m.topicName)}','${escForJsAttr(m.node.sub)}',null,'${safeQuery}')`
+        : lessonClick(m.unitNum, m.topicName, m.node.sub, m.moduleId);
+      h += `<div class="search-result" onclick="${onclick}">
+        <div class="search-result-icon">${m.node.icon}</div>
+        <div class="search-result-body">
+          <div class="search-result-title">${highlight(label, query)}</div>
+          <div class="search-result-sub">${highlight(m.snippet, query)}</div>
+        </div>
+      </div>`;
+    });
+    h += '</div>';
+  }
+
   if (gMatches.length) {
     h += `<div class="search-group"><div class="search-group-label">Glossary (${gMatches.length})</div>`;
-    gMatches.slice(0, 5).forEach(g => {
-      h += `<div class="search-result" onclick="closeSearch();document.querySelector('[data-tab=glossary]').click()">
+    gMatches.slice(0, 6).forEach(g => {
+      h += `<div class="search-result" onclick="jumpToGlossary('${safeQuery}')">
         <div class="search-result-icon">📖</div>
         <div class="search-result-body">
           <div class="search-result-title">${highlight(g.term, query)}</div>
@@ -1777,7 +2044,7 @@ function renderSearchResults(q) {
   if (sMatches.length) {
     h += `<div class="search-group"><div class="search-group-label">Primary Sources (${sMatches.length})</div>`;
     sMatches.slice(0, 4).forEach(s => {
-      h += `<div class="search-result" onclick="closeSearch();document.querySelector('[data-tab=sources]').click()">
+      h += `<div class="search-result" onclick="jumpToSources('${safeQuery}')">
         <div class="search-result-icon">📜</div>
         <div class="search-result-body">
           <div class="search-result-title">${highlight(s.title, query)}</div>
@@ -1791,7 +2058,7 @@ function renderSearchResults(q) {
   if (fMatches.length) {
     h += `<div class="search-group"><div class="search-group-label">Flashcards (${fMatches.length})</div>`;
     fMatches.slice(0, 4).forEach(({ deck, card }) => {
-      h += `<div class="search-result" onclick="closeSearch();document.querySelector('[data-tab=flashcards]').click()">
+      h += `<div class="search-result" onclick="jumpToFlashcards('${safeQuery}')">
         <div class="search-result-icon">🃏</div>
         <div class="search-result-body">
           <div class="search-result-title">${highlight(card.q, query)}</div>
@@ -1802,7 +2069,88 @@ function renderSearchResults(q) {
     h += '</div>';
   }
 
+  if (rMatches.length) {
+    h += `<div class="search-group"><div class="search-group-label">Resources (${rMatches.length})</div>`;
+    rMatches.slice(0, 4).forEach(r => {
+      const safeUrl = (r.url || '').replace(/'/g, "%27").replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+      h += `<div class="search-result" onclick="closeSearch();window.open('${safeUrl}','_blank','noopener')">
+        <div class="search-result-icon">${r.icon || '🔗'}</div>
+        <div class="search-result-body">
+          <div class="search-result-title">${highlight(r.title, query)}</div>
+          <div class="search-result-sub">${highlight(r.description || '', query)}</div>
+        </div>
+      </div>`;
+    });
+    h += '</div>';
+  }
+
+  if (tlMatches.length) {
+    h += `<div class="search-group"><div class="search-group-label">Timeline (${tlMatches.length})</div>`;
+    tlMatches.slice(0, 4).forEach(e => {
+      h += `<div class="search-result" onclick="jumpToTimeline('${safeQuery}')">
+        <div class="search-result-icon">📅</div>
+        <div class="search-result-body">
+          <div class="search-result-title">${highlight(e.title, query)}</div>
+          <div class="search-result-sub">${highlight(e.date, query)} · ${highlight(e.desc || '', query)}</div>
+        </div>
+      </div>`;
+    });
+    h += '</div>';
+  }
+
   el.innerHTML = h;
+}
+
+// ─── Deep-link helpers for non-lesson tabs ───────────────────
+function jumpToGlossary(q) {
+  closeSearch();
+  document.querySelector('[data-tab=glossary]').click();
+  setTimeout(() => {
+    const inp = document.getElementById('glossary-search');
+    if (inp) {
+      inp.value = q;
+      inp.dispatchEvent(new Event('input'));
+    }
+    setTimeout(() => {
+      const root = document.getElementById('tab-glossary');
+      const first = highlightTextInElement(root, q);
+      if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 40);
+  }, 30);
+}
+function jumpToFlashcards(q) {
+  closeSearch();
+  document.querySelector('[data-tab=flashcards]').click();
+  setTimeout(() => {
+    const inp = document.getElementById('fc-search');
+    if (inp) {
+      inp.value = q;
+      inp.dispatchEvent(new Event('input'));
+    }
+    setTimeout(() => {
+      const root = document.getElementById('tab-flashcards');
+      const first = highlightTextInElement(root, q);
+      if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 40);
+  }, 30);
+}
+function jumpToSources(q) {
+  closeSearch();
+  document.querySelector('[data-tab=sources]').click();
+  setTimeout(() => {
+    const root = document.getElementById('tab-sources');
+    const first = highlightTextInElement(root, q);
+    if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, 60);
+}
+function jumpToTimeline(q) {
+  closeSearch();
+  document.querySelector('[data-tab=timeline]').click();
+  setTimeout(() => {
+    const root = document.getElementById('tab-timeline');
+    const first = highlightTextInElement(root, q);
+    if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, 60);
 }
 
 init();
