@@ -1169,6 +1169,31 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Nubia & Kush — Module 1 ─────────────────────
+  "Ancient Nubia & Kush::1": {
+    causes: [
+      "The Nile flows for 1,800 km through what is now Sudan, supporting parallel African civilisations south of Egypt",
+      "Climate in the 4th–3rd millennia BCE supported cattle pastoralism in regions that are pure desert today",
+      "The six cataracts both isolated Nubia from easy Egyptian conquest and divided it into distinct regional zones"
+    ],
+    effects: [
+      "Established the A-Group and C-Group as the earliest complex African societies on the Upper Nile",
+      "Produced (at Qustul) what may be the earliest royal iconography in the Nile Valley — predating Egyptian unification",
+      "Created the cultural substrate from which the Kingdom of Kerma and later Kushite kingdoms would rise"
+    ],
+    figures: [
+      { name: "George Reisner", dates: "1867–1942", role: "American archaeologist", why: "Pioneered systematic Nubian archaeology and named the A-, B-, C-, and X-Group cultures." },
+      { name: "Keith Seele", dates: "1898–1971", role: "Oriental Institute Egyptologist", why: "Led the 1962–1964 Qustul excavation that recovered the controversial L-cemetery royal-style burials." },
+      { name: "Bruce Williams", dates: "b. 1942", role: "American Egyptologist", why: "Published the Qustul finds and proposed the controversial hypothesis that Nubian royal iconography may predate Egyptian unification." },
+      { name: "Senusret III", dates: "r. c. 1878–1839 BCE", role: "Middle Kingdom pharaoh", why: "Conducted the great Egyptian campaigns against Nubia, building the fortress chain and the Semna boundary stones that document how seriously Egypt took Nubian power." }
+    ],
+    connections: ["Ancient Nubia & Kush", "Ancient Egypt", "Ancient Egypt::1", "Ancient Egypt::3", "African Kingdoms"],
+    sourceSnippet: {
+      text: "Southern boundary, made in the year 8, under the majesty of the King of Upper and Lower Egypt Senusret… in order to prevent any Nubian from crossing it by land or in any boat, except a Nubian who comes to trade or on a commission.",
+      attribution: "Boundary stele of Senusret III at Semna, c. 1860 BCE — describing Lower Nubia"
+    }
+  },
+
   // ── Ancient Egypt — Module 8 ────────────────────────────
   "Ancient Egypt::8": {
     causes: [

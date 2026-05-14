@@ -1794,6 +1794,130 @@ The Ptolemaic king Ptolemy II Philadelphus sponsored the most consequential tran
 </div>`;
 
 // ═══════════════════════════════════════════════════════
+// ANCIENT NUBIA & KUSH — DEEP MODULES
+// ═══════════════════════════════════════════════════════
+
+L["Ancient Nubia & Kush::1"] = `<div class="lesson-body">
+
+<h3>The Other Nile Civilisation</h3>
+<p>For most of history, the popular Western imagination has known of one Nile civilisation: ancient Egypt. But the river is long. South of Aswan — beyond Egypt's First Cataract — the Nile runs for another 1,800 kilometres through what is now Sudan, past six rocky cataracts and through landscapes ranging from desert to seasonal grassland to the joining of the Blue and White Niles. That stretch of the river has been home, for at least seven thousand years, to a sequence of African civilisations that the Egyptians themselves called <strong>Kush</strong> and that modern scholars call <strong>Nubia</strong>. These were not minor neighbours. They were major regional powers, sometimes the political equals of Egypt and occasionally — as in the 8th century BCE — its conquerors.</p>
+
+<p>Nubian history runs in parallel with Egyptian history for roughly three and a half millennia, with its own kingdoms, its own scripts, its own religious traditions, its own art styles, and its own enormous monuments. Sudan today has <strong>more than twice as many pyramids as Egypt</strong> — most of them built by Nubians, for Nubians, in deliberate imitation of and rivalry with the better-known monuments to the north. To study only ancient Egypt and skip Nubia is to misread the geography of the African Nile entirely. It is roughly equivalent to studying Italian history while ignoring Greece next door.</p>
+
+<p>This module covers the earliest phases of recorded Nubian civilisation: the people known to archaeologists as the <strong>A-Group</strong> (c. 3800 – 2800 BCE), the related but later <strong>C-Group</strong> (c. 2400 – 1500 BCE), and the Pan-Grave culture of the eastern desert. Together they span the two millennia in which Nubia emerged as a complex society and prepared the ground for the great kingdoms — Kerma, Napata, Meroë — that we will follow in later modules.</p>
+
+<h3>Geography: Two Nubias, Six Cataracts</h3>
+<p>To understand Nubian history you first have to understand its geography. The Egyptian Nile flows through a single, broad floodplain — gentle, predictable, hospitable. The Nubian Nile is the opposite. It cuts through ancient bedrock that the river has never managed to fully erode. Six places between modern Aswan and Khartoum have outcrops of hard granite or basalt that interrupt the river's flow with rapids — the famous <span class="vocab-pill">cataracts</span>, numbered from north (First Cataract at Aswan) to south (Sixth Cataract near Khartoum).</p>
+
+<p>The cataracts had three consequences. First, they made Nubia hard to invade — every Egyptian army that pushed south had to portage around them with enormous effort. Second, they divided Nubia naturally into regions: <strong>Lower Nubia</strong> (between the First and Second Cataracts, mostly in modern Egypt) and <strong>Upper Nubia</strong> (south of the Second Cataract, in modern Sudan). Third, they made certain narrow stretches of the river fertile enough for farming while leaving the rest as harder grazing land — encouraging a mixed economy of agriculture and cattle pastoralism that defined Nubian society for millennia.</p>
+
+<p>The climate, too, was different. While Egyptian civilisation grew up in a country that was essentially river-and-desert, Nubia in the 4th and 3rd millennia BCE received more rainfall and supported more seasonal grasslands. Cattle could graze in places that are pure desert today. The dramatic drying of North Africa over the last 5,000 years — the same climate shift that helped collapse the Egyptian Old Kingdom — hit Nubia hard.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+If Egypt was the Nile's gift, Nubia was the Nile's challenge. Where Egyptians had a smooth, fertile river running through a tame floodplain, Nubians had a rocky, broken river running through tough country good for cattle but unforgiving for crops. The difference shaped everything that followed. Nubian civilisations are <em>tougher</em> societies than Egypt's — more militarised, more pastoral, more decentralised, and far more skilled at surviving the cycles of climate that broke their northern neighbour.
+</div>
+
+<h3>The A-Group Emerges (c. 3800 – 2800 BCE)</h3>
+<p>The first archaeologically visible Nubian society we recognise as a complex culture is the <strong>A-Group</strong>, named — not very imaginatively — by the American archaeologist George Reisner in 1907, who labelled the early Nubian cultures alphabetically as he encountered them. The A-Group flourished in Lower Nubia between roughly 3800 and 2800 BCE — exactly the period when Egyptians north of the First Cataract were producing the Naqada cultures and moving toward unification.</p>
+
+<p>A-Group villages were small but well-organised. They lived in mud-brick or reed houses, kept cattle, sheep, and goats, grew barley and emmer wheat, and produced a distinctive painted pottery — fine red wares with black tops, decorated with geometric patterns and occasional images of cattle, hippos, and human figures. They also made carved palettes, stone vessels, and ivory ornaments that look strikingly similar to Egyptian Naqada material. The two cultures were clearly in continuous trading and cultural contact across the First Cataract for centuries.</p>
+
+<p>What makes the A-Group remarkable, though, is not their ordinary settlements but their elite cemeteries. The A-Group buried their dead in increasingly elaborate graves — first simple pit burials, then graves with grave goods, then large pit-and-superstructure graves containing copper and gold ornaments, imported Egyptian pottery, and signs of social hierarchy. By the late A-Group period, they had developed a level of social complexity at least comparable to contemporary Egyptian society.</p>
+
+<h3>The Qustul Question</h3>
+<p>The most striking single discovery in early Nubian archaeology is the cemetery known as <strong>Qustul</strong>, excavated by the Oriental Institute of Chicago in the 1960s as part of the international Nubian rescue campaign before the Aswan High Dam flooded the site. At Qustul, the team led by Keith Seele unearthed an A-Group cemetery containing <strong>33 unusually large, rich tombs</strong> — designated the L-cemetery — that contained imported gold, copper weapons, hundreds of finely-made Egyptian-style stone vessels, and ivory objects of extraordinary quality.</p>
+
+<p>The most controversial find was a carved <span class="vocab-pill">incense burner</span> — a small stone cylinder — depicting a procession of three barques. The middle barque carries a seated figure wearing what appears to be the <strong>White Crown of Upper Egypt</strong>, the same crown later worn by Narmer and every subsequent Egyptian pharaoh. The carving probably dates to around 3300 BCE — possibly <em>earlier</em> than any comparable Egyptian image of a crowned ruler.</p>
+
+<p>The archaeologist who published it, <strong>Bruce Williams</strong>, argued in the 1980s that the Qustul incense burner showed that the iconography of pharaonic kingship — the White Crown, the smiting figure, the royal barque — may have originated in Nubia, not Egypt. He suggested that an early A-Group royal dynasty at Qustul may have predated and influenced the kings of the Egyptian unification. This claim, called the <strong>Qustul hypothesis</strong>, has been hotly debated for forty years. Most Egyptologists now accept that the A-Group elite at Qustul were displaying royal-style iconography, but disagree on whether it predates or borrows from Upper Egyptian sources. Either way, it shows that the rulers of Lower Nubia thought of themselves, and were perceived by their contemporaries, as serious kingly figures — not as marginal villagers.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What is the significance of the Qustul A-Group cemetery?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">It contained the earliest known mummies in Africa</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Its royal-style burials suggest a Nubian kingly tradition contemporary with — and possibly predating — Egyptian unification</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">It records the earliest written Nubian language</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Collapse of the A-Group (c. 2800 BCE)</h3>
+<p>The A-Group did not survive Egyptian unification. As the early Egyptian state consolidated under the First and Second Dynasties (c. 3100 – 2686 BCE), Egyptian pharaohs began launching raids south. Inscriptions from the reign of <strong>Aha</strong> and other early Egyptian kings boast of "smiting Nubia" and bringing back captives, cattle, and gold. An early Old Kingdom inscription famously refers to Lower Nubia as <em>Ta-Sety</em> — "the land of the bow" — and describes military expeditions to subdue it.</p>
+
+<p>By around 2800 BCE, the A-Group had effectively disappeared from the archaeological record. Their settlements were abandoned. Their elaborate cemeteries stopped being built. The most likely explanation is that Egyptian raids had broken the A-Group economy and elite, with surviving populations moving south, eastward into the desert, or merging with neighbouring groups. The archaeological term for this gap — roughly the period from 2800 to 2300 BCE in Lower Nubia — is the <strong>Nubian Hiatus</strong>: a 500-year stretch during which Lower Nubia appears almost empty of settled population.</p>
+
+<p>It is not really empty. Recent work suggests that pastoralists kept living in the region, just in lower densities and without leaving the kind of elite cemeteries that preserve well in the archaeological record. But for half a millennium, the elaborate Nubian elite culture of the A-Group was simply gone.</p>
+
+<h3>The C-Group: Nubia Reborn (c. 2400 – 1500 BCE)</h3>
+<p>Around 2400 BCE — late in the Egyptian Old Kingdom — Lower Nubia repopulated. The new culture, again labelled alphabetically, is the <strong>C-Group</strong>. C-Group settlements appeared along the Nile between the First and Second Cataracts, with a more pastoral, less stratified society than the A-Group had developed. Their burials are distinctive: <strong>round stone-circle graves</strong>, often capped with a mound of black stones and white pebbles. Many graves contain figurines of cattle, suggesting a deep cultural identification with herding.</p>
+
+<p>The C-Group lived alongside Egyptian colonists who began moving into Lower Nubia in the Middle Kingdom. Egyptian inscriptions describe them with mixed feelings — sometimes as trading partners and labourers, sometimes as raiders to be repelled, occasionally as mercenaries serving in Egyptian armies. The famous "Execration Texts" — clay figurines of bound prisoners inscribed with the names of foreign rulers and then ritually broken — list dozens of named Nubian chieftains, each one apparently ruling a small territory.</p>
+
+<p>Crucially, the C-Group never developed the kind of unified political power that the contemporary <strong>Kingdom of Kerma</strong> was building in Upper Nubia (Module 2). Where Kerma centralised, the C-Group remained a patchwork of clans and chieftaincies. This made the C-Group easier for Egypt to dominate when it expanded south — but it also made them durable. C-Group cattle-pastoral traditions survived under Egyptian rule and contributed to the later Nubian cultures.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+A C-Group cemetery at <strong>Aniba</strong> in Lower Nubia, excavated in the 1930s, contained over a thousand graves with painted ceramics, distinctive leather garments, and remarkably well-preserved C-Group figurines of cattle. The cattle figurines are not just art objects — they may be religious offerings, status markers, or property identifiers. Comparable cattle imagery has shown up in modern East African pastoral cultures, suggesting deep continuities in how Nile pastoralists have conceived of their relationship with their herds for at least 4,000 years.
+</div>
+
+<h3>The Pan-Grave Culture and the Medjay</h3>
+<p>Alongside the C-Group, a related but distinct culture flourished in the eastern desert and the cataract regions: the <strong>Pan-Grave culture</strong>, so named because their graves are shallow round pits resembling cooking pans. The Pan-Grave people appear to have been semi-nomadic pastoralists who herded cattle through the desert and lived in tents or temporary camps along the Nile fringes. They produced fine incised pottery, distinctive painted skulls of cattle and goats placed in graves, and a strikingly elegant style of jewellery.</p>
+
+<p>Many archaeologists identify the Pan-Grave culture with the people Egyptian texts called the <strong>Medjay</strong> — a Nubian group that became famous as elite mercenary soldiers in Egyptian service. From the Middle Kingdom onward, "Medjay" appears in Egyptian sources in two related senses: first as a specific ethnic group, then as a generic term for police and frontier guards (much as "Hessians" became a generic term for German mercenaries in the 18th century). By the New Kingdom, "the Medjay" were Egypt's internal police force, recruited heavily from Nubians, patrolling the royal necropolises and major cities. The famous workmen's village of Deir el-Medina (Module 6 of the Egypt curriculum) sat under Medjay police protection.</p>
+
+<p>The Pan-Grave/Medjay are a useful corrective to the simple picture of "Nubians ruled by Egyptians." Nubians were equally often elite Egyptian soldiers, royal bodyguards, and bureaucrats. The line between the two cultures was always porous.</p>
+
+<h3>What Bronze Age Nubians Were Doing</h3>
+<p>By the late C-Group period — roughly 1700 to 1500 BCE — Lower Nubian society was a complex mix of:</p>
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Egyptian colonists</strong> living in heavily fortified river forts (Buhen, Mirgissa, Semna, Kumma) and small Egyptian-style settlements.</li>
+<li><strong>C-Group Nubian agriculturalists</strong> living in cattle-keeping villages alongside the Egyptian forts.</li>
+<li><strong>Pan-Grave / Medjay pastoralists</strong> moving between river and desert.</li>
+<li>And, further south, the great <strong>Kingdom of Kerma</strong> emerging beyond the Second Cataract as Egypt's most serious African rival.</li>
+</ul>
+
+<p>The Egyptian Middle Kingdom pharaoh <strong>Senusret III</strong> (covered in Egypt Module 3) campaigned ferociously against this complex Nubian world. His Semna inscriptions — boundary stones declaring "the southern boundary of Egypt" and warning Nubians that any attempt to cross will be met with destruction — give us our best window onto how Egyptians saw the early Nubian kingdoms. They saw a competent, organised, dangerous African civilisation that they could only partially dominate.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Who were the Medjay?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">An Egyptian dynasty that ruled Nubia in the Old Kingdom</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">A Nubian pastoral group (likely the Pan-Grave culture) widely recruited as Egypt's elite mercenary police force</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The first Nubian dynasty to conquer Egypt</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Why the Early Nubians Matter</h3>
+<p>The A-Group, C-Group, and Pan-Grave cultures rarely make it into world history textbooks. They produced no pyramids, no surviving literature, no famous individual rulers. But three things make them important.</p>
+
+<p>First, they show that <strong>complex African civilisation along the Nile was not a one-Egypt phenomenon</strong>. From at least 3800 BCE onward, sophisticated kingly societies were developing simultaneously on both sides of the First Cataract. The Egyptian-Nubian relationship was not a centre and a periphery. It was two roughly contemporary cultures in constant trade, intermarriage, conflict, and mutual borrowing.</p>
+
+<p>Second, the Qustul material raises the genuine possibility that <strong>some of the visual vocabulary of Egyptian kingship</strong> — the White Crown in particular — was not invented in the Egyptian Delta and exported south, but emerged across a broader Upper Nile region in which Nubian rulers were players from the start. This is not a finished argument, but the evidence is real enough that any honest account of the origins of pharaonic kingship has to include the A-Group as part of the story.</p>
+
+<p>Third, the survival of Nubian society — even after the A-Group collapse, even under Egyptian military occupation, even through the worst of the climate-drying — gave Africa the cultural foundations that would, by the late New Kingdom, produce the Kushite kingdoms strong enough to march north and rule Egypt itself.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Why is the C-Group's pastoralism historically important?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">It produced the first cattle-domestication anywhere in the world</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">It preserved Nubian cultural traditions through centuries of Egyptian colonisation, contributing to later Kushite kingdoms</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">It was the source of all later Egyptian gods</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The story of African civilisation along the Nile begins not in Egypt but on both sides of the First Cataract simultaneously. The A-Group of Lower Nubia, contemporary with Egyptian unification, may have produced royal iconography as early as their northern neighbours did. The C-Group and Pan-Grave cultures that followed kept Nubian society alive through five centuries of climate change and Egyptian military pressure. They set the stage for the rise of the Kingdom of Kerma — the first great power of African history south of Egypt — which we will follow in Module 2. The civilisations we are about to meet were not Egyptian copies. They were African originals, with their own kings, their own gods, their own pyramids, and their own long argument with the river that fed them all.
+</div>
+
+</div>`;
+
+// ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════
 
