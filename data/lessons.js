@@ -1084,6 +1084,123 @@ The <strong>Diary of Merer</strong>, discovered in 2013 at Wadi al-Jarf on the R
 
 </div>`;
 
+L["Ancient Egypt::3"] = `<div class="lesson-body">
+
+<h3>An Egypt That Knew Itself Could Fall</h3>
+<p>The Old Kingdom built monuments designed to outlast eternity. It also collapsed. Between roughly <strong>2181 and 1650 BCE</strong>, Egypt lived through three very different chapters — a century of fragmentation, then a long reunified golden age of literature and reform, then a foreign-ruled interlude that ended the era. This module follows Egypt from the rubble of Khufu's world to the moment, around 1550 BCE, when a Theban prince named Ahmose drove out the foreign Hyksos and ushered in the imperial New Kingdom.</p>
+
+<p>What makes this period special — and easy to skip past — is that it doesn't have the iconic visual punch of the pyramids or Tutankhamun. What it has instead is something subtler and arguably more important: Egypt becoming <em>self-conscious</em>. The Middle Kingdom is when Egyptian civilisation looked at its own grand past, mourned what it had lost, and reinvented itself in a chastened, humane, philosophically alert key. It is the period that produced Egypt's first novelist, its first satire, its first poetry of doubt. Reading it, you start to feel like you are meeting Egyptians as individuals rather than as types.</p>
+
+<h3>The First Intermediate Period (c. 2181 – 2055 BCE)</h3>
+<p>After the death of Pepi II, the central state dissolved. We have lists of kings from this <strong>First Intermediate Period</strong> with reigns sometimes only a few months long. Provincial governors — the <span class="vocab-pill">nomarchs</span> — became, in effect, regional warlords. The desert oases that had been Egyptian colonies asserted local independence. The unified Egypt of Khufu was gone.</p>
+
+<p>This was also a time of suffering. The drying climate of the <strong>4.2 kiloyear event</strong> made Nile floods erratic. Inscriptions of the period speak of famine, lawlessness, and the breakdown of social trust. The <strong>autobiography of Ankhtifi</strong>, a nomarch of Hierakonpolis, brags that during his rule "Upper Egypt died of hunger to such a degree that every man had to eat his children. But I never allowed it to happen that anyone died of hunger in this nome." Even allowing for boasting, the description of conditions elsewhere is chilling.</p>
+
+<p>Two rival royal houses eventually emerged. The <strong>Heracleopolitan</strong> kings of the Ninth and Tenth Dynasties ruled from the north, claiming continuity with the old Memphite tradition. The <strong>Theban</strong> kings of the Eleventh Dynasty rose in the south. Between them lay a contested middle Egypt. For roughly a century, the two states fought a slow, intermittent civil war for control of the country.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+The Egyptians lived through the First Intermediate Period the way later civilisations lived through their "dark ages" — a real crisis that, in hindsight, drove a flowering. The literature that follows is haunted by it. Middle Kingdom texts are constantly invoking the memory of "the king who came after the time of trouble." The collapse was not just a fact to be moved past; it became a permanent feature of how Egyptians understood themselves.
+</div>
+
+<h3>Mentuhotep II Reunifies Egypt (c. 2055 BCE)</h3>
+<p>The reunifier was <strong>Mentuhotep II</strong> of Thebes, the fifth king of the Eleventh Dynasty. After a long, careful campaign, he defeated the Heracleopolitans and reunited Egypt around 2055 BCE. The Egyptians of later periods regarded him as a foundational figure on par with Narmer — the king who restored ma'at, the cosmic order, after the chaos of fragmentation.</p>
+
+<p>His mortuary complex at <strong>Deir el-Bahri</strong>, on the west bank at Thebes, was an architectural statement of the new era. Instead of building a pyramid, Mentuhotep cut a terraced temple into the cliff face. It combined elements of the old pyramid complex (causeway, valley temple) with new ideas (terraces, colonnades) that would directly influence Hatshepsut's spectacular temple on the same site five centuries later. The message was: <em>we are continuing the Old Kingdom tradition, but we are also doing something new.</em></p>
+
+<h3>The Twelfth Dynasty and the Middle Kingdom Proper</h3>
+<p>After Mentuhotep II's descendants, power passed to a new royal line: the <strong>Twelfth Dynasty</strong>, founded by <strong>Amenemhat I</strong> around 1991 BCE. The Twelfth Dynasty is the Middle Kingdom at its height. It produced four centuries of stable, ambitious government — under kings named Amenemhat I–IV and Senusret I–III, the names alternating like American presidents.</p>
+
+<p>Amenemhat I moved the capital from Thebes to a new city near modern Lisht, just south of Memphis — closer to the strategic heartland of the country and to the Delta. He also reorganised the kingdom administratively, clipping the wings of the powerful nomarchs (although they remained important for another century). He revived pyramid-building, though the Middle Kingdom pyramids were smaller, built of mud-brick cores faced with stone, and have weathered badly. They were monuments of restored kingship rather than statements of total cosmic confidence.</p>
+
+<p><strong>Senusret III</strong> (r. c. 1878–1839 BCE) was perhaps the dynasty's most consequential ruler. He campaigned aggressively into <strong>Nubia</strong>, building a series of imposing brick fortresses along the Second Cataract — the Egyptian state's first systematic experiment with territorial empire. He also broke the political power of the hereditary nomarchs once and for all, replacing them with appointed officials directly answerable to the throne. His sculpted portraits show a king with deeply lined cheeks, heavy-lidded eyes, and a hard mouth — utterly unlike the serene god-kings of the Old Kingdom. He looks weighed down by the work of ruling. That itself is a Middle Kingdom innovation.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Which Theban king reunified Egypt around 2055 BCE after the First Intermediate Period?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Amenemhat I</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Mentuhotep II</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Senusret III</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Golden Age of Egyptian Literature</h3>
+<p>If the Old Kingdom is the great age of Egyptian architecture, the Middle Kingdom is the great age of Egyptian <em>literature</em>. Almost every Egyptian text we still read for pleasure was either composed or canonised in this period. Egyptian scribal schools used these works as classical models for the next 1,500 years — the way Europe used Cicero and Virgil.</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>The Tale of Sinuhe</strong> — a first-person adventure novel about an Egyptian courtier who flees after the death of his king, builds a life in Canaan, and longs to return home before he dies. It is sometimes called the world's first novel. Its emotional intelligence is striking.</li>
+<li><strong>The Tale of the Eloquent Peasant</strong> — a farmer is robbed by a corrupt official, appeals to higher authorities in nine increasingly passionate speeches, and finally wins justice. It is part literature, part essay on ma'at.</li>
+<li><strong>The Admonitions of Ipuwer</strong> — a despairing lament for a country in chaos, almost certainly recalling the First Intermediate Period. "The river is blood… plague is throughout the land… the wealth of the poor is given to the rich… ladies of rank go in rags."</li>
+<li><strong>The Instruction of Amenemhat I</strong> — a startling text purporting to be the assassinated Amenemhat I speaking from beyond the grave, warning his son Senusret I to trust no one. "Be on your guard against subordinates… for a man has no friends on the day of woe."</li>
+<li><strong>The Story of the Shipwrecked Sailor</strong> — a small, perfect fable about a sailor cast away on an enchanted island, who meets a giant talking snake-god who consoles him with wisdom about loss.</li>
+</ul>
+
+<p>What jumps out across this corpus is a recurring tone of <em>doubt</em>. Middle Kingdom literature is unusually willing to question kings, suffer with peasants, criticise the powerful, and articulate the inner lives of individuals. It is also formally inventive — moving between prose and verse, narrator and dialogue. Reading it, you encounter ancient Egyptians whose subjective experience feels remarkably accessible.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The <strong>Tale of Sinuhe</strong>'s closing scene — when the aged Sinuhe finally returns to Egypt and the king's children sing a hymn welcoming him home — is preserved on dozens of surviving copies, more than any other Egyptian literary text. School-scribes were still copying it as a classical model fifteen centuries after it was written. By any measure, it is one of the best-preserved and most beloved works of ancient literature anywhere in the world.
+</div>
+
+<h3>Religion, Art, and Everyday Life</h3>
+<p>Middle Kingdom religion shifted in subtle but profound ways. The cult of <strong>Osiris</strong>, lord of the underworld, surged. In the Old Kingdom, only the pharaoh could realistically expect an Osirian afterlife. In the Middle Kingdom, this began to <strong>democratise</strong>: nobles and even modestly well-off commoners commissioned their own funerary equipment, painted with the spells later collected as the <strong>Coffin Texts</strong> — the direct ancestor of the New Kingdom's famous Book of the Dead. The implication was radical: any Egyptian, in principle, could now hope for resurrection. The pharaoh was still divine, but eternity was no longer his alone.</p>
+
+<p>Art evolved alongside. Where Old Kingdom royal sculpture showed serene, ageless faces, Middle Kingdom royal sculpture is hauntingly weathered, with sagging jowls and tired eyes. Some scholars think this reflects a deliberate ideology of the king as a careworn protector of his people rather than a remote god — burdened, vigilant, mortal-looking. Whatever the intent, the portraits are powerful. A grim Senusret III stares out of museum vitrines as one of the most striking faces from the ancient world.</p>
+
+<p>The Middle Kingdom also expanded territorially. Senusret III's Nubian fortresses gave Egypt control of gold-producing regions south of the First Cataract. Trade with Punt (probably modern Eritrea or coastal Sudan), the Levant, and the Aegean intensified. Egyptian artefacts have turned up at Cretan sites; Cretan pottery at Egyptian ones. Egypt was reconnecting with a wider world.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What was the major religious shift visible in the Middle Kingdom?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The pharaoh was no longer considered divine at all</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The Osirian afterlife — once a royal privilege — became available to nobles and commoners</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Monotheism replaced the traditional pantheon</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Late Twelfth Dynasty and the Slide</h3>
+<p>The Twelfth Dynasty ended around 1802 BCE with the reign of Egypt's first known woman ruler, <strong>Sobekneferu</strong> — a daughter of Amenemhat III who took the throne after her brother Amenemhat IV died without male heirs. Her reign was short (about four years), but the precedent — a woman in the male regalia of pharaoh, claiming all the same titles — was set. Hatshepsut, six hundred years later, would take it much further.</p>
+
+<p>The Thirteenth Dynasty (c. 1802–1649 BCE) is the start of the slide. Royal authority weakened. Kings reigned for shorter periods. Many had non-royal backgrounds. The state didn't collapse the way it had after the Old Kingdom, but it lost its grip. Provincial centres began to act increasingly on their own. The Delta, in particular, drifted out of central control.</p>
+
+<h3>The Hyksos and the Second Intermediate Period</h3>
+<p>Into this drifting Egypt came a new presence: Asiatic migrants and traders from the Levant, who had been settling in the eastern Delta in growing numbers for generations. By around 1650 BCE, one of these groups had become powerful enough to take political control of northern Egypt. The Egyptians called them <strong>Heqa-khasut</strong>, "rulers of foreign lands" — Greek writers later rendered this as <span class="vocab-pill">Hyksos</span>.</p>
+
+<p>The Hyksos established their capital at <strong>Avaris</strong> in the eastern Delta. They ran a recognisably Egyptian-style state, adopting Egyptian titles, religious forms, and administrative tools. But they were ethnically and culturally distinct — Semitic-speaking, with West Asian gods and architecture. And they brought military technology Egypt had never seen: the <strong>composite bow</strong>, the <strong>horse-drawn chariot</strong>, bronze weapons, and improved body armour.</p>
+
+<p>For roughly a century, Egypt was effectively split. The Hyksos Fifteenth Dynasty ruled the Delta and north. A weakened Egyptian dynasty (the Sixteenth and Seventeenth) clung on at Thebes. A separate Nubian kingdom of <strong>Kush</strong> had pushed north into formerly Egyptian-controlled territory along the Nile. Egyptians of later generations would remember this as a national humiliation — the moment foreigners ruled the Black Land. They would also remember that the foreigners had brought tools that, once Egypt drove them out, made Egyptian armies the most fearsome in the region.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The <strong>chariot</strong> the Egyptians eventually deployed against everyone from the Hittites to the Nubians is essentially a refined Hyksos design — light, fast, manoeuvrable, drawn by two horses, carrying a driver and a bowman. Egypt did not invent the chariot; it inherited it from invaders, kept it after expelling them, and weaponised it on a scale the original users could never have matched. It is a model case of how an empire learns from the people who beat it.
+</div>
+
+<h3>Ahmose and the Edge of a New Era</h3>
+<p>The Theban Seventeenth Dynasty began fighting back in the mid-1500s BCE. <strong>Seqenenre Tao</strong> died in battle against the Hyksos — his mummy survives, with horrendous battle wounds on the skull. His son <strong>Kamose</strong> pressed the war forward, leaving a triumphant inscription that survives at Karnak. And Kamose's brother <strong>Ahmose I</strong> — founder of the Eighteenth Dynasty — finally captured Avaris around 1550 BCE, drove the Hyksos out of Egypt, and pursued them into Canaan.</p>
+
+<p>That moment marks the conventional end of the Second Intermediate Period and the start of the <strong>New Kingdom</strong>. Egypt was reunified, militarised, and angry. It had been beaten. It had learned. And it was about to build the largest empire the Egyptian state had ever seen.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Which Egyptian king drove the Hyksos out of Egypt around 1550 BCE?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Mentuhotep II</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Senusret III</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Ahmose I</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The Middle Kingdom is sometimes treated as a quiet transition between the iconic pyramids and the iconic New Kingdom empire. It deserves a closer look. This is when Egypt invented introspection — when it produced its great works of literature, expanded the afterlife to non-royals, faced foreign invasion for the first time, and emerged with a tougher, smarter, more politically realistic worldview. By 1550 BCE, when Ahmose's army marched into Avaris, the Egyptians who had survived the Hyksos century were not the same people who had built the Step Pyramid two millennia earlier. They were ready to become an empire.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════

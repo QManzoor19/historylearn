@@ -1169,6 +1169,33 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Egypt — Module 3 ────────────────────────────
+  "Ancient Egypt::3": {
+    causes: [
+      "Old Kingdom collapse left Egypt fragmented under rival regional warlords (nomarchs)",
+      "Climatic drying (the 4.2 kiloyear event) crippled the Nile floods and intensified competition for resources",
+      "The eventual reunification under Thebes produced a more chastened, philosophically reflective state"
+    ],
+    effects: [
+      "Produced Egypt's classical literary canon (Sinuhe, Eloquent Peasant, Ipuwer, Instruction texts)",
+      "Democratised the afterlife — the Osirian resurrection became available to non-royals",
+      "Introduced foreign technologies (chariot, composite bow) via the Hyksos that powered the later New Kingdom empire"
+    ],
+    figures: [
+      { name: "Mentuhotep II", dates: "r. c. 2061–2010 BCE", role: "Theban king, reunifier of Egypt", why: "Defeated the Heracleopolitans and reunited the country around 2055 BCE, founding the Middle Kingdom." },
+      { name: "Amenemhat I", dates: "r. c. 1991–1962 BCE", role: "Founder, 12th Dynasty", why: "Moved the capital to Lisht, restored central administration, and clipped the wings of regional nomarchs." },
+      { name: "Senusret III", dates: "r. c. 1878–1839 BCE", role: "Pharaoh, 12th Dynasty", why: "Conquered Nubia, built the chain of frontier fortresses, and broke nomarch power. His careworn statues redefined royal portraiture." },
+      { name: "Sobekneferu", dates: "r. c. 1806–1802 BCE", role: "First confirmed female pharaoh", why: "Took the male regalia and titulary of pharaoh, setting a precedent later expanded by Hatshepsut." },
+      { name: "Ahmose I", dates: "r. c. 1550–1525 BCE", role: "Founder, 18th Dynasty", why: "Drove the Hyksos out of Egypt, reunified the country, and launched the New Kingdom imperial age." },
+      { name: "Seqenenre Tao", dates: "r. c. 1558–1554 BCE", role: "Theban king, anti-Hyksos warrior", why: "Died in battle against the Hyksos — his mummy preserves the wounds. His campaign laid groundwork for Ahmose's victory." }
+    ],
+    connections: ["Ancient Egypt", "Ancient Egypt::2", "Ancient Egypt::4", "The Bronze Age Collapse", "Ancient Nubia & Kush"],
+    sourceSnippet: {
+      text: "I had pity on him because of his words and gave him meat from the slaughter… for there is no harm in giving justice to the man who has spoken truthfully.",
+      attribution: "The Tale of the Eloquent Peasant, Middle Kingdom, c. 1900 BCE"
+    }
+  },
+
   // ── Ancient Egypt — Module 2 ────────────────────────────
   "Ancient Egypt::2": {
     causes: [
