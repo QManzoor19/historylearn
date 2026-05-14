@@ -1169,6 +1169,33 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Nubia & Kush — Module 6 ─────────────────────
+  "Ancient Nubia & Kush::6": {
+    causes: [
+      "4,000 years of religious continuity in the Nubian Nile valley produced distinctive African forms of monumental religion",
+      "Matrilineal succession and cattle-pastoral economic structures gave royal women institutional political authority",
+      "The blend of indigenous deities (Apedemak, Sebewmeker) with Egyptian-derived ones (Amun, Isis) produced a unique syncretic theology"
+    ],
+    effects: [
+      "Created the kandake institution — one of the most fully institutionalised forms of female royal authority in the ancient world",
+      "Built the religious infrastructure (Amun of Gebel Barkal, the Apedemak lion temples) that defined Kushite kingship",
+      "Established cultural patterns — queen-mothers, cattle-pastoral ritual, religious pluralism — that influenced later African civilisations from medieval Nubia to West African kingdoms"
+    ],
+    figures: [
+      { name: "Amun of Gebel Barkal", dates: "cult attested c. 1450 BCE – 350 CE", role: "Patron deity of Kushite kings", why: "Identified by Egyptian theologians as the southern manifestation of Amun of Karnak; selected Kushite kings through oracle and legitimised their rule for nearly two millennia." },
+      { name: "Apedemak", dates: "cult attested c. 270 BCE – 350 CE", role: "Lion-headed Meroitic warrior god", why: "Indigenous Meroitic deity with no Egyptian counterpart; depicted as three-headed and four-armed at his Lion Temple at Naqa." },
+      { name: "Ergamenes (Arkamani I)", dates: "r. c. 270 BCE", role: "Reformer king", why: "Reported by Diodorus Siculus to have broken priestly authority that allegedly ordered ritual royal suicides; whether or not the report is literal, he embodies the Meroitic-period restructuring of religious-political power." },
+      { name: "Shanakdakhete", dates: "r. c. 170 BCE", role: "First confirmed sole female Meroitic ruler", why: "Earliest known kandake to rule independently in male pharaonic regalia, anticipating later Amanirenas, Amanishakheto, and Amanitore." },
+      { name: "Aspelta", dates: "r. c. 600–580 BCE", role: "Napatan king", why: "Left one of the most detailed surviving descriptions of a Kushite coronation, with the priestly oracle at Gebel Barkal acclaiming the new king." },
+      { name: "Diodorus Siculus", dates: "c. 90–30 BCE", role: "Greek historian", why: "His Bibliotheca Historica preserves outside descriptions of Meroitic religion and the priest-king conflict, valuable despite Greek biases." }
+    ],
+    connections: ["Ancient Nubia & Kush", "Ancient Nubia & Kush::4", "Ancient Nubia & Kush::5", "Ancient Nubia & Kush::7", "Ancient Egypt::6", "African Kingdoms"],
+    sourceSnippet: {
+      text: "Apedemak, lord of royal power, great of strength, mighty god, first of the gods of the south.",
+      attribution: "Meroitic hymn at the Lion Temple of Musawwarat es-Sufra, c. 230 BCE — bilingual fragment"
+    }
+  },
+
   // ── Ancient Nubia & Kush — Module 5 ─────────────────────
   "Ancient Nubia & Kush::5": {
     causes: [
