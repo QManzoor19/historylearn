@@ -291,4 +291,60 @@ const lessonVideos = {
     blurb: "The post-Meroitic Christian Nubian kingdoms of Nobadia, Makuria, and Alodia."
   },
 
+  // ─── The Bronze Age Collapse — verified per-module videos ─
+  "The Bronze Age Collapse": {
+    videoId: "bRcu-ysocX4",
+    title: "1177 BC: The Year Civilization Collapsed",
+    channel: "Eric H. Cline (NCAS lecture, 2016)",
+    blurb: "Eric Cline's definitive talk — over 6 million views. The single best overview of the Bronze Age Collapse anywhere on YouTube."
+  },
+  "The Bronze Age Collapse::1": {
+    videoId: "M4LRHJlijVU",
+    title: "1177 B.C.: When Civilization Collapsed",
+    channel: "Eric H. Cline",
+    blurb: "Cline lecture setting up the interconnected Late Bronze Age trading world before the collapse."
+  },
+  "The Bronze Age Collapse::2": {
+    videoId: "BBh23DmF_uM",
+    title: "1177 B.C. — The Collapse of the Bronze Age Civilizations",
+    channel: "Eric H. Cline",
+    blurb: "Cline's profile of the Great Powers — Egypt, Hatti, Mitanni, Mycenae, Cyprus — on the eve of collapse."
+  },
+  "The Bronze Age Collapse::3": {
+    videoId: "ZU1_aVfZKvE",
+    title: "1177 BC: The Year Civilization Collapsed — Cline lecture",
+    channel: "Eric H. Cline",
+    blurb: "Alternative Cline lecture covering the Amarna Letters and the diplomatic correspondence among the Great Kings."
+  },
+  "The Bronze Age Collapse::4": {
+    videoId: "61A5nEapjWU",
+    title: "When the Sea Peoples Nearly Broke Egypt",
+    channel: "Antiquities Explorer",
+    blurb: "Specific documentary on the Sea Peoples — filmed on location at Medinet Habu, where Ramses III recorded his victory."
+  },
+  "The Bronze Age Collapse::5": {
+    videoId: "azLDxo5Ydgk",
+    title: "Why civilization ended in 1177 B.C.",
+    channel: "Eric H. Cline",
+    blurb: "Cline focuses on the actual destruction events across the eastern Mediterranean — Ugarit, Hattusa, Mycenae."
+  },
+  "The Bronze Age Collapse::6": {
+    videoId: "rzpQLTbBSvo",
+    title: "After 1177 BC and the Bronze Age Collapse — interview with Dr Eric Cline",
+    channel: "Eric H. Cline interview",
+    blurb: "Recent extended interview covering the palaeoclimate, drought, and earthquake-storm evidence for the collapse."
+  },
+  "The Bronze Age Collapse::7": {
+    videoId: "HQa6yvIMuKQ",
+    title: "After 1177 BC",
+    channel: "Eric H. Cline (AIA National Lecture)",
+    blurb: "Cline's follow-up lecture on what makes complex systems collapse — and what came next."
+  },
+  "The Bronze Age Collapse::8": {
+    videoId: "ktbdw53xVyw",
+    title: "Alphabet History Deep Dive: Phoenician → Greek → Latin → Cyrillic",
+    channel: "Documentary",
+    blurb: "The Phoenician alphabet's emergence after the collapse and its descent into nearly every modern Western and Middle Eastern script."
+  },
+
 };
