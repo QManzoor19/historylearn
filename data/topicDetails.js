@@ -1169,6 +1169,31 @@ const topicDetails = {
     }
   },
 
+  // ── Bronze Age Collapse — Module 1 ──────────────────────
+  "The Bronze Age Collapse::1": {
+    causes: [
+      "The metallurgical necessity of combining geographically separate copper and tin to make bronze",
+      "Centuries of slowly developing trade networks linked Afghanistan, Mesopotamia, the Levant, Egypt, Cyprus, and the Aegean",
+      "The 'Great King' diplomatic system reinforced commercial ties with royal marriages and gift exchange"
+    ],
+    effects: [
+      "Created the world's first long-distance globalised elite economy across the eastern Mediterranean and Near East",
+      "Tied the military capability of palace civilisations to the continued flow of distant resources",
+      "Made the entire system vulnerable to disruption of any major component (tin, copper, grain shipping)"
+    ],
+    figures: [
+      { name: "George Bass", dates: "1932–2021", role: "American underwater archaeologist", why: "Founder of the Institute of Nautical Archaeology; directed the early Uluburun excavations from 1984 onward." },
+      { name: "Cemal Pulak", dates: "b. 1948", role: "Turkish-American nautical archaeologist", why: "Long-term director of the Uluburun excavations, identifying the wreck's cargo and dating it to c. 1305 BCE." },
+      { name: "Michael Ventris", dates: "1922–1956", role: "British architect & linguist", why: "Deciphered Mycenaean Linear B in 1952, revealing it as an early form of Greek and opening up the palace economies of Bronze Age Greece." },
+      { name: "Eric Cline", dates: "b. 1960", role: "American archaeologist", why: "His book '1177 B.C.: The Year Civilization Collapsed' (2014) is the central modern synthesis of the Bronze Age Collapse — the framework most of these modules rely on." }
+    ],
+    connections: ["The Bronze Age Collapse", "Cradles of Civilisation", "Ancient Egypt::4", "Ancient Greece", "Cradles of Civilisation"],
+    sourceSnippet: {
+      text: "Tin is exhausted in the storehouse, my lord. Give the order that they may bring tin from Susa.",
+      attribution: "Letter from Iarim-Lim of Aleppo to his lord, c. 1750 BCE — early documentation of the Bronze Age tin trade from Mari archives"
+    }
+  },
+
   // ── Ancient Nubia & Kush — Module 8 ─────────────────────
   "Ancient Nubia & Kush::8": {
     causes: [
