@@ -1169,6 +1169,32 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Nubia & Kush — Module 3 ─────────────────────
+  "Ancient Nubia & Kush::3": {
+    causes: [
+      "Thutmose I's conquest of Kerma around 1500 BCE eliminated the indigenous Nubian state and made direct Egyptian administration possible",
+      "The strategic and economic value of Nubian gold made permanent occupation worthwhile to the New Kingdom state",
+      "The need to project Egyptian religious authority into the south led to a network of Egyptian-style temples that took deep root"
+    ],
+    effects: [
+      "Built the administrative system (Viceroy of Kush, indirect rule, hostage princes) that managed Nubia for 450 years",
+      "Egyptianised the Nubian elite while leaving much of village-level Nubian culture intact",
+      "Established the cult of Amun at Gebel Barkal — religious infrastructure that later legitimised the Kushite conquest of Egypt"
+    ],
+    figures: [
+      { name: "Hekanefer", dates: "fl. c. 1330 BCE", role: "Prince of Miam (Aniba)", why: "Nubian client-prince whose tomb shows full Egyptian funerary culture, even while the Egyptian viceroy's tomb still depicted him in 'Nubian' dress as a tribute-bearer. The classic example of New Kingdom Nubian double-identity." },
+      { name: "Huy", dates: "fl. c. 1335 BCE", role: "Viceroy of Kush under Tutankhamun", why: "His tomb at Thebes (TT40) contains the most detailed New Kingdom scenes of the Nubian tribute presented to the pharaoh." },
+      { name: "Maiherperi", dates: "d. c. 1450 BCE", role: "Nubian courtier", why: "Buried (KV36) in the Valley of the Kings — the only known non-royal burial there in his lifetime. Demonstrates the highest level of Nubian integration into Egyptian society." },
+      { name: "Amenhotep III", dates: "r. c. 1391–1353 BCE", role: "Pharaoh of the 18th Dynasty", why: "Built the great Egyptian temple at Soleb in Upper Nubia and expanded the Amun cult at Gebel Barkal." },
+      { name: "Panehesy", dates: "fl. c. 1080 BCE", role: "Last attested Viceroy of Kush", why: "Marched north into Egypt during the dynasty's final crisis, briefly fought the High Priest of Amun, then withdrew to Nubia — taking with him much of southern Egypt's political authority." }
+    ],
+    connections: ["Ancient Nubia & Kush", "Ancient Nubia & Kush::2", "Ancient Nubia & Kush::4", "Ancient Egypt::4", "Ancient Egypt::5", "African Kingdoms"],
+    sourceSnippet: {
+      text: "The Northland is in good order, and Kush is rich in barley and emmer; the cattle are good… every gold mine has been opened and the gold cast for the King's house.",
+      attribution: "Tomb inscription of the Viceroy Huy under Tutankhamun, c. 1330 BCE"
+    }
+  },
+
   // ── Ancient Nubia & Kush — Module 2 ─────────────────────
   "Ancient Nubia & Kush::2": {
     causes: [
