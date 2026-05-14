@@ -4031,6 +4031,161 @@ The Hittite archives at Hattusa (Bronze Age Collapse Module 2) preserve diplomat
 
 </div>`;
 
+L["Ancient Greece::2"] = `<div class="lesson-body">
+
+<h3>From Ruin to Renaissance</h3>
+<p>For roughly <strong>four hundred years</strong> — from about <strong>1100 to 800 BCE</strong> — Greece almost disappears from the documentary record. The Mycenaean palaces are burned ruins. Linear B has been forgotten. Long-distance trade has collapsed. Populations have shrunk by perhaps half. Cyclopean walls still stand at Mycenae and Tiryns, but the people living near them no longer know who built them or why. The Greeks of 900 BCE could not read their grandparents' inscriptions. The world they had inherited was incomprehensible to them.</p>
+
+<p>Then, slowly, something began to revive. Populations grew. Trade returned. New settlements were founded. A radically new political form — the <span class="vocab-pill">polis</span>, the independent city-state — emerged. The Phoenicians sailed up from the Levant carrying an alphabet that the Greeks adopted and modified into the script that would underwrite all subsequent Greek literature. Homer composed (or recorded) the Iliad and Odyssey. Greek colonists founded new cities from the western Mediterranean to the Black Sea coast. By <strong>500 BCE</strong>, the Greeks had built a civilisation as different from the Mycenaean palace world as it was possible to be — and one that, in retrospect, would become the cultural foundation of the western tradition.</p>
+
+<p>This module covers the long arc from the post-collapse Dark Ages through the Archaic Period (c. 800 – 500 BCE). By the end you should understand how Greek civilisation was reinvented after the Bronze Age — and why the civilisation that emerged was so different from the one that fell.</p>
+
+<h3>The Greek Dark Ages</h3>
+<p>The post-collapse centuries — c. 1100 to 800 BCE — used to be called the <strong>Greek Dark Ages</strong> in older scholarship, and the term is still useful even if some modern archaeologists prefer the more neutral "Early Iron Age." During this period:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Population declined dramatically</strong> — perhaps 40-60% from Mycenaean peaks, according to settlement-survey evidence.</li>
+<li><strong>Settlements shrank</strong> — major palace centres were abandoned or reduced to small villages around the old citadels. New settlement on previously empty hilltops became common as people moved away from the destroyed lowland centres.</li>
+<li><strong>Writing was lost</strong> — Linear B disappears with the palaces. Greek would not be written again in any form for 400 years. The oral tradition that would eventually give us Homer carried Greek culture through the dark centuries.</li>
+<li><strong>Long-distance trade contracted</strong> — imported goods are rare in archaeological contexts. Mediterranean shipping seems to have collapsed.</li>
+<li><strong>Material culture simplified</strong> — pottery became plain and locally produced. Metalwork shifted gradually from bronze to iron (as the long-distance tin trade broke down).</li>
+<li><strong>Religious continuity persisted</strong> — sanctuary sites at places like Delphi and Olympia continued to receive offerings throughout the dark ages, suggesting religious memory and pilgrimage routes survived the political collapse.</li>
+</ul>
+
+<p>But the dark ages were not entirely dark. New patterns emerged. Greek-speaking populations migrated across the Aegean and settled the western coast of Anatolia — the region we now call <strong>Ionia</strong> — founding twelve major cities (Miletus, Ephesus, Smyrna, Samos, Chios, and others) that would later be at the cultural centre of Archaic Greek civilisation. <strong>Athens</strong>, almost uniquely among Mycenaean centres, was never destroyed and continued to be inhabited; the Athenians later credited their continuity as a sign of divine favour and as the foundation for their claim to be the original Greeks. New pottery styles — the <strong>protogeometric</strong> of c. 1050-900 BCE, then the more elaborate <strong>geometric</strong> of c. 900-700 BCE — show developing aesthetic confidence and increasing complexity.</p>
+
+<p>By around 800 BCE, the dark ages were ending. Populations were rising again. Long-distance contacts — especially with Phoenician traders — were resuming. The cultural conditions for a recovery were in place.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+The Greek Dark Ages are, in cultural terms, what western Europe looked like in the centuries after the fall of Rome — population dropped, literacy was lost in many places, monumental architecture stopped being built, long-distance trade contracted. The recovery, when it came, would also build something new rather than reconstruct the old. The classical Greek polis is to the Mycenaean palace what the medieval town was to the Roman city — descended from the older form but structurally a different kind of community.
+</div>
+
+<h3>Homer and the Oral Tradition</h3>
+<p>The most famous product of the late Dark Ages and early Archaic period is the work of <strong>Homer</strong> — the traditional author of the <em>Iliad</em> and the <em>Odyssey</em>, the two great Greek epics that preserve the heroic memory of the Bronze Age. The poems date, in something like their current form, to roughly <strong>750 BCE</strong>, though the oral tradition behind them is much older.</p>
+
+<p>The "Homer" who composed the poems is a problem in himself. He may have been one historical poet. He may have been a stage in a long oral tradition gradually attributed to a legendary single figure. He may have been a group of poets whose work was eventually unified. The classical Greeks themselves debated his historicity. Modern scholarship, since the work of <strong>Milman Parry</strong> and <strong>Albert Lord</strong> in the 1930s-50s, treats the Iliad and Odyssey as the products of an <strong>oral compositional tradition</strong> — bards trained in a stock of formulaic phrases ("rosy-fingered Dawn," "wine-dark sea," "swift-footed Achilles") which they recombined extemporaneously to tell their stories. Parry and Lord proved this by studying living oral epic traditions in the Balkans, where they observed traditional singers composing thousand-line poems on the fly using exactly the formulaic technique Homer uses.</p>
+
+<p>The poems were probably written down — once the Greek alphabet was available, perhaps in the 8th or 7th century BCE — by scribes recording performances of a tradition that had been transmitted orally for at least four centuries. The Bronze Age material in the poems (the catalog of ships, the boar's tusk helmet, the bronze weapons) is partly accurate Mycenaean memory; the Iron Age material (cremation burials, hoplite-style fighting in places) reflects later additions. Homer is, in effect, a layered text that preserves cultural memory across half a millennium.</p>
+
+<p>What Homer offers, beyond the literary brilliance, is a portrait of <strong>Greek heroic values</strong> — the world of <em>aretē</em> (excellence), <em>kleos</em> (honour through fame), <em>nostos</em> (homecoming), and the brittle relationships of warrior aristocrats. These values would shape Greek aristocratic culture for the next thousand years. Plato would still argue with Homer's morality in the 4th century BCE. Alexander the Great would sleep with a copy of the Iliad under his pillow. The Greeks understood themselves through Homer in a way few subsequent civilisations have understood themselves through a single literary corpus.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">According to Milman Parry and Albert Lord's research, how were the Homeric poems composed?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A single literate poet wrote them down in their final form around 1200 BCE</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Through an oral compositional tradition using formulaic phrases ('rosy-fingered Dawn,' 'wine-dark sea') that bards recombined extemporaneously</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">By the Mycenaean palace scribes using Linear B</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Alphabet Returns</h3>
+<p>The decisive moment of the Greek recovery — and one of the most consequential cultural events in human history — was the <strong>Greek adoption of the Phoenician alphabet</strong> around <strong>800 BCE</strong>. The Greeks had had no writing system for four centuries. Now, through trading contact with Phoenician merchants moving up from Tyre and Sidon (Bronze Age Collapse Module 8), they encountered a simple 22-letter consonantal script — and they adapted it for Greek use.</p>
+
+<p>The Greek innovation was the addition of <strong>vowels</strong>. The Phoenician script had only consonants — letters like <em>aleph</em> (the glottal stop), <em>he</em> (a soft <em>h</em>), <em>yod</em> (a soft <em>y</em>), and <em>ayin</em> (another guttural). Greek did not have those sounds, but it did have vowels — and the Greeks took the unused Phoenician letters and assigned vowel values to them. <em>Aleph</em> became <em>alpha</em>. <em>He</em> became <em>epsilon</em>. <em>Yod</em> became <em>iota</em>. <em>Ayin</em> became <em>omicron</em>. The resulting Greek alphabet — the first complete vowel-and-consonant alphabet in human history — could record any spoken language with phonetic precision that no previous script had achieved.</p>
+
+<p>The Greek alphabet would, in turn, be transmitted further. The Etruscans of Italy borrowed it from Greek colonists in southern Italy. The Romans borrowed it from the Etruscans, producing the Latin alphabet from which our modern Western European writing is descended. The Cyrillic alphabet used in Russia and southeastern Europe is a 9th-century CE adaptation of the Greek alphabet by the Byzantine missionary Saints Cyril and Methodius. The Greek alphabet is, in a real sense, the technological foundation of all modern European literacy — and it was made possible by an 8th-century BCE encounter between Greek and Phoenician traders.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The earliest known Greek alphabetic inscription is the so-called "<strong>Dipylon Inscription</strong>" — a 740 BCE graffito scratched into the side of a clay pot found at the Dipylon cemetery in Athens. It reads, in a roughly hexametric line: "<em>He who now dances most playfully of all the dancers, his shall be this.</em>" The inscription is a casual, jaunty, possibly drinking-party message scratched onto a wine vessel offered as a prize. It is also the oldest piece of Greek writing we have. The newborn Greek literary tradition begins, fittingly, with a joke about a dance contest.
+</div>
+
+<h3>The Birth of the Polis</h3>
+<p>The second great Archaic innovation was political: the emergence of the <span class="vocab-pill">polis</span>, the independent city-state. The polis was not a city in the modern sense (most poleis were small, with populations of 1,000 to 50,000), and not a state in the modern sense (it had no professional bureaucracy, no career civil service, no concept of constitutional separation of powers). What the polis was, distinctively, was a <strong>community of citizens</strong> — adult free male inhabitants who shared political identity, military responsibility, and ownership of public space. The polis defined who you were. To be Athenian, Spartan, Theban, Corinthian was to belong to a particular community with particular customs, gods, and obligations.</p>
+
+<p>The classical Greek world contained probably <strong>over a thousand poleis</strong>, scattered across the Greek mainland, the Aegean islands, the western coast of Anatolia, southern Italy, Sicily, the Black Sea coast, and the eastern Mediterranean. Some were tiny — a hilltop town and a few villages, with a few hundred citizens. Some were large — Athens at its peak had perhaps 40,000 adult male citizens and a total population near 300,000. But the structural pattern was the same: a community with a central settlement (the <em>asty</em>), surrounded by agricultural countryside (the <em>chōra</em>), governed by some combination of council, assembly, and officials, with religious life centred on shared sanctuaries.</p>
+
+<p>Several features made the polis structurally different from the Bronze Age palace system or the contemporary Near Eastern empires:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>No god-king</strong>. The polis had no pharaoh, no Great King, no divinely ordained monarch. Most poleis had moved beyond hereditary kingship by the 7th century BCE, replacing kings with elected magistrates serving short terms.</li>
+<li><strong>Citizenship was bounded</strong>. Citizenship was hereditary, restricted, and central to identity. Foreigners (<em>metics</em>), slaves, and women were not citizens. The number of full citizens in any polis was typically small.</li>
+<li><strong>Direct political participation</strong>. Citizens — at least in democratic poleis — voted directly on legislation rather than electing representatives. The classical Greek concept of politics meant face-to-face debate in the assembly, not party-system delegation.</li>
+<li><strong>Hoplite military</strong>. Defence of the polis was the responsibility of its citizen body, who fought as heavily armoured infantry (<em>hoplites</em>) in a tight rectangular formation called the <strong>phalanx</strong>. Military service was the practical foundation of citizenship.</li>
+</ul>
+
+<p>This system was not perfect or universal. Many poleis were oligarchies rather than democracies. Most maintained slavery (often on a substantial scale). Women had no political rights. Outside Athens, even the limited extent of citizen democracy was unusual. But the general pattern — a community of self-governing citizens defending their own city — is the structural ancestor of all modern republican and democratic political traditions. The polis was a new political form invented in the dark ages and refined across the Archaic period. It would not be matched, in cultural significance, by anything similar until the medieval Italian city-states two thousand years later.</p>
+
+<h3>Hoplite Warfare</h3>
+<p>The military counterpart of the polis was the <strong>hoplite</strong> — a citizen heavy infantryman, equipped with a round bronze shield (the <em>aspis</em> or <em>hoplon</em>, from which the name derives), bronze helmet, bronze breastplate, spear, and short sword. Hoplites fought in close formation, shield overlapping shield, in a rectangular block called the <span class="vocab-pill">phalanx</span>. The phalanx pushed forward into the enemy line; success in battle depended on collective discipline, not on individual heroics. The whole formation moved as one block.</p>
+
+<p>Hoplite warfare was politically consequential. The phalanx required that ordinary middle-class citizens — those wealthy enough to afford their own armour — be the military backbone of the city. This created political pressure for citizen participation: men who fought for the polis demanded political rights in proportion to their military contribution. The rise of the phalanx in the 7th century BCE correlates closely with the gradual move from aristocratic to broader political participation across many Greek poleis. The democratisation of Greek warfare drove the democratisation of Greek politics.</p>
+
+<p>Hoplite battles were also surprisingly brief and bloody. Two phalanxes would meet in open ground, push at each other (the so-called <em>othismos</em> or "shoving"), and one side would eventually break. The winner pursued the loser only a short distance — Greek warfare typically had a moral inhibition against slaughtering fleeing enemies — and casualties on the losing side rarely exceeded 10–15%. Battles were short, decisive, and culminated in negotiated peace agreements that allowed the loser to recover their dead and walk home. This pattern would persist until the Peloponnesian War (Module 6), when the conventions broke down.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What was the relationship between hoplite warfare and political democratisation in Archaic Greece?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">No relationship — the two developments happened in different centuries</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Middle-class hoplites who fought for the city demanded political rights in proportion to their military contribution, broadening citizenship beyond the old aristocracy</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Hoplite warfare reinforced aristocratic dominance because only nobles could afford armour</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Great Colonisation</h3>
+<p>Between approximately <strong>750 and 550 BCE</strong>, the Greek poleis launched one of the largest sustained migration movements in human history. Driven by overpopulation in the homeland, political faction-fighting that produced exiles, agricultural pressure, and the search for new trading opportunities, Greek colonists founded new cities all around the Mediterranean and Black Sea. The scale was enormous: probably <strong>over 500 colonies</strong> across two centuries.</p>
+
+<p>The major regions of colonisation:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Southern Italy and Sicily</strong> — so densely settled that the region became known to the Greeks as <em>Magna Graecia</em>, "Great Greece." Major foundations: <strong>Syracuse</strong> (founded by Corinthian colonists in 734 BCE, eventually one of the largest Greek cities anywhere), <strong>Tarentum</strong> (the modern Taranto), <strong>Naples</strong> (Neapolis, "new city"), <strong>Croton</strong> (where Pythagoras would settle), <strong>Sybaris</strong> (synonymous in antiquity with luxury), and dozens more.</li>
+<li><strong>The Black Sea coast</strong> — Milesian colonists especially planted trading colonies all around the Black Sea, exploiting its grain, fish, and slave markets. Major foundations: <strong>Byzantium</strong> (the future Constantinople), <strong>Sinope</strong>, <strong>Trapezus</strong> (modern Trabzon), <strong>Olbia</strong> on the Crimean coast.</li>
+<li><strong>The western Mediterranean</strong> — Greek colonists from Phocaea in Ionia founded <strong>Massalia</strong> (modern Marseille) around 600 BCE, the oldest continuously inhabited city in France. Smaller foundations dotted the Spanish coast.</li>
+<li><strong>The North African coast</strong> — <strong>Cyrene</strong> in modern Libya was founded around 631 BCE by colonists from Thera and became one of the wealthiest Greek cities of the Archaic period.</li>
+<li><strong>The Levantine coast</strong> — Greek trading colonies at <strong>Naukratis</strong> in the Egyptian Delta (a treaty port for Greek merchants in Egypt) and <strong>Al Mina</strong> in northern Syria provided the eastern terminus of Greek commercial networks.</li>
+</ul>
+
+<p>The colonies were not subject possessions of their mother cities. They were typically <strong>independent poleis</strong> in their own right — sharing religious traditions, language, and often political institutions with their <em>metropolis</em> ("mother city"), but governing themselves. The result, by 500 BCE, was a Greek world stretched from Spain to the Caucasus, knitted together by trade, intermarriage, common language, and shared religious centres at places like Delphi and Olympia.</p>
+
+<h3>Tyrants and Lawgivers</h3>
+<p>The political evolution of the Archaic poleis was not smooth. Many cities experienced periods of rule by <span class="vocab-pill">tyrants</span> — and the Greek word, in this period, does not mean what the modern word means. A <em>tyrannos</em> was simply an extra-constitutional ruler who had seized power without legal authority. Some tyrants were oppressive; others were popular leaders supported by the non-aristocratic masses against the old hereditary nobility. The most famous Archaic tyrants — <strong>Polycrates</strong> of Samos (r. c. 538–522 BCE), <strong>Periander</strong> of Corinth (r. c. 627–587 BCE), <strong>Peisistratus</strong> of Athens (r. c. 561–528 BCE intermittently) — presided over periods of significant cultural and economic growth.</p>
+
+<p>Most poleis eventually moved past tyranny toward more institutionalised constitutional systems. The instrument of that transition was often a <strong>lawgiver</strong> — a respected figure appointed to draft a written legal code that would constrain both rulers and ruled. Famous lawgivers include:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Lycurgus of Sparta</strong> (semi-legendary, probably 9th-8th centuries BCE) — credited with designing the distinctive Spartan constitution we will examine in Module 4.</li>
+<li><strong>Draco of Athens</strong> (c. 621 BCE) — drafted Athens's first written law code. His laws were so severe that the English adjective <em>draconian</em> derives from his name. ("Most crimes are punishable by death," one ancient writer summarised, "because Draco could think of no greater penalty.")</li>
+<li><strong>Solon of Athens</strong> (archonship c. 594 BCE) — reformed Athenian society fundamentally by cancelling debts, abolishing debt-slavery for citizens, dividing the population into wealth classes with proportional political rights, and creating an early form of citizen jury. Solon was so revered that the classical Athenians called him one of the <strong>Seven Sages</strong> and counted him as the founder of their proto-democratic tradition.</li>
+</ul>
+
+<h3>Early Philosophy and the Pre-Socratics</h3>
+<p>The first systematic Greek thinkers were not philosophers in the later Socratic sense — they were natural scientists, called by modern scholars the <strong>Pre-Socratics</strong>. Working in the Ionian cities of Asia Minor in the 6th century BCE, they began asking, for the first time in any surviving literature, what the natural world is made of and how it works, without reference to gods.</p>
+
+<p><strong>Thales of Miletus</strong> (c. 624–546 BCE) is traditionally identified as the first Greek philosopher. He proposed that everything in the universe is ultimately made of <strong>water</strong>. The hypothesis is wrong, but the move it represents — proposing a single natural principle to explain all phenomena, rather than attributing each phenomenon to a different god — is the founding gesture of natural philosophy. Aristotle would later credit Thales as the originator of physics. <strong>Anaximander</strong> (c. 610–546 BCE) refined the idea: he argued the underlying substance was not water but a more abstract "boundless" (<em>apeiron</em>), and proposed that the Earth floats in space without support, supported by the equal forces pulling it in all directions.</p>
+
+<p><strong>Heraclitus of Ephesus</strong> (c. 535–475 BCE) argued that everything is in flux — "<em>you cannot step twice into the same river</em>" — and that change itself is the fundamental nature of reality. <strong>Pythagoras</strong> (c. 570–495 BCE) emigrated from Samos to Croton in southern Italy, founded a religious-philosophical community, and proposed that the underlying nature of reality was mathematical relationships, particularly ratios. The Pythagorean theorem is named after him (though Mesopotamian mathematicians had known the relationship for a thousand years earlier). <strong>Parmenides</strong> of Elea (c. 515–450 BCE) argued, in elegant but counterintuitive verse, that change is illusion and that reality is a single unchanging whole.</p>
+
+<p>These thinkers were doing something unprecedented in human history. They were treating the natural world as something that could be understood by reasoned argument rather than by mythology. They were proposing testable physical theories. They were debating each other publicly. They were, in a real sense, founding the rationalist tradition of inquiry that would eventually produce Western science. The Ionian Renaissance of the 6th century BCE is one of the great moments of intellectual history.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What made the Pre-Socratic philosophers significant?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">They were the first to write religious mythology in poetic form</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">They began treating the natural world as something that could be understood by reasoned argument rather than mythology — founding the rationalist tradition of inquiry</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">They invented the Greek alphabet for philosophical writing</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The World That Was Ready</h3>
+<p>By <strong>500 BCE</strong>, the recovery from the Dark Ages was effectively complete. Greek civilisation was once again literate, urbanised, prosperous, and culturally distinctive. The polis had become the dominant political form across the Greek-speaking world. The colonies had spread Greek culture across the Mediterranean. The alphabet had been transmitted, the heroic tradition had been written down as Homer, the first philosophical inquiries had been launched, and competitive citizen-based politics had become normal in dozens of cities.</p>
+
+<p>Crucially, this recovery had happened largely in isolation from the great empires of the Near East. The Persian Empire had emerged from the Iranian plateau in the 550s BCE under Cyrus the Great and rapidly absorbed Mesopotamia, the Levant, Egypt, and most of Anatolia (Persian Empires module). The Greek poleis on the western coast of Anatolia — the Ionian cities — fell into Persian control around 545 BCE. The Greek mainland was, so far, untouched. But the geopolitical confrontation between the small, fragmented, polis-based Greek world and the centralised, multiethnic Persian Empire was inevitable. It would arrive in 499 BCE with the Ionian Revolt, and play out across half a century of wars that would define classical Greek identity forever.</p>
+
+<p>The Archaic period that we have just travelled through is the prologue. The classical age that gave us democracy, the Parthenon, Socrates, and the historians who invented historiography itself — that age opens with the Persian Wars. We will turn to it in Module 3 and following.</p>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The Greek recovery from the Bronze Age Collapse took four centuries and produced something genuinely new. Out of the depopulated, illiterate dark ages emerged the polis — the small self-governing citizen city-state that would become the structural ancestor of all modern republican politics. Out of the long oral tradition emerged the Homeric epics. Out of trading contact with the Phoenicians emerged the Greek alphabet, the first complete vowel alphabet in history. Out of Greek expansion across the Mediterranean emerged a network of over 500 colonies that diffused Greek culture from Spain to the Black Sea. And out of the Ionian cities of the 6th century BCE emerged the first thinkers in human history to attempt to explain the natural world through reasoned argument rather than mythology. By 500 BCE, the Greeks were ready — though they did not know it — to take on the largest empire the world had ever seen.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════

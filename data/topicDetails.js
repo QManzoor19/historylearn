@@ -1169,6 +1169,36 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Greece — Module 2 ───────────────────────────
+  "Ancient Greece::2": {
+    causes: [
+      "The 400-year Greek Dark Ages preserved the Greek language orally while losing the Mycenaean palace system entirely",
+      "Trading contact with Phoenician merchants in the 9th-8th centuries BCE brought back literacy in the form of the alphabet",
+      "Population growth, agricultural pressure, and political faction-fighting drove a vast wave of colonisation across the Mediterranean"
+    ],
+    effects: [
+      "Created the polis (city-state) as a new political form — direct citizen democracy in its origins",
+      "Spread Greek culture through over 500 colonies from Spain to the Black Sea",
+      "Adopted and modified the Phoenician alphabet into the first complete vowel-and-consonant alphabet",
+      "Established the rationalist inquiry tradition through the Pre-Socratic philosophers of Ionia",
+      "Composed and preserved the Homeric epics, the foundation of Greek literary identity"
+    ],
+    figures: [
+      { name: "Homer", dates: "fl. c. 750 BCE", role: "Traditional author of the Iliad and Odyssey", why: "Whether one poet or an oral tradition, Homer preserved Bronze Age memory and provided the foundational literary heritage of Greek civilisation." },
+      { name: "Milman Parry", dates: "1902–1935", role: "American classicist", why: "Proved the Homeric poems are products of an oral compositional tradition with formulaic phrases — a foundational discovery in the study of oral literature." },
+      { name: "Solon", dates: "c. 630–560 BCE", role: "Athenian lawgiver and poet", why: "His c. 594 BCE reforms abolished debt-slavery, divided citizens into wealth classes, and laid the foundation for later Athenian democracy." },
+      { name: "Draco", dates: "fl. c. 621 BCE", role: "Athenian lawgiver", why: "Drafted Athens's first written law code — so severe it gave us the word 'draconian.'" },
+      { name: "Peisistratus", dates: "c. 600–528 BCE", role: "Tyrant of Athens", why: "Popular tyrant who patronised the Homeric tradition, built public works, and presided over an Archaic-period cultural flowering at Athens." },
+      { name: "Thales of Miletus", dates: "c. 624–546 BCE", role: "First Pre-Socratic philosopher", why: "Proposed everything was ultimately water — the founding move of natural philosophy and Western rationalist inquiry." },
+      { name: "Pythagoras", dates: "c. 570–495 BCE", role: "Philosopher and mathematician", why: "Emigrated from Samos to Croton; founded a religious-philosophical community proposing mathematical relationships as the fundamental nature of reality." }
+    ],
+    connections: ["Ancient Greece", "Ancient Greece::1", "Ancient Greece::3", "The Bronze Age Collapse::8", "Rise of World Religions"],
+    sourceSnippet: {
+      text: "He who now dances most playfully of all the dancers, his shall be this.",
+      attribution: "The Dipylon Inscription, Athens, c. 740 BCE — the earliest surviving Greek alphabetic writing"
+    }
+  },
+
   // ── Ancient Greece — Module 1 ───────────────────────────
   "Ancient Greece::1": {
     causes: [
