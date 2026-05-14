@@ -1169,6 +1169,34 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Nubia & Kush — Module 7 ─────────────────────
+  "Ancient Nubia & Kush::7": {
+    causes: [
+      "Cultural confidence after a millennium of Egyptianised inheritance led the Meroitic state to develop its own indigenous writing system around 200 BCE",
+      "Distinctively African physiognomy and royal regalia inspired a Kushite portraiture style that broke with Egyptian idealisation",
+      "Long-term cultural exchange across the Red Sea trade routes brought Hellenistic and Roman architectural motifs into the Meroitic synthesis"
+    ],
+    effects: [
+      "Produced the earliest indigenous African writing system used south of Egypt (Meroitic script)",
+      "Built the largest concentration of pyramids on Earth — over 250 across the Kushite royal cemeteries",
+      "Created a distinctive Kushite art style with broad-shouldered, full-featured royal portraiture and powerful queens depicted at king's-equal scale",
+      "Produced cosmopolitan late-Meroitic architecture combining Egyptian, Hellenistic, Roman, and indigenous elements (the Kiosk at Naqa)"
+    ],
+    figures: [
+      { name: "Francis Llewellyn Griffith", dates: "1862–1934", role: "British Egyptologist", why: "Deciphered the alphabetic values of the Meroitic script in 1909, making Meroitic readable aloud even if mostly untranslated." },
+      { name: "Claude Rilly", dates: "b. 1959", role: "French linguist", why: "The leading modern Meroitic linguist; his work places Meroitic in the Nilo-Saharan/Northern East Sudanic language family, opening new translation possibilities." },
+      { name: "Taharqa", dates: "r. 690–664 BCE", role: "Kushite pharaoh & builder", why: "His monumental Egyptian-style temple additions and the colossal Karnak statue helped define the Kushite royal portraiture tradition." },
+      { name: "Amanitore", dates: "r. c. 1–20 CE", role: "Meroitic kandake", why: "Co-ruler with Natakamani; her depiction at king's-equal scale in the Lion Temple at Naqa typifies the distinctive Meroitic representation of royal women." },
+      { name: "Pearce Paul Creasman", dates: "active 2010s–", role: "American archaeologist", why: "Leads modern excavations at Nuri, including underwater archaeology of Taharqa's flooded burial chamber." },
+      { name: "John Garstang", dates: "1876–1956", role: "British archaeologist", why: "Excavated Meroë in 1909–1914, uncovering the Royal Baths and laying the foundation for systematic Meroitic archaeology." }
+    ],
+    connections: ["Ancient Nubia & Kush", "Ancient Nubia & Kush::5", "Ancient Nubia & Kush::6", "Ancient Egypt::7", "African Kingdoms"],
+    sourceSnippet: {
+      text: "Whether or not the Meroitic script was independently invented or adapted from Egyptian, its purpose is unmistakable: a Meroitic civilisation determined to write its own language in its own form, no longer dependent on a foreign script.",
+      attribution: "Synthesis of modern Meroitic scholarship"
+    }
+  },
+
   // ── Ancient Nubia & Kush — Module 6 ─────────────────────
   "Ancient Nubia & Kush::6": {
     causes: [
