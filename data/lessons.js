@@ -1201,6 +1201,104 @@ The <strong>chariot</strong> the Egyptians eventually deployed against everyone 
 
 </div>`;
 
+L["Ancient Egypt::4"] = `<div class="lesson-body">
+
+<h3>Egypt Becomes an Empire</h3>
+<p>For most of its earlier history, Egypt had been content to be itself. The Old and Middle Kingdoms governed the Nile Valley, traded with neighbours, occasionally raided south into Nubia, but did not aspire to permanent imperial rule over foreign peoples. The Hyksos century changed that. After Ahmose I expelled the Hyksos around <strong>1550 BCE</strong>, his successors did not stop at the border. They marched into the Levant, hunted the Hyksos remnant back to Sharuhen, sacked it, kept going, and within a generation had turned Egypt into the dominant military power of the Near East. The <strong>Eighteenth Dynasty</strong> — the first half of the New Kingdom — is the period when Egypt becomes, for the first and almost the only time in its long history, a genuine empire.</p>
+
+<p>It is also the period of Egypt's greatest international prestige. Egyptian gold, grain, and craftsmanship flowed across the Mediterranean. Letters in cuneiform between the pharaoh and the kings of Babylon, Mitanni, Hatti, and Assyria — preserved in the famous <strong>Amarna archive</strong> — show pharaohs being addressed by their fellow Great Kings as "my brother." For roughly two centuries, Egypt sat at the head of the table of the ancient world.</p>
+
+<h3>Ahmose's Sons and the Push into Syria</h3>
+<p>Ahmose I had retaken the country, but the work of building empire fell to his immediate successors. <strong>Amenhotep I</strong> (r. c. 1525–1504 BCE) consolidated control, campaigned in Nubia, and established the labour village at <strong>Deir el-Medina</strong> on the west bank at Thebes — the settlement of artisans who would, for the next four centuries, carve and decorate the royal tombs of the Valley of the Kings.</p>
+
+<p>His successor <strong>Thutmose I</strong> (r. c. 1504–1492 BCE) was the first Egyptian pharaoh to lead an army deep into <strong>Syria</strong>. He fought a campaign all the way to the Euphrates and famously erected a victory stele on the river's far bank. He also pushed Egypt's southern frontier further into Nubia than any previous king. By the time Thutmose I died, Egypt was no longer a regional state. It was a power whose armies set foot on territory from the Fourth Cataract of the Nile in modern Sudan to the great river of Mesopotamia.</p>
+
+<p>Thutmose I was also the first king buried in what would become the <strong>Valley of the Kings</strong> — the secluded desert wadi west of Thebes that, for the next five centuries, was the necropolis of New Kingdom pharaohs. The decision to abandon the pyramid form for hidden rock-cut tombs is one of the most consequential aesthetic decisions in Egyptian history. New Kingdom rulers no longer wanted to mark their tombs with skyline-dominating monuments. They wanted them to be invisible. (It did not save them from tomb-robbers in the long run, but the strategy did give us, four millennia later, the largely intact tomb of Tutankhamun.)</p>
+
+<h3>Hatshepsut: A Female Pharaoh Who Worked</h3>
+<p>One of the most extraordinary figures in Egyptian history took the throne in 1479 BCE. <strong>Hatshepsut</strong> was the daughter of Thutmose I and the chief wife of her half-brother Thutmose II. When Thutmose II died young, his heir — the future <strong>Thutmose III</strong> — was only a child. Hatshepsut began as regent for the boy-king. Within a few years, she had taken the full titulary of pharaoh herself, accepted male regalia (the false beard, the kilt, the bull's tail), and ruled in her own right for roughly 22 years.</p>
+
+<p>Crucially, she ruled <em>well</em>. Hatshepsut presided over a period of internal stability and a deliberate revival of state-sponsored building. Her mortuary temple at <strong>Deir el-Bahri</strong> — three superimposed colonnaded terraces cut into the cliff — is one of the most architecturally adventurous buildings of the ancient world. Half a millennium after Mentuhotep II had built his pyramid-temple on the same spot, Hatshepsut's architect <strong>Senenmut</strong> took the same site and outdid him completely.</p>
+
+<p>Her most famous achievement was a peaceful one: the <strong>Punt expedition</strong> of around 1463 BCE. A fleet of five ships sailed down the Red Sea to the mysterious land of <strong>Punt</strong> (probably modern Eritrea or coastal Sudan) and returned loaded with myrrh, ebony, ivory, gold, exotic animals, and — a delighted Egyptian record-keeper notes — living myrrh trees, transplanted with their roots in baskets of soil for the temple gardens at Deir el-Bahri. The expedition's exterior wall reliefs at Deir el-Bahri are among Egyptian art's most charming creations: rounded Puntite chieftains, queens with extraordinarily corpulent bodies, giraffes, baboons, monkeys, and the swaying palms of the African coast.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+Hatshepsut was not the first female ruler of Egypt — Sobekneferu had taken the male regalia of pharaoh four centuries earlier. But Hatshepsut was the first to rule successfully for a long, prosperous reign. She is, in a real sense, the first woman in recorded human history we can confidently say was a wholly competent, peaceful, successful head of state. Her trade missions, her temple, her economic stewardship — all of these required, at every step, the loyalty of Egypt's military, priestly, and bureaucratic elites. They gave it.
+</div>
+
+<h3>Thutmose III: The Napoleon of Egypt</h3>
+<p>When Hatshepsut died in 1458 BCE, her stepson took sole power as <strong>Thutmose III</strong>. He was no novice — he had been co-regent for two decades and had led the army for years. Now, free of his stepmother's restraining influence, he became one of the great military commanders of the ancient world. The 19th-century Egyptologist James Henry Breasted called him "the Napoleon of Egypt." It is one of the rare cases where the comparison is, if anything, an understatement.</p>
+
+<p>Thutmose III led <strong>seventeen military campaigns</strong> over twenty years, mostly into the Levant, where a coalition of Canaanite city-states had revolted on Hatshepsut's death. His first campaign in 1457 BCE produced one of history's earliest reliably documented battles: the <strong>Battle of Megiddo</strong>. The Egyptian army marched through the Aruna Pass — a narrow defile that the rebels expected would be impossible to use — and surprised the coalition encamped before Megiddo. The rout was total. The city held out under siege for seven months but eventually surrendered. Thutmose's account, inscribed on the temple of Amun at Karnak in 224 columns of text, is the longest narrative military report from the ancient world.</p>
+
+<p>By the end of his reign in 1425 BCE, Thutmose III had extended Egyptian control to the Euphrates, secured the Levantine coast, brought Nubia south to the Fifth Cataract under direct Egyptian administration, and made Egypt the dominant power between the Aegean and the Persian Gulf. His annual campaigns also generated an enormous stream of plunder and tribute, much of which flowed into the <strong>temple of Amun at Karnak</strong>. Amun, originally a modest local god of Thebes, became — through Thutmose's gold — the supreme deity of the empire. The priesthood of Amun, which controlled the wealth and lands accumulated through this period, would by the late New Kingdom be a power second only to the pharaoh himself.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What was the major military innovation of Thutmose III's first campaign at Megiddo (1457 BCE)?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The introduction of iron weapons</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Marching through a narrow pass the enemy thought impassable, achieving total surprise</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The use of war elephants imported from Punt</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<p>Thutmose III also did something darker. Late in his reign, he had Hatshepsut's name and image methodically removed from her monuments. Statues were smashed, cartouches were chiselled out, her image at Deir el-Bahri was replaced with images of Thutmose I and II. Egyptologists debated for a long time whether this was personal revenge (he had been sidelined by her for two decades) or political legitimation (a female pharaoh in retrospect threatened the male-line ideology of kingship he wanted to project). The most recent consensus tilts toward the second: it was political housekeeping, not vendetta. But the effect was the same. Hatshepsut was nearly erased from Egyptian memory until 19th-century archaeologists pieced her story back together.</p>
+
+<h3>Amenhotep II, Thutmose IV, and a Settling Empire</h3>
+<p>The next two pharaohs consolidated rather than expanded. <strong>Amenhotep II</strong> (r. c. 1427–1397 BCE) was a famous athlete — chariot driver, archer, oarsman — and a tough campaigner who suppressed Levantine revolts but didn't enlarge the empire significantly. <strong>Thutmose IV</strong> (r. c. 1401–1391 BCE) is best known for the <strong>Dream Stele</strong>, set up between the paws of the Sphinx at Giza. It records his account of falling asleep in the shadow of the half-buried Sphinx as a prince, dreaming that the god Horemakhet promised him the throne if he cleared the sand. He did, and (the stele says) he got the throne. The Sphinx, weathered and ancient by then, became a place of pilgrimage. This is, incidentally, our earliest evidence of New Kingdom Egyptians thinking of their own pyramids as marvels of a half-mythical past.</p>
+
+<p>Thutmose IV also concluded one of the most important diplomatic acts of the New Kingdom: he made peace with the <strong>kingdom of Mitanni</strong> in northern Syria, Egypt's principal rival in the region. The peace was sealed by his marriage to a Mitannian princess. From this point forward, royal marriages between Egypt and the other Great Kings of the Near East — Babylon, Mitanni, Hatti, Arzawa — became a normal feature of imperial diplomacy. Egypt was no longer just conquering. It was managing a system.</p>
+
+<h3>The Golden Age of Amenhotep III</h3>
+<p>The Eighteenth Dynasty reached its peak under <strong>Amenhotep III</strong> (r. c. 1391–1353 BCE). His thirty-eight-year reign was, by ancient measures, one of the most prosperous periods any state has ever enjoyed. There were no major wars. The empire's frontiers were quiet. Levantine vassals sent annual tribute. Nubian gold poured in. And Amenhotep spent it.</p>
+
+<p>The visual record is overwhelming. Amenhotep III commissioned more surviving statues of himself than any other Egyptian king — well over a thousand. He built the colossal mortuary temple now marked by the surviving <strong>Colossi of Memnon</strong>: two seated statues, each 18 metres tall, that for centuries afterwards travellers from Strabo to Roman emperors came to visit. He effectively rebuilt the temple of <strong>Luxor</strong>. He doubled the size of <strong>Karnak</strong>. He commissioned a vast palace city at <strong>Malqata</strong> on the west bank of Thebes, with painted floors, ornamental pools, and a lake dug specifically so his wife could sail on it.</p>
+
+<p>His chief queen, <strong>Tiye</strong>, was not of royal birth — an extraordinary fact, given Egyptian convention — and yet she appears prominently in royal art beside her husband, with equal billing. Diplomatic letters from the Great Kings of Babylon and Mitanni address her directly. Tiye is the first non-royal Egyptian queen we can clearly identify as a major political figure in her own right.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The <strong>Amarna Letters</strong> — a cache of nearly 400 clay tablets found in the ruins of the later capital at Amarna — preserve much of Amenhotep III's and Amenhotep IV/Akhenaten's diplomatic correspondence. Vassal princes in Canaan beg for more gold, more soldiers, more attention. The Great Kings of Babylon and Mitanni demand more Egyptian gold ("for in your country gold is as plentiful as dust"). It is the earliest substantial archive of international diplomacy in human history. Reading it, you encounter ancient kings negotiating dowries, treating sons-in-law badly, and complaining bitterly when their fellow Great King is slow to write back. The texture of the late Bronze Age world becomes startlingly real.
+</div>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Who was Tiye?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A Mitannian princess sent to Egypt as a diplomatic bride</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Amenhotep III's non-royal chief queen, a major political figure in her own right</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Theban priestess who anointed Hatshepsut as pharaoh</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Slow Rise of the Sun</h3>
+<p>Underneath the gold, something theological was shifting. Amenhotep III increasingly emphasised his close association with the sun god <strong>Ra</strong> and, more specifically, with the sun-disc itself — <strong>the Aten</strong>. His own divinity was promoted aggressively. He built temples to himself as a living god. The old pantheon of countless local gods, with the priesthood of Amun at its centre, was beginning to feel — to some Egyptian elites — increasingly cluttered, and the priesthood of Amun was beginning to feel increasingly powerful.</p>
+
+<p>This was not yet a religious revolution. Amenhotep III worked within the traditional system; he was, on the official level, a perfectly orthodox king who honoured Amun at Karnak as much as Ra at Heliopolis. But the theological emphasis on solar imagery, on the king as the unique earthly counterpart of the sun, was building. When Amenhotep III died and his son Amenhotep IV — soon to rename himself <strong>Akhenaten</strong> — took the throne, the latent ideas would erupt into one of the most extraordinary religious experiments in the ancient world.</p>
+
+<p>That, however, is Module 5. For now, what matters is this: by the time Amenhotep III died around 1353 BCE, Egypt was at the apex of its political, military, economic, and cultural power. The empire he passed to his son was the largest, wealthiest, and most prestigious Egyptian state that had ever existed. Whether his son would build on that or break it apart was the next great question.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">During the 18th Dynasty, what new burial practice did the pharaohs adopt instead of pyramids?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Cremation followed by burial in royal urns</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Hidden rock-cut tombs in the Valley of the Kings</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Burial at sea in the Red Sea fleet ships</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The Eighteenth Dynasty took Egypt from a recently humiliated regional state to the dominant great power of the Bronze Age world in a single century. Hatshepsut showed that a woman could rule prosperously and peacefully; Thutmose III showed that an Egyptian army could conquer the Near East; Amenhotep III showed that an Egyptian court could rival any rival in wealth and splendour. But the same period also concentrated enormous power in the priesthood of Amun and quietly set up the theological tensions that would explode in the reign of Amenhotep III's son. The empire was magnificent. It was also, in ways nobody yet saw, fragile.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════

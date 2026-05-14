@@ -1169,6 +1169,34 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Egypt — Module 4 ────────────────────────────
+  "Ancient Egypt::4": {
+    causes: [
+      "Expelling the Hyksos militarised Egypt and gave it the chariot, composite bow, and bronze armour",
+      "Ahmose I and his successors chose to pursue the retreating Hyksos into the Levant rather than stopping at the border",
+      "The vast wealth of the Nubian gold mines and Syrian tribute funded a permanent professional army for the first time"
+    ],
+    effects: [
+      "Made Egypt the dominant power of the ancient Near East for roughly two centuries",
+      "Concentrated enormous wealth and political power in the priesthood of Amun at Karnak",
+      "Established the Valley of the Kings as the royal necropolis — a strategic shift away from pyramid-building",
+      "Built the diplomatic system documented in the Amarna Letters — the earliest substantial international archive in history"
+    ],
+    figures: [
+      { name: "Thutmose I", dates: "r. c. 1504–1492 BCE", role: "Conqueror-pharaoh, 18th Dynasty", why: "First Egyptian king to lead an army to the Euphrates; first king buried in the Valley of the Kings." },
+      { name: "Hatshepsut", dates: "r. c. 1479–1458 BCE", role: "Female pharaoh", why: "Ruled prosperously for 22 years; built Deir el-Bahri; sent the Punt expedition. Erased from monuments after her death but rediscovered in the modern era." },
+      { name: "Senenmut", dates: "fl. c. 1473–1458 BCE", role: "Architect & steward of Hatshepsut", why: "Designed Deir el-Bahri and oversaw construction of the queen's monuments. Buried near her — possibly her lover, possibly just her closest adviser." },
+      { name: "Thutmose III", dates: "r. c. 1479–1425 BCE", role: "'Napoleon of Egypt'", why: "Led 17 military campaigns; won the Battle of Megiddo (1457 BCE); built the largest Egyptian empire in history." },
+      { name: "Amenhotep III", dates: "r. c. 1391–1353 BCE", role: "Pharaoh at the apex", why: "Presided over the wealthiest and most prestigious period of Egyptian history. Built the Colossi of Memnon, rebuilt Luxor and Karnak." },
+      { name: "Queen Tiye", dates: "c. 1398–1338 BCE", role: "Chief queen of Amenhotep III", why: "Non-royal-born wife of Amenhotep III who became a major political figure; appears in diplomatic correspondence with foreign Great Kings." }
+    ],
+    connections: ["Ancient Egypt", "Ancient Egypt::3", "Ancient Egypt::5", "The Bronze Age Collapse", "Ancient Nubia & Kush"],
+    sourceSnippet: {
+      text: "His Majesty went forth in his chariot of electrum, arrayed in his weapons of war, like Horus, the Mighty of Arm… and the enemies fled headlong to Megiddo with faces of fear.",
+      attribution: "Annals of Thutmose III, Karnak, c. 1457 BCE"
+    }
+  },
+
   // ── Ancient Egypt — Module 3 ────────────────────────────
   "Ancient Egypt::3": {
     causes: [
