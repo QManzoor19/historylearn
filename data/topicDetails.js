@@ -1169,6 +1169,33 @@ const topicDetails = {
     }
   },
 
+  // ── Bronze Age Collapse — Module 7 ──────────────────────
+  "The Bronze Age Collapse::7": {
+    causes: [
+      "The Late Bronze Age system was tightly coupled, with multiple states dependent on each other's outputs",
+      "Key components (Ugarit's commercial reckoning, Anatolian tin sources, hub cities) were single points of failure",
+      "The system had minimal redundancy — no reserve trade routes, modest grain stores, no backup hubs",
+      "Diminishing returns on complexity had drained the slack out of the system before the crisis arrived"
+    ],
+    effects: [
+      "Made the system unable to absorb the simultaneous shocks of climate change, earthquakes, migrations, and political crises",
+      "Caused failures to cascade across the network rather than remaining locally contained",
+      "Prevented post-collapse recovery to anything like the pre-collapse complexity",
+      "Provided the central modern case study for the academic discipline of collapse studies"
+    ],
+    figures: [
+      { name: "Joseph Tainter", dates: "b. 1949", role: "American anthropologist", why: "Author of 'The Collapse of Complex Societies' (1988), the foundational modern work on civilisational collapse. Established the diminishing-returns-on-complexity framework." },
+      { name: "Eric Cline", dates: "b. 1960", role: "American archaeologist", why: "Author of '1177 B.C.: The Year Civilization Collapsed' (2014), the central modern synthesis of the Bronze Age Collapse applying systems-collapse theory." },
+      { name: "Jared Diamond", dates: "b. 1937", role: "American polymath", why: "Author of 'Collapse: How Societies Choose to Fail or Succeed' (2005), emphasising environmental drivers — useful but contested framework for collapse." },
+      { name: "Carl Knappett", dates: "active 2000s–", role: "British archaeologist", why: "Pioneered the formal application of network theory to Bronze Age archaeological data, revealing the system's scale-free structure and hub-vulnerability." }
+    ],
+    connections: ["The Bronze Age Collapse", "The Bronze Age Collapse::6", "The Bronze Age Collapse::8", "Globalisation", "The Digital Age"],
+    sourceSnippet: {
+      text: "Collapse, as it affects complex societies, is rapid, substantial, and primarily political — but ultimately reflects an underlying decline in the productivity of investments in complexity itself.",
+      attribution: "Joseph Tainter, The Collapse of Complex Societies, 1988"
+    }
+  },
+
   // ── Bronze Age Collapse — Module 6 ──────────────────────
   "The Bronze Age Collapse::6": {
     causes: [
