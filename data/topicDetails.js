@@ -1169,6 +1169,33 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Egypt — Module 6 ────────────────────────────
+  "Ancient Egypt::6": {
+    causes: [
+      "3,000 years of religious continuity required by an agrarian society dependent on the Nile's annual rhythm",
+      "Mummification technology developed in response to the optimistic theology of bodily resurrection",
+      "Bureaucratic literacy created a scribal class that documented daily life in extraordinary detail (Deir el-Medina)"
+    ],
+    effects: [
+      "Produced the most elaborate funerary culture in human history — mummies, tombs, the Book of the Dead",
+      "Gave Egyptian women legal autonomy unmatched in the ancient Mediterranean for millennia",
+      "Created social structures (peasant villages, scribal schools, craftsmen's quarters) so stable they survived every dynastic transition"
+    ],
+    figures: [
+      { name: "Osiris", dates: "mythic", role: "First king of Egypt, god of the underworld", why: "Centre of the most influential resurrection myth in the ancient world; the model for every Egyptian afterlife." },
+      { name: "Isis", dates: "mythic", role: "Magical mother, resurrection goddess", why: "Reassembled Osiris and bore Horus. Her cult eventually spread across the Roman Empire as far as Britain." },
+      { name: "Anubis", dates: "mythic", role: "Jackal-headed god of embalming", why: "Patron of mummification and the Weighing of the Heart ceremony." },
+      { name: "Ma'at", dates: "mythic", role: "Goddess of truth, justice, cosmic order", why: "Her feather, weighed against the heart of the deceased, was the moral standard of the afterlife." },
+      { name: "Paneb", dates: "fl. c. 1200 BCE", role: "Foreman at Deir el-Medina", why: "Investigated for theft, adultery, and abuse of his position — preserved in the most detailed legal dossier we have of an Egyptian commoner." },
+      { name: "Herodotus", dates: "c. 484–425 BCE", role: "Greek historian", why: "Visited Egypt in the 5th century BCE and described its religion, daily life, and the relatively high status of women in striking detail. Our principal outside witness." }
+    ],
+    connections: ["Ancient Egypt", "Ancient Egypt::2", "Ancient Egypt::5", "Ancient Egypt::7", "Rise of World Religions"],
+    sourceSnippet: {
+      text: "I have not killed. I have not stolen. I have not robbed the gods. I have not lied. I have not despoiled the property of the poor. I have not made anyone weep. I have not been violent. I have not stopped the waters of the Nile in their season.",
+      attribution: "Selections from the Negative Confession, Book of the Dead, Spell 125, New Kingdom"
+    }
+  },
+
   // ── Ancient Egypt — Module 5 ────────────────────────────
   "Ancient Egypt::5": {
     causes: [

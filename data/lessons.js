@@ -1400,6 +1400,134 @@ The <strong>iron dagger</strong> in Tutankhamun's tomb — analysed by Italian r
 
 </div>`;
 
+L["Ancient Egypt::6"] = `<div class="lesson-body">
+
+<h3>Stepping Off the Timeline</h3>
+<p>So far, this curriculum has marched the Ancient Egypt story chronologically — Predynastic to Old Kingdom to Middle Kingdom to New Kingdom. This module steps off the timeline. For one lesson, we ignore which pharaoh built what and instead ask: <em>what did Egyptians actually believe? What did they think happened when they died? What did they do all day?</em> Religion, the afterlife, and daily life are best understood thematically because their fundamentals — the pantheon, the burial customs, the social structure — remained recognisable across all 3,000 years of pharaonic history. The same gods Khufu's priests worshipped were worshipped, with relatively minor changes, by the priests of Cleopatra. The same beliefs about the journey to the afterlife that shaped the Pyramid Texts shaped the painted papyri of New Kingdom commoners.</p>
+
+<p>That continuity is itself one of the most striking facts about Egyptian civilisation. Almost no other religion in human history has remained recognisably itself for as long as Egyptian religion did. Reading the Pyramid Texts of Pepi II (c. 2200 BCE) and the Book of the Dead of a Theban scribe from 1300 BCE, you sense the same imaginative world — the same gods, the same afterlife, the same moral framework — separated by nearly a thousand years.</p>
+
+<h3>A Pantheon of Hundreds</h3>
+<p>Egyptian religion was unapologetically <span class="vocab-pill">polytheistic</span>. The Egyptians worshipped more than a thousand named deities — most of them local, some of them universal, many of them merging and re-merging with one another in ways that drove later monotheistic observers slightly mad. A few of the most important:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Ra</strong> — the sun god, the most fundamental deity. Sailed across the sky each day in a solar barque, fought the chaos-serpent Apophis each night beneath the world.</li>
+<li><strong>Amun</strong> — originally the local god of Thebes, who rose with that city's political fortunes to become the supreme deity of the New Kingdom. Often merged with Ra as <strong>Amun-Ra</strong>.</li>
+<li><strong>Osiris</strong> — god of the underworld and of vegetation. The first king of Egypt in mythic time, murdered by his brother and resurrected as ruler of the dead.</li>
+<li><strong>Isis</strong> — Osiris's wife and sister, the magical mother who reassembled her husband's body and bore his son. Worshipped across the Mediterranean world by the Roman era.</li>
+<li><strong>Horus</strong> — son of Osiris and Isis, the falcon-headed god of kingship. The living pharaoh was understood to be Horus on earth.</li>
+<li><strong>Set</strong> — Osiris's murderous brother, god of storms, deserts, foreigners, and disorder. Not quite evil — he also fought beside Ra each night against Apophis — but reliably menacing.</li>
+<li><strong>Anubis</strong> — jackal-headed god of embalming and the dead.</li>
+<li><strong>Thoth</strong> — ibis-headed god of writing, wisdom, and the moon.</li>
+<li><strong>Ma'at</strong> — goddess and abstract principle of truth, justice, and cosmic order. The feather of Ma'at was used to weigh the heart of the dead.</li>
+<li><strong>Hathor</strong> — cow-horned goddess of love, music, motherhood, and joy.</li>
+<li><strong>Bastet</strong> — cat-headed protective goddess of the home.</li>
+<li><strong>Bes</strong> — a dwarf-like grotesque god who, despite his alarming appearance, protected mothers, infants, and households. The most commonly invoked household deity.</li>
+</ul>
+
+<p>Many of these gods overlapped, merged, or absorbed each other in different times and places. Egyptian theology did not have orthodoxy in the Western sense. Local priests could and did combine, syncretise, and reinvent deities at will. The pharaoh's job was not to enforce theological correctness but to maintain the temples and rituals that kept the gods fed and the cosmos in motion.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+Egyptian theology was less a tidy system and more a sprawling, layered library written in many hands over thousands of years. Different cities had different "house" deities the way medieval European cities had different patron saints. A devout Egyptian was not committed to a single doctrine but to a network of rituals, festivals, and personal relationships with multiple gods. To ask "did they really believe this?" is, in this framework, slightly misplaced. They believed in the rituals — and the rituals, in turn, produced the world.
+</div>
+
+<h3>The Osiris Myth and Why Egyptians Did Not Fear Death</h3>
+<p>The single most important religious story in Egypt was the myth of Osiris. As preserved most fully in the Greek writer Plutarch's <em>On Isis and Osiris</em> (c. 100 CE) but attested throughout Egyptian sources from the Old Kingdom on, it runs roughly as follows:</p>
+
+<p>Osiris was the wise first king of Egypt. His jealous brother Set tricked him into climbing into a beautifully decorated chest, sealed him in, and threw it into the Nile. Osiris's grieving wife Isis searched the world, recovered the body, and used her magic to revive him briefly. Set then murdered Osiris a second time, cutting his body into fourteen pieces and scattering them across Egypt. Isis again recovered the pieces (all but one — the phallus, which was eaten by a fish in the Nile, requiring her to fashion a magical replacement), reassembled the corpse, and bore Osiris's posthumous son Horus. Horus eventually fought Set in a long ritual contest, prevailed, and inherited the kingship. Osiris, his body restored but his death real, became the ruler of the dead in the underworld.</p>
+
+<p>The myth did several things for Egyptians at once. It explained the death and resurrection of crops — Osiris was associated with grain that "dies" in the harvest and is reborn each year. It explained the legitimacy of pharaonic kingship — every king was Horus on earth, every dead king was Osiris in the underworld. And it provided what was, by ancient standards, an unusually optimistic theology of death: <em>death is not annihilation. Death is the gateway to a new kind of existence.</em> Egyptians prepared for the afterlife with extraordinary care precisely because they believed it was a real continuation of the life they were living now.</p>
+
+<h3>The Weighing of the Heart</h3>
+<p>The journey to the afterlife was not automatic. Egyptians believed that when you died, your soul travelled through the dangerous Duat (the underworld), passing demons, gates, and trials. At the end you arrived in the <strong>Hall of Two Truths</strong>, presided over by Osiris. There you faced <strong>Anubis</strong>, who placed your heart on one pan of a great scale. On the other pan he placed the <strong>feather of Ma'at</strong> — the embodiment of truth, justice, and cosmic order.</p>
+
+<p>If your heart was lighter than the feather, you had lived a just life. You were welcomed into the <strong>Field of Reeds</strong> — a paradise that resembled Egypt itself, with eternal abundance, gentle work, family reunions, and the company of the gods. If your heart was heavier than the feather, weighed down by injustice or selfishness, a monstrous hybrid creature called <strong>Ammit</strong> ("the Devourer," part lion, part hippo, part crocodile) ate the heart. The soul was then annihilated — no eternal punishment, just non-existence. This was the worst Egyptian fear: not damnation, but oblivion.</p>
+
+<p>Before the weighing, the deceased recited a long <strong>negative confession</strong>, listing the sins they had not committed: <em>I have not killed. I have not lied. I have not stolen. I have not despoiled the property of the poor. I have not made anyone weep. I have not held back the waters of the Nile in their season.</em> The list of 42 sins (one for each judge-god) reads almost like a moral code in its own right — a deeply practical ancient ethics built on harm avoidance, fair dealing, and not abusing power.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">In the Egyptian Weighing of the Heart, what did Ammit do to souls whose hearts were heavier than the feather of Ma'at?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Punished them with eternal torment in the Duat</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Devoured the heart, annihilating the soul entirely</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Reincarnated them as animals on earth</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Mummification: A 70-Day Project</h3>
+<p>To survive in the afterlife, the soul needed the body to remain recognisable. This was the practical reason Egyptians developed <span class="vocab-pill">mummification</span> — one of the most elaborate funerary technologies any civilisation has produced. The full process took 70 days and was carried out in specialised workshops by trained embalmers.</p>
+
+<p>The process, simplified:</p>
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Days 1–4:</strong> The body was washed in palm wine and Nile water. The brain was removed, traditionally through the nose with a hooked instrument, and discarded (Egyptians did not understand the brain's function and saw it as worthless). The major internal organs were extracted through a slit in the left abdomen and placed in four <span class="vocab-pill">canopic jars</span>, each guarded by one of the four Sons of Horus.</li>
+<li><strong>The heart</strong> was carefully left in place — it was needed for the weighing.</li>
+<li><strong>Days 5–40:</strong> The body was packed inside and out with <strong>natron</strong>, a naturally-occurring sodium salt mined from the Wadi Natrun. Natron drew moisture out of the tissues. By the end of 35–40 days the body was thoroughly dehydrated and would not decay further.</li>
+<li><strong>Days 41–70:</strong> The body was washed, anointed with oils and resins, packed with linen or sawdust to restore its shape, and wrapped in roughly 20 layers of linen bandages, with protective amulets — particularly the <em>scarab</em> over the heart — placed between the layers.</li>
+<li><strong>Day 70:</strong> The mummy was placed in a series of nested coffins, the outermost often anthropoid in shape, and transported to the tomb with a procession of priests, family, and professional mourners.</li>
+</ul>
+
+<p>The technology was remarkably effective. Modern medical imaging of New Kingdom royal mummies has revealed skin patterns, hair, tattoos, dental cavities, healed fractures, parasites, and even (in the case of Ramses II) what appears to be the bald patch on his crown. Some 3,500-year-old mummies are better preserved than 19th-century European corpses. The Egyptians had effectively defeated decomposition.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The mummy of <strong>Seti I</strong>, father of Ramses II and one of the great warrior-pharaohs of the 19th Dynasty, was so well preserved when discovered in a hidden cache in 1881 that the unwrapped face — high cheekbones, aquiline nose, a faint smile, perfectly preserved eyelashes — looked startlingly alive. Photographs taken at the time still circulate. He had been dead 3,200 years when Egyptologists first looked at him again. No surviving portrait of any other pre-modern leader is so direct or so personal.
+</div>
+
+<h3>The Book of the Dead</h3>
+<p>To navigate the Duat safely required spells, and Egyptians wrote them down. The <strong>Pyramid Texts</strong> of the Old Kingdom were exclusive to the king. The <strong>Coffin Texts</strong> of the Middle Kingdom (the same spells, broadly) extended access to nobles. By the New Kingdom, anyone who could afford a scribe could commission a personalised <strong>Book of Going Forth by Day</strong> — what modern scholars call the <strong>Book of the Dead</strong> — a papyrus roll containing perhaps 200 spells, each addressing a specific underworld challenge. The deceased's name was inserted throughout. The roll was placed inside or alongside the coffin.</p>
+
+<p>Some spells gave passwords for gates. Some defeated specific demons. The most famous is <strong>Spell 125</strong>, the negative confession, recited before Osiris. Spell 30 — addressed directly to your own heart — begs it not to testify against you on the day of judgement: <em>"O heart of mine, do not stand against me as a witness, do not oppose me in the tribunal, do not be hostile to me in the presence of the Keeper of the Balance."</em> Spells 64 and 175 contemplate the nature of existence. Spell 89 reunites the soul with the body each morning. The Book of the Dead is, in effect, a personalised eternity-survival manual.</p>
+
+<h3>Who Were the Egyptians, Day to Day?</h3>
+<p>For all this elaborate religious infrastructure, the everyday life of most Egyptians was prosaic. Roughly <strong>95% of the population</strong> were peasant farmers, living in mud-brick villages along the Nile, working the same fields their ancestors had worked. The agricultural year was divided into three seasons by the Nile's flood: <strong>Akhet</strong> (inundation, June–October — fields underwater, peasants worked on royal projects), <strong>Peret</strong> (emergence, October–February — planting and growing), and <strong>Shemu</strong> (harvest, February–June). Wheat and barley were the staples; beer was the everyday drink (low-alcohol, slightly sweet, often safer than river water); bread and onions were eaten by everyone.</p>
+
+<p>Above the peasants sat a layer of urban craftsmen — potters, weavers, jewellers, leatherworkers, woodworkers — who lived in towns. Above them sat the literate <strong>scribes</strong>, the bureaucratic backbone of the Egyptian state. Becoming a scribe was the great social-mobility path of Egyptian life. School texts survive in which teachers exhort their students: <em>"Be a scribe. It saves you from labour. It protects you from every kind of work."</em> One ancient text, <em>Be a Scribe</em>, lists in lurid detail the miseries of every other profession — the potter coated in mud, the metalworker burnt, the soldier marched to death, the farmer broken by harvest. The scribal class was a literate elite, perhaps 1% of the population, but it ran the country.</p>
+
+<p>Above the scribes sat priests, military officers, and high nobles. Above them all was the pharaoh and the royal family. Egyptian society was hierarchical, but it was less rigid than modern observers often imagine. Peasants' sons who learned to read could become scribes. Scribes could rise to high office. Foreigners could marry into noble families. A surprising number of Egyptian viziers — the chief ministers of state — came from non-elite backgrounds.</p>
+
+<h3>The Village That Time Forgot</h3>
+<p>The clearest single window into ordinary Egyptian life is the village of <strong>Deir el-Medina</strong>. Founded in the early New Kingdom by Amenhotep I to house the workmen who carved and decorated the royal tombs of the Valley of the Kings, Deir el-Medina was a closed, state-sponsored community for roughly five centuries. Its residents were paid in grain, beer, oil, fish, and clothing. They had two-storey mud-brick houses with painted walls. They drank wine on holidays. They squabbled with neighbours, sued each other in workmen's courts over property disputes, divorced and remarried, wrote love poems, and grumbled (in surviving letters) about delayed pay.</p>
+
+<p>Because Deir el-Medina was a dry desert site occupied by literate, well-paid workers, an extraordinary archive has survived. We know the names, family relationships, and personalities of perhaps 800 individual villagers. We know that a woman named Heria was prosecuted for stealing a tool from a neighbour. We know that a workman named Paneb was investigated for adultery, theft, and assaulting his own foreman. We know that the village's first recorded labour strike in history happened in the 29th year of Ramses III's reign, when pay rations failed to arrive and the workmen sat down on the ground in front of the storeroom. We have their actual handwritten complaint. Deir el-Medina is the closest the ancient world comes to giving us a community we know personally.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What does the village of Deir el-Medina give us a uniquely detailed picture of?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Pharaonic court ritual</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The daily lives of literate Egyptian workmen and their families</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Nubian gold-mining camps</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Women in Egyptian Society</h3>
+<p>Egyptian women enjoyed unusual legal autonomy by ancient world standards. They could own property in their own name, inherit equally with brothers, initiate divorce, testify in court, and bring legal cases as full participants. Marriage was a private contract — there was no religious or state ceremony, just a household agreement, often with documented property settlements. Divorce required no special procedure; either party could end the marriage, with property typically returned according to who had brought what in.</p>
+
+<p>Women worked. We have records of women working as bakers, weavers, brewers, professional mourners, midwives, dancers, musicians, temple chantresses, perfume-makers, and in at least one striking case, a woman vizier (Nebet, in the 6th Dynasty, was apparently appointed by her son-in-law Pepi I — though the historical evidence is fragmentary). Royal women could be enormously powerful: Hatshepsut and Sobekneferu took the throne outright; Tiye, Nefertiti, and Nefertari shaped policy beside their husbands; Cleopatra would, much later, govern alone.</p>
+
+<p>This is not a feminist paradise. Egyptian society was patriarchal. High politics, military command, and the highest priesthoods were male-dominated. Texts survive lecturing wives on obedience to husbands. But by comparison with classical Greece, Rome, or much of medieval Europe, Egyptian women enjoyed a remarkable degree of legal personhood. When the historian Herodotus visited Egypt in the 5th century BCE, the role of Egyptian women so startled him that he claimed they did everything Greek men did, and Greek men everything Greek women did. That was an exaggeration — but it tells us how visible Egyptian female autonomy was to outside observers.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Compared to classical Greek or Roman women, Egyptian women's legal status was:</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Far worse — they had almost no rights to property or divorce</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Notably better — they could own property, divorce, and bring legal cases independently</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Roughly identical — all three societies treated women the same way</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> Egyptian religion and daily life held together with unusual coherence for three thousand years. A polytheistic pantheon, an optimistic afterlife reachable by a moral life and a mummified body, a hierarchical but partially mobile society, an agricultural rhythm anchored by the Nile flood, and an unusual legal personhood for women — all of these were already present in the Old Kingdom and were still present, recognisably, in the Roman era. Pharaohs rose and fell; foreign rulers came and went; the underlying texture of Egyptian existence stayed remarkably itself. That is one of the great achievements of any human civilisation.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════
