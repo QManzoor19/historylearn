@@ -1169,6 +1169,37 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Nubia & Kush — Module 8 ─────────────────────
+  "Ancient Nubia & Kush::8": {
+    causes: [
+      "Rise of Aksum and shifting trade routes weakened Meroë's regional dominance by the 3rd century CE",
+      "King Ezana of Aksum's campaign around 330–360 CE destroyed Meroitic political power",
+      "Byzantine missionary efforts under Justinian and Theodora converted the three post-Meroitic kingdoms to Christianity in the 540s CE",
+      "The 652 CE Baqt treaty established a stable framework allowing Christian Nubia to coexist with Islamic Egypt for six centuries"
+    ],
+    effects: [
+      "Built three Christian Nubian kingdoms (Nobadia, Makuria, Alodia) that lasted nearly a thousand years",
+      "Produced the Faras cathedral frescoes — one of the major bodies of medieval Christian art outside Europe",
+      "Created the Old Nubian language and literature, ancestors of languages still spoken in Egypt and Sudan today",
+      "Negotiated the Baqt, the longest-lasting peace treaty in early Islamic history (~600 years)",
+      "Preserved Nubian cultural continuity through Aksumite conquest, Christian conversion, and eventual Islamic absorption"
+    ],
+    figures: [
+      { name: "Ezana of Aksum", dates: "r. c. 320–360 CE", role: "Aksumite king who conquered Meroë", why: "Defeated Meroitic forces around 330–360 CE; first major African king to convert to Christianity; his trilingual victory stele is foundational for Aksumite and post-Meroitic history." },
+      { name: "Empress Theodora", dates: "c. 500–548 CE", role: "Byzantine empress", why: "Sponsored the Miaphysite Christian mission led by Julian that converted Nobadia in the 540s CE, beating her husband Justinian's Chalcedonian rivals to the prize." },
+      { name: "Julian", dates: "fl. 540s CE", role: "Byzantine missionary", why: "Led Theodora's mission to Nobadia; converted the king and established Miaphysite Christianity in Nubia." },
+      { name: "Abdullah ibn Sa'd", dates: "fl. 650s CE", role: "Arab governor of Egypt", why: "Negotiated the Baqt treaty with the Makurian king in 652 CE after two failed Arab invasions of Nubia." },
+      { name: "John of Ephesus", dates: "c. 507–589 CE", role: "Byzantine ecclesiastical historian", why: "His Ecclesiastical History preserves the principal contemporary account of the conversion of Nobadia in the 540s." },
+      { name: "Sultan Baibars", dates: "r. 1260–1277 CE", role: "Mamluk Sultan of Egypt", why: "Launched the campaigns that began the final dismantling of Christian Makuria in the 1270s CE." },
+      { name: "Kazimierz Michałowski", dates: "1901–1981", role: "Polish archaeologist", why: "Director of the Polish-Sudanese Faras rescue excavations of the 1960s that recovered the Christian Nubian frescoes before Lake Nasser submerged the site." }
+    ],
+    connections: ["Ancient Nubia & Kush", "Ancient Nubia & Kush::5", "Ancient Nubia & Kush::7", "Ancient Egypt::8", "The Rise of Islam", "African Kingdoms", "The Byzantine Empire"],
+    sourceSnippet: {
+      text: "And he came to Soba… and he conquered the people of the city, and there was great slaughter among them.",
+      attribution: "Trilingual victory inscription of King Ezana of Aksum, c. 350 CE — describing the destruction of Meroë"
+    }
+  },
+
   // ── Ancient Nubia & Kush — Module 7 ─────────────────────
   "Ancient Nubia & Kush::7": {
     causes: [
