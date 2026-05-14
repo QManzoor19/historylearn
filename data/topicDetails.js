@@ -1169,6 +1169,33 @@ const topicDetails = {
     }
   },
 
+  // ── Bronze Age Collapse — Module 3 ──────────────────────
+  "The Bronze Age Collapse::3": {
+    causes: [
+      "Akkadian cuneiform had become the diplomatic lingua franca of the Late Bronze Age, allowing all the Great Powers to correspond in a single shared script",
+      "Akhenaten's abandonment of the new capital Amarna around 1330 BCE preserved the records office's contents in the dry desert",
+      "An 1887 chance discovery by a local Egyptian peasant brought the cache into the modern world"
+    ],
+    effects: [
+      "Preserved 380+ clay tablets — the most detailed surviving documentary record of Late Bronze Age diplomacy",
+      "Provided unique insight into both Great Power correspondence (Babylon, Mitanni, Hatti, Cyprus) and vassal management (Byblos, Jerusalem, Megiddo)",
+      "Documented Egyptian imperial neglect during Akhenaten's religious revolution that contributed to the regional instability of the late 14th century BCE"
+    ],
+    figures: [
+      { name: "Rib-Hadda of Byblos", dates: "fl. c. 1350–1335 BCE", role: "Egyptian-vassal king of Byblos", why: "Wrote about 60 surviving letters — the most of any vassal — chronicling the slow loss of his kingdom to Aziru of Amurru while Egyptian help never arrived." },
+      { name: "Abdi-Heba of Jerusalem", dates: "fl. c. 1350–1335 BCE", role: "Egyptian-vassal ruler of Urusalim", why: "His 6 letters contain the earliest documentary reference to Jerusalem as a city, and frequent mention of the mysterious 'apiru raiders." },
+      { name: "Tushratta of Mitanni", dates: "r. c. 1380–1340 BCE", role: "King of Mitanni", why: "Sent multiple letters begging for Egyptian gold; assassinated as Suppiluliuma I's Hittite armies overran his kingdom." },
+      { name: "Burnaburiash II of Babylon", dates: "r. c. 1359–1333 BCE", role: "Kassite king of Babylon", why: "His wonderfully cranky letters complaining about Akhenaten's wedding-gift protocol are among the most readable documents of the entire Bronze Age." },
+      { name: "King of Alashiya (Cyprus)", dates: "fl. c. 1340 BCE", role: "King of Cyprus", why: "Author of the famous Amarna Letter EA 35, which apologises for delayed copper shipments due to plague — 'the hand of Nergal is in my country.'" },
+      { name: "William Moran", dates: "1921–2000", role: "American Assyriologist", why: "Produced the standard modern English translation of all 382 known Amarna Letters (Johns Hopkins, 1992)." }
+    ],
+    connections: ["The Bronze Age Collapse", "The Bronze Age Collapse::2", "The Bronze Age Collapse::4", "Ancient Egypt::5", "Cradles of Civilisation"],
+    sourceSnippet: {
+      text: "The hand of Nergal is now in my country; he has slain all the men of my country, and there is not a single copper-worker. So my brother should not take it to heart that I am sending only this small quantity.",
+      attribution: "King of Alashiya (Cyprus) to Akhenaten of Egypt, Amarna Letter EA 35, c. 1340 BCE"
+    }
+  },
+
   // ── Bronze Age Collapse — Module 2 ──────────────────────
   "The Bronze Age Collapse::2": {
     causes: [
