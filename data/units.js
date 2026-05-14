@@ -46,7 +46,17 @@ const units = [
         ] },
       { icon: "⚱️", name: "The Bronze Age Collapse", sub: "History's greatest mystery — when civilisations fell together",
         regions: ["Middle East", "Europe"],
-        subtopics: ["The Late Bronze Age world — an interconnected Mediterranean","Mycenae, the Hittites, Egypt, Assyria & their palace economies","The Sea Peoples — who were they?","Drought, climate change & agricultural collapse","Systems failure — how interconnection became vulnerability","The destruction of cities across the eastern Mediterranean","The Greek Dark Ages & lost writing systems","Parallels & warnings for our interconnected world"] },
+        subtopics: ["The Late Bronze Age world — an interconnected Mediterranean","Mycenae, the Hittites, Egypt, Assyria & their palace economies","The Sea Peoples — who were they?","Drought, climate change & agricultural collapse","Systems failure — how interconnection became vulnerability","The destruction of cities across the eastern Mediterranean","The Greek Dark Ages & lost writing systems","Parallels & warnings for our interconnected world"],
+        modules: [
+          { id: 1, icon: "🌐", name: "The Globalised Bronze Age", timespan: "c. 1500 – 1200 BCE", blurb: "How tin from Afghanistan, copper from Cyprus, and gold from Nubia tied the Mediterranean into a single trading system." },
+          { id: 2, icon: "🏛️", name: "The Great Powers", timespan: "c. 1450 – 1200 BCE", blurb: "Egypt, the Hittites, Mitanni, Mycenae, Assyria, Babylon, Cyprus — the palace civilisations on the eve of collapse." },
+          { id: 3, icon: "📜", name: "The Amarna Letters", timespan: "c. 1360 – 1330 BCE", blurb: "What 380 clay tablets reveal about the diplomatic world that was about to disappear." },
+          { id: 4, icon: "⛵", name: "The Mysterious Sea Peoples", timespan: "c. 1208 – 1175 BCE", blurb: "Who were the Peleset, Sherden, Tjekker, and the rest — and where did they come from?" },
+          { id: 5, icon: "🔥", name: "The Wave of Destruction", timespan: "c. 1200 – 1150 BCE", blurb: "Ugarit's last letter, Hattusa abandoned, Mycenae burned, and Ramses III's desperate stand on the Delta." },
+          { id: 6, icon: "🌵", name: "Drought, Earthquakes & Climate", timespan: "Thematic", blurb: "Tree-rings, pollen cores, and the 3.2-kiloyear climate event that broke the Bronze Age." },
+          { id: 7, icon: "🕸️", name: "Systems Collapse", timespan: "Thematic", blurb: "Eric Cline's argument: how interconnection became a vulnerability, not a strength." },
+          { id: 8, icon: "🌅", name: "Dark Ages & the New World", timespan: "c. 1150 – 800 BCE", blurb: "The Greek Dark Ages, Linear B forgotten, and the rise of Phoenicians, Israelites, and the Iron Age." }
+        ] },
       { icon: "🦁", name: "The Persian Empires", sub: "Achaemenid, Parthian & Sasanian — world's first superpower",
         regions: ["Middle East"],
         subtopics: ["The Medes & the rise of Cyrus the Great","The Achaemenid Empire — from the Indus to the Aegean","Darius' reforms: roads, postal service, satrapies","Religious tolerance & the freeing of the Jews from Babylon","Persian Wars with Greece — Marathon, Thermopylae, Salamis","Alexander's conquest & the Hellenistic Persia","The Parthian Empire — Rome's eastern rival for 400 years","The Sasanian Empire & Zoroastrianism","Persian cultural legacy in the Islamic world"] },
