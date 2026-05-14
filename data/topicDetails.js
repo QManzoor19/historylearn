@@ -1169,6 +1169,35 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Nubia & Kush — Module 4 ─────────────────────
+  "Ancient Nubia & Kush::4": {
+    causes: [
+      "The Egyptianised cultural inheritance left by 450 years of New Kingdom colonisation gave the Napatan kingdom a ready-made pharaonic ideology",
+      "Fragmentation of Egypt into Libyan dynasties and rival local powers in the 8th century BCE created a political vacuum",
+      "The cult of Amun at Gebel Barkal provided unmatched religious legitimacy for Kushite kings claiming the Egyptian throne"
+    ],
+    effects: [
+      "Established the 25th Dynasty of Egypt — c. 65 years of African pharaohs ruling the entire Nile valley from Nubia to the Mediterranean",
+      "Produced one of the longest and most literary royal inscriptions from any African pharaoh (Piye's Victory Stele)",
+      "Built more pyramids than Egypt itself ever built — over 200 across El-Kurru, Nuri, and (later) Meroë",
+      "Restored Egyptian temple complexes that Libyan-period Egypt had allowed to decay"
+    ],
+    figures: [
+      { name: "Alara", dates: "fl. c. 800 BCE", role: "Earliest named Kushite king", why: "Founder of the Napatan royal line; began the political consolidation that produced the 25th Dynasty." },
+      { name: "Kashta", dates: "r. c. 760–745 BCE", role: "Father of the conquest", why: "Extended Kushite control to the First Cataract; installed his daughter Amenirdis as God's Wife of Amun at Thebes, asserting Kushite right to rule Upper Egypt." },
+      { name: "Piye", dates: "r. c. 744–714 BCE", role: "Conqueror of Egypt", why: "Marched north and defeated every rival in Egypt around 727 BCE; his Victory Stele is one of the great works of African historical literature." },
+      { name: "Shabaka", dates: "r. c. 714–705 BCE", role: "First resident Kushite pharaoh", why: "Moved the royal court to Memphis, preserved the Memphis Theology (the Shabaka Stone), and made the 25th Dynasty a fully unified Egypt-and-Nubia state." },
+      { name: "Taharqa", dates: "r. 690–664 BCE", role: "Greatest Kushite pharaoh", why: "Massive building programme from Karnak to Gebel Barkal; intervened against Assyria; appears in the Hebrew Bible (2 Kings 19:9) as 'Tirhakah king of Cush.'" },
+      { name: "Tantamani", dates: "r. 664–653 BCE", role: "Last Kushite pharaoh of Egypt", why: "Briefly retook Egypt before Ashurbanipal's sack of Thebes in 663 BCE ended 25th Dynasty rule. Withdrew to Napata, where the kingdom continued for centuries." },
+      { name: "Ashurbanipal", dates: "r. 669–631 BCE", role: "Assyrian emperor", why: "Sacked Thebes in 663 BCE — one of the most consequential atrocities of the ancient Near East — and effectively ended 25th Dynasty rule of Egypt." }
+    ],
+    connections: ["Ancient Nubia & Kush", "Ancient Nubia & Kush::3", "Ancient Nubia & Kush::5", "Ancient Egypt::8", "The Persian Empires", "African Kingdoms"],
+    sourceSnippet: {
+      text: "Is it because the horses have suffered hunger that I am more grieved than for any deed of evil you have done in the fullness of your wickedness?",
+      attribution: "Piye to the defeated Libyan king Nimlot of Hermopolis, Victory Stele of Piye, c. 727 BCE"
+    }
+  },
+
   // ── Ancient Nubia & Kush — Module 3 ─────────────────────
   "Ancient Nubia & Kush::3": {
     causes: [

@@ -2164,6 +2164,129 @@ The <strong>Turin Mining Map</strong>, drawn on papyrus around 1150 BCE during t
 
 </div>`;
 
+L["Ancient Nubia & Kush::4"] = `<div class="lesson-body">
+
+<h3>The Empire that Came Out of Nowhere</h3>
+<p>Around <strong>728 BCE</strong>, a Nubian king from the city of Napata marched north along the Nile with an army. By 727 he had defeated every major political faction in Egypt. By 720 he was being recognised by Egyptian priesthoods as the rightful pharaoh. By the time his successors held the throne, the Nubian state ruled the largest territorial unit Egypt had ever been part of — stretching from the Mediterranean coast in the north to the Sixth Cataract of the Nile in the south, well over 2,000 kilometres along the river. The kings of this state called themselves Egyptian pharaohs. The Egyptians called them — accurately — kings of Kush. Modern historians sometimes call them the <strong>Black Pharaohs</strong>. They are the <strong>25th Dynasty</strong> of Egypt.</p>
+
+<p>From a purely African perspective, this is the climax of Nubian history. For a brief, glorious half-century, the centre of the ancient Mediterranean world was an African royal court in modern Sudan. African kings ruled the country that had once colonised them. They restored Egyptian temples that the Egyptians themselves had let decay. They patronised Egyptian priesthoods more lavishly than the Libyan pharaohs they replaced. And they built monuments — pyramids, temples, palaces — that proclaimed, with deliberate piety, that the great pharaonic tradition was alive and being properly maintained by its Kushite stewards.</p>
+
+<p>It did not last. The Assyrian Empire — the rising military superpower of the 8th and 7th centuries BCE — eventually broke 25th Dynasty rule in Egypt with overwhelming force. But the Kushites returned to Napata and continued to govern Upper Nubia as a major kingdom for another thousand years. The Black Pharaoh era is the loudest moment in the longer story of Kushite civilisation.</p>
+
+<h3>The Dark Centuries Between Withdrawal and Rise</h3>
+<p>After the Egyptian viceroy Panehesy withdrew his administration around 1070 BCE (Module 3), Nubian history goes almost dark. For about 250 years — roughly 1070 to 820 BCE — we have hardly any inscriptional evidence from Upper Nubia. No royal monuments, no datable temple inscriptions, very few elite burials we can confidently place. The Egyptianised society the New Kingdom occupation had built must have continued, but it left almost no written record.</p>
+
+<p>This is partly an archaeological accident — many of the relevant sites are still poorly excavated, and surface conditions in Sudan preserve mud-brick architecture badly. But it also reflects a real political fragmentation. Without Egyptian state structure or the gold revenue stream, Upper Nubia probably reverted to a patchwork of local chieftaincies centred on individual cult centres and trading towns. Power was decentralised. Egyptian-style religion continued at sites like Gebel Barkal and Kawa — local priesthoods kept the rituals running — but no centralised kingdom emerged to organise them politically.</p>
+
+<p>That changed around the 9th or early 8th century BCE. We start picking up evidence of a new royal line operating around <strong>Napata</strong>, the cult centre at the foot of Gebel Barkal near the Fourth Cataract. The earliest kings we can name are <strong>Alara</strong> (perhaps around 800 BCE) and his successor <strong>Kashta</strong>. They styled themselves with Egyptian titles and built tombs in the Egyptian manner. They probably ruled only Upper Nubia. But within a generation, their kingdom would expand decisively.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+Think of the 25th Dynasty as an African successor state — what historians might call a "restoration kingdom" — that emerged out of the cultural rubble left behind by an earlier imperial occupation. The Egyptianised priesthoods, temples, and elite traditions had outlived Egyptian political control. When a new African royal line came along, it could pick up that ready-made cultural inheritance and use it to build a state. The closest modern parallel might be the way post-Soviet states reused administrative structures and educated elites that the Soviet system had built. The Kushites didn't create pharaonic civilisation from scratch; they inherited it, refurbished it, and re-launched it as their own.
+</div>
+
+<h3>The Sacred Geography of Napata</h3>
+<p>The new Kushite royal centre was at <strong>Napata</strong>, near modern Karima in Sudan, just south of the Fourth Cataract. The site was geographically and religiously powerful: the Nile here makes a great westward bend, and rising abruptly out of the desert is <strong>Gebel Barkal</strong>, a striking flat-topped sandstone mountain about 100 metres high. New Kingdom Egyptian theologians had identified Gebel Barkal as a sacred manifestation of <strong>Amun of Karnak</strong>'s home — the southern equivalent of the Theban god's primary residence. Amun was understood to live in the mountain, and the kings who ruled from Napata claimed an unusually direct relationship with him.</p>
+
+<p>The Kushite kings exploited this religious geography to the full. They expanded the great temple complex at the base of Gebel Barkal that had been started by Thutmose IV and built up by 18th and 19th Dynasty Egyptians. They added their own colonnaded courts, hypostyle halls, and sanctuaries. They built royal residences nearby. And they founded a royal cemetery at the nearby site of <strong>El-Kurru</strong> for their tombs, with smaller-scale tumuli that gradually evolved into pyramids.</p>
+
+<p>The 25th Dynasty pyramids at El-Kurru and (later) Nuri are smaller and steeper than the Egyptian originals — typical Kushite pyramids are about 10–20 metres on a side and rise at a sharp ~70° angle, whereas Khufu's is about 230 metres on a side at a much gentler ~52° angle. But there are <em>many</em> of them. The Kushite royal cemeteries contain over 200 pyramids across El-Kurru, Nuri, Meroe, and other sites — substantially more than Egypt's roughly 100 surviving pyramids. <strong>Sudan has more pyramids than Egypt.</strong> Most of them are 25th Dynasty and later Kushite work.</p>
+
+<h3>Kashta and Piye: The Move North</h3>
+<p>The decisive Kushite expansion came in two generations. <strong>Kashta</strong> (r. c. 760–745 BCE) was the first Napatan king who can be confidently shown to have controlled Lower Nubia and parts of Upper Egypt — his name appears on inscriptions at Elephantine near the First Cataract, and his daughter <strong>Amenirdis I</strong> was installed as <span class="vocab-pill">God's Wife of Amun</span> at Thebes, the most senior priestly office in southern Egypt. That move alone — placing a Nubian princess at the head of the Theban religious establishment — was an audacious assertion of Kushite right to rule.</p>
+
+<p>The actual conquest came under Kashta's son <strong>Piye</strong> (also spelled Piankhi; r. c. 744–714 BCE). By the 720s BCE, Egypt was fragmented among multiple rival "pharaohs": Libyan dynasties in the Delta, a separate Egyptian dynasty at Sais, the High Priest of Amun controlling Thebes, and various smaller princedoms. A particularly aggressive Libyan ruler named <strong>Tefnakht</strong> in the western Delta was consolidating Lower Egypt by force and threatening to push south. In response to Theban appeals — or perhaps simply because it was the moment — Piye launched a massive northern campaign.</p>
+
+<h3>The Victory Stele of Piye</h3>
+<p>What makes Piye's campaign so vivid is that he documented it himself, on a magnificent <strong>victory stele</strong> set up at the temple of Amun at Gebel Barkal around 727 BCE. The stele is 1.8 metres tall, inscribed on all sides in highly literary Egyptian hieroglyphs, and reads more like an epic poem than a typical military report. It is one of the finest surviving works of African historical writing from the ancient world.</p>
+
+<p>Piye's narrative is striking in two ways. First, it presents him as a pious and merciful conqueror — a ruler restoring proper Egyptian religious order, sparing those who submit, and demonstrating piety at every captured shrine. When he reaches Heliopolis, his first action is not to receive enemy surrender but to enter the temple of Ra, perform the rituals, and personally re-bandage the sacred image. When the Libyan king Nimlot of Hermopolis surrenders, Piye refuses to receive Nimlot's tribute at the gate because the offering includes horses, and Piye is reported by his stele to have been horrified that Nimlot's horses had been allowed to starve during the siege. He berates the defeated king: "<em>It pains my heart that my horses have suffered hunger more than any deed you have done in the fullness of your evil.</em>" The episode reads almost like literary fiction — a Kushite king morally lecturing an Egyptian king about animal welfare — but it is in the formal royal text the king himself commissioned.</p>
+
+<p>Second, the stele is remarkably specific. It names dozens of Egyptian cities, the order in which Piye captured or received them, the rituals he performed at each one, the rivers and roads he travelled. It describes ship-loaded armies sailing up canals, fortifications stormed, towns submitting peacefully. It is, in modern terms, a serious piece of military-political reportage. We know more about Piye's campaign than about most ancient military expeditions because Piye personally wanted us to know.</p>
+
+<p>By the end of the campaign, every major Egyptian power had submitted to Piye. He received tribute from Tefnakht, from the Libyan dynasts, from the priesthood of Amun at Thebes. Then he did something unusual. He went home. He returned to Napata and ruled from there, leaving Egypt under the authority of local clients who acknowledged his suzerainty. The 25th Dynasty's direct rule of Egypt was, at this point, more theoretical than practical. That would change under his successors.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The Piye victory stele was discovered in 1862 by an Egyptian official at Gebel Barkal and is now in the Egyptian Museum in Cairo. Its 159 lines of hieroglyphic text are one of the most important narrative sources for any period of Egyptian history — by some measures, the longest single royal narrative text from any African pharaoh. Most ancient kings' "victory" inscriptions are propaganda formulae with little specific content. Piye's stele includes specific dialogue, named towns, particular animals, individual emotions. It is a deeply readable historical document — the African ancient world's closest equivalent to Caesar's Gallic Wars.
+</div>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">According to his victory stele, what aspect of his Egyptian defeated foes most upset Piye?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Their refusal to recognise his right to the throne</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">That they had allowed their horses to suffer hunger during the siege</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Their refusal to convert to the worship of Amun</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Shabaka and Direct Rule</h3>
+<p>Piye's brother and successor <strong>Shabaka</strong> (r. c. 714–705 BCE) did what Piye had not. He moved the Kushite royal court to Memphis and ruled Egypt from there as resident pharaoh. The 25th Dynasty became, for the first time, a fully unified Egypt-and-Nubia state with a Kushite king actually present in the Egyptian capital.</p>
+
+<p>Shabaka was an enthusiastic patron of Egyptian religion. He restored temples that had fallen into disrepair during the Libyan dynasties. He commissioned the famous <strong>Memphis Theology</strong> — a religious-philosophical text inscribed on a basalt slab (now in the British Museum, the "Shabaka Stone") that presents an unusually sophisticated cosmology in which the god Ptah creates the universe through "the heart that thinks, the tongue that speaks." Shabaka claimed in his preface that he had personally rescued the text from a worm-eaten papyrus that was about to perish. Whether or not that origin story was real, the text he preserved is one of the most important documents of Egyptian theology.</p>
+
+<p>Shabaka's reign also seems to have included diplomatic contact with the kingdom of <strong>Israel</strong> and <strong>Judah</strong>. The biblical book of 2 Kings (chapters 17-18) mentions an Egyptian king named "So" — generally identified as Shabaka — to whom the Israelite king Hoshea sent envoys hoping for support against Assyria. The support did not come. Israel fell to Sargon II in 722 BCE. But the moment shows that the new Kushite Egypt was already an active player in the geopolitics of the wider Near East.</p>
+
+<h3>Taharqa: The Greatest Kushite Pharaoh</h3>
+<p>The high point of the 25th Dynasty was the reign of <strong>Taharqa</strong> (r. 690–664 BCE), nephew of Piye and son of Piye's brother Shabataka. Taharqa was a young man — about 24 — when he took the throne, and he reigned for 26 years. He was probably the most accomplished Kushite ruler ever to sit on the Egyptian throne, and certainly the most active builder.</p>
+
+<p>Taharqa's construction programme stretched from Nubia all the way to the Mediterranean. He expanded the temple of Amun at Karnak with a new columned forecourt and a colossal statue of himself in dark granite (still surviving). He built temples or major additions at Kawa, Sanam, Gebel Barkal, Medinet Habu, and dozens of other sites. He commissioned massive stelae documenting his ritual achievements — particularly an annual obsession with the height of the Nile flood, which he treated as a public measure of divine favour. The Karnak texts include detailed records of every Nile flood-height during his reign, the longest continuous Nile data series we have from antiquity.</p>
+
+<p>Taharqa also figures personally in the Hebrew Bible. The book of 2 Kings 19:9 and Isaiah 37:9 both mention "<strong>Tirhakah king of Cush</strong>" — Taharqa — as the African king whose military intervention saved Jerusalem from the Assyrian siege of King Sennacherib in 701 BCE. (The chronology is slightly tangled: Taharqa was probably crown prince commander rather than reigning king during that campaign, but he was definitely the field commander.) The Bible therefore preserves one of the earliest documented African military interventions in Near Eastern politics. Taharqa's relief operation is partly why Jerusalem survived a siege that would otherwise have ended Judah a century earlier than it did.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">In which historical record does the Kushite pharaoh Taharqa appear personally?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Iliad — as a foreign ally of the Trojans</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The Hebrew Bible — as 'Tirhakah king of Cush,' whose military relief campaign helped save Jerusalem from Sennacherib's siege in 701 BCE</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Annals of Caesar — as the African king Caesar made tributary during his Egyptian campaign</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Assyrian Catastrophe</h3>
+<p>The 25th Dynasty's downfall came from the rising Mesopotamian superpower. The <strong>Assyrian Empire</strong>, under Esarhaddon (r. 681–669 BCE) and his son Ashurbanipal (r. 669–631 BCE), was the dominant military power of the 7th century BCE — iron weapons, well-organised infantry, siege technology, and the resolved policy of crushing any state that resisted them. Egypt, with its Kushite pharaohs and its alliances with the Levantine states that Assyria was trying to absorb, was an inevitable target.</p>
+
+<p>Esarhaddon invaded Egypt in 671 BCE. He defeated Taharqa, captured Memphis, took members of the royal family hostage (including Taharqa's queen and children), and installed Assyrian-loyal local governors. Taharqa withdrew south to Thebes, then further south to Napata. He attempted to retake Egypt repeatedly over the next decade, with mixed success. Esarhaddon died in 669 BCE on a return campaign; his son Ashurbanipal renewed the attack.</p>
+
+<p>The final blow came in <strong>663 BCE</strong>. Taharqa was already dead (he died in 664), and his successor <strong>Tantamani</strong> had retaken much of Egypt in a final push. Ashurbanipal's army marched south in response, captured Thebes itself, and methodically sacked it — looting Karnak's gold, deporting priests, burning palaces. The fall of Thebes was a profound shock to the ancient world. The Hebrew prophet Nahum, writing decades later, used it as the standard for what conquest of a great city could mean: "Are you better than No-Amon, that was situated by the river, with waters around her?"</p>
+
+<p>Tantamani fled to Napata. He continued to claim Egyptian titulary, but never regained Egypt itself. The Assyrians installed a new Egyptian dynasty (the Saites, eventually the 26th Dynasty) as their clients in the Delta. The 25th Dynasty's rule in Egypt was over after about 65 years.</p>
+
+<h3>The Return to Napata</h3>
+<p>The Kushite dynasty did not fall with Thebes. It simply withdrew south of the Fifth Cataract, beyond Assyrian reach, and continued to rule Upper Nubia from Napata as a major regional kingdom. Its kings still called themselves pharaohs and continued Egyptian-style royal ritual at Gebel Barkal. They still built pyramids — moving the royal cemetery to <strong>Nuri</strong>, where Taharqa himself was buried in the largest of all the Kushite pyramids (51 metres on a side, the size of a medium Old Kingdom Egyptian pyramid).</p>
+
+<p>For another 250 years, the Napatan kingdom continued to dominate the Middle Nile. We have lists of perhaps thirty kings reigning between Tantamani (c. 664–653 BCE) and the eventual transfer of the royal centre south to <strong>Meroë</strong> around 270 BCE (Module 5). Some of these later Napatan kings — including the warrior-queen <strong>Amanitore</strong> and king <strong>Aspelta</strong> — left substantial monuments. The Kushite state remained a serious African power well into the Hellenistic age.</p>
+
+<p>What ended in 663 BCE, then, was not Kushite civilisation. It was Kushite rule of Egypt. The cultural project — pharaonic ritual, pyramid-building, Amun worship — continued. The political reach simply contracted to its original African base. That base would last another thousand years.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Which event in 663 BCE effectively ended 25th Dynasty rule of Egypt?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The death of Taharqa from natural causes</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The Assyrian king Ashurbanipal's sack of Thebes</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A Libyan revolt in the Delta</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Why the 25th Dynasty Matters</h3>
+<p>The Black Pharaohs occupy a strange position in the historical imagination. They are, by any objective measure, one of the most consequential African royal lines of all time — the kings of an African state who, for sixty-five years, governed the most prestigious civilisation of the ancient Mediterranean. They produced one of the longest narrative historical inscriptions to survive from antiquity. They built more pyramids than Egypt itself ever built. They appear in the Hebrew Bible. They restored Egyptian temple complexes that the Egyptians themselves had been letting decay.</p>
+
+<p>And yet they were, until recently, almost completely absent from popular accounts of "ancient Egypt." Older Egyptology — written largely by Europeans in the 19th and early 20th centuries — tended to skip past the Kushite period as a brief and uninteresting interlude, or to portray it condescendingly as a moment when "the barbarians" briefly ruled the country before being properly disposed of by the Assyrians. The reasoning was almost entirely racial. African kings did not fit the narrative of Egyptian civilisation that nineteenth-century scholars wanted to tell.</p>
+
+<p>That is finally changing. Recent decades of African and Sudanese archaeology — including major National Geographic features on the "Black Pharaohs," excavations at Nuri and Gebel Barkal, and the systematic conservation of the Sudanese pyramids — have moved the 25th Dynasty back to the centre of where it deserves to be in any honest account of ancient African civilisation. The Kushite kings ruled Egypt because they were the most pious, organised, and militarily capable claimants to the pharaonic title in their generation. That is why their dynasty became, for two thousand years, the dynasty that Egyptian priests remembered as having restored proper religious order.</p>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The 25th Dynasty is one of the most underrated episodes in ancient world history. African kings, descended from a Nubian royal line that had cultivated Egyptian religion for generations, marched north and seized the throne of Egypt — and then governed it more piously and more competently than the local rulers they replaced. They built more pyramids than Egypt itself. They appear by name in the Hebrew Bible. They were defeated, finally, only by the Assyrian military superpower that crushed nearly every state of its era. Their cultural project — pharaonic civilisation under African direction — was not a brief experiment. It was a serious, deliberate, sustained act of imperial restoration by people who understood themselves as the legitimate heirs of a tradition they had spent centuries preparing to claim.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════
