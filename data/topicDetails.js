@@ -1169,6 +1169,35 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Nubia & Kush — Module 5 ─────────────────────
+  "Ancient Nubia & Kush::5": {
+    causes: [
+      "Loss of Egypt to Assyria and later Persia made Napata strategically exposed; Meroë was safer",
+      "The Butana grasslands east of the Nile supported the cattle pastoralism and acacia forests that Napata's environment could not",
+      "Abundant iron ore in the eastern Sudan made industrial-scale smelting possible at Meroë"
+    ],
+    effects: [
+      "Established the longest-lasting Nubian kingdom — about 600 years of continuous Meroitic state power",
+      "Invented the Meroitic script — Africa's first indigenous writing system south of Egypt (though still only partly translatable today)",
+      "Built over 200 pyramids — the largest concentration in the world — across Meroë, Naqa, and Musawwarat es-Sufra",
+      "Fought the Roman Empire to a draw and buried the bronze head of Augustus under a temple threshold"
+    ],
+    figures: [
+      { name: "Arkamani I (Ergamenes)", dates: "r. c. 270 BCE", role: "Founder of the Meroitic period", why: "Completed the political shift of the royal capital from Napata to Meroë. Mentioned by Diodorus Siculus as having broken with priestly authority that previously dictated kings' deaths." },
+      { name: "Amanirenas", dates: "r. c. 40–10 BCE", role: "Kandake (queen) of Meroë", why: "Led the Meroitic-Roman war of the 20s BCE, sacked Roman Aswan, captured the bronze head of Augustus, and negotiated a favourable peace directly with Augustus on Samos." },
+      { name: "Amanishakheto", dates: "r. c. 10 BCE – 1 CE", role: "Kandake", why: "Built temples and pyramids; her treasure was looted by Ferlini's 1834 expedition and is now in Berlin and Munich museums." },
+      { name: "Natakamani & Amanitore", dates: "r. c. 1–20 CE", role: "Joint king and queen of Meroë", why: "Built the most spectacular surviving Meroitic monuments, including the Lion Temple at Naqa. Their joint depiction in royal art is unusual in the ancient world." },
+      { name: "Ezana of Aksum", dates: "r. c. 320–360 CE", role: "Aksumite king", why: "Conquered Meroë around 330–360 CE in the campaign that effectively ended the Meroitic state. His Greek-and-Ge'ez victory inscription survives." },
+      { name: "Francis Llewellyn Griffith", dates: "1862–1934", role: "British Egyptologist", why: "Deciphered the alphabetic values of the Meroitic script in 1909 — we can read Meroitic aloud, even though we still cannot translate most of its vocabulary." },
+      { name: "Giuseppe Ferlini", dates: "1797–1870", role: "Italian treasure-hunter", why: "Blew the tops off about 40 Meroitic pyramids in 1834 looking for gold; recovered Amanishakheto's treasure but destroyed irreplaceable archaeological evidence." }
+    ],
+    connections: ["Ancient Nubia & Kush", "Ancient Nubia & Kush::4", "Ancient Nubia & Kush::6", "Ancient Nubia & Kush::7", "Ancient Nubia & Kush::8", "African Kingdoms", "The Roman Republic & Empire"],
+    sourceSnippet: {
+      text: "She is a masculine sort of woman, and blind in one eye.",
+      attribution: "Strabo describing Kandake Amanirenas of Meroë, Geography XVII.1.54, c. 24 BCE"
+    }
+  },
+
   // ── Ancient Nubia & Kush — Module 4 ─────────────────────
   "Ancient Nubia & Kush::4": {
     causes: [
