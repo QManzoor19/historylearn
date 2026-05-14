@@ -4337,6 +4337,171 @@ The Athenian Ekklesia met outdoors, in all weather, on the rocky <strong>Pnyx hi
 
 </div>`;
 
+L["Ancient Greece::4"] = `<div class="lesson-body">
+
+<h3>The Other Greek Experiment</h3>
+<p>If Athens represents one extreme of what Greek civilisation could become — a literate, democratic, cosmopolitan, philosophically restless commercial city — then <strong>Sparta</strong> represents the other. The two cities were close enough in language, religion, and ethnicity that they could barely have been more different in everything else. Where Athens was open, Sparta was closed. Where Athens prized rhetoric and philosophy, Sparta prized silence and obedience. Where Athens fielded a citizen militia of part-time hoplites, Sparta fielded an army of full-time professional soldiers trained from childhood. Where Athens enslaved foreigners but freed Athenians, Sparta turned an entire neighbouring Greek population — the helots — into a permanent state-owned underclass.</p>
+
+<p>The classical Greek tradition was preoccupied with Sparta. Plato wrote three Spartan-influenced political utopias. Xenophon, an Athenian aristocrat, wrote a glowing book about Spartan institutions. Plutarch, writing under the Roman Empire seven centuries later, composed an idealised biography of the legendary Spartan lawgiver Lycurgus that became the standard later account. None of these writers were Spartans. Sparta itself produced almost no surviving literature — by deliberate cultural choice. We see Sparta almost entirely through the eyes of outsiders, most of whom either admired or feared it.</p>
+
+<p>This module covers what we know about Sparta: its geography and demographic structure, the Lycurgan constitution, the famous <em>agoge</em> educational system, the unusual position of Spartan women, the dual kingship, the long history of Spartan military dominance and eventual decline, and what scholars call the "<strong>Spartan mirage</strong>" — the gap between idealised classical accounts and the harsher, more contradictory reality. By the end you should have a clear picture of why Sparta both fascinated and disturbed every other Greek who knew it.</p>
+
+<h3>Geography: Laconia and Messenia</h3>
+<p>Sparta sat in the rich agricultural valley of the <strong>Eurotas River</strong> in southern Greece — a region called <strong>Laconia</strong>, occupying the southeastern Peloponnese. To the west, separated by the high <strong>Taygetus</strong> mountain range, lay another fertile region called <strong>Messenia</strong>. To the north lay the Arcadian highlands. The city of Sparta itself was unusual among major Greek poleis in that it was never walled — the Spartans famously said their walls were their warriors. It was also unusual in being more of a cluster of villages than a unified urban centre; Thucydides notes that a future archaeologist might mistake the Spartan site for an unimportant town because it lacked the monumental architecture and dense urban plan of Athens or Corinth.</p>
+
+<p>The crucial fact about Spartan geography is what the Spartans did with Messenia. In a series of brutal wars across the late 8th and early 7th centuries BCE — the <strong>First Messenian War</strong> (c. 743–724 BCE) and the <strong>Second Messenian War</strong> (c. 685–668 BCE) — the Spartans conquered the entire region of Messenia and reduced its Greek inhabitants to a permanent servile status called <span class="vocab-pill">helotry</span>. The conquered Messenian Greeks became <strong>helots</strong> — state-owned serfs bound to specific agricultural plots, required to provide a fixed annual share of their produce to a Spartan overlord, with no legal rights and no possibility of manumission. Their descendants would remain helots for the next three centuries.</p>
+
+<p>This single political fact — the existence of a much larger conquered Greek population permanently held as state slaves — shaped everything else about Spartan civilisation.</p>
+
+<h3>The Demographic Pyramid</h3>
+<p>Spartan society was a steeply stratified pyramid with three main legal classes:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>The Spartiates</strong> (full Spartan citizens). The <em>homoioi</em> ("equals" or "peers"). Native-born adult male Spartans who had completed the <em>agoge</em> education, contributed to a common mess, and met all the cultural requirements of citizenship. The Spartiates were the only people with full political and military rights. At the peak of Spartan power around 500 BCE, there were probably about <strong>8,000–10,000</strong> adult male Spartiates. By the 4th century BCE, demographic decline had reduced this number to around 1,000 — a crisis we will come back to.</li>
+<li><strong>The Perioikoi</strong> ("dwellers-around"). The free non-citizen population of Laconia — inhabitants of the perioikic towns scattered through the valleys around Sparta. They had local self-government, served in the Spartan army, and were responsible for almost all artisan and commercial activity in the Spartan state (which forbade Spartiates from doing such work). They could not vote on Spartan policy. They probably numbered around <strong>40,000–60,000</strong> total population.</li>
+<li><strong>The Helots</strong>. The hereditary servile underclass — descended from the conquered Messenians and some pre-conquest Laconians. They worked the agricultural land assigned to individual Spartiate families. They were not chattel slaves (they could not be bought or sold individually), but they were state-owned property of Sparta as a whole. They probably outnumbered the Spartiates by a ratio of about <strong>7 to 1, possibly higher</strong> — perhaps 150,000–200,000 total. The Spartans lived in constant low-level military readiness against the helot population.</li>
+</ul>
+
+<p>This demographic reality drove Spartan culture. With perhaps 8,000 Spartiate males ruling 150,000 helots, Sparta needed a permanent military readiness that no other Greek city required. The entire Spartan constitution — the agoge, the syssitia, the dual kingship, the secrecy, the militarism — can be read as institutional adaptations to the structural problem of holding down a hostile subject population that outnumbered the masters seven to one.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+Sparta was, in modern terms, an apartheid state. A small ruling caste (the Spartiates) maintained absolute dominance over a much larger subordinated population (the helots) through a combination of military superiority, ritualised violence, and elaborate cultural mechanisms designed to maintain solidarity within the ruling caste. The institutional creativity of Spartan civilisation is real and impressive. But it was creativity in service of a fundamentally exploitative arrangement that depended on the permanent unfreedom of a numerically larger population.
+</div>
+
+<h3>The Lycurgan Constitution</h3>
+<p>Spartan tradition attributed the entire constitutional system to a single semi-legendary lawgiver named <strong>Lycurgus</strong>, supposedly working at some point in the 9th or 8th century BCE — possibly in response to a Delphic oracle. Whether Lycurgus existed as a historical individual is unknown; the Spartans themselves were inconsistent about his dates. Most modern scholars treat "Lycurgus" as a convenient name attached to a constitutional tradition that evolved over several centuries, mainly in response to the helot problem.</p>
+
+<p>The institutional core of the Spartan constitution:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>The Dual Kingship</strong>. Sparta uniquely had <em>two kings</em> simultaneously, drawn from two separate royal dynasties: the <strong>Agiads</strong> and the <strong>Eurypontids</strong>. Both kings ruled jointly, each tracing his lineage back to Heracles. Their main functions were religious (presiding over public sacrifices) and military (commanding the army in battle). The dual kingship was a structural check on monarchic ambition: any king tempted toward tyranny faced an immediate institutional rival in his colleague. Either king could be deposed or exiled by the popular assembly.</li>
+<li><strong>The Gerousia</strong>. The "Council of Elders" — 28 men over the age of 60, plus the two kings, for 30 members total. The gerousia members were elected for life by acclamation of the popular assembly (literally — the loudest cheers won). The gerousia prepared business for the assembly, served as the supreme criminal court, and acted as the constitutional check on both the kings and the people. Because membership was for life and there were only 28 spots, the gerousia was always dominated by the oldest, most conservative members of the Spartan aristocracy.</li>
+<li><strong>The Ephors</strong>. Five officials elected annually by the popular assembly, with extraordinary powers. The ephors supervised the kings, controlled foreign policy, presided over the gerousia, and could imprison or fine even kings for misconduct. The ephorate is one of the most unusual offices in Greek constitutional history — a five-person body elected annually that could effectively veto the most powerful kings in Greece. Modern scholars debate whether the ephors were an ancient institution or a later democratic addition. Either way, they were the executive nerve centre of the Spartan state by the classical period.</li>
+<li><strong>The Apella</strong>. The Spartan popular assembly — adult male Spartiates over 30. The Apella voted on major decisions by acclamation rather than by hand-vote (it was the gerousia's job to interpret which side had cheered louder). It had less institutional power than the Athenian Ekklesia. The Spartan citizen body did not initiate legislation — it ratified or rejected proposals brought by the gerousia and ephors. Spartan democracy was real but constrained.</li>
+</ul>
+
+<p>The constitution was deliberately conservative. The Spartans believed — or claimed to believe — that Lycurgus had given them a perfect constitution that should never be amended. Any major reform would be retrospectively credited back to Lycurgus's original framework. The result was a political system of remarkable stability across centuries, at the cost of considerable institutional rigidity in the long run.</p>
+
+<h3>The Agoge</h3>
+<p>The most famous and infamous Spartan institution was the <span class="vocab-pill">agoge</span> — the compulsory state-run educational system for male Spartiates. The system began at age 7, when boys were taken from their mothers and enrolled in age-cohorts called <em>boyai</em>. They lived in barracks, ate together at common messes, and were educated by adult Spartan men chosen specifically for the task. The training continued until age 30.</p>
+
+<p>The agoge focused, above all, on producing <strong>military discipline and physical endurance</strong>. Boys were deliberately underfed and encouraged to steal food, with severe punishments if caught — not for stealing but for getting caught. They went without shoes year-round. They were beaten regularly for trivial faults. They were taught to speak briefly and quotably (the source of the modern word <em>laconic</em>, from Laconia). They learned poetry — particularly the militarist verses of <strong>Tyrtaeus</strong> — by heart. They were taught to fight, individually and as a phalanx, with progressive intensity.</p>
+
+<p>The most disturbing institution of the agoge was the <strong>krypteia</strong> — a kind of secret police service or rite of passage in which young Spartans were sent out into the countryside, by night, with daggers, to live off the land and kill any helots they came across. Both Thucydides and Plutarch describe the krypteia. Its purpose was, according to ancient sources, to keep down the helot population through targeted assassinations and to provide military training in scouting and irregular warfare. Whether it operated as systematically as the ancient sources suggest is debated, but the institutional fact is clear: the Spartan state had a formal program in which young citizens were ritually licensed to kill members of their state's servile underclass.</p>
+
+<p>Boys who successfully completed the agoge at age 20 became <em>eirenes</em> — junior soldiers — and at age 30 became full Spartiates with citizenship rights. Boys who failed at any stage were demoted to a lesser citizen status. The system was, in effect, a 23-year competitive winnowing process. The graduates were physically formidable, militarily disciplined, ideologically loyal, and culturally homogeneous. They were also psychologically shaped in ways that modern observers find disturbing.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What was the <em>krypteia</em>?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Spartan dual kingship</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">A secret-police institution in which young Spartans were sent out by night to kill helots and learn irregular warfare</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The five-man ephorate that supervised the kings</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Syssitia and Daily Spartan Life</h3>
+<p>Even after graduating the agoge at age 30, Spartiates did not return to ordinary family life. They continued to eat their main daily meal at a common military mess called the <strong>syssition</strong> — typically a group of 15 men, drawn from across age-cohorts and military units. Each Spartiate had to contribute a fixed monthly quota of barley, wine, cheese, figs, and olive oil from his estate to the common mess; failure to contribute meant losing citizen status.</p>
+
+<p>The syssition was the social and institutional centre of adult Spartan life. Men ate dinner there every evening. They debated military and political matters there. They formed primary loyalties there that often outweighed their loyalties to their wives and children. New members were admitted only by unanimous vote of the existing members — a single negative vote could exclude a candidate, which made syssition membership the gatekeeping institution for full Spartan citizenship.</p>
+
+<p>The most famous Spartan food was the <strong>black broth</strong> (<em>melas zomos</em>) — a soup made from pork, blood, vinegar, and salt, traditionally served at the syssitia. Visitors from other Greek cities were horrified by it. A Sybarite (the residents of Sybaris in southern Italy, famously hedonistic) reportedly tried Spartan black broth and said, "Now I understand why the Spartans are so willing to die — anyone who eats this would prefer death."</p>
+
+<p>Spartan houses were simple. Spartan clothing was minimal — a single woolen cloak for most of the year. Spartiates were forbidden by law from engaging in commerce, agriculture (beyond supervising their helots), or any artisan work. They were forbidden from owning silver or gold. Sparta uniquely used <strong>iron currency</strong> — heavy, awkward iron bars dipped in vinegar to make them brittle and useless except as money. This was deliberately designed to make Spartan wealth difficult to accumulate, transport, or hide. The Spartiate's whole life was supposed to be devoted to military service and citizenship; everything else was, by design, made inconvenient.</p>
+
+<h3>Spartan Women</h3>
+<p>The most surprising aspect of Spartan culture to ancient observers was the unusual freedom and prominence of Spartan women. Spartan women, unlike their Athenian counterparts:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Owned property in their own names</strong>. By the 4th century BCE, Spartan women probably owned a large fraction of all Spartan land — Aristotle complains that two-fifths of all Spartan land was in female ownership. This was unique in the Greek world.</li>
+<li><strong>Were educated</strong>. Spartan girls received a parallel public education with physical training, including athletics and (notoriously) wrestling and competing semi-naked in public — practices that scandalised Athenians and other Greeks. Spartan women were literate and politically aware.</li>
+<li><strong>Were unusually outspoken</strong>. Ancient sources preserve dozens of "Spartan women's sayings" — pithy, often acidic remarks made by Spartan women in political or military contexts. The most famous is the mother who sent her son to war with the injunction "with your shield, or on it" (meaning: come home victorious or come home dead, but do not throw away your shield to flee).</li>
+<li><strong>Married late</strong>. Spartan women typically married in their late teens or early twenties — much later than the early teenage marriages of other Greek cities — to fully developed adult husbands. This was justified as eugenic policy: healthy adult women would bear healthier children than girls married off in puberty.</li>
+<li><strong>Were not housebound</strong>. Spartan women moved freely in public, owned property, attended religious ceremonies independently, and were not legally subordinated to a male guardian for routine activities the way Athenian women were.</li>
+</ul>
+
+<p>The reason for this distinctive treatment was probably partly demographic — the Spartiate population was always at risk of decline, and producing healthy children was strategically critical — and partly practical. Spartan men were absent at war or military training for most of their lives. Women had to manage estates, supervise helots, and effectively run domestic and economic life. They became, of necessity, more independent and more visible.</p>
+
+<p>This did not make Spartan women equal to Spartan men. They could not vote, hold political office, or attend the assembly. But by the standards of contemporary Greek poleis, they had unusually substantial autonomy. Aristotle and other Greek observers regarded this as a Spartan weakness; modern observers tend to find it one of the more attractive features of Spartan civilisation.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The most famous Spartan woman of antiquity was <strong>Gorgo</strong>, wife of King Leonidas. Plutarch preserves a vignette: a foreign woman remarked to Gorgo that Spartan women alone among the Greeks seemed to rule their men. Gorgo replied, "<em>Yes — because we alone among the Greeks give birth to real men.</em>" The line was meant as a Spartan boast. It also captures something real: Spartan women's confidence and visibility were genuinely distinctive in the Greek world. Plutarch dedicates an entire section of his <em>Moralia</em> to the recorded sayings of Spartan women.
+</div>
+
+<h3>Sparta in War</h3>
+<p>The whole apparatus of Spartan society was justified by Spartan military performance. And Sparta did perform militarily, at the highest level, for nearly three centuries. From the conclusion of the Second Messenian War around 668 BCE until the Battle of Leuctra in 371 BCE, Sparta's hoplite phalanx was probably the most effective land force in the Greek world. Spartan armies were small (a normal field army might be 5,000 hoplites, occasionally up to 10,000) but consistently outperformed numerically larger Greek armies on the battlefield.</p>
+
+<p>The reason was professional training combined with strict discipline. Most Greek hoplite armies were citizen-militias — farmers and artisans who picked up shields and spears for a few weeks each year. Spartiates were full-time professional soldiers. They knew the phalanx drill perfectly. They could perform complex tactical maneuvers — wheeling, refusing a wing, controlled withdrawal — that other Greek armies could not execute under combat conditions. Their discipline allowed them to absorb the initial shock of battle without breaking.</p>
+
+<p>Sparta's military performance peaked in three famous moments:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Thermopylae</strong> (480 BCE). King Leonidas, with 300 Spartans and a few thousand other Greek allies, held the pass at Thermopylae against the entire Persian invasion force for three days before being outflanked and annihilated. The defeat was tactically a disaster but morally a victory: Leonidas's stand became the model image of Spartan martial courage and provided crucial time for the Greek coalition to organise (we will examine this in detail in Module 5).</li>
+<li><strong>Plataea</strong> (479 BCE). The Spartan regent Pausanias commanded the combined Greek army that crushed Mardonius's Persian invasion force at Plataea, ending the Persian Wars decisively on land.</li>
+<li><strong>The Peloponnesian War</strong> (431-404 BCE). Sparta led the coalition that defeated Athens in the great 27-year war (Module 6). At its end, Sparta was briefly the dominant power of the Greek world.</li>
+</ul>
+
+<p>The Spartan Empire (404-371 BCE) was, however, a disaster. Sparta was institutionally and culturally unsuited to running an empire. The Spartiates were too few in number to govern foreign territories directly. Sparta's traditional simplicity began to corrupt under exposure to imperial wealth. The cultural mythology of Spartan equality and incorruptibility eroded as Spartiate elites — including, most famously, the regent <strong>Pausanias</strong> and the brilliant but treacherous <strong>Lysander</strong> — accumulated personal wealth and political ambition. By the 370s BCE, Sparta was no longer the cohesive, disciplined state of its classical reputation.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Why was the Spartan hoplite phalanx so militarily effective?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">They had iron weapons before any other Greek city</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Unlike other Greek armies of citizen-farmers, Spartiates were full-time professional soldiers who could perform complex tactical maneuvers that other Greek armies could not</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">They had cavalry, which other Greek armies lacked</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Helot Problem</h3>
+<p>Throughout the centuries of Spartan dominance, the helot population remained the central structural problem of the Spartan state. The helots outnumbered Spartiates by perhaps seven to one. They were always potentially in revolt. Sparta's military prowess existed, in significant part, to suppress them.</p>
+
+<p>Documented helot revolts and crises:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li>Around 670 BCE, the Messenian Helots staged a major uprising — the Second Messenian War — that took the Spartans nearly 20 years to suppress and that produced the harsh post-conquest restrictions on Messenian Helot life.</li>
+<li>In 464 BCE, a massive earthquake at Sparta killed thousands of Spartiates. The Messenian Helots took advantage of the disaster to launch the so-called <strong>Third Messenian War</strong> (also called the Helot Revolt). It took Sparta four years to suppress, and survivors were eventually allowed to leave Greece (resettling at Naupactus under Athenian protection — a serious political affront to Sparta).</li>
+<li>In 371 BCE, after the Battle of Leuctra (see below), the Theban general Epaminondas marched into Messenia and formally <strong>liberated the Messenian Helots</strong>, founding the city of Messene as a new Greek polis. The Helot population that had funded the entire Spartan system for three centuries was emancipated in a single political stroke.</li>
+</ul>
+
+<p>The Spartan state never fully solved the Helot problem. Plutarch reports that the ephors made an annual ritual declaration of war on the helots, allowing any Spartan to kill any helot at any time without ritual pollution. The institution of the krypteia was, in part, a mechanism of preemptive helot suppression. The whole baroque structure of Spartan society — the agoge, the secrecy, the militarism — was, ultimately, a set of cultural defences against an internal enemy.</p>
+
+<h3>Leuctra and the Long Decline</h3>
+<p>The decisive end of Spartan dominance came at the <strong>Battle of Leuctra</strong> in <strong>371 BCE</strong>. The Theban general <strong>Epaminondas</strong>, leading a Boeotian army against a numerically superior Spartan force, employed a tactical innovation — the <strong>oblique order</strong>, in which his left wing was heavily reinforced and led the attack while the right wing held back. The Spartan right wing, normally invincible, was crushed by Epaminondas's deepened phalanx. King Cleombrotus I of Sparta was killed in the battle. About 400 Spartiates died — out of a total Spartiate population probably already down to about 1,000.</p>
+
+<p>Leuctra ended the myth of Spartan military invincibility forever. Epaminondas followed up by marching into the Peloponnese — into Laconia itself — and founding the city of Messene as a free Greek polis on what had been Spartan-controlled land. Sparta lost half of its agricultural base. The Spartiate citizen body, already in demographic decline, never recovered.</p>
+
+<p>The next century and a half saw the slow decline of Sparta from its position as a great power to that of a minor Peloponnesian state. By the time the Romans absorbed Greece in the 2nd century BCE, Sparta was a curiosity — a town living off its classical reputation, attracting Roman tourists who wanted to see real Spartan boys being ritually flogged at the altar of Artemis Orthia (a tradition that the Romans turned into a kind of grisly theatre). Plutarch in the 1st century CE was writing about a Sparta that no longer functionally existed. The classical Spartan system had been dead for centuries.</p>
+
+<h3>The Spartan Mirage</h3>
+<p>The picture of Sparta presented in classical and Roman sources is largely an idealised one. Xenophon, Plato, and especially Plutarch present Sparta as a model of disciplined virtue, simplicity, and gravitas. Modern scholarship recognises this as what the French scholar François Ollier called the "<strong>Spartan mirage</strong>" — a literary construction by non-Spartans (mostly Athenian or Roman aristocrats) projecting their own anxieties about Athenian-style democracy and commerce onto an idealised Spartan alternative.</p>
+
+<p>The actual archaeological and documentary evidence suggests Sparta was much more like other Greek poleis than the literary tradition admits. Spartan tomb finds include luxury items (gold, ivory, Eastern imports) that the official anti-luxury ideology should have prohibited. Spartan poetry from the Archaic period (Tyrtaeus, Alcman) shows a sophisticated literary culture. Sparta produced and exported fine pottery into the 6th century BCE — only later did Spartan austerity ideology become extreme. The Spartan exclusion of women from public life was not as absolute as Athenian writers implied. The myth of unchanging Spartan discipline obscures a real history of internal evolution and contradiction.</p>
+
+<p>What the modern study of Sparta has had to do is partially deconstruct the classical sources and reconstruct, through archaeology and careful source-criticism, the more complicated reality. Sparta was a real, distinctive Greek civilisation. It was not the timeless monument to discipline that Plutarch's biographies present. The classical Athenian and Roman observers who wrote about Sparta were, in many ways, writing about themselves — using Sparta as a critical mirror to their own societies.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What is the "Spartan mirage" in modern scholarship?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The legend that Spartans could see in the dark</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The recognition that idealised classical and Roman accounts of Sparta were literary constructions by non-Spartans, often projecting their own anxieties onto an idealised Spartan alternative</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A 19th-century theory that Sparta never existed</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> Sparta was the alternative Greek experiment — a military aristocracy that turned its entire society into a permanent state of war-readiness in order to hold down a conquered neighbouring population. The Spartan system produced extraordinary military discipline, unusually independent women, and a constitutional order so stable it endured nearly five centuries. It also depended on permanent helot enslavement, ritual violence against subject populations, and the institutional repression of individual development. Spartan civilisation was real, distinctive, and historically important — both for its military achievements and as the conservative alternative that classical and modern political thinkers have always invoked against democratic and commercial models. The Spartan mirage tells us as much about the observers who created it as about the Spartans themselves. The actual Sparta was both more and less than its reputation, and more interesting than either.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════

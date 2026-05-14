@@ -1169,6 +1169,37 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Greece — Module 4 ───────────────────────────
+  "Ancient Greece::4": {
+    causes: [
+      "The 8th-7th century BCE Spartan conquest of Messenia created a subject population (helots) 7× larger than the Spartan ruling class",
+      "Permanent demographic insecurity drove the creation of unique military and educational institutions to keep the helots suppressed",
+      "The semi-legendary Lycurgan constitution codified the resulting system into a 'permanent' constitutional order"
+    ],
+    effects: [
+      "Produced the most militarily formidable Greek hoplite force for three centuries (until Leuctra in 371 BCE)",
+      "Created a uniquely stratified society with full-time professional citizen-soldiers, free non-citizen artisans, and a hereditary servile underclass",
+      "Established distinctive institutions (the agoge, syssitia, dual kingship, ephors, krypteia) studied and debated by political theorists ever since",
+      "Gave Spartan women unusual freedom and visibility relative to other Greek women",
+      "Defined the conservative alternative to Athenian democracy that has shaped Western political thought from Plato to the present"
+    ],
+    figures: [
+      { name: "Lycurgus", dates: "semi-legendary, c. 9th-8th century BCE", role: "Traditional Spartan lawgiver", why: "Credited (probably retrospectively) with designing the entire Spartan constitution. May have been one historical figure or a literary construct for institutional development across several generations." },
+      { name: "Tyrtaeus", dates: "fl. mid-7th century BCE", role: "Spartan war-poet", why: "His militarist elegies were memorised by all Spartan boys in the agoge — the literary backbone of Spartan ideology." },
+      { name: "Leonidas I", dates: "r. c. 489–480 BCE", role: "Spartan king who died at Thermopylae", why: "Commanded the 300 Spartans and Greek allies who held the pass against Xerxes in 480 BCE — the iconic Spartan martial moment." },
+      { name: "Gorgo", dates: "fl. c. 510-480 BCE", role: "Wife of Leonidas, daughter of King Cleomenes", why: "Most famous Spartan woman of antiquity, preserved in numerous sayings as the embodiment of Spartan female outspokenness." },
+      { name: "Pausanias the Regent", dates: "d. c. 470 BCE", role: "Spartan victor of Plataea", why: "Commanded the Greek victory over the Persians in 479 BCE; later disgraced and starved to death after accusations of conspiring with Persia and inciting helots." },
+      { name: "Lysander", dates: "d. 395 BCE", role: "Spartan admiral who defeated Athens", why: "Led the Spartan navy to victory in 405 BCE, ending the Peloponnesian War. Embodiment of the post-victory corruption of Spartan ideals through imperial wealth." },
+      { name: "Epaminondas of Thebes", dates: "d. 362 BCE", role: "Theban general who broke Spartan power", why: "Crushed the Spartan army at Leuctra (371 BCE) using the tactical innovation of the oblique-order phalanx, then liberated Messenia ending the helot system." },
+      { name: "Plutarch", dates: "c. 46–120 CE", role: "Roman-era Greek biographer", why: "His idealised <em>Life of Lycurgus</em> and his collection of Spartan sayings are the principal late sources for the 'Spartan mirage' — informative but not always reliable." }
+    ],
+    connections: ["Ancient Greece", "Ancient Greece::3", "Ancient Greece::5", "Ancient Greece::6", "The Persian Empires"],
+    sourceSnippet: {
+      text: "Spartan women alone among the Greeks seem to rule their men. Yes — because we alone among the Greeks give birth to real men.",
+      attribution: "Reported exchange between a foreign woman and Queen Gorgo of Sparta — Plutarch, Sayings of Spartan Women"
+    }
+  },
+
   // ── Ancient Greece — Module 3 ───────────────────────────
   "Ancient Greece::3": {
     causes: [
