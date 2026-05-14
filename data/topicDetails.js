@@ -1169,6 +1169,37 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Egypt — Module 8 ────────────────────────────
+  "Ancient Egypt::8": {
+    causes: [
+      "Bronze Age Collapse fragmented Egyptian central authority after Ramses XI (1069 BCE)",
+      "Successive foreign powers — Libyan, Kushite, Assyrian, Persian, Greek, Roman — competed for control of the wealthiest land in the Mediterranean",
+      "Christianity displaced traditional Egyptian religion by the 4th century CE, ending pharaonic ritual continuity"
+    ],
+    effects: [
+      "Produced Alexandria — for centuries the largest and most learned city in the ancient world",
+      "Made the Septuagint translation of the Hebrew Bible possible (Egyptian Greek scholarship)",
+      "Preserved Egyptian religion in altered form (the cult of Isis) across the Roman world",
+      "Ended a 3,000-year line of pharaohs with Cleopatra VII's suicide on 12 August 30 BCE",
+      "Silenced hieroglyphs for 1,400 years until Champollion's 1822 decipherment"
+    ],
+    figures: [
+      { name: "Shoshenq I", dates: "r. c. 945–924 BCE", role: "Libyan founder of the 22nd Dynasty", why: "The biblical Shishak; campaigned to Jerusalem; restored Egyptian unification after the Third Intermediate Period." },
+      { name: "Piye", dates: "r. c. 744–714 BCE", role: "Kushite king, founder of the 25th Dynasty", why: "Marched north from Napata and conquered Egypt, founding the 'Black Pharaoh' dynasty. His victory stele is a literary masterpiece." },
+      { name: "Taharqa", dates: "r. 690–664 BCE", role: "Greatest of the Kushite pharaohs", why: "Patron of an architectural revival across Egypt and Nubia; mentioned by name in the Hebrew Bible (2 Kings 19)." },
+      { name: "Psamtik I", dates: "r. 664–610 BCE", role: "Founder of the Saite 26th Dynasty", why: "Reunified Egypt after Assyrian withdrawal, launching the last great native Egyptian renaissance." },
+      { name: "Nectanebo II", dates: "r. 360–342 BCE", role: "Last native pharaoh of Egypt", why: "Final ethnically-Egyptian king in a line that began with Narmer 2,750 years earlier. Fled the second Persian invasion." },
+      { name: "Alexander the Great", dates: "r. 332–323 BCE", role: "Macedonian king & pharaoh", why: "Liberated Egypt from Persian rule, founded Alexandria, and was crowned pharaoh by Egyptian priests at Memphis." },
+      { name: "Ptolemy I Soter", dates: "r. 305–283 BCE", role: "Founder of the Ptolemaic Dynasty", why: "Alexander's general who founded Egypt's last dynasty and established the Library and Museum of Alexandria." },
+      { name: "Cleopatra VII", dates: "r. 51–30 BCE", role: "Last pharaoh of Egypt", why: "The most politically sophisticated of the Ptolemies; spoke nine languages including Egyptian; allied with Caesar and then Antony; her death ended 3,000 years of pharaonic rule." }
+    ],
+    connections: ["Ancient Egypt", "Ancient Egypt::5", "Ancient Egypt::7", "Ancient Nubia & Kush", "The Persian Empires", "The Roman Republic & Empire", "Ancient Greece", "Rise of World Religions"],
+    sourceSnippet: {
+      text: "I will not be led in his triumph.",
+      attribution: "Words attributed to Cleopatra VII before her death, August 30 BCE — Plutarch, Life of Antony"
+    }
+  },
+
   // ── Ancient Egypt — Module 7 ────────────────────────────
   "Ancient Egypt::7": {
     causes: [

@@ -1668,6 +1668,131 @@ The brief artistic revolution under <strong>Akhenaten</strong> (Module 5) is the
 
 </div>`;
 
+L["Ancient Egypt::8"] = `<div class="lesson-body">
+
+<h3>A Thousand Years of Twilight</h3>
+<p>After the death of Ramses XI around 1069 BCE, Egypt's New Kingdom imperial age was over. What followed is not, as the textbooks sometimes suggest, a brief footnote of decline before Cleopatra. It is over a thousand years of complicated, layered, fascinating history during which Egypt was ruled successively by Libyans, Nubians, Assyrians, Persians, Greeks, and Romans — and which produced some of the most consequential cultural moments in the ancient world. Alexandria was built in this period. The Septuagint translation of the Hebrew Bible was made here. Cleopatra was born here. The last hieroglyphic inscription was carved here. To skip past Egypt's long twilight is to miss roughly a third of the story.</p>
+
+<p>This module covers the period from the end of the New Kingdom in 1069 BCE through the death of Cleopatra VII in 30 BCE — over a millennium of foreign rule, native revival, religious continuity, and eventual transformation. It is the story of how Egyptian civilisation handled losing political control of itself while keeping its cultural identity intact.</p>
+
+<h3>The Third Intermediate Period (c. 1069 – 664 BCE)</h3>
+<p>The Third Intermediate Period began with Egypt divided. The High Priest of Amun ruled Thebes and the south as an effectively independent power. A separate dynasty, the <strong>21st</strong>, governed the Delta from a new northern capital at <strong>Tanis</strong>. The two regions intermarried diplomatically but operated as parallel states, and pharaonic authority in the old absolute sense was gone.</p>
+
+<p>By 945 BCE, a Libyan-descended warlord named <strong>Shoshenq I</strong> founded the <strong>22nd Dynasty</strong> at Bubastis in the Delta. The Libyans had been settling in Egypt as mercenaries and immigrants for generations, and they now ruled. Shoshenq I — the biblical "Shishak" — even campaigned into the Levant and famously sacked Jerusalem around 925 BCE, an event recorded both on the walls of Karnak and in the Hebrew Bible (1 Kings 14). For roughly two centuries the Libyan dynasties governed a fractured Egypt of competing princedoms, with the pharaoh more often a symbolic figure than a ruler in the New Kingdom sense.</p>
+
+<p>The royal tombs of the 21st Dynasty at Tanis, excavated in 1939 by the French archaeologist Pierre Montet on the eve of WWII, were largely intact — making them, with Tutankhamun's KV62, among the only undisturbed royal Egyptian burials ever found. They produced spectacular gold and silver funerary equipment, including the famous silver falcon-headed coffin of King Sheshonq II. Tanis is sometimes called "the city of silver."</p>
+
+<h3>The 25th Dynasty: The Black Pharaohs</h3>
+<p>Far south, beyond the cataracts, a Nubian kingdom centred on the city of <strong>Napata</strong> had been growing in power for centuries. The Nubians (or Kushites) had absorbed Egyptian religion, writing, and royal ideology during the centuries when Egypt ruled them as a colony — and now, watching Egypt fracture, they prepared to return the favour.</p>
+
+<p>Around 728 BCE, the Kushite king <strong>Piye</strong> (also spelled Piankhi) marched north with a powerful army. He documented the campaign on a remarkable victory stele recovered from his royal city at Gebel Barkal, written in highly literary Egyptian. The stele reads more like a chivalric epic than a military report: Piye demands that captured Libyan princes care for their horses ("if I had only known you treated your horses worse than yourselves, I would have destroyed you"). He restores pious offerings to Egyptian gods. He demonstrates that the new ruler of Egypt is more devoted to the old Egyptian ways than the previous rulers were.</p>
+
+<p>By 728 BCE, Piye and his successors — including <strong>Shabaka</strong>, <strong>Shebitku</strong>, and the great <strong>Taharqa</strong> — ruled an Egypt-and-Nubia state stretching from the Mediterranean to the Sixth Cataract, the largest territorial unit Egypt had ever been part of. The 25th Dynasty pharaohs are often called the <strong>Black Pharaohs</strong>. They were enthusiastic patrons of Egyptian religion, art, and especially construction. They revived archaic Old Kingdom artistic styles deliberately, building pyramids for their own burials at the sacred Nubian site of <strong>El-Kurru</strong> and later <strong>Nuri</strong> — pyramids that are smaller and steeper than the Old Kingdom originals but, remarkably, more numerous. Modern Sudan has more pyramids than Egypt.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+The 25th Dynasty is one of the great cultural ironies of the ancient world. The country that Egypt had once colonised returned as conqueror — and proceeded to demonstrate that <em>it</em> was the truer keeper of pharaonic tradition. Kushite art, architecture, and ritual were so deliberately classical, so insistently Egyptian, that they sometimes look more like the Old Kingdom than what late-period Egyptians themselves were producing. Empires don't always go where you expect them to.
+</div>
+
+<h3>The Assyrian Catastrophe (671 – 663 BCE)</h3>
+<p>The 25th Dynasty's reign ended in disaster. The rising <strong>Assyrian Empire</strong> under Esarhaddon and his son Ashurbanipal invaded Egypt repeatedly in the 670s and 660s BCE. The Assyrians were the dominant military power of the age, hardened by decades of campaigning across the Near East. Their iron weapons, siege technology, and brutal counter-insurgency tactics overwhelmed Egyptian defences.</p>
+
+<p>In 671 BCE, Esarhaddon captured Memphis. In 663 BCE, Ashurbanipal sacked <strong>Thebes</strong> itself — the first time the holy city had been taken by a foreign army. The Assyrians looted Karnak's gold, deported priests, and burned palaces. The Kushite king Tantamani fled south, abandoning Egypt to its conquerors. Thebes never fully recovered. The Hebrew prophet Nahum's exultation over the fall of Nineveh in 612 BCE included a sharp memory of Thebes' fate at the same hands: "Are you better than No-Amon, that was situated by the river, with waters around her?"</p>
+
+<h3>The Saite Revival (664 – 525 BCE)</h3>
+<p>Out of the Assyrian-installed regional governorships emerged the <strong>26th Dynasty</strong> from the Delta city of <strong>Sais</strong>. Its founder, <strong>Psamtik I</strong> (664–610 BCE), gradually reunified Egypt under his rule, expelled the Assyrians, and reopened the country to international trade. The Saite period is sometimes called Egypt's last great native renaissance.</p>
+
+<p>Saite Egypt deliberately invoked the deep past. Artists produced sculpture in self-consciously archaic styles, modelled on Old Kingdom prototypes. Scribes copied and revived ancient religious texts. The Saite kings — Psamtik I, Necho II, Psamtik II, Apries, Amasis — patronised temples, expanded trade with Greece (Greek mercenaries appear in Egyptian armies for the first time, and Greek merchants founded the trading colony of Naukratis in the Delta), and even, around 600 BCE, sponsored a Phoenician expedition that may have <strong>circumnavigated Africa</strong> — the earliest recorded such voyage in history, described by Herodotus a century later.</p>
+
+<p>This was also the period when Greek thinkers began visiting Egypt seriously. Thales, Pythagoras, Solon, Plato, and later Herodotus all came to Egypt and treated it as the wellspring of human wisdom. The Greek philosophical tradition is, in significant measure, downstream of Greek encounters with Saite Egypt.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Which dynasty deliberately revived archaic Old Kingdom artistic styles and is sometimes called Egypt's last native renaissance?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The 22nd (Libyan) Dynasty at Bubastis</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The 25th (Kushite) Dynasty at Napata</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The 26th (Saite) Dynasty at Sais</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Persian Egypt (525 – 332 BCE)</h3>
+<p>The Saite revival ended abruptly in 525 BCE when the Persian king <strong>Cambyses II</strong>, son of Cyrus the Great, invaded and defeated the Egyptian army at the Battle of <strong>Pelusium</strong>. Cambyses captured the last Saite pharaoh, Psamtik III, and made Egypt a province of the <strong>Achaemenid Persian Empire</strong> — the largest empire the ancient world had yet produced.</p>
+
+<p>Egyptian feelings about Persian rule were mixed. The Persians taxed heavily, kept a garrison at Memphis, and were widely resented as alien occupiers. Herodotus repeats lurid stories about Cambyses going mad, murdering the sacred Apis bull, and ordering insults to Egyptian temples — most of which modern scholars now think are Greek anti-Persian propaganda. The historical Cambyses appears to have respected Egyptian religion at least nominally. His successor Darius I built the great <strong>Temple of Hibis</strong> at the Kharga Oasis — a building project as elaborate as any from the Saite period — and even cut a canal connecting the Nile to the Red Sea.</p>
+
+<p>Still, Egyptian revolts were frequent, and around 404 BCE Egypt managed to throw off Persian rule altogether. For sixty years (404–343 BCE) Egypt was independent again under three short-lived native dynasties (the 28th, 29th, and 30th). The last fully native pharaoh of ancient Egypt was <strong>Nectanebo II</strong> (r. 360–342 BCE), who fled the country when the Persians, under Artaxerxes III, returned in force. Nectanebo II is the last name in a king-list that began with Narmer over 2,750 years earlier.</p>
+
+<h3>Alexander the Great (332 BCE)</h3>
+<p>Persian rule resumed for barely a decade. In <strong>332 BCE</strong>, the young Macedonian king <strong>Alexander the Great</strong>, having already defeated the Persian emperor Darius III in Syria, marched into Egypt without fighting a battle. The Persian satrap surrendered. Egyptian priests welcomed Alexander as a liberator. At Memphis, he was crowned pharaoh by the Egyptian priesthood with full traditional ritual — making him, by Egyptian definition, the legitimate Horus on earth.</p>
+
+<p>Alexander spent only a few months in Egypt, but his visit shaped the country for the next thousand years. He made a famous pilgrimage to the oracle of <strong>Amun at Siwa Oasis</strong>, where the priests reportedly addressed him as "son of Amun." This was theologically standard Egyptian flattery for a pharaoh — but for the young Macedonian conqueror, it was a deeply meaningful confirmation of his quasi-divine destiny. From Siwa onwards Alexander's relationship to his own divinity changed.</p>
+
+<p>Most importantly, before leaving, Alexander founded a new city on a strip of land between the Mediterranean and Lake Mareotis. He named it after himself — <strong>Alexandria</strong>. Within a century it would be one of the largest, wealthiest, and most intellectually consequential cities on Earth.</p>
+
+<h3>The Ptolemaic Dynasty (305 – 30 BCE)</h3>
+<p>Alexander died in Babylon in 323 BCE, only 32 years old. His vast empire was divided among his generals. The general who took Egypt was <strong>Ptolemy</strong>, son of Lagus — a tough Macedonian aristocrat who had been one of Alexander's bodyguards. He governed Egypt as satrap for nearly two decades before declaring himself King <strong>Ptolemy I Soter</strong> in 305 BCE, founding the <strong>Ptolemaic Dynasty</strong> that would rule Egypt for the next 275 years.</p>
+
+<p>The Ptolemies were Greek-speakers ruling a country whose population was overwhelmingly Egyptian. They handled this duality with considerable sophistication. To Greeks they were Macedonian kings; to Egyptians they were pharaohs, depicted in Egyptian-style temple reliefs in traditional pharaonic regalia, performing traditional rituals. They built or restored Egyptian temples on a scale not seen since Ramses II — <strong>Edfu, Dendera, Philae, Kom Ombo</strong> are all primarily Ptolemaic constructions and remain among the best-preserved temples in Egypt today.</p>
+
+<p>At the same time, the Ptolemies made <strong>Alexandria</strong> the cultural capital of the Mediterranean. Ptolemy I and his son Ptolemy II Philadelphus founded the <strong>Library of Alexandria</strong> and the associated <strong>Museum</strong> (literally "house of the Muses") — a state-funded research institution unprecedented in human history. They hired the leading scholars of the Greek world — Euclid wrote his Elements here; Eratosthenes calculated the Earth's circumference here; Aristarchus first proposed heliocentrism here; Archimedes studied here; Herophilus did the first systematic human dissections in history here. At its peak the Library held perhaps 500,000 papyrus rolls — almost the entire literary production of the ancient Mediterranean world.</p>
+
+<p>Alongside the Library rose the <strong>Lighthouse of Alexandria</strong> (the Pharos), one of the Seven Wonders of the Ancient World — a 100-metre stone tower with a continuously burning fire at the top, visible up to 50 km out at sea. It guided ships into the harbour for nearly 1,500 years before earthquakes finally toppled it in the 14th century CE. The Library proved less durable: weakened by Julius Caesar's accidentally setting fire to the docks in 48 BCE, declining through the Roman and Christian eras, and traditionally regarded as ending sometime in the 4th–7th centuries CE. Its loss is still mourned.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The Ptolemaic king Ptolemy II Philadelphus sponsored the most consequential translation project of the ancient world: the rendering of the Hebrew Bible into Greek. According to tradition, 70 (or 72) Jewish scholars were brought to Alexandria around 250 BCE to translate the Torah for the Library. The resulting <strong>Septuagint</strong> was the version of the Hebrew scriptures read by Greek-speaking Jews throughout the Mediterranean and, eventually, by the early Christian church. The New Testament's quotations of "the Old Testament" are quotations of the Alexandrian Greek text. The Bible as it spread to Europe is, in significant part, a Ptolemaic Egyptian achievement.
+</div>
+
+<h3>Cleopatra VII and the End (51 – 30 BCE)</h3>
+<p>The Ptolemaic dynasty, for all its early brilliance, became increasingly dysfunctional. Successive Ptolemies married their sisters (a deliberate adoption of pharaonic sibling-marriage), murdered each other in succession disputes, and grew physically obese and politically incompetent. By the 1st century BCE, the dynasty was a Roman client state, kept alive primarily because the Roman senate could not decide which faction in Rome should formally absorb Egypt.</p>
+
+<p>Into this came <strong>Cleopatra VII Philopator</strong>, the last and most famous Ptolemy. Born in 69 BCE, she became co-ruler with her younger brother Ptolemy XIII at age 18, after the death of her father Ptolemy XII Auletes. Unlike all her Ptolemaic predecessors — who had ruled Egypt for nearly three centuries while never bothering to learn its language — Cleopatra spoke <em>nine languages</em>, including Egyptian. She presented herself to Egyptians as a traditional pharaoh, in temple reliefs and coinage, while to Greeks and Romans she was a sophisticated Hellenistic queen. The Roman propaganda image of her as merely an exotic seductress is wrong. She was one of the most politically sophisticated rulers of her age.</p>
+
+<p>Her career is shaped by two famous Roman alliances. In 48 BCE, fleeing a coup by her brother's faction, she had herself smuggled into <strong>Julius Caesar's</strong> camp in Alexandria, reportedly rolled inside a carpet. She and Caesar became lovers; she bore his only son, Caesarion. Caesar's assassination in 44 BCE left her widowed and politically isolated. In 41 BCE, she allied with — and married — <strong>Mark Antony</strong>, who was Caesar's chief surviving lieutenant and the Roman strongman in the eastern Mediterranean. Their decade-long political and personal partnership produced three children and a dream of an eastern empire centred on Alexandria.</p>
+
+<p>It ended at the naval <strong>Battle of Actium</strong> on the western coast of Greece in <strong>September 31 BCE</strong>. Octavian — Caesar's adopted heir, soon to be Augustus — defeated Antony and Cleopatra's combined fleet decisively. They fled to Alexandria. Antony, on hearing a false report of Cleopatra's death, stabbed himself. Cleopatra, captured by Octavian and refusing to be paraded through Rome in a triumph, killed herself — by the famous (though disputed) account, with an asp brought to her in a basket of figs. She was 39.</p>
+
+<p>Cleopatra VII's death on <strong>August 12, 30 BCE</strong> is the conventional end of ancient Egypt. After three thousand years, the line of pharaohs that began with Narmer ended with a Macedonian-Greek queen who had genuinely tried to govern as an Egyptian. Octavian made Egypt a Roman province — but a peculiar one, held as the personal property of the emperor rather than the senate. For the next six hundred years Egypt was a granary of the Roman and then Byzantine empires.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What made Cleopatra VII unusual among the Ptolemaic rulers?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">She refused all marriages with Romans</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">She was the first Ptolemy in nearly three centuries to actually learn the Egyptian language</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">She ruled Egypt without ever claiming the title of pharaoh</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Long Afterlife</h3>
+<p>Pharaonic political authority ended in 30 BCE. But Egyptian culture didn't. Under Roman rule, traditional Egyptian temples kept functioning. Hieroglyphs kept being carved. Mummification continued. The cult of <strong>Isis</strong> spread across the Roman Empire and was worshipped from Britain to Mesopotamia — there were major Isis temples in Pompeii and even at Hadrian's villa near Rome. For the first three centuries CE, Egypt was simply a Romanised version of itself.</p>
+
+<p>Things shifted with Christianity. By the 4th century CE, Egyptian Christianity (Coptic Christianity) had become the dominant religion of the country. Pagan temples were converted, abandoned, or destroyed. The temple of Isis at <strong>Philae</strong>, in far southern Egypt at the First Cataract, was the last functioning traditional Egyptian temple. Its priests continued performing the old rituals — and carving inscriptions in hieroglyphs — until the Christian emperor Justinian formally closed it around 537 CE. The last datable hieroglyphic inscription, made by a priest named Esmet-Akhom, dates to <strong>24 August 394 CE</strong>. The last demotic inscription was carved in 452 CE. After that, no one wrote ancient Egyptian in its ancient form anywhere on Earth.</p>
+
+<p>The Arab conquest in 642 CE brought Egypt into the Islamic world. Coptic Christianity contracted but never disappeared — Egypt's Coptic Christian community of roughly 10 million people today is the direct descendant of pharaonic Egypt's last continuous religious tradition. Modern Egyptians, of all faiths, are still genetically the descendants of the population that watched Khufu's pyramid being built.</p>
+
+<p>And the pharaohs themselves? Their tombs were looted. Their monuments weathered. Their language fell silent. But their works refused to disappear. The Great Pyramid still stands. Karnak still stands. The Sphinx still stands. Egyptian art remained instantly recognisable. When the French linguist Jean-François Champollion finally read hieroglyphs in 1822 (Module 7), it was the moment when, after fourteen centuries of silence, ancient Egypt was permitted to speak in its own voice again.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">When was the last datable hieroglyphic inscription carved, and where?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">In 30 BCE at Memphis, on the death of Cleopatra</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">In 394 CE at the Temple of Isis on Philae, by the priest Esmet-Akhom</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">In 642 CE at the Pyramid of Khufu, on the Arab conquest</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> Ancient Egypt did not end with a single catastrophe. It ended slowly, over a thousand years, through a succession of foreign rulers each of whom — Libyan, Kushite, Persian, Greek, Roman — adapted to Egyptian culture more than they replaced it. By the time the last hieroglyph was carved at Philae in 394 CE, Egyptian civilisation had been continuously producing literate culture for over 3,500 years. No other ancient civilisation has run that long. Most of what we know about the human story before classical Greece, we know because Egypt wrote it down — and because, much later, a young French scholar from Figeac taught the modern world how to read again. The civilisation that began with Narmer's palette ends, in this curriculum, with Champollion's letter. In between is one of the most remarkable continuous cultural achievements human beings have ever produced.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════
