@@ -193,4 +193,60 @@ const lessonVideos = {
     blurb: "John Green follows a t-shirt around the world to explain how the global economy actually works."
   },
 
+  // ─── Ancient Nubia & Kush — verified per-module videos ───
+  "Ancient Nubia & Kush": {
+    videoId: "lnoqlCV__z4",
+    title: "Introduction to Ancient Nubia and the Kingdom of Kush",
+    channel: "Fall of Civilizations",
+    blurb: "Paul Cooper's overview of Nubian civilisation — the perfect starting point for any module."
+  },
+  "Ancient Nubia & Kush::1": {
+    videoId: "RINKkVY4prE",
+    title: "Ancient Nubia Part 1: Pre-Kerma — Kingdoms of Kush",
+    channel: "Archaeology in the Community × ASOR",
+    blurb: "Scholarly introduction to the A-Group, C-Group, and the earliest Nubian civilisations."
+  },
+  "Ancient Nubia & Kush::2": {
+    videoId: "b2OCA8BAtF0",
+    title: "KERMA, the First Kingdom of Sudan — Charles Bonnet",
+    channel: "DAL Cultural Forum",
+    blurb: "Lecture by Charles Bonnet, the Swiss archaeologist who has directed the Kerma excavations since 1977."
+  },
+  "Ancient Nubia & Kush::3": {
+    videoId: "qbxLwgLwpoQ",
+    title: "Ancient Nubia Part 2: Pre-Kerma — Kingdoms of Kush",
+    channel: "Archaeology in the Community × ASOR",
+    blurb: "Continuation of the ASOR Nubia series — covers Egyptian-Nubian interactions during the New Kingdom."
+  },
+  "Ancient Nubia & Kush::4": {
+    videoId: "npMeN8kG3xs",
+    title: "The Black Pharaohs: The Kingdoms of Kush",
+    channel: "See U in History",
+    blurb: "Animated history of the 25th Dynasty — Piye, Taharqa, and the Kushite rule of Egypt."
+  },
+  "Ancient Nubia & Kush::5": {
+    videoId: "Cj7_3ezFFp0",
+    title: "Nubian Pyramids — The Lost History of Sudan's Ancient Kingdom",
+    channel: "Documentary",
+    blurb: "Survey of the Meroitic pyramids and the kingdom that built more pyramids than Egypt itself."
+  },
+  "Ancient Nubia & Kush::6": {
+    videoId: "E1R-zIMSZq8",
+    title: "The Kingdom of Kush: A Brief History of Ancient Nubia",
+    channel: "Historical overview",
+    blurb: "Concise survey including Kushite religion, the kandake institution, and social structure."
+  },
+  "Ancient Nubia & Kush::7": {
+    videoId: "u8U1SHb-G6Q",
+    title: "The Kingdom of Kush: A Complete Overview (754 BC – 656 BC)",
+    channel: "Historical documentary",
+    blurb: "Kushite art, monuments, and the cultural production of Napata and Meroë."
+  },
+  "Ancient Nubia & Kush::8": {
+    videoId: "jKIoLwKYpuY",
+    title: "Nubia — Christian Kingdoms in the Heart of Africa",
+    channel: "Documentary",
+    blurb: "The post-Meroitic Christian Nubian kingdoms of Nobadia, Makuria, and Alodia."
+  },
+
 };
