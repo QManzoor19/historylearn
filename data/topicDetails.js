@@ -1169,6 +1169,35 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Greece — Module 3 ───────────────────────────
+  "Ancient Greece::3": {
+    causes: [
+      "The 7th-century BCE debt crisis in Attica created intolerable inequality and risked civil war",
+      "Hoplite military service created political pressure from middle-class citizens for broader participation",
+      "Cleisthenes's appeal to the masses against his aristocratic rivals provided the constitutional moment for radical reform"
+    ],
+    effects: [
+      "Created direct democracy as a working constitutional system for the first time in human history",
+      "Established institutions — citizen assembly, popular juries, selection by lot, pay for public service — that still shape democratic political theory",
+      "Produced the Periclean cultural flowering, including the Parthenon, classical tragedy, and Greek historiography",
+      "Defined a narrow citizen body (~10-15% of residents) that excluded women, slaves, and metics — a structural limit modern democracies have gradually overcome"
+    ],
+    figures: [
+      { name: "Solon", dates: "c. 630–560 BCE", role: "Athenian lawgiver and poet", why: "Cancelled debts, abolished debt-slavery for citizens, divided citizens into wealth classes, and laid the constitutional foundation for democracy with his 594 BCE reforms." },
+      { name: "Peisistratus", dates: "c. 600–528 BCE", role: "Tyrant of Athens", why: "Popular tyrant who preserved Solon's constitution, patronised cultural life, and sponsored the Peisistratid recension of Homer." },
+      { name: "Cleisthenes", dates: "c. 570–508 BCE", role: "Architect of Athenian democracy", why: "His 508-507 BCE reforms broke the old aristocratic kin-based tribes, established demes as the basis of citizenship, expanded the Boule to 500, and introduced ostracism. The 'inventor of democracy.'" },
+      { name: "Ephialtes", dates: "d. 461 BCE", role: "Radical democratic reformer", why: "Stripped the Areopagus of its political powers in 462 BCE, completing the democratic constitutional transition. Assassinated shortly after." },
+      { name: "Pericles", dates: "c. 495–429 BCE", role: "Dominant Athenian statesman", why: "Introduced pay for public office, directed the Acropolis building programme including the Parthenon, and presided over the cultural peak of Athenian democracy. Delivered the Funeral Oration in 431 BCE." },
+      { name: "Aspasia", dates: "c. 470–410 BCE", role: "Pericles's brilliant Milesian partner", why: "Held one of the most famous philosophical salons of antiquity; barred by Pericles's own citizenship law from full Athenian status but enormously influential in Periclean cultural life." },
+      { name: "Phidias", dates: "c. 480–430 BCE", role: "Athenian sculptor", why: "Directed the Acropolis sculpture programme including the colossal gold-and-ivory Athena Parthenos and the Parthenon's metopes and pediments." }
+    ],
+    connections: ["Ancient Greece", "Ancient Greece::2", "Ancient Greece::5", "Ancient Greece::6", "Age of Revolutions", "The Enlightenment"],
+    sourceSnippet: {
+      text: "Our constitution is called a democracy because power is in the hands not of a minority but of the whole people. When it is a question of settling private disputes, everyone is equal before the law… We alone regard a man who takes no interest in public affairs not as one who minds his own business, but as good for nothing.",
+      attribution: "Pericles, Funeral Oration, c. 431 BCE — recorded by Thucydides, History of the Peloponnesian War 2.37"
+    }
+  },
+
   // ── Ancient Greece — Module 2 ───────────────────────────
   "Ancient Greece::2": {
     causes: [

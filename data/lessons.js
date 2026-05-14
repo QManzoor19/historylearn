@@ -4186,6 +4186,157 @@ The earliest known Greek alphabetic inscription is the so-called "<strong>Dipylo
 
 </div>`;
 
+L["Ancient Greece::3"] = `<div class="lesson-body">
+
+<h3>The Invention of Democracy</h3>
+<p>At some point in the years <strong>508–507 BCE</strong>, the citizens of Athens did something nobody in human history had ever clearly done before. They wrote a constitution that gave political power directly to themselves — to the ordinary adult free male inhabitants of the city — rather than to a king, a nobility, a priestly caste, or a wealthy oligarchy. They called the new system <span class="vocab-pill">demokratia</span>, "rule by the people" (<em>dēmos</em> = the people, <em>kratos</em> = power). It worked.</p>
+
+<p>For the next 180 years — with brief oligarchic interruptions in 411 and 404 BCE — Athens governed itself as a direct democracy in which thousands of ordinary citizens met regularly in person to vote on laws, decide foreign policy, sit as jurors in trials, and rotate through the executive offices. Modern representative democracy is much further from the Athenian model than most modern citizens realise. There was no professional political class, no elected representatives in the modern sense, almost no career officials, no police force, and almost everything important was decided by direct vote of the assembled citizens. Athens at its democratic peak was a working experiment in mass political self-government on a scale that has rarely been attempted since.</p>
+
+<p>This module covers how Athenian democracy was built — the reforms of Solon, Cleisthenes, Ephialtes, and Pericles that gradually transformed an aristocratic polis into a radical direct democracy. It covers how the system actually worked in practice. And it covers the limits of the experiment — the exclusion of women, slaves, foreigners, and resident aliens that meant "the people" of Athens were always a minority of the city's actual inhabitants.</p>
+
+<h3>Pre-Democratic Athens</h3>
+<p>Athens in the early Archaic Period (7th century BCE) was a fairly ordinary aristocratic polis. Political power belonged to the <strong>eupatridai</strong> ("well-fathered ones") — a hereditary nobility of perhaps a few hundred wealthy landowning families. They monopolised the political offices: nine annual <span class="vocab-pill">archons</span> (chief magistrates), drawn exclusively from the eupatrid class. The most powerful institution was the <strong>Areopagus</strong>, a council of ex-archons that served for life and exercised broad oversight of religious, judicial, and political affairs. The ordinary Athenian assembly (the <strong>Ekklesia</strong>) existed but was politically marginal — it could ratify decisions made by the elite, but rarely initiated policy.</p>
+
+<p>The Athenian economy of this period was also under stress. The Attic countryside had been substantially settled, agricultural surplus was limited, and small farmers were increasingly falling into debt to wealthy landowners. Athenian debt law was particularly harsh: a defaulting farmer could be forced to give up his land, his family, and ultimately himself into <strong>debt slavery</strong>. By the late 7th century BCE, a significant fraction of the Athenian peasant population had been reduced to debt-bondage, working their former farms as <em>hektemoroi</em> ("sixth-parters") who paid one-sixth of their produce to a creditor-owner.</p>
+
+<p>The first attempted response was <strong>Draco's law code</strong> (c. 621 BCE), discussed in Module 2 — a written legal code so severe that the English adjective <em>draconian</em> derives from it. Draco's reform brought predictability to Athenian law but did nothing to address the underlying economic crisis. By the 590s BCE, Athens was on the edge of civil war.</p>
+
+<h3>Solon's Reforms (594 BCE)</h3>
+<p>In <strong>594 BCE</strong>, with debt crisis threatening civil war, the Athenians elected the poet and aristocrat <strong>Solon</strong> as archon with extraordinary powers to reform the constitution. Solon's reforms were the foundation of the Athenian democratic tradition, and ancient Athenians remembered him as the lawgiver who set them on the path to democracy. His specific measures:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>The Seisachtheia</strong> ("shaking-off of burdens") — Solon cancelled all current agricultural debts, freed the debt-slaves who had been enslaved to Athenian creditors, and bought back from foreign owners the Athenians who had been sold abroad as slaves. This was a one-time debt jubilee on an enormous scale.</li>
+<li><strong>The abolition of debt-slavery for citizens</strong> — going forward, no Athenian citizen could be enslaved for debt. This was a constitutional change with enormous implications: citizenship now carried legal protection against the worst form of economic exploitation. (Slavery itself continued for non-Athenians.)</li>
+<li><strong>The four wealth classes</strong> — Solon divided the Athenian citizen body into four classes based on agricultural income, with political rights proportional to wealth. The wealthiest <em>pentakosiomedimnoi</em> (500-measure men) could hold the highest offices. The next <em>hippeis</em> (knights, 300-measure men) could serve as cavalry. The <em>zeugitai</em> (200-measure yoke-men) could be hoplites and hold middle offices. The poorest <em>thetes</em> (under 200 measures) could attend the assembly and serve on juries but not hold office.</li>
+<li><strong>The Boule of 400</strong> — Solon created a new probouleutic council of 400 citizens, 100 from each of the four traditional tribes, to draft business for the assembly. (Cleisthenes would later expand this to 500.)</li>
+<li><strong>The Heliaea</strong> — Solon created a popular court (later renamed <em>dikasteria</em>) staffed by ordinary citizens. Any citizen could appeal a magistrate's decision to the popular court. This was the foundation of Athenian judicial democracy.</li>
+</ul>
+
+<p>Solon was, by any measure, a successful reformer. His reforms ended the debt crisis without fully empowering the aristocracy or fully empowering the masses — he chose a middle path that both sides found unsatisfactory but that prevented civil war. After completing the reforms, he reportedly travelled abroad for ten years to prevent anyone forcing him to amend them. The Athenian tradition counted him as one of the Seven Sages of antiquity.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+Solon was the Athenian equivalent of an Enlightenment-era constitutional convention compressed into the work of one man. He cancelled all existing agricultural debt — imagine the modern equivalent of a one-time forgiveness of all mortgages. He abolished a form of slavery — imagine eliminating debtors' prison. He created the constitutional framework for what would become full democracy. His reforms were sufficiently moderate that aristocrats accepted them and sufficiently radical that the masses gained real benefits. A century later, the Athenians would still credit him as the founder.
+</div>
+
+<h3>The Peisistratid Tyranny</h3>
+<p>Solon's reforms did not produce immediate political stability. Aristocratic factions continued to compete, and by the 560s BCE one faction leader, <strong>Peisistratus</strong>, had succeeded in establishing himself as <em>tyrannos</em> of Athens. Peisistratus's rule (intermittent from 561 BCE, more secure from 546 until his death in 528 BCE) was a tyranny in the technical Greek sense — he held extraconstitutional power — but it was not oppressive in the modern sense. Peisistratus preserved Solon's constitution, maintained the institutions of the assembly and the archons, patronised Athenian religious festivals, sponsored the famous "Peisistratid recension" of Homer (the standard text the classical Athenians read), and built public infrastructure including new fountains and the first Temple of Athena Polias on the Acropolis.</p>
+
+<p>Peisistratus was succeeded by his sons <strong>Hippias</strong> and <strong>Hipparchus</strong>. Hipparchus was assassinated in 514 BCE by the lovers <strong>Harmodius and Aristogeiton</strong> (later mythologised as the "tyrant-slayers" and venerated as proto-democratic heroes). Hippias became more repressive in response. The Athenians eventually overthrew him in <strong>510 BCE</strong> with the help of a Spartan invasion led by King Cleomenes I.</p>
+
+<p>The fall of Hippias is the formal end of tyranny at Athens. But the constitutional system that followed was, briefly, an aristocratic civil war — two rival eupatrid leaders, <strong>Isagoras</strong> and <strong>Cleisthenes</strong>, each contending for control. Isagoras was the more conventional aristocrat with Spartan backing. Cleisthenes, the more radical, took an unprecedented step. He appealed for support directly to the Athenian masses — he "took the people into his political party," in the contemporary phrase. The masses backed him. Isagoras and his Spartan allies retreated. Cleisthenes was given the authority to reform the constitution.</p>
+
+<h3>Cleisthenes and the Birth of Democracy (508–507 BCE)</h3>
+<p>What <strong>Cleisthenes</strong> did in the years 508–507 BCE — with the active support of the Athenian masses, against the resistance of much of the old aristocracy — was the structural creation of Athenian democracy. His specific reforms:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>The Ten New Tribes</strong>. The four traditional Athenian tribes (Geleontes, Hopletes, Argadeis, Aigikoreis) had been kin-based: each Athenian was a member of his ancestral tribe through his father's line. Cleisthenes abolished these as political units and replaced them with ten new tribes, each one drawn artificially from three different regions — the city, the coast, and the inland farms. The result: each new tribe contained urban, coastal, and rural members. No tribe could be dominated by a single aristocratic family or a single regional bloc. This single move broke the political power of the old hereditary aristocracy more decisively than any other action in Greek history.</li>
+<li><strong>The Demes</strong>. Citizenship was now defined through membership in a local <span class="vocab-pill">deme</span> — a village, neighbourhood, or city district — rather than through hereditary tribe. The 139 demes of Attica became the building blocks of Athenian political life. Each citizen was, formally, "X son of Y of the deme Z." The aristocratic family name was no longer the legal identifier. A peasant farmer from a rural deme had the same legal status as a wealthy nobleman from a city deme.</li>
+<li><strong>The Boule of 500</strong>. Cleisthenes expanded Solon's Council of 400 into a Council of 500, with 50 members drawn by lot from each of the ten new tribes each year. The Boule prepared business for the Ekklesia. Selection by lot — not election — was the key democratic principle. Wealth and oratory could not buy a place on the Boule; it was decided by random allocation among the citizen body.</li>
+<li><strong>Ostracism</strong>. Each year, the Athenians could decide by majority vote to <em>ostracise</em> any citizen — banish him from Attica for ten years — if at least 6,000 citizens wrote his name on a fragment of pottery (<em>ostrakon</em>). The ostracised person lost no property and could return after ten years with no penalty; the purpose was to prevent any one citizen from becoming powerful enough to threaten the democracy. Ostracism is a remarkable institution. It says: a successful political career is fine, but if you become too successful, the people can vote you out for a decade without giving any reason. Aristides "the Just," Themistocles, Cimon, and several other prominent Athenians were ostracised at various points.</li>
+</ul>
+
+<p>Cleisthenes's reforms were structurally radical. They broke up the old aristocratic kinship networks. They redistributed political power across the Athenian citizen body. They institutionalised selection by lot. They created the first system in human history in which the ordinary adult male inhabitants of a polis directly held legislative, executive, and judicial power. He is, if any single individual is, the inventor of democracy as we know it.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What was the most important structural change introduced by Cleisthenes's 508-507 BCE reforms?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">He cancelled all agricultural debts and abolished debt-slavery for citizens</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">He replaced kin-based tribes with ten new tribes drawn artificially from city, coast, and inland — breaking the political power of the old aristocracy</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">He centralised power in the Areopagus council of ex-archons</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Ephialtes and the Radical Democratic Turn (462 BCE)</h3>
+<p>Even after Cleisthenes, the Areopagus council remained a powerful guardian of aristocratic interests. It oversaw the magistrates, supervised the laws, and held substantial judicial power. The next great democratic reformer, <strong>Ephialtes</strong>, addressed this directly in <strong>462 BCE</strong>. He stripped the Areopagus of almost all its political powers, transferring them to the Boule of 500, the Ekklesia, and the popular courts (the <em>dikasteria</em>). The Areopagus was left only with jurisdiction over homicide and a few sacred matters.</p>
+
+<p>Ephialtes's reform completed the structural transition from aristocratic to fully democratic government. Within a year of passing the reforms, Ephialtes was assassinated — probably by aristocratic opponents furious at the loss of the Areopagus's power. His protégé and successor, <strong>Pericles</strong>, would carry the democratic project forward for the next thirty years.</p>
+
+<h3>Pericles and the Mature Democracy</h3>
+<p><strong>Pericles</strong> (c. 495–429 BCE) was the dominant Athenian political figure from about 461 to his death in 429. He was a member of the powerful Alcmaeonid family (Cleisthenes's family), a brilliant orator and military commander, and — despite or because of his aristocratic background — the most consequential democratic politician of the classical world. He was never a tyrant; he was elected to the office of strategos (one of ten generals) for fifteen consecutive years, but he held this office by repeated election, not by hereditary right or coup. His authority rested on his ability to persuade the Athenian assembly to follow his proposals.</p>
+
+<p>Under Pericles, Athenian democracy reached its mature form. His reforms and policies:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Pay for public service</strong>. Pericles introduced state payment for jurors and other public offices. This was crucial: it meant that ordinary citizens — poor farmers, artisans, sailors — could afford to serve on juries and councils without losing income. Without pay, only wealthy citizens could afford to participate, and the democracy would have remained aristocratic in practice. With pay, a peasant could spend a day in court for jury duty and still feed his family.</li>
+<li><strong>The Periclean building programme</strong>. Pericles directed enormous public expenditure (much of it funded by Athens's empire — see Module 6) into rebuilding the Acropolis, which had been destroyed during the Persian invasion of 480 BCE. The result included the <strong>Parthenon</strong> (the great temple of Athena, built 447-432 BCE under the architects Iktinos and Kallikrates and the sculptor Phidias), the <strong>Propylaea</strong> (the monumental entrance gate), the <strong>Erechtheion</strong>, and the temple of Athena Nike. These buildings are among the most influential architectural works in human history.</li>
+<li><strong>Cultural patronage</strong>. Pericles's Athens was the cultural centre of the Greek world. Sophocles and Euripides were composing tragedies. Herodotus was researching his Histories. Phidias was making colossal gold-and-ivory statues. Anaxagoras the philosopher was Pericles's personal teacher. Aspasia, Pericles's brilliant mistress (he could not legally marry her because she was a foreigner from Miletus), held one of the most famous philosophical salons of the ancient world.</li>
+<li><strong>The Citizenship Law of 451 BCE</strong>. On the darker side, Pericles also pushed through a law restricting Athenian citizenship to those born of two Athenian parents — previously citizenship had been inherited from the father only. This narrowed access to citizenship and locked Athenian democracy into a hereditary club. Pericles himself, ironically, would later have to ask the Athenians for an exception to this law to legitimise his son by Aspasia.</li>
+</ul>
+
+<h3>How Athenian Democracy Actually Worked</h3>
+<p>The Athenian citizen body — adult free male Athenians born of two Athenian parents — numbered perhaps <strong>30,000 to 40,000</strong> at the democracy's peak (around 450 BCE). Of these, about 6,000 were typically active in any given year. The institutional machinery they ran:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>The Ekklesia</strong> (Assembly). Met about 40 times per year on the Pnyx hill, just west of the Acropolis. Required quorum: 6,000 citizens. Any citizen could speak; decisions were by majority vote. The Ekklesia decided foreign policy, declared war, ratified treaties, passed laws, exiled traitors. There were no parties, no elected representatives, no committees — every citizen could rise and speak, and every vote counted equally. Decisions made by show of hands.</li>
+<li><strong>The Boule of 500</strong> (Council). Drafted business for the Ekklesia, managed day-to-day government, supervised the magistrates, received foreign embassies. 500 members served one-year terms, selected by lot from across the demes. The Boule was the executive nerve centre of the democracy. Each tribe's 50 members served as the executive committee (the <em>prytaneis</em>) for one-tenth of the year, with one of them chosen daily by lot as effective head of state.</li>
+<li><strong>The Dikasteria</strong> (Popular Courts). Six thousand citizens were enrolled as potential jurors each year (the <em>heliasts</em>). Cases were assigned by lot to juries of 201, 401, 501, or even 1,001 jurors. Decisions were by majority vote. There were no professional judges, no professional prosecutors, no defence attorneys in the modern sense. Litigants spoke for themselves. The popular courts were where law was made in practice: each Athenian trial was effectively a small legislative act in which a citizen jury decided what the law meant in that case.</li>
+<li><strong>The Magistrates</strong>. About 700 annual officials, mostly selected by lot (not election) and serving one-year terms with strict limits on re-election. The most important elected positions were the 10 <em>strategoi</em> (generals) — the only office for which election rather than lot made sense, since you needed military competence. Pericles held this office for 15 consecutive years.</li>
+</ul>
+
+<p>The system was, in its own time, an astonishing experiment. Most ordinary adult male Athenians could expect to serve at least one term on the Boule of 500 over their lifetime, would sit as a juror multiple times, and could attend the Ekklesia whenever they chose. Government was something Athenians <em>did</em> as part of their lives, not something done <em>to</em> them by professional officials. Modern democracies, with their professional politicians, elected representatives, and bureaucratic civil service, are barely related to the Athenian model.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The Athenian Ekklesia met outdoors, in all weather, on the rocky <strong>Pnyx hill</strong> west of the Acropolis. The site survives — the visible carved seats, the speaker's platform (the <em>bema</em>), the rocky benches. Six thousand citizens would gather there at dawn, on roughly 40 days a year, to debate and vote on the major decisions of the Athenian state. Speakers would rise from the audience to speak; the assembly would respond with cheers, jeers, or silence. The decisions made on that hill — to invade Sicily, to abandon the alliance with Sparta, to execute the generals after Arginusae, to honour or banish Themistocles — were among the most consequential of the ancient Mediterranean. The site is still walkable today. Standing on it is one of the closest experiences a modern visitor can have to the institutional reality of Athenian democracy.
+</div>
+
+<h3>Who Counted? The Limits of Athenian Democracy</h3>
+<p>Athenian democracy was real, radical, and historically unprecedented — but its definition of "the people" was narrow. The Athenian population at its peak around 432 BCE was perhaps <strong>300,000 to 400,000</strong>. Of these:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li>About <strong>30,000–40,000</strong> were adult male citizens — full participants in democracy.</li>
+<li>Roughly <strong>100,000–160,000</strong> were Athenian women and children (legally dependent on a male citizen relative; no political rights).</li>
+<li>Probably <strong>40,000–80,000</strong> were <strong>metics</strong> — resident foreigners, free people who had lived in Athens for generations but could not vote, could not own land, and had to pay a special tax. Many were prosperous merchants, artisans, and intellectuals (Aristotle, despite his fame, was a metic).</li>
+<li>Perhaps <strong>80,000–150,000</strong> were <strong>slaves</strong> — chattel labourers, with no rights of any kind, working in households, on farms, in workshops, and (most brutally) in the silver mines at Laurion that funded much of Athenian state activity.</li>
+</ul>
+
+<p>The radical Athenian democracy was thus, in practice, the political organisation of about <strong>10–15% of the city's actual residents</strong>. Women were entirely excluded from political life. Slaves were entirely excluded from legal personhood. Even resident foreign-born adults with their families and grandchildren living in Athens — the <em>metics</em> — had no political rights.</p>
+
+<p>This is an important corrective to romantic accounts of Athenian democracy. The classical Athenians' political experiment was bounded by a narrow definition of citizenship — narrower than most modern democracies. The Athenian innovation was not "rule by all the people" but "direct rule by an enrolled citizen body." That citizen body was small. The democracy worked, in part, because the citizen body was small enough that direct face-to-face political participation was feasible.</p>
+
+<p>Modern democracies inherit the Athenian institutional innovations — citizenship, voting, juries, the principle that legitimate authority comes from the consent of the governed — while having dramatically widened who counts as a citizen. The Athenians had no theory of universal human rights. They had a theory of citizen rights. The expansion from one to the other is the long modern political project, ongoing.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Roughly what proportion of Athens's actual population were full political citizens at the democracy's peak?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Around 50%</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Around 80%</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">About 10-15% — women, slaves, and metics were all excluded</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Funeral Oration</h3>
+<p>The most famous classical statement of Athenian democratic ideology is the <strong>Funeral Oration</strong> attributed to Pericles, delivered in 431 BCE at the public funeral of the first Athenians killed in the Peloponnesian War (Module 6) and preserved in the second book of Thucydides's <em>History of the Peloponnesian War</em>. Whether Thucydides recorded Pericles's actual words or composed an idealised version of what Pericles should have said is debated; either way, the speech is the central document of how the Athenians saw themselves at the democracy's peak.</p>
+
+<p>The speech argues that Athenian democracy is constitutionally distinctive in three ways. First, decisions are made by the many rather than the few — political authority comes from below, not above. Second, public life is open to all citizens regardless of class, with merit rather than wealth determining who is chosen for office. Third, Athenian citizens combine public engagement with private freedom — they have rich private lives in which they pursue beauty and wisdom, but they also serve their city when called.</p>
+
+<p>Pericles's most famous lines: "<em>Our constitution… is called a democracy because power is in the hands not of a minority but of the whole people… We alone regard a man who takes no interest in public affairs not as one who minds his own business, but as good for nothing.</em>"</p>
+
+<p>The Funeral Oration is, by any measure, one of the great political documents of the ancient world. It is also propaganda — delivered at a state funeral in the first year of a major war by the city's most powerful politician. The Athens it describes is the idealised democratic city, not the messier and more violent democracy that was about to make catastrophic decisions over the next two decades. We will see both Athenses in Module 6.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">In Pericles's Funeral Oration, what was distinctive about Athenian political culture?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Citizens were expected to ignore public affairs and focus on their private lives</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Power was in the hands of the whole people rather than a minority, and Athenians were expected to combine private life with active public engagement</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Only the wealthiest citizens were allowed to participate in politics</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> Athenian democracy was a genuine constitutional invention, built over a century and a half by Solon (594 BCE), Cleisthenes (508-507 BCE), Ephialtes (462 BCE), and Pericles (461-429 BCE). It was direct rather than representative — citizens met in person, debated, and voted on major decisions. It was popular rather than elite — selection by lot was the dominant method for filling offices, and pay for public service made participation possible for ordinary citizens. It was bounded rather than universal — women, slaves, and resident foreigners were excluded, so the "people" of Athens were always a minority of the actual residents. It was, despite its limits, the structural ancestor of every modern democratic system. The institutions it pioneered — citizenship, the elected legislature, the citizen jury, the principle that government's legitimacy comes from the consent of the governed — are still the institutions of free societies 2,500 years later. The Athenians did not invent everything, but they did invent the working pattern.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════
