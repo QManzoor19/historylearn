@@ -1169,6 +1169,33 @@ const topicDetails = {
     }
   },
 
+  // ── Bronze Age Collapse — Module 8 ──────────────────────
+  "The Bronze Age Collapse::8": {
+    causes: [
+      "Collapse of the Late Bronze Age palace economies and trading hubs left a political and commercial vacuum",
+      "Population displacement during and after the collapse moved peoples across the region (Phoenicians inherited Ugarit's role, Aegean refugees populated Cyprus)",
+      "Disrupted long-distance trade made bronze production unsustainable, forcing the substitution to locally-available iron"
+    ],
+    effects: [
+      "Produced the Greek Dark Ages and the loss of Linear B literacy for 400 years",
+      "Established the Phoenicians as the dominant maritime traders and the transmitters of the alphabet",
+      "Drove the Iron Age technological transition",
+      "Created the conditions for new peoples (Israelites, Arameans, Neo-Hittites, Phrygians, Lydians) to emerge",
+      "Set the stage for the Neo-Assyrian Empire and, eventually, the classical Mediterranean world"
+    ],
+    figures: [
+      { name: "Hiram I of Tyre", dates: "r. c. 980–947 BCE", role: "Phoenician king", why: "Built Tyre into the dominant Phoenician trading city; allied with Solomon's Israel; symbol of the early Iron Age commercial recovery." },
+      { name: "Ashurnasirpal II", dates: "r. 883–859 BCE", role: "Neo-Assyrian king", why: "Founder of the Neo-Assyrian imperial system that would dominate the Near East for the next 250 years." },
+      { name: "Homer", dates: "fl. c. 750 BCE", role: "Greek epic poet", why: "Composed the Iliad and Odyssey, preserving oral memory of Late Bronze Age Greek heroic society four centuries after the collapse. His works are products of, and witnesses to, the recovery from the Dark Ages." },
+      { name: "Dido (Elissa) of Tyre", dates: "c. 814 BCE", role: "Traditional founder of Carthage", why: "Phoenician princess credited in tradition with founding Carthage; emblematic of the Phoenician colonial expansion that grew out of the post-collapse maritime recovery." }
+    ],
+    connections: ["The Bronze Age Collapse", "The Bronze Age Collapse::7", "Ancient Greece", "Rise of World Religions", "Ancient Egypt::8"],
+    sourceSnippet: {
+      text: "We are not the first civilisation to face such pressures. We may also not be the last.",
+      attribution: "Eric Cline, '1177 B.C.: The Year Civilization Collapsed,' 2014 — closing line"
+    }
+  },
+
   // ── Bronze Age Collapse — Module 7 ──────────────────────
   "The Bronze Age Collapse::7": {
     causes: [
