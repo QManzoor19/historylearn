@@ -1169,6 +1169,34 @@ const topicDetails = {
     }
   },
 
+  // ── Bronze Age Collapse — Module 5 ──────────────────────
+  "The Bronze Age Collapse::5": {
+    causes: [
+      "Sea Peoples migrations attacking coastal cities while inland states were already weakening",
+      "Internal political fragmentation among the Mycenaean palaces and inside the Hittite Empire",
+      "Egyptian withdrawal from Levantine vassal management during the late 19th and early 20th Dynasties",
+      "Climate and earthquake stress (covered in Module 6) compounding the political crises"
+    ],
+    effects: [
+      "Destroyed or abandoned at least 47 major palace and trading cities across the eastern Mediterranean",
+      "Ended the Hittite Empire, the Mycenaean palace system, and the Late Bronze Age commercial network centred on Ugarit",
+      "Drove population displacement across the region — Aegean refugees to Cyprus and the Levant, displaced Anatolians eastward",
+      "Reduced Egypt to a single survivor among the Bronze Age Great Powers, but at lasting cost to its imperial reach"
+    ],
+    figures: [
+      { name: "Ammurapi", dates: "r. c. 1191–1185 BCE", role: "Last king of Ugarit", why: "Author of the famous 'last letter' to the king of Cyprus, asking for information about enemy ships while admitting his city was undefended." },
+      { name: "Ramses III", dates: "r. 1186–1155 BCE", role: "Egyptian pharaoh", why: "Defeated the Sea Peoples in 1175 BCE; assassinated in the Harem Conspiracy of 1155 BCE." },
+      { name: "Tukulti-Ninurta I", dates: "r. c. 1244–1207 BCE", role: "Assyrian king", why: "Assassinated around 1207 BCE — possibly an early internal sign of the broader regional crisis." },
+      { name: "Eric Cline", dates: "b. 1960", role: "American archaeologist", why: "His book '1177 B.C.: The Year Civilization Collapsed' catalogues the 47-plus sites with destruction layers in the collapse window." },
+      { name: "Claude Schaeffer", dates: "1898–1982", role: "French archaeologist", why: "Director of the Ras Shamra (Ugarit) excavations from 1929; recovered the city's archives including Ammurapi's last letter." }
+    ],
+    connections: ["The Bronze Age Collapse", "The Bronze Age Collapse::4", "The Bronze Age Collapse::6", "Ancient Egypt::5", "Ancient Greece"],
+    sourceSnippet: {
+      text: "My father, behold, the enemy's ships have come; they have set fire to my cities and have done evil things in my country. Does not my father know that all of my troops are stationed in Hatti, and that all of my ships are in the country of Lukka? They have not yet returned, so the country is abandoned to itself.",
+      attribution: "Ammurapi of Ugarit to the king of Alashiya (Cyprus), c. 1185 BCE — the 'last letter' from Ugarit"
+    }
+  },
+
   // ── Bronze Age Collapse — Module 4 ──────────────────────
   "The Bronze Age Collapse::4": {
     causes: [
