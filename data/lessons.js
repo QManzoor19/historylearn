@@ -1299,6 +1299,107 @@ The <strong>Amarna Letters</strong> — a cache of nearly 400 clay tablets found
 
 </div>`;
 
+L["Ancient Egypt::5"] = `<div class="lesson-body">
+
+<h3>The Most Disruptive Reign in Egyptian History</h3>
+<p>Around <strong>1353 BCE</strong>, Amenhotep III died, and his son Amenhotep IV took the throne. What followed is the most extraordinary religious and political experiment in the history of pharaonic Egypt. In a single generation, a young king abolished the worship of the traditional gods, declared himself the sole intermediary of a single supreme deity, moved the capital to a brand-new city in the middle of the desert, and reorganised art, architecture, and royal ideology around his personal vision. The experiment failed almost immediately after his death. His name was struck from the king-lists. His city was abandoned and demolished. But his fingerprints are still visible everywhere in what came after — and they help us understand the long, complex decline of the New Kingdom that runs through Tutankhamun, Ramses II, and the eventual Bronze Age collapse around 1100 BCE.</p>
+
+<h3>Akhenaten and the Aten</h3>
+<p>In the fifth year of his reign, Amenhotep IV announced a series of decisions that, by Egyptian standards, were astonishing. He changed his name from <strong>Amenhotep</strong> ("Amun is satisfied") to <strong>Akhenaten</strong> ("effective for the Aten"). He proclaimed that the supreme god was no longer Amun — the patron of Thebes and head of the conventional pantheon — but the <span class="vocab-pill">Aten</span>, the literal disc of the sun. Within a few more years, he closed the temples of Amun, defaced inscriptions of the traditional gods across Egypt, redirected state revenues to his new cult, and announced the founding of a new capital city.</p>
+
+<p>The new capital was called <strong>Akhetaten</strong>, "horizon of the Aten" — today the site of <strong>Amarna</strong>, halfway between Memphis and Thebes. It was built from scratch in five years on virgin desert ground. Its temples to the Aten had no roofs: the sun's rays were supposed to shine directly on the offerings. Its art broke radically with millennia of Egyptian convention. Where pharaohs had always been depicted as serene, idealised, ageless, Akhenaten ordered his sculptors to depict him with an elongated skull, full hips, swollen thighs, a softened belly, thick lips. His wife <strong>Nefertiti</strong> and their six daughters appear in the same exaggerated style — sometimes kissing the king on a chariot, sometimes weeping over a dead daughter, sometimes informally caressing one another in postures no earlier royal family had ever shown.</p>
+
+<p>The theology was equally radical. The <strong>Great Hymn to the Aten</strong>, discovered in the tomb of Akhenaten's courtier Ay, sets out the new faith in 13 vivid stanzas. The sun-disc is described as a singular, universal creator who made every land and every people: "How manifold are your works! They are hidden from the face of men. O sole god, like whom there is no other." Some scholars (including the great Egyptologist Erik Hornung) have argued that what Akhenaten introduced was not strict monotheism so much as "monolatry" — the worship of one god among many — but the cult's exclusive insistence and its violent attacks on other gods make it the closest thing to a state-sponsored monotheism in the ancient world before Judaism.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+Imagine a king of England in 1500 who, having watched Catholic clergy accumulate too much wealth, abruptly bans Catholicism, dissolves the monasteries, declares himself the unique earthly representative of a single god he just invented, builds a new capital city in the Midlands devoted to that god, and orders artists to depict him in a startling new naturalistic style. Imagine, too, that this all happens before any other king has dared to challenge religious orthodoxy. That is roughly the scale of Akhenaten's audacity. He had no template. He was making it up.
+</div>
+
+<h3>The Letters from Amarna</h3>
+<p>Akhenaten's reign coincided with a quiet erosion of Egypt's empire. The clay-tablet correspondence found at Amarna preserves desperate letters from vassal kings in the Levant — Rib-Hadda of Byblos, Abdi-Heba of Jerusalem — pleading for Egyptian troops to defend them against the rising Hittite Empire and against shifting local powers. The replies from Akhenaten's court are slow, distracted, and inadequate. Whatever the merits of his theological vision, the king who had time to compose hymns to the sun-disc had less time for the messy work of maintaining a Bronze Age empire.</p>
+
+<p>Northern Syria — won by Thutmose III at such cost a century earlier — drifted out of Egyptian control. The Hittites, under their formidable king Suppiluliuma I, absorbed Mitanni, Egypt's principal Asian ally, while Akhenaten was preoccupied with internal religious affairs. By the time of Akhenaten's death around 1336 BCE, Egypt's imperial credibility had weakened significantly. The borders had not collapsed, but the apex of Eighteenth Dynasty power was unmistakably past.</p>
+
+<h3>Nefertiti and the End of the Heresy</h3>
+<p><strong>Nefertiti</strong> may have ruled briefly in her own right after Akhenaten died. A short-reigning king known as <strong>Smenkhkare</strong> or <strong>Ankhkheperure-Neferneferuaten</strong> follows in the king-lists, and some scholars now think this figure was actually Nefertiti taking pharaonic titulary — much as Hatshepsut had done a century earlier. The evidence is debated, but the world's most famous Egyptian artistic image — the painted limestone <strong>bust of Nefertiti</strong> discovered at Amarna in 1912 and now in Berlin — preserves her startling beauty more vividly than any other royal portrait from antiquity.</p>
+
+<p>What is clear is that the Amarna experiment did not survive. Within a few years of Akhenaten's death, the new boy-king on the throne — Akhenaten's nine-year-old son <strong>Tutankhaten</strong> — was being advised by traditionalists at court to reverse course. He changed his name to <strong>Tutankhamun</strong> ("living image of Amun"), restored the closed temples, returned the capital to Memphis and Thebes, and quietly let Akhetaten/Amarna be abandoned. Within a generation, builders were dismantling the heretic capital for its stone blocks. The Egyptians of later periods, listing their kings, would simply skip the Amarna pharaohs as "the criminal of Akhetaten." It is largely because their successors tried so hard to erase them that we know so much about them — every block they dismantled and reused has preserved Amarna fragments for modern archaeologists to recover.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What did Akhenaten do to the traditional cult of Amun?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">He honoured Amun above all other gods alongside the Aten</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">He closed Amun's temples and defaced inscriptions of the traditional gods across Egypt</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">He gave Amun's priesthood control of the Aten cult to preserve continuity</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>Tutankhamun: The Restoration</h3>
+<p><strong>Tutankhamun</strong> reigned for only about nine years, dying around 1323 BCE at the age of eighteen or nineteen. By any normal historical reckoning, he should be a footnote. He produced no great campaigns, no architectural masterworks, no philosophical statements. His chief achievement was political housekeeping — undoing his father's revolution as gently as possible while the country's elders (especially the powerful officials <strong>Ay</strong> and <strong>Horemheb</strong>) reconsolidated state authority. He is, in his own time, an essentially uninteresting king.</p>
+
+<p>Then on <strong>November 26, 1922</strong>, the British archaeologist <strong>Howard Carter</strong> peered through a hole into a sealed chamber in the Valley of the Kings, and the world's view of Tutankhamun changed forever. The boy-king's tomb (KV62) was the only royal Egyptian tomb ever found <em>essentially intact</em>. Inside were over 5,000 artefacts: a solid-gold inner coffin weighing 110 kg, a famous gold death mask now in the Egyptian Museum, alabaster boats, chariots, a dagger forged from <strong>meteoric iron</strong> (one of the earliest worked iron objects from the ancient world), full sets of clothing, walking sticks, board games, food and wine for the afterlife. The find caused a global sensation, kicked off the Egyptomania of the 1920s, and made Tutankhamun — the inconsequential boy-king — the most famous pharaoh of all time.</p>
+
+<p>It is worth pausing on this. If Tutankhamun's small, hastily-prepared tomb contained that much gold, what must have been in the great tombs of Khufu, Hatshepsut, Thutmose III, Amenhotep III? Almost all those tombs were systematically robbed in antiquity. Tutankhamun survived only because his tomb was small, hidden under the rubble of a later pharaoh's tomb construction, and forgotten. The wealth of the late New Kingdom court is almost impossible to overstate.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The <strong>iron dagger</strong> in Tutankhamun's tomb — analysed by Italian researchers in 2016 — turned out to be made from <strong>meteoric iron</strong>, with a distinctive nickel and cobalt signature that matches known meteorite compositions. In an age of bronze, iron from the sky was a uniquely prestigious material. The dagger may well have been a diplomatic gift from one of the Anatolian kings to Tutankhamun's grandfather Amenhotep III. It is, very literally, a piece of an ancient meteorite shaped into a royal weapon and buried with the king. Few artefacts so vividly demonstrate the global reach of Egyptian wealth in this period.
+</div>
+
+<h3>The 19th Dynasty and Ramses II</h3>
+<p>After Tutankhamun's early death, the elderly Ay reigned briefly, then the general <strong>Horemheb</strong> took the throne, restored the old institutions, and prepared the way for a new dynasty. Horemheb left no heir of his own. The line passed in 1292 BCE to his vizier — a tough old soldier from the Delta named <strong>Ramses</strong>, who reigned briefly as <strong>Ramses I</strong> and founded the <strong>Nineteenth Dynasty</strong>. His son Seti I and grandson Ramses II would dominate the next century.</p>
+
+<p><strong>Ramses II</strong> — Ramses the Great — reigned for an astonishing <strong>66 or 67 years</strong> (c. 1279–1213 BCE), making his one of the longest reigns in Egyptian history. He fought campaigns in the Levant, expanded Nubian holdings, and built more monuments than any pharaoh before or since. His name and image appear on so many statues, columns, and temple walls — many of them appropriated from earlier kings by simply re-inscribing them — that "Ramses II" became almost shorthand for "ancient Egyptian king."</p>
+
+<p>His most famous campaign was the <strong>Battle of Kadesh</strong> in 1274 BCE, fought against the Hittite king Muwatalli II in northern Syria. Ramses, leading his elite chariot division ahead of the main army, walked into an ambush near the city of Kadesh and was nearly annihilated. He managed (according to his own version of the story) to rally his troops, fight a defensive battle, and avoid total disaster. He retreated to Egypt and promptly commissioned monumental inscriptions and reliefs at Karnak, Luxor, the Ramesseum, and Abu Simbel describing the battle as a glorious personal victory. The Hittites, on their own surviving inscriptions, described it as a Hittite victory. Modern historians treat it as a tactical draw — and the most thoroughly documented battle in human history before the Greeks, with two parallel accounts from both sides.</p>
+
+<p>Sixteen years later, in 1258 BCE, Ramses II and the new Hittite king Hattusili III signed a formal treaty of peace and mutual defence. <strong>This is the oldest surviving international peace treaty in the world.</strong> A copy in Akkadian cuneiform survives at the Hittite capital of Hattusa; a hieroglyphic copy is carved on the walls of Karnak. The treaty even includes extradition clauses for political fugitives. A modern enlarged replica now hangs in the United Nations headquarters in New York.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What was the outcome of the Battle of Kadesh (1274 BCE) between Egypt and the Hittites?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A decisive Egyptian victory that crushed the Hittite Empire</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">A tactical draw — followed sixteen years later by the world's oldest surviving peace treaty</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A catastrophic Egyptian defeat that ended the empire</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<p>Ramses also commissioned the <strong>Abu Simbel</strong> temples — two rock-cut sanctuaries on the Nubian frontier, the larger fronted by four 20-metre seated colossi of Ramses himself. The temple was aligned so that twice a year the rising sun penetrates the entire 60-metre corridor and illuminates the statues of the gods in the innermost sanctuary. In the 1960s, when the Aswan High Dam threatened to submerge the site, UNESCO oversaw a massive international project to cut the entire temple complex into more than a thousand blocks, lift it 65 metres up the cliff, and reassemble it on higher ground. The sunlight alignment was preserved with an error of one day.</p>
+
+<h3>The Sons of Israel and the Sea Peoples</h3>
+<p>One small detail at the end of Ramses II's reign deserves note. His son <strong>Merneptah</strong> (r. c. 1213–1203 BCE) campaigned in the Levant and left a monumental victory inscription, the <strong>Merneptah Stele</strong>. It commemorates the defeat of Libyan invaders and lists a number of subdued peoples in Canaan. One of those names, written with the Egyptian determinative for "people" rather than "city" or "land," is <strong>Israel</strong>. This is, by a considerable margin, the <strong>oldest non-Biblical reference to Israel anywhere in the world</strong> — a single line on an Egyptian victory stele, dated to around 1207 BCE.</p>
+
+<p>Far more ominously, Merneptah's inscription mentions Libyan invaders allied with mysterious "Sea Peoples" — coalitions of migrating Bronze Age groups whose origins are still debated. Three decades later, during the reign of <strong>Ramses III</strong> (c. 1186–1155 BCE), the Sea Peoples returned in force. Ramses III fought one of the largest naval and land battles of the Bronze Age against them on the Nile Delta. He won. His mortuary temple at <strong>Medinet Habu</strong> records the victory in spectacular reliefs of bound prisoners, captured ships, and slain enemies.</p>
+
+<p>But the Sea Peoples wave was part of a much wider <strong>Bronze Age Collapse</strong>. Across the eastern Mediterranean — Mycenae, the Hittite Empire, Ugarit, Cyprus — palace civilisations crumbled or vanished entirely between 1200 and 1150 BCE. Egypt was the only major Bronze Age power to survive. Ramses III's victories preserved the country, but the New Kingdom never fully recovered. After his reign, royal authority weakened steadily. The next eight pharaohs (Ramses IV through XI) presided over rising prices, tomb-robberies in the Valley of the Kings, civil unrest, and the gradual takeover of southern Egypt by the increasingly powerful priesthood of Amun at Karnak.</p>
+
+<h3>The End of the New Kingdom</h3>
+<p>By the death of <strong>Ramses XI</strong> around 1069 BCE, central royal authority in Egypt had effectively dissolved. The high priest of Amun at Thebes ruled the south more or less independently. A separate dynasty governed the Delta from the city of <strong>Tanis</strong>. Foreign craftsmen, mercenaries, and Libyans had become permanent presences in the Egyptian elite. The country was still recognisably Egyptian, but the integrated, militarised, prestige-rich state of Hatshepsut and Thutmose III and Amenhotep III was gone.</p>
+
+<p>This is the moment we conventionally end the New Kingdom and begin the <strong>Third Intermediate Period</strong> — the long, complicated centuries that we'll follow in Module 8. For now, what matters is this: the Egyptian state had run a successful empire for roughly five hundred years. It had also survived a religious revolution, the most disruptive succession crisis in its history, the Battle of Kadesh, the Sea Peoples, and the wider Bronze Age Collapse. The fact that Egyptian civilisation continued to exist as a recognisable cultural entity through all of this — when so many of its peers vanished entirely — is one of the most remarkable facts about it.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What is the historical significance of the Merneptah Stele (c. 1207 BCE)?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">It records the world's oldest peace treaty</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">It contains the earliest non-Biblical reference to 'Israel' anywhere in the world</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">It is the only surviving Egyptian record of the Battle of Kadesh</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The reigns from Akhenaten to Ramses XI span two and a half centuries — from the most radical religious experiment in the ancient world, through the boy-king whose accidental survival of tomb-robbers made him the most famous pharaoh in history, to the longest reign and largest monumental program any Egyptian king ever attempted, to a slow imperial decline driven by external migration, internal corruption, and the global Bronze Age Collapse. The New Kingdom did not end with a sudden catastrophe like the Old Kingdom's. It ended with a gradual fragmentation of authority that nobody seems to have quite noticed at the time — until, looking back, Egypt realised that its empire was gone.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════

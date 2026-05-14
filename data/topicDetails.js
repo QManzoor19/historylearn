@@ -1169,6 +1169,35 @@ const topicDetails = {
     }
   },
 
+  // ── Ancient Egypt — Module 5 ────────────────────────────
+  "Ancient Egypt::5": {
+    causes: [
+      "Centuries of rising Amun-priesthood wealth made the cult's autonomy a structural problem for royal authority",
+      "Late 18th-Dynasty solar theology under Amenhotep III created the ideological space for Akhenaten's monotheistic experiment",
+      "The Bronze Age Collapse (Sea Peoples, drought, mass migrations) destabilised the entire eastern Mediterranean by 1200 BCE"
+    ],
+    effects: [
+      "Produced the closest thing to monotheism in the ancient world before Judaism — and made it short-lived",
+      "Created the world's oldest surviving peace treaty (Egypt–Hittite, 1258 BCE)",
+      "Left the world's most famous archaeological discovery (Tutankhamun's tomb) and most replicated royal name (Ramses)",
+      "Ended Egyptian imperial control over the Levant and ushered in the Third Intermediate Period"
+    ],
+    figures: [
+      { name: "Akhenaten", dates: "r. c. 1353–1336 BCE", role: "Heretic pharaoh", why: "Abolished traditional gods, declared the Aten supreme, founded a new capital, and revolutionised Egyptian art. Erased from later king-lists." },
+      { name: "Nefertiti", dates: "c. 1370–c. 1330 BCE", role: "Chief queen of Akhenaten", why: "Co-ruled with her husband; may have reigned briefly in her own right as Smenkhkare/Neferneferuaten. Her painted limestone bust is one of the most famous artworks in the world." },
+      { name: "Tutankhamun", dates: "r. c. 1332–1323 BCE", role: "Boy-king who restored Amun-worship", why: "Reversed Akhenaten's revolution; died at 18 or 19. His almost-intact tomb, discovered in 1922, made him the most famous pharaoh in modern memory." },
+      { name: "Horemheb", dates: "r. c. 1319–1292 BCE", role: "General turned pharaoh", why: "Restored institutional order after the Amarna upheaval and chose Ramses I as his successor, founding the 19th Dynasty." },
+      { name: "Ramses II", dates: "r. c. 1279–1213 BCE", role: "Ramses the Great", why: "66-year reign, fought the Battle of Kadesh, signed the world's oldest peace treaty, built Abu Simbel, and re-inscribed his name on countless older monuments." },
+      { name: "Merneptah", dates: "r. c. 1213–1203 BCE", role: "Son of Ramses II", why: "His victory stele contains the earliest non-Biblical reference to 'Israel.'" },
+      { name: "Ramses III", dates: "r. c. 1186–1155 BCE", role: "Last great pharaoh of the New Kingdom", why: "Defeated the Sea Peoples in the largest naval-and-land battle of the Bronze Age, preserving Egypt while the rest of the region collapsed." }
+    ],
+    connections: ["Ancient Egypt", "Ancient Egypt::4", "Ancient Egypt::6", "Ancient Egypt::8", "The Bronze Age Collapse", "Rise of World Religions"],
+    sourceSnippet: {
+      text: "How manifold are your works! They are hidden from the face of men. O sole god, like whom there is no other. You created the world according to your desire, while you were alone.",
+      attribution: "The Great Hymn to the Aten, attributed to Akhenaten, c. 1340 BCE"
+    }
+  },
+
   // ── Ancient Egypt — Module 4 ────────────────────────────
   "Ancient Egypt::4": {
     causes: [
