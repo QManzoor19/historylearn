@@ -1169,6 +1169,32 @@ const topicDetails = {
     }
   },
 
+  // ── Bronze Age Collapse — Module 4 ──────────────────────
+  "The Bronze Age Collapse::4": {
+    causes: [
+      "Aegean Mycenaean palace destructions displaced large populations southward and eastward",
+      "Climate-driven agricultural failure forced settled groups into mobile, militant migration",
+      "Pre-existing coastal raider populations (Lukka, Sherden) intensified their activity as central states weakened"
+    ],
+    effects: [
+      "Helped destroy the major Late Bronze Age states across Anatolia, the Levant, and Cyprus",
+      "Established the Philistine settlement in southern Canaan that persisted for centuries",
+      "Gave the southern Levant the geographic name Palestine, ultimately derived from Peleset"
+    ],
+    figures: [
+      { name: "Merneptah", dates: "r. 1213–1203 BCE", role: "Egyptian pharaoh", why: "Defeated the first major Sea Peoples-allied invasion in 1208 BCE; his victory stele is the first surviving documentation of the phenomenon." },
+      { name: "Ramses III", dates: "r. 1186–1155 BCE", role: "Last great pharaoh of the New Kingdom", why: "Defeated the second major Sea Peoples wave around 1175 BCE; his Medinet Habu temple preserves the most spectacular surviving images of the conflict." },
+      { name: "Robert Drews", dates: "1936–2024", role: "American military historian", why: "His 1993 book 'The End of the Bronze Age' argued for a military-technology explanation centred on infantry-vs-chariot tactics — a key (and contested) modern theory of the Sea Peoples." },
+      { name: "Susan Sherratt", dates: "b. 1948", role: "British Aegean archaeologist", why: "Argued that many Sea Peoples were internal Mediterranean mobile populations — sailors, mercenaries, displaced palace workers — rather than foreign invaders." },
+      { name: "Lawrence Stager", dates: "1943–2017", role: "American archaeologist", why: "Director of long-running Ashkelon excavations; established the archaeological case for the Philistines as Aegean-origin migrants of the 12th century BCE." }
+    ],
+    connections: ["The Bronze Age Collapse", "The Bronze Age Collapse::3", "The Bronze Age Collapse::5", "Ancient Egypt::5", "Ancient Greece"],
+    sourceSnippet: {
+      text: "The foreign countries made a conspiracy in their islands. All at once the lands were on the move, scattered in war. No land could stand before their arms: Hatti, Kode, Carchemish, Arzawa, and Alashiya. They were cut off.",
+      attribution: "Medinet Habu inscription of Ramses III, c. 1175 BCE"
+    }
+  },
+
   // ── Bronze Age Collapse — Module 3 ──────────────────────
   "The Bronze Age Collapse::3": {
     causes: [

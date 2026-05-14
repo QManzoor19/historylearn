@@ -3212,6 +3212,144 @@ One of the most striking individual letters in the archive is <strong>EA 35</str
 
 </div>`;
 
+L["The Bronze Age Collapse::4"] = `<div class="lesson-body">
+
+<h3>The Most Famous Mystery in Bronze Age History</h3>
+<p>Around <strong>1208 BCE</strong>, during the reign of the Egyptian pharaoh <strong>Merneptah</strong> (son of Ramses II), a coalition of foreign peoples arrived on Egypt's western frontier with their wives, children, livestock, and household goods. They were not raiders. They were migrants — entire families seeking land. Egyptian forces, allied with Libyan tribes, fought them in a major battle in the western Delta. Merneptah won. His Karnak inscription celebrating the victory names the defeated groups by their ethnic labels: <strong>Sherden, Shekelesh, Ekwesh, Lukka, Teresh</strong>. He calls them, collectively, "<em>the peoples of the sea who have come to fight</em>." This is the first surviving documentary reference to what modern historians have come to call the <span class="vocab-pill">Sea Peoples</span>.</p>
+
+<p>Roughly thirty years later, around <strong>1175 BCE</strong>, the next great pharaoh able to put down a coherent military response — <strong>Ramses III</strong> — fought two more massive battles against what was apparently a second, larger wave of these migrant-warrior groups. By then, the Bronze Age system was already collapsing across the eastern Mediterranean. The Sea Peoples had become the symbol of that collapse: an apparently coordinated, multi-ethnic invasion force that had destroyed every major civilisation between Anatolia and Egypt and was now camped on Egypt's doorstep. Ramses III's temple at <strong>Medinet Habu</strong> on the west bank at Thebes preserves the most spectacular surviving images of these battles — and provides nearly all of the iconography by which we still recognise the Sea Peoples today.</p>
+
+<p>But here's the catch. The Egyptian sources tell us a remarkable amount about what the Sea Peoples <em>did</em>. They tell us very little about who they were, where they came from, or whether they were really a single phenomenon at all. The Sea Peoples are arguably the most famous historical mystery from the Bronze Age — and possibly an artefact of the way the Egyptians chose to record and dramatise a much messier reality.</p>
+
+<h3>The Egyptian Records: Merneptah and Ramses III</h3>
+<p>Almost everything we directly know about the Sea Peoples comes from two clusters of Egyptian inscriptions a generation apart:</p>
+
+<p>The first is <strong>Merneptah's victory stelae</strong> from around <strong>1208 BCE</strong>, including the inscription at Karnak and the more famous <strong>Merneptah Stele</strong> (now at the Egyptian Museum in Cairo) found at his mortuary temple at Thebes. Merneptah's enemy was primarily the Libyans, led by their king Meryey, but they had been joined by Sea Peoples allies — Sherden, Shekelesh, Ekwesh, Lukka, and Teresh. The Egyptian inscription describes the captured booty and the killed and captured enemy forces by ethnic group, with specific casualty numbers (probably propagandistically inflated, but useful for distinguishing the groups). The Merneptah Stele is, incidentally, also the source of the earliest non-Biblical reference to "Israel" (Egypt Module 5).</p>
+
+<p>The second cluster is <strong>Ramses III's Medinet Habu inscriptions</strong> from around <strong>1175 BCE</strong>. By the time Ramses III faced the Sea Peoples, the situation had changed dramatically. The Hittite Empire had collapsed. The Levantine coast was in chaos. Cyprus had been attacked. Ramses III's inscriptions, the longest pharaonic narrative texts on Egyptian temple walls, describe a much larger and more dangerous coalition — and emphasise that this coalition had already destroyed kingdoms across the eastern Mediterranean before it reached Egypt. He lists the Sea Peoples this time as <strong>Peleset, Tjekker, Shekelesh, Denyen, and Weshesh</strong>. Note that Shekelesh appears in both lists; the rest are largely different.</p>
+
+<p>The Medinet Habu reliefs are the most famous visual representation of any Bronze Age event. They show Egyptian soldiers in formation, Sea Peoples in distinctive headgear (the Peleset wear a "feathered" or "rayed" crown that becomes their iconic identifier), naval combat with Sea Peoples ships taking arrows, captured prisoners being counted by Egyptian scribes, and women and children being carried into captivity. The detail is unprecedented. Whatever the propagandistic distortions, we are seeing how Ramses III himself wanted his greatest victory remembered.</p>
+
+<h3>The Sea Peoples by Name</h3>
+<p>The Egyptian records preserve about nine to twelve named groups across the two periods. Most are identifiable, to varying degrees, with later-known peoples:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Peleset</strong> — The most certain identification. They settled the southern coastal plain of Canaan after Ramses III's victory and became the biblical <strong>Philistines</strong>. The Hebrew Bible's "land of the Philistines" (<em>Pelesheth</em>) gave its name, much later, to the Roman province of "Palestine."</li>
+<li><strong>Tjekker (or Sekel)</strong> — Settled at <strong>Dor</strong> on the northern coast of Canaan. Appear in the Egyptian "Tale of Wenamun" a century later as still a coastal trading people.</li>
+<li><strong>Sherden</strong> — Possibly identified with <strong>Sardinia</strong> (or, in another theory, pre-Sardinian people). They had been raiding Egyptian shipping since Ramses II's reign, when he captured some and incorporated them into his elite bodyguard. Their distinctive horned helmet appears in Egyptian art for centuries.</li>
+<li><strong>Shekelesh</strong> — Possibly identified with <strong>Sicily</strong> (Sikel), though the dating is contested.</li>
+<li><strong>Lukka</strong> — Almost certainly the people of <strong>Lycia</strong> in southwestern Anatolia. They appear in Hittite records before the collapse as a problematic pirate-raider population on the Mediterranean coast.</li>
+<li><strong>Denyen</strong> — Possibly the <strong>Danaans</strong> or Danaoi, a Homeric label for one Greek tribal group. The biblical "Tribe of Dan" may also reflect this connection, though the linkage is debated.</li>
+<li><strong>Ekwesh</strong> — Tentatively identified with the <strong>Achaeans</strong>, the Homeric name for the Mycenaean Greeks.</li>
+<li><strong>Teresh</strong> — Sometimes connected to the later Etruscans of central Italy (who called themselves <em>Tursenoi</em> in Greek), though this is highly speculative.</li>
+<li><strong>Weshesh</strong> — No firm identification.</li>
+<li><strong>Karkisa</strong> — Probably the Karians of southwestern Anatolia.</li>
+</ul>
+
+<p>The pattern, where identifications are confident, points consistently toward the <strong>Aegean and western Anatolian world</strong>. The Sea Peoples appear to have been a mix of displaced Mycenaean Greeks, Anatolian coastal raiders (Lycians, Karians), and possibly migrants from further west (Sicily, Sardinia). They are not a single people. They are a label the Egyptians applied to a varied set of foreign groups arriving from the same general direction at roughly the same time.</p>
+
+<div class="analogy-box">
+<strong>🔭 Think of it like this:</strong>
+"Sea Peoples" is roughly equivalent to "the Northern barbarians" in late Roman sources, or "the Vikings" in early medieval European writing. It is a convenience term that homogenises a complicated reality. The actual Sea Peoples were more like a Bronze Age migration crisis — multiple groups, multiple motives, multiple arrival points, lumped together by Egyptian scribes into a single dramatic narrative because that was the way royal inscriptions liked to organise enemies. Modern scholarship has spent a century unpacking that convenience back into its components.
+</div>
+
+<h3>Where Did They Come From?</h3>
+<p>Several theories about the Sea Peoples' origins coexist in modern scholarship:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>Aegean migration</strong>: Many of the named groups (Peleset, Ekwesh, Denyen, Lukka, Karkisa) have Aegean or western Anatolian associations. The Mycenaean palace destructions of the early 12th century BCE may have forced displaced populations south and east. The Sea Peoples may thus have been refugees from collapsed Greek and Anatolian palaces.</li>
+<li><strong>Climate displacement</strong>: The drought theory (Module 6) suggests that agricultural failure across the eastern Mediterranean displaced populations who turned to raiding and migration to survive. Sea Peoples may have been climate refugees.</li>
+<li><strong>Western invaders</strong>: Some scholars (particularly older European Egyptologists) argued the Sea Peoples came from much further west — Italy, Sardinia, even the Atlantic seaboard. This view has lost ground but persists for some specific groups.</li>
+<li><strong>Internal migrants</strong>: A more recent revisionist view, associated with archaeologists like Susan Sherratt, argues that many of the "Sea Peoples" were not foreign invaders at all but rather mobile, internal populations of the eastern Mediterranean — sailors, mercenaries, displaced palace workers — who became militant when the palace systems they had served broke down. On this view, the Sea Peoples were Bronze Age people whose own civilisations had failed them.</li>
+</ul>
+
+<p>The honest answer is that several of these are probably true simultaneously, for different named groups. The Peleset/Philistines look like Aegean migrants. The Lukka were Anatolian coastal raiders before the collapse and continued during it. The Sherden had Egyptian mercenary connections going back to Ramses II. There is unlikely to be a single, satisfying origin story that accounts for all the named groups. The Sea Peoples were, in the modern sense, a coalition of differently-motivated movements that the Egyptian state recorded as if it were one phenomenon.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">Which of the Sea Peoples groups has the most certain identification with a later, well-known people?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Weshesh, ancestors of the Etruscans</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">The Peleset, who settled the southern coastal plain of Canaan and became the biblical Philistines</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">The Shekelesh, ancestors of the Phoenicians</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>The Two Waves: Merneptah and Ramses III</h3>
+<p>Distinguishing the two recorded confrontations is important. <strong>Merneptah's enemy in 1208 BCE</strong> was primarily a Libyan-led coalition with Sea Peoples allies. The battle was on land, in the western Delta. The Sea Peoples here are explicitly described as foreign mercenaries serving alongside Libyan forces. This wave seems less existential — Egypt won decisively, and the Sea Peoples named (Sherden, Shekelesh, Ekwesh, Lukka, Teresh) do not appear to have settled in large numbers anywhere in Egyptian territory.</p>
+
+<p><strong>Ramses III's enemy in 1175 BCE</strong> was different. The Medinet Habu inscriptions describe a much larger movement — both land and sea forces — that had already destroyed Hatti, Carchemish, Arzawa, Alashiya, and the coastal Levantine cities before reaching Egypt. This wave includes women, children, oxen, and ox-carts moving on land alongside a fleet of ships at sea. It looks unmistakably like a migration with intent to settle. Ramses III defeats them in two battles (a land battle in the Levant and a naval battle in the Delta) but, crucially, allows or compels the survivors to settle in Egyptian-controlled coastal Canaan as imperial vassals.</p>
+
+<p>The Peleset settlement in Canaan from this point onward is a documentable historical fact. The five great Philistine cities — <strong>Gaza, Ashkelon, Ashdod, Ekron, Gath</strong> — emerge in the early 12th century BCE on archaeological sites that previously belonged to Late Bronze Age Canaanite culture. The new Philistine material culture is unmistakably Aegean in style — pottery, architecture, drinking vessels, burial practices. The Sea Peoples wave of 1175 BCE was, for the southern Levant at least, a successful migration that reshaped local demographics for centuries.</p>
+
+<h3>The Medinet Habu Reliefs</h3>
+<p>The single most important visual source for the Sea Peoples is the temple complex of <strong>Medinet Habu</strong> on the west bank at Thebes, built by Ramses III in the 1170s BCE. Its massive outer pylons and inner walls preserve reliefs of the two great Sea Peoples battles, in extraordinary detail. The naval battle relief in particular — showing nine ships, Egyptian arrows striking Sea Peoples warriors, drowning enemies, archers on Egyptian boats — is one of the most-reproduced pieces of ancient art.</p>
+
+<p>The reliefs preserve specific ethnographic detail:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+<li><strong>The Peleset</strong> wear distinctive feathered or rayed crowns, sometimes interpreted as helmets with vertical reeds or stylised hair.</li>
+<li><strong>The Sherden</strong> wear horned helmets with a central disc (often interpreted as a sun-disc on a stalk).</li>
+<li><strong>The Tjekker</strong> wear a similar feathered headdress to the Peleset.</li>
+<li><strong>The Shekelesh</strong> are sometimes shown wearing a smooth, close-fitting helmet.</li>
+<li>The ships shown are distinct from Egyptian vessels: high prow and stern, often with bird-head decorations, oarless or with limited oarage compared to Egyptian war boats.</li>
+</ul>
+
+<p>The Egyptian artists clearly intended these visual conventions to be ethnographic — distinguishable identifications of specific Sea Peoples groups. Modern scholars use the reliefs as a primary source for what each group looked like. Some of the iconography (especially the feathered crown) appears in archaeological finds in the Philistine cities — confirming that the Peleset of Medinet Habu and the later biblical Philistines are the same people.</p>
+
+<div class="example-box">
+<strong>🔗 Real-world example:</strong>
+The <strong>Philistine bichrome pottery</strong> recovered from Tel Miqne (ancient Ekron), Ashkelon, and other 12th-century BCE sites in southern coastal Israel shows clear stylistic continuity with <strong>Mycenaean IIIC:1b pottery</strong> from the Aegean. The decorative motifs — birds, spirals, swimming fish — are recognisably Aegean rather than Canaanite. The architectural style of early Philistine cities includes Aegean-style megaron buildings. The pig bones in Philistine settlements show a dietary pattern characteristic of Aegean Greeks, not Canaanites. These are not Egyptian propaganda. They are dirt-archaeology fingerprints of an Aegean migration that planted itself permanently in the southern Levant. The Philistines really were, to a meaningful degree, transplanted Aegean people.
+</div>
+
+<h3>The Land Component</h3>
+<p>One of the surprises of the Sea Peoples literature is how often it includes a substantial <em>land</em> component. The Medinet Habu inscriptions repeatedly describe the migrants as moving in ox-carts, with women and children, with cattle herds. The naval forces are paralleled by overland marches. The "Sea Peoples" thus turn out, in significant part, to be also Land Peoples — populations on foot, moving with their families and property along coastal routes from the Aegean into Anatolia and southward toward the Levant.</p>
+
+<p>This complicates simple "marauding pirate" narratives. The Sea Peoples were not just raiders. They were, in significant proportion, displaced settled populations moving with the intent to find new homes. They were migrants. The fact that some of them arrived on ships does not change what they were doing. The Egyptian decision to focus visual representation on the naval combat — easier to dramatise on a temple wall, more flattering to Egyptian river-based military strength — has biased modern interpretation of who the Sea Peoples were.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">According to Ramses III's Medinet Habu inscriptions, what was the Sea Peoples movement that arrived in Egypt around 1175 BCE?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A purely naval pirate raid on Egyptian shipping</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">A combined land-and-sea movement of fighters and migrants — with women, children, and ox-carts — that had already destroyed major kingdoms across the eastern Mediterranean</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">A formal embassy from Mycenaean Greece seeking peaceful trade relations</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<h3>What the Sea Peoples Destroyed</h3>
+<p>The Medinet Habu inscription provides the key Egyptian summary of what the Sea Peoples had done before reaching Egypt. The passage is famous and worth quoting: "<em>The foreign countries made a conspiracy in their islands. All at once the lands were on the move, scattered in war. No land could stand before their arms: Hatti, Kode, Carchemish, Arzawa, and Alashiya. They were cut off… A camp was set up in one place in Amurru. They desolated its people, and its land was like that which has never come into being. They were advancing upon Egypt, while the flame was prepared before them.</em>"</p>
+
+<p>This is the Egyptian state's own account of how it understood the situation. Most of the named kingdoms — Hatti (the Hittite Empire), Carchemish (a Hittite vassal city on the Euphrates), Arzawa (in western Anatolia), Alashiya (Cyprus) — were major Late Bronze Age polities we have profiled in Modules 1 and 2. Archaeological evidence confirms their destruction during exactly this period. The Hittite capital Hattusa was abandoned around 1180 BCE; Ugarit was burned around the same time; Mycenaean palaces destroyed; Cypriot cities sacked. The Sea Peoples coalition of 1175 BCE arrived in Egypt as the visible front of a wave of disasters that had already broken Late Bronze Age civilisation.</p>
+
+<p>Whether the Sea Peoples <em>caused</em> these destructions or were swept along by them is, however, a separate question — and one we will return to in Modules 5 and 7. The Egyptian view emphasises Sea Peoples agency. Modern systems-collapse theory emphasises broader environmental and political causes. The truth is probably some combination.</p>
+
+<h3>Aftermath: The Philistines</h3>
+<p>The most lasting consequence of the Sea Peoples movement was the <strong>Philistine settlement</strong> in southern Canaan. By the 11th century BCE, the Peleset had established themselves as a confederation of five city-states (the <em>Pentapolis</em>) along the coastal plain south of modern Tel Aviv. They had iron weapons — possibly earlier than their Israelite neighbours, contributing to the biblical reputation of the Philistines as a militarily superior people.</p>
+
+<p>The Philistines appear extensively in the Hebrew Bible as the principal enemies of early Israel. The stories of Samson, of Saul's wars, of David and Goliath, of the captured Ark of the Covenant — all centre on the Philistines. Their distinctive material culture continues to show Aegean characteristics for several centuries after the migration, with gradual Canaanite influence. By the time the Assyrians arrived in the 8th century BCE and broke Philistine independence, the Philistines had become a recognisable Iron Age population of the southern Levant — neither fully Aegean nor fully Canaanite, a hybrid culture born of the Bronze Age migration.</p>
+
+<p>The name Palestine (Latin <em>Palaestina</em>, from Greek <em>Palaistinē</em>, ultimately from Hebrew <em>Pelesheth</em> and Egyptian <em>Peleset</em>) is the long-distance modern descendant of this Sea Peoples ethnic label. The geographic name applied today to the southern Levant comes, etymologically, from a Bronze Age migrant people of Aegean origin who arrived in the 12th century BCE.</p>
+
+<div class="mini-quiz" data-answered="false">
+  <div class="mini-quiz-header">✅ Quick Check</div>
+  <div class="mini-quiz-question">What geographic name still in modern use derives, ultimately, from a Sea Peoples ethnic label?</div>
+  <div class="mini-quiz-options">
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Sicily, from Shekelesh</button>
+    <button class="mini-quiz-opt" data-correct="true" onclick="checkMiniQuiz(this)">Palestine, from Peleset (the Philistines)</button>
+    <button class="mini-quiz-opt" data-correct="false" onclick="checkMiniQuiz(this)">Sardinia, from Sherden</button>
+  </div>
+  <div class="mini-quiz-feedback"></div>
+</div>
+
+<div class="key-point">
+💡 <strong>Big idea:</strong> The Sea Peoples are a real but messy historical phenomenon. They were not one people, not one event, not one motive — but a complex coalition of Aegean and Anatolian migrants, displaced populations, raider bands, and military adventurers that arrived in the eastern Mediterranean over roughly thirty years in the early 12th century BCE. Egyptian sources record them as villains in a dramatic invasion narrative. Modern archaeology reveals them as part of a broader systems collapse in which the categories of "invader," "migrant," and "refugee" all overlapped. They contributed to the destruction of the Late Bronze Age world; they were also victims of it. And in the case of the Philistines, they founded one of the most consequential Iron Age cultures of the southern Levant — leaving us the modern name "Palestine" as their lasting trace.
+</div>
+
+</div>`;
+
 // ═══════════════════════════════════════════════════════
 // ERA 2: THE CLASSICAL AGE
 // ═══════════════════════════════════════════════════════
