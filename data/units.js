@@ -33,7 +33,17 @@ const units = [
         ] },
       { icon: "🐪", name: "Ancient Nubia & Kush", sub: "Africa's oldest civilisations along the Upper Nile",
         regions: ["Africa"],
-        subtopics: ["Nubia — rival, partner & heir of Egypt","The Kingdom of Kerma (c. 2500–1500 BCE)","Egyptian conquest & cultural fusion","The 25th 'Nubian' Dynasty — Black pharaohs rule Egypt","The Kingdom of Kush at Meroë","Iron production & the pyramid-builders of Sudan","Aksum — the next great African power & early Christianity","Why African history is often underrepresented"] },
+        subtopics: ["Nubia — rival, partner & heir of Egypt","The Kingdom of Kerma (c. 2500–1500 BCE)","Egyptian conquest & cultural fusion","The 25th 'Nubian' Dynasty — Black pharaohs rule Egypt","The Kingdom of Kush at Meroë","Iron production & the pyramid-builders of Sudan","Aksum — the next great African power & early Christianity","Why African history is often underrepresented"],
+        modules: [
+          { id: 1, icon: "🏺", name: "Early Nubia — A-Group & C-Group", timespan: "c. 3800 – 1500 BCE", blurb: "The mysterious A-Group royal burials at Qustul and the rise of Nubian complexity alongside Egypt." },
+          { id: 2, icon: "🏛️", name: "The Kingdom of Kerma", timespan: "c. 2500 – 1500 BCE", blurb: "Egypt's southern rival — the great deffufas, royal tumuli, and a Bronze Age African urban civilisation." },
+          { id: 3, icon: "⚒️", name: "Egyptian Conquest & New Kingdom Nubia", timespan: "c. 1500 – 1070 BCE", blurb: "Thutmose I to Ramses II — viceroys, gold mines, frontier forts, and the long Egyptianisation of the south." },
+          { id: 4, icon: "👑", name: "Napata & the Black Pharaohs", timespan: "c. 1000 – 663 BCE", blurb: "Independent Kushite kings march north, conquer Egypt, and rule both lands as the 25th Dynasty." },
+          { id: 5, icon: "🔥", name: "The Kingdom of Meroë", timespan: "c. 270 BCE – 350 CE", blurb: "After Assyrian expulsion — capital moves south, iron technology booms, and Meroë becomes Africa's iron-age industrial heart." },
+          { id: 6, icon: "🪔", name: "Religion, Society & the Kandake Queens", timespan: "Thematic", blurb: "Nubian gods, Egyptian syncretism, the powerful queen-mothers (kandakes), and daily life along the Upper Nile." },
+          { id: 7, icon: "𓎼", name: "Writing, Art & the Pyramids of Sudan", timespan: "Thematic", blurb: "The Meroitic script (still partly undeciphered), the distinctive Nubian art style, and why Sudan has more pyramids than Egypt." },
+          { id: 8, icon: "✝️", name: "Aksum, Christian Nubia & the Long Erasure", timespan: "c. 350 – 1500 CE", blurb: "Meroë falls to Aksum, three Christian Nubian kingdoms rise (Nobadia, Makuria, Alodia), and why African history was forgotten by the wider world." }
+        ] },
       { icon: "⚱️", name: "The Bronze Age Collapse", sub: "History's greatest mystery — when civilisations fell together",
         regions: ["Middle East", "Europe"],
         subtopics: ["The Late Bronze Age world — an interconnected Mediterranean","Mycenae, the Hittites, Egypt, Assyria & their palace economies","The Sea Peoples — who were they?","Drought, climate change & agricultural collapse","Systems failure — how interconnection became vulnerability","The destruction of cities across the eastern Mediterranean","The Greek Dark Ages & lost writing systems","Parallels & warnings for our interconnected world"] },
