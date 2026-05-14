@@ -36,6 +36,48 @@ const lessonVideos = {
     channel: "Bob Brier",
     blurb: "Dr. Bob Brier's classic university-style lecture series — start here for the predynastic period."
   },
+  "Ancient Egypt::2": {
+    videoId: "7JrYimyTH1o",
+    title: "Building Khufu's Pyramid — Lost Secrets of the Pyramid",
+    channel: "Documentary",
+    blurb: "How the Old Kingdom built the Great Pyramid — engineering, workers, and the Mark Lehner discoveries."
+  },
+  "Ancient Egypt::3": {
+    videoId: "RtrpGKUjVdU",
+    title: "The Middle Kingdom: A Complete Overview (c. 2055 BC – c. 1650 BC)",
+    channel: "Historical documentary",
+    blurb: "Mentuhotep II, the 12th Dynasty, Senusret III, and the literary golden age of Middle Kingdom Egypt."
+  },
+  "Ancient Egypt::4": {
+    videoId: "ObCKrypZC68",
+    title: "New Kingdom Egypt: A Complete Overview From Ahmose to Ramesses",
+    channel: "Historical documentary",
+    blurb: "The rise of imperial Egypt — Ahmose, Hatshepsut, Thutmose III, and the Amarna Letters."
+  },
+  "Ancient Egypt::5": {
+    videoId: "hPlHwTXi7tk",
+    title: "AKHENATON: The Rebel Pharaoh",
+    channel: "Ancient Egypt History Documentary",
+    blurb: "The religious revolution at Amarna, Nefertiti, Tutankhamun's restoration, and Ramses II."
+  },
+  "Ancient Egypt::6": {
+    videoId: "MhRWu0WNKhE",
+    title: "Egypt, The Book of the Dead",
+    channel: "Planet Doc Full Documentaries",
+    blurb: "The pantheon, mummification, the Weighing of the Heart, and the journey to the afterlife."
+  },
+  "Ancient Egypt::7": {
+    videoId: "Ju2JBoe9C7A",
+    title: "Decoding Egyptian Hieroglyphs: the Rosetta Stone, Champollion, and Young",
+    channel: "Voices of Ancient Egypt",
+    blurb: "How hieroglyphs work, the 1799 discovery of the Rosetta Stone, and Champollion's 1822 breakthrough."
+  },
+  "Ancient Egypt::8": {
+    videoId: "4kuZcxB8hzY",
+    title: "Alexander To Cleopatra: Ptolemaic Egypt — FULL DOCUMENTARY",
+    channel: "Historical documentary",
+    blurb: "The long twilight — Kushite 25th Dynasty, Persian rule, Alexander's founding of Alexandria, the Ptolemies, and Cleopatra."
+  },
   "The Persian Empires": {
     videoId: "Q-mkVSasZIM",
     title: "The Persians & Greeks",
